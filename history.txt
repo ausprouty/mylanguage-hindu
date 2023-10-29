@@ -1,0 +1,15 @@
+yarn global add @quasar/cli
+removed package-lock.json as per yarn
+quasar mode add pwa
+
+yarn add --dev dotenv
+https://quasar.dev/quasar-cli-vite/handling-process-env
+
+
+quasar new component something
+quasar dev
+
+
+quasar dev -m pwa  -- turn on xampp to right
+quasar build -m pwa
+
