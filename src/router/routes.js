@@ -5,51 +5,46 @@ const routes = [
     component: () => import('layouts/MainLayout.vue'),
     children: [
       {
-        name: 'DiscoveryBibleStudy',
-        path: '/',
-        component: () => import('pages/DiscoveryBibleStudy.vue')
+        name: 'Index',
+        path: 'home',
+        component: () => import('pages/IndexPage.vue')
       },
       {
-        name: 'AudioSample',
-        path: 'audio/sample',
-        component: () => import('pages/AudioSample.vue')
+        name: 'MountainOfGod',
+        path: 'mountain',
+        component: () => import('pages/MountainOfGod.vue')
       },
       {
-        name: 'LifePrinciples',
-        path: 'life/:languageCodeHL1?/:languageCodeHL2?/:session?',
-        component: () => import('pages/LifePrinciples.vue')
+        name: 'BirthofGuru',
+        path: 'birth',
+        component: () => import('pages/BirthOfGuru.vue')
       },
       {
-        name: 'Africa',
-        path: 'africa',
-        component: () => import('src/pages/AfricaMap.vue')
+        name: 'HisLife',
+        path: 'life',
+        component: () => import('src/pages/HisLife.vue')
       },
       {
-        name: 'CountryLanguages',
-        path: 'languages/:countryCode',
-        component: () => import('pages/CountryLanguages.vue')
+        name: 'HisTeachings',
+        path: 'teachings',
+        component: () => import('pages/HisTeachings.vue')
       },
       {
-        name: 'DiscoveryBibleStudy',
-        path: 'dbs/:languageCodeHL1?/:languageCodeHL2?/:session?',
-        component: () => import('pages/DiscoveryBibleStudy.vue')
+        name: 'HisCommunity',
+        path: 'community',
+        component: () => import('pages/HisCommunity.vue')
       },
 
     {
-      name: 'Language',
-      path: 'language/:languageCodeHL1?/:languageCodeHL2?',
-      component: () => import('pages/OurLanguages.vue')
+      name: 'FollowingHim',
+      path: 'following',
+      component: () => import('pages/FollowingHim.vue')
     },
-      {
-        name: 'GospelTract',
-        path: 'gospel/:languageCodeHL1?/:languageCodeHL2?',
-        component: () => import('pages/Gospel.vue')
-      },
-      {
-        name: 'VideoPage',
-        path: 'video/:languageCodeHL1?/:languageCodeHL2?/:segment?',
-        component: () => import('src/pages/JesusVideo.vue')
-      },
+    {
+      name: 'AskHisFollowers',
+      path: 'questions',
+      component: () => import('src/pages/AskHisFollowers.vue')
+    },
     ]
   },
   // Always leave this as last one,

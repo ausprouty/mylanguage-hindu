@@ -12,7 +12,7 @@
         />
 
         <q-toolbar-title>
-         Our Language
+         Finding a Guru worth Following
         </q-toolbar-title>
       </q-toolbar>
     </q-header>
@@ -49,39 +49,44 @@ import EssentialLink from 'components/EssentialLink.vue'
 
 const linksList = [
 {
-    title: 'Our Languages',
+    title: 'Index',
     icon: 'settings',
-    link: '/language'
+    link: '/home'
   },
 {
-    title: 'Life Principles',
+    title: 'The Mountain of God',
+    icon: 'settings',
+    link: '/mountain'
+  },
+{
+    title: 'Birth of the Guru',
     icon: 'school',
-    link: '/life/eng00/afk00/1'
+    link: '/birth'
   },
   {
-    title: 'God\'s Rescue Plan',
+    title: 'His Life',
     icon: 'school',
-    link: '/dbs/eng00/afk00/1'
+    link: '/life'
   },
   {
-    title: 'JESUS Film',
+    title: 'His Teachings',
     icon: 'school',
-    link: '/video/eng00/afk00/1'
+    link: '/teachings'
   },
   {
-    title: 'Gospel Outline',
+    title: 'His Community',
     icon: 'school',
-    link: '/gospel/eng00/afk00/'
+    link: '/community'
   },
   {
-    title: 'Other Resources',
+    title: 'Following Him',
     icon: 'school',
-    link: 'https://mylanguage.net.au'
+    link: '/following'
   },
   {
-    title: 'How to lead a DBS',
+    title: 'Ask His followers',
     icon: 'school',
-    link: '/lead'
+    link: '/questions'
   },
 
 ]
