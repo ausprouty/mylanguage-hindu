@@ -25,7 +25,7 @@ export default {
   },
   data() {
     return {
-      videoSegment: null,
+      videoSegment: 1,
       languageCodeHL:'eng00'
     };
   },
