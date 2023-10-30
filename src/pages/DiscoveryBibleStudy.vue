@@ -15,8 +15,7 @@ import LanguageSelect from "components/DiscoveryBibleStudy/LanguageSelect.vue";
 import BiblePassageSelect from "components/DiscoveryBibleStudy/BiblePassageSelect.vue";
 import CreateStudyButton from "components/DiscoveryBibleStudy/CreateStudyButton.vue";
 export default {
-  name: "DiscoveryBibleStudy",
-  props: ['languageCodeHL1','languageCodeHL2','session'],
+  name: "DiscoveryBibleStudy",,
   components: {
     LanguageSelect,
     BiblePassageSelect,
@@ -26,6 +25,8 @@ export default {
     return {
       text: "",
       filename: 'DBS',
+      session: 1,
+      languageCodeHL:'eng00'
     };
   },
   methods:{

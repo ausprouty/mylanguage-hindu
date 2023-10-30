@@ -1,7 +1,7 @@
-<template>
-  <q-layout view="lHh Lpr lFf">
+<template >
+  <q-layout view="lHh Lpr lFf" class="set_size">
     <q-header elevated>
-      <q-toolbar>
+      <q-toolbar class="set_size">
         <q-btn
           flat
           dense
@@ -37,7 +37,7 @@
       </q-list>
     </q-drawer>
 
-    <q-page-container>
+    <q-page-container class="set_size">
       <router-view />
     </q-page-container>
   </q-layout>
@@ -51,7 +51,7 @@ const linksList = [
 {
     title: 'Index',
     icon: 'settings',
-    link: '/home'
+    link: '/'
   },
 {
     title: 'The Mountain of God',
@@ -111,3 +111,14 @@ export default defineComponent({
   }
 })
 </script>
+<style scoped>
+.set_size{
+  width: 100%;
+  max-width: 600px;
+}
+
+.q-header{
+  width: 100%;
+  max-width: 600px;
+}
+</style>

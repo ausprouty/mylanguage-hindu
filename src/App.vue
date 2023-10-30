@@ -9,3 +9,8 @@ export default defineComponent({
   name: 'App'
 })
 </script>
+<style scoped>
+.q-header{
+  max-width: 600px;
+}
+</style>
