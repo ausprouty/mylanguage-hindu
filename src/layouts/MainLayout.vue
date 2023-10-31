@@ -1,7 +1,7 @@
 <template >
-  <q-layout view="lHh Lpr lFf" class="set_size">
+  <q-layout view="lHh lpr lFf" class="max-width">
     <q-header elevated>
-      <q-toolbar class="set_size">
+      <q-toolbar class="toolbar-width">
         <q-btn
           flat
           dense
@@ -14,6 +14,15 @@
         <q-toolbar-title>
          Finding a Guru worth Following
         </q-toolbar-title>
+        <q-space />
+        <q-btn
+          flat
+          dense
+          round
+          icon="language"
+          aria-label="Button on top right"
+          @click="toggleRightDrawer"
+        />
       </q-toolbar>
     </q-header>
 
@@ -29,6 +38,14 @@
           v-bind="link"
         />
       </q-list>
+    </q-drawer>
+    <q-drawer
+      v-model="rightDrawerOpen"
+      side="right"
+      show-if-above
+      bordered
+    >
+      <p>This is my drawer</p>
     </q-drawer>
 
     <q-page-container class="set_size">
@@ -94,25 +111,35 @@ export default defineComponent({
 
   setup () {
     const leftDrawerOpen = ref(false)
+    const rightDrawerOpen = ref(false)
 
     return {
       essentialLinks: linksList,
       leftDrawerOpen,
+      rightDrawerOpen,
       toggleLeftDrawer () {
         leftDrawerOpen.value = !leftDrawerOpen.value
+      },
+      toggleRightDrawer () {
+        rightDrawerOpen.value = !rightDrawerOpen.value
       }
     }
   }
 })
 </script>
-<style scoped>
-.set_size{
-  width: 100%;
-  max-width: 600px;
-}
+<style>
+
 
 .q-header{
   width: 100%;
   max-width: 600px;
+  margin: 0 auto;
+}
+.toolbar-width,
+.max-width{
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+
 }
 </style>
