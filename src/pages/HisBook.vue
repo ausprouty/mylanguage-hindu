@@ -1,36 +1,32 @@
 <template>
   <q-page padding>
     <div>
-      <div><LanguageSelect /></div>
       <div><BiblePassageSelect /></div>
-      <div><CreateStudyButton   @displayText="handleDisplayLifePrinciple"/></div>
+      <div><CreateStudyButton   @displayText="handleDisplayHisBook"/></div>
       <hr />
-      <div id="pdfText" v-html="this.text"></div>
+      <div  v-html="this.text"></div>
     </div>
   </q-page>
 </template>
 
 <script>
-import LanguageSelect from "components/LifePrinciples/LanguageSelect.vue";
-import BiblePassageSelect from "components/LifePrinciples/BiblePassageSelect.vue";
-import CreateStudyButton from "components/LifePrinciples/CreateStudyButton.vue";
+import BiblePassageSelect from "components/HisBook/BiblePassageSelect.vue";
+import CreateStudyButton from "components/HisBook/CreateStudyButton.vue";
 export default {
   name: "DiscoveryBibleStudy",
   components: {
-    LanguageSelect,
+
     BiblePassageSelect,
     CreateStudyButton,
   },
   data() {
     return {
       text: "",
-      filename: 'LifePrinciples',
       segment: 1,
-      languageCodeHL:'eng00'
     };
   },
   methods:{
-    handleDisplayLifePrinciple(response){
+    handleDisplayHisBook(response){
       this.text = response
     }
   }

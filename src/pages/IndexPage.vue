@@ -32,8 +32,8 @@
             <img src="https://cdn.quasar.dev/img/mountains.jpg">
           </q-item-section>
       </q-item>
-      <q-item to="/community" clickable v-ripple  class="bg-blue-grey-5">
-          <q-item-section>His Community</q-item-section>
+      <q-item to="/book" clickable v-ripple  class="bg-blue-grey-5">
+          <q-item-section>His Holy Book</q-item-section>
           <q-item-section thumbnail>
             <img src="https://cdn.quasar.dev/img/mountains.jpg">
           </q-item-section>

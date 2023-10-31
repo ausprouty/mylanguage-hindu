@@ -47,3 +47,8 @@ export default defineComponent({
   }
 })
 </script>
+<style scoped>
+.q-item__section{
+  color:black;
+}
+</style>

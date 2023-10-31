@@ -30,9 +30,9 @@ const routes = [
         component: () => import('pages/HisTeachings.vue')
       },
       {
-        name: 'HisCommunity',
-        path: 'community',
-        component: () => import('pages/HisCommunity.vue')
+        name: 'HisBook',
+        path: 'book',
+        component: () => import('pages/HisBook.vue')
       },
 
     {

@@ -23,12 +23,6 @@
       bordered
     >
       <q-list>
-        <q-item-label
-          header
-        >
-         Setup Tasks
-        </q-item-label>
-
         <EssentialLink
           v-for="link in essentialLinks"
           :key="link.title"
@@ -48,17 +42,17 @@ import { defineComponent, ref } from 'vue'
 import EssentialLink from 'components/EssentialLink.vue'
 
 const linksList = [
-{
+  {
     title: 'Index',
     icon: 'settings',
     link: '/'
   },
-{
+  {
     title: 'The Mountain of God',
     icon: 'settings',
     link: '/mountain'
   },
-{
+  {
     title: 'Birth of the Guru',
     icon: 'school',
     link: '/birth'
