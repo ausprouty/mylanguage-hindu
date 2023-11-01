@@ -45,7 +45,7 @@
       show-if-above
       bordered
     >
-      <p>This is my drawer</p>
+    <HinduLanguages />
     </q-drawer>
 
     <q-page-container class="set_size">
@@ -57,6 +57,8 @@
 <script>
 import { defineComponent, ref } from 'vue'
 import EssentialLink from 'components/EssentialLink.vue'
+import HinduLanguages from 'components/HinduLanguages.vue'
+
 
 const linksList = [
   {
@@ -106,7 +108,8 @@ export default defineComponent({
   name: 'MainLayout',
 
   components: {
-    EssentialLink
+    EssentialLink,
+    HinduLanguages
   },
 
   setup () {

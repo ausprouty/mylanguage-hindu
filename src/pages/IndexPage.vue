@@ -1,5 +1,5 @@
 <template>
-  <q-page padding>
+  <q-page class="bg-white" padding>
     <p>In order to make any real progress in our spiritual life we know we need a guru -- someone to show us the way, to challenge, correct, guide and help us.</p>
     <p> We would like to invite you to consider having Lord Jesus as your Guru</p>
       <p> Lord Jesus:</p>
