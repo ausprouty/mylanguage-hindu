@@ -131,7 +131,9 @@ export default defineComponent({
 })
 </script>
 <style>
-
+.q-toolbar__title{
+  font-size: 16px;
+}
 
 .q-header{
   width: 100%;

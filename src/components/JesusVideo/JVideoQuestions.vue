@@ -6,17 +6,15 @@
 import { api } from "boot/axios";
 export default {
   name: 'JVideoPlayer',
-  props:{
-    languageCodeHL1 : String,
-    languageCodeHL2 : String
-  },
+
   data() {
     return {
       questions: '',
+      languageCodeHL: 'frn00'
     };
   },
  created(){
-    var url = 'api/jvideo/questions/'+ this.languageCodeHL1 + '/' + this.languageCodeHL2
+    var url = 'api/jvideo/questions/'+ this.languageCodeHL
     console.log (url)
     api.get(url).then((response) => {
       this.questions = response.data;

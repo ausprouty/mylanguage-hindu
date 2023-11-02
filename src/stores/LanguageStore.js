@@ -2,56 +2,49 @@ import { defineStore } from "pinia";
 
 export const useLanguageStore = defineStore("LanguageStore", {
   state: () => ({
-    language1: null,
-    language2: null,
-    dbsLesson: null,
-    lifeLesson: null,
+    languages: [],
+    languagesSelected: [],
+    principleLesson: null,
+    communityLesson: null,
+    leadershipLesson: null,
     jVideoSegment: null,
   }),
   getters: {
-    getUrl() {
-      var url =
-        this.language1.languageCodeHL +
-        "/" +
-        this.language2.languageCodeHL +
-        "/" +
-        this.lesson;
-      return url;
+    getLanguages() {
+      return this.languages;
     },
-    getLanguage1() {
-      return this.language1;
+    getLanguagesSelected() {
+      return this.languagesSelected;
     },
-    getLanguage2() {
-      return this.language2;
+
+    getPrincipleLesson() {
+      return this.principleLesson;
     },
-    getLanguage1HLCode() {
-      return this.language1.languageCodeHL;
+    getCommunityLesson() {
+      return this.communityLesson;
     },
-    getLanguage2HLCode() {
-      return this.language2.languageCodeHL;
-    },
-    getDbsLesson() {
-      return this.dbsLesson;
-    },
-    getLifeLesson() {
-      return this.lifeLesson;
+    getLeadershipLesson() {
+      return this.leadershipLesson;
     },
     getJVideoSegment() {
       return this.jVideoSegment;
     },
   },
   actions: {
-    updateLanguage1(newValue) {
-      this.language1 = newValue;
+    updateLanguages(newValue) {
+      this.languages = newValue;
     },
-    updateLanguage2(newValue) {
-      this.language2 = newValue;
+    updateLanguagesSelected(newValue) {
+      this.languagesSelected = newValue;
     },
-    updateDbsLesson(newValue) {
-      this.dbsLesson = newValue;
+    updatePrincipleLesson(newValue) {
+      this.principleLesson = newValue;
     },
-    updateLifeLesson(newValue) {
-      this.lifeLesson = newValue;
+    updateCommunityLesson(newValue) {
+      this.communityLesson = newValue;
+    },
+    updateLeadershipLesson(newValue) {
+      this.leadershipLesson = newValue;
     },
     updateJVideoSegment(newValue) {
       this.jVideoSegment = newValue;

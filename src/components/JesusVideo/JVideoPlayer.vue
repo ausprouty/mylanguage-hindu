@@ -4,31 +4,40 @@
 
 <script>
 import { api } from "boot/axios";
+import { useLanguageStore } from "stores/LanguageStore";
 export default {
   name: 'JVideoPlayer',
   props:{
     videoSegment: String,
-    languageCodeHL : String
   },
-
   data() {
     return {
       show1 : false,
       iframeStart: '<iframe src="https://api.arclight.org/videoPlayerUrl?refId=',
       iframeEnd: '&playerStyle=default" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>',
       videoIframe: null,
+      languageCodeHL:'eng00'
 
 
     };
   },
+  setup() {
+    const languageStore = useLanguageStore();
+    return {
+      languageStore,
+    };
+  },
   created(){
+        var selected = this.languageStore.getLanguagesSelected;
+        console.log(selected)
         this.show1 = true
         console.log ('show videos')
         var url =  'api/video/code/JESUS/' + this.languageCodeHL
         console.log (url)
         api.get(url).then((response) => {
-        var video1 = response.data.replace('-0-0', this.videoSegment)
-        this.videoIframe = this.iframeStart + video1 + this.iframeEnd
+          var video1 = response.data.replace('-0-0', this.videoSegment)
+          console.log (video1)
+          this.videoIframe = this.iframeStart + video1 + this.iframeEnd
         });
       }
 }
