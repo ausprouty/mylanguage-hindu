@@ -3,7 +3,7 @@
     <p>This video tells the life of the Lord Jesus.</p>
     <p>As you watch the video, ask yourself  "What is this guru like and is he worth following?"</p>
     <p>This video is available in many languages.  To change the language click the world globe above.</p>
-    <div> <JVideoSegmentSelect  @showVideo="handleShowVideo"/></div>
+    <div> <JVideoSegmentSelect :languageCodeHL= "firstLanguage" @showVideo="handleShowVideo"/></div>
     <div v-if="this.videoSegment">
       <div> <JVideoPlayer :videoSegment="this.videoSegment"  :languageCodeHL="firstLanguage" /></div>
 

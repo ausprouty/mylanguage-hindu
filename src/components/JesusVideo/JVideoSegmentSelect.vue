@@ -10,9 +10,6 @@
       label="Video Segment"
     />
   </div>
-  <div v-if="this.ready">
-    <q-btn push @click="showVideo" color="primary" label="Show Video" />
-  </div>
 </template>
 
 <script>
@@ -21,16 +18,18 @@ import { api } from "boot/axios";
 import { useLanguageStore } from "stores/LanguageStore";
 export default {
   name: "JVideoSegmentSelect",
+  props: {
+    languageCodeHL: String,
+  },
   setup() {
     const languageStore = useLanguageStore();
-
     return {
       languageStore,
     };
   },
   data() {
     return {
-      ready:false,
+      ready: false,
       segment: null,
       segments: [],
       video: null,
@@ -38,15 +37,13 @@ export default {
   },
 
   created() {
-    this.getSegmentList()
+    this.getSegmentList();
     this.languageStore.updateJVideoSegment(this.segment);
-
   },
   methods: {
     getSegmentList() {
-      const firstLanguage = this.languageStore.getFirstLanguageCodeSelected
-      var url = 'api/jvideo/segments/'+ firstLanguage
-      console.log (url)
+      var url = "api/jvideo/segments/" + this.languageCodeHL;
+      console.log(url);
       api.get(url).then((response) => {
         this.segments = response.data;
       });
@@ -55,10 +52,9 @@ export default {
       this.ready = true;
       this.languageStore.updateJVideoSegment(this.segment.videoSegment);
     },
-    showVideo(){
+    showVideo() {
       this.$emit("showVideo", this.segment.videoSegment);
-    }
-
+    },
   },
 };
 </script>

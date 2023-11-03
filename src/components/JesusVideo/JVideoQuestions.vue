@@ -4,26 +4,21 @@
 </template>
 <script>
 import { api } from "boot/axios";
-import { useLanguageStore } from "stores/LanguageStore";
 export default {
-  name: 'JVideoPlayer',
-
+  name: 'JVideoQuestions',
+  props:{
+    languageCodeHL: String,
+  },
   data() {
     return {
-      questions: '',
+      questions : '',
     };
   },
-  setup () {
-    const languageStore = useLanguageStore();
-    return {
-      languageStore
-    }
-  },
  created(){
-    const firstLanguage = this.languageStore.getFirstLanguageCodeSelected
-    var url = 'api/jvideo/questions/'+ firstLanguage
+    var url = 'api/jvideo/questions/'+ this.languageCodeHL
     console.log (url)
     api.get(url).then((response) => {
+      console.log (response)
       this.questions = response.data;
     });
   }
