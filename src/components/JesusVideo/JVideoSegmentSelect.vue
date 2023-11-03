@@ -49,11 +49,8 @@ export default {
       });
     },
     updateSegment() {
-      this.ready = true;
       this.languageStore.updateJVideoSegment(this.segment.videoSegment);
-    },
-    showVideo() {
-      this.$emit("showVideo", this.segment.videoSegment);
+      this.$emit('showVideo',this.segment.videoSegment)
     },
   },
 };
