@@ -34,17 +34,18 @@ export default {
       segment: null,
       segments: [],
       video: null,
-      languageCodeHL: 'frn00'
     };
   },
+
   created() {
     this.getSegmentList()
     this.languageStore.updateJVideoSegment(this.segment);
+
   },
   methods: {
     getSegmentList() {
-      var url = 'api/jvideo/segments/'+ this.languageCodeHL
-     // var url = 'api/jvideo/segments/eng00/aln00';
+      const firstLanguage = this.languageStore.getFirstLanguageCodeSelected
+      var url = 'api/jvideo/segments/'+ firstLanguage
       console.log (url)
       api.get(url).then((response) => {
         this.segments = response.data;

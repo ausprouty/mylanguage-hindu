@@ -5,9 +5,9 @@
     <p>This video is available in many languages.  To change the language click the world globe above.</p>
     <div> <JVideoSegmentSelect  @showVideo="handleShowVideo"/></div>
     <div v-if="this.videoSegment">
-      <div> <JVideoPlayer :videoSegment="this.videoSegment" /></div>
+      <div> <JVideoPlayer :videoSegment="this.videoSegment"  :languageCodeHL="this.languageCodeHL" /></div>
 
-      <div><JVideoQuestions />
+      <div><JVideoQuestions  :languageCodeHL= "this.languageCodeHL" />
       </div>
   </div><!-- content -->
   </q-page>
@@ -17,6 +17,7 @@
 import JVideoPlayer from "src/components/JesusVideo/JVideoPlayer.vue";
 import JVideoSegmentSelect from "src/components/JesusVideo/JVideoSegmentSelect.vue";
 import JVideoQuestions from "src/components/JesusVideo/JVideoQuestions.vue";
+import { useLanguageStore } from "stores/LanguageStore";
 
 export default {
    name: 'JesusVideo',
@@ -29,6 +30,17 @@ export default {
     return {
       videoSegment: '6101-0-0',
     };
+  },
+  setup () {
+    const languageStore = useLanguageStore();
+    const firstLanguage = this.languageStore.getFirstLanguageCodeSelected
+    return {
+      languageStore,
+      firstLanguage
+    }
+  },
+  computed:{
+    languageCodeHL:firstLanguage
   },
   methods:{
     handleShowVideo(response){

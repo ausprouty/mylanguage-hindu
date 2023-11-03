@@ -5,11 +5,12 @@
 <script>
 import { api } from "boot/axios";
 import { computed } from 'vue';
-import { useLanguageStore } from "stores/LanguageStore";
+
 export default {
   name: 'JVideoPlayer',
   props:{
     videoSegment: String,
+    languageCodeHL: String,
   },
   data() {
     return {
@@ -17,32 +18,17 @@ export default {
       iframeStart: '<iframe src="https://api.arclight.org/videoPlayerUrl?refId=',
       iframeEnd: '&playerStyle=default" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>',
       videoIframe: null,
-      languageCodeHL:'eng00'
-
-
     };
   },
-  setup () {
-    const languageStore = useLanguageStore();
-    return {
-      languageStore
-    }
-  },
+
   created(){
-    const firstLanguage = this.languageStore.getFirstLanguageCodeSelected
-    console.log(firstLanguage)
-   /* console.log(this.languageStore.getFirstLanguageSelected)
-    var languageCodeHL = this.firstLanguage
-    console.log ('language code is ' + languageCodeHL)
+   
     this.show1 = true
-    console.log ('show videos')
-    var url =  'api/video/code/JESUS/' + languageCodeHL
-    console.log (url)
+    var url =  'api/video/code/JESUS/' + firstLanguage
     api.get(url).then((response) => {
       var video1 = response.data.replace('-0-0', this.videoSegment)
       this.videoIframe = this.iframeStart + video1 + this.iframeEnd
     });
-      */
   }
 
 }

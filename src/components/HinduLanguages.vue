@@ -25,8 +25,7 @@ export default {
     return {
       languageOptions: [],
       languageArray:[],
-      selectedLanguage:[],
-      selectedLanguages:[]
+      selectedLanguage: this.languageStore.getLanguagesSelected
     };
   },
   watch: {
@@ -39,6 +38,8 @@ export default {
     },
   },
   created() {
+    const firstLanguage = this.languageStore.getFirstLanguageCodeSelected
+    console.log (firstLanguage)
     api.get("api/hindi/languages").then((response) => {
       console.log (response.data)
       this.selectedLanguage = []
