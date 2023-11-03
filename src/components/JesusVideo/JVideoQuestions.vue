@@ -14,13 +14,27 @@ export default {
       questions : '',
     };
   },
+  watch: {
+    languageCodeHL: function (newLanguage, oldLanguage) {
+      if (newLanguage !== oldLanguage) {
+        this.showQuestions(newLanguage);
+      }
+    }
+  },
+  methods:{
+    showQuestions(languageCodeHL){
+      var url = 'api/jvideo/questions/'+ languageCodeHL
+      console.log (url)
+      api.get(url).then((response) => {
+        console.log (response)
+        this.questions = response.data;
+      });
+    }
+
+  },
  created(){
-    var url = 'api/jvideo/questions/'+ this.languageCodeHL
-    console.log (url)
-    api.get(url).then((response) => {
-      console.log (response)
-      this.questions = response.data;
-    });
-  }
+  this.showQuestions(this.languageCodeHL)
+ }
+
 }
 </script>

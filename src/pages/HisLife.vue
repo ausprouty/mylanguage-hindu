@@ -31,13 +31,6 @@ export default {
       languageSelected: this.languageStore.getFirstLanguageCodeSelected
     };
   },
-  watch: {
-    languageSelected: function (newLanguage, oldLanguage) {
-      if (newLanguage !== oldLanguage) {
-       alert ('You changed language');
-      }
-    },
-  },
   setup () {
     const languageStore = useLanguageStore();
     const firstLanguage = languageStore.getFirstLanguageCodeSelected

@@ -35,14 +35,21 @@ export default {
       video: null,
     };
   },
+  watch: {
+    languageCodeHL: function (newLanguage, oldLanguage) {
+      if (newLanguage !== oldLanguage) {
+        this.getSegmentList(newLanguage);
+      }
+    }
+  },
 
   created() {
-    this.getSegmentList();
+    this.getSegmentList( this.languageCodeHL);
     this.languageStore.updateJVideoSegment(this.segment);
   },
   methods: {
-    getSegmentList() {
-      var url = "api/jvideo/segments/" + this.languageCodeHL;
+    getSegmentList(languageCodeHL) {
+      var url = "api/jvideo/segments/" + languageCodeHL;
       console.log(url);
       api.get(url).then((response) => {
         this.segments = response.data;
