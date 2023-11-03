@@ -22,9 +22,9 @@ export default {
   },
 
   created(){
-   
+
     this.show1 = true
-    var url =  'api/video/code/JESUS/' + firstLanguage
+    var url =  'api/video/code/JESUS/' + this.languageCodeHL
     api.get(url).then((response) => {
       var video1 = response.data.replace('-0-0', this.videoSegment)
       this.videoIframe = this.iframeStart + video1 + this.iframeEnd
