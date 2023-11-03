@@ -3,13 +3,11 @@
     <p>This video tells the life of the Lord Jesus.</p>
     <p>As you watch the video, ask yourself  "What is this guru like and is he worth following?"</p>
     <p>This video is available in many languages.  To change the language click the world globe above.</p>
-    <div> <JVideoSegmentSelect :languageCodeHL= "firstLanguage" @showVideo="handleNewVideoSegment"/></div>
-    <div v-if="this.videoSegment">
-      <div> <JVideoPlayer :videoSegment="videoSegment"  :languageCodeHL="firstLanguage" /></div>
-
-      <div><JVideoQuestions  :languageCodeHL= "firstLanguage" />
-      </div>
-  </div><!-- content -->
+    <div> <JVideoSegmentSelect :languageCodeHL= "computedLanguageSelected" @showVideo="handleNewVideoSegment"/></div>
+    <div> <JVideoPlayer :videoSegment="videoSegment"  :languageCodeHL="computedLanguageSelected" /></div>
+    <div><JVideoQuestions  :languageCodeHL= "computedLanguageSelected" /></div>
+    <p>{{computedLanguageSelected }}</p>
+ <!-- content -->
   </q-page>
 </template>
 
@@ -21,7 +19,7 @@ import { useLanguageStore } from "stores/LanguageStore";
 import { computed } from 'vue'
 
 export default {
-   name: 'JesusVideo',
+   name: 'HisLife',
    components: {
     JVideoPlayer,
     JVideoSegmentSelect,
@@ -30,7 +28,15 @@ export default {
   data() {
     return {
       videoSegment: '6101-0-0',
+      languageSelected: this.languageStore.getFirstLanguageCodeSelected
     };
+  },
+  watch: {
+    languageSelected: function (newLanguage, oldLanguage) {
+      if (newLanguage !== oldLanguage) {
+       alert ('You changed language');
+      }
+    },
   },
   setup () {
     const languageStore = useLanguageStore();
@@ -38,6 +44,18 @@ export default {
     return {
       languageStore,
       firstLanguage
+    }
+  },
+  computed: {
+    computedLanguageSelected() {
+      return this.languageStore.getFirstLanguageCodeSelected;
+    }
+  },
+  watch: {
+    computedLanguageSelected: function (newLanguage, oldLanguage) {
+      if (newLanguage !== oldLanguage) {
+        return newLanguage;
+      }
     }
   },
 

@@ -42,7 +42,6 @@ export default {
     console.log (firstLanguage)
     api.get("api/hindi/languages").then((response) => {
       console.log (response.data)
-      this.selectedLanguage = []
       this.languageArray = response.data;
       this.languageStore.updateLanguages(this.languageArray) ;
       this.languageOptions = this.languageArray.map((item) => ({
