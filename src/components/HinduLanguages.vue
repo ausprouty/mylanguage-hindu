@@ -23,21 +23,19 @@ export default {
   },
   data() {
     return {
-      selectedLanguage: [],
       languageOptions: [],
       languageArray:[],
-      selectedLanguagesString:''
+      selectedLanguage:[],
+      selectedLanguages:[]
     };
   },
   watch: {
     selectedLanguage: {
       handler() {
-        console.log ('I see a change')
-        // Logic to update a value based on the selected languages
-        this.selectedLanguagesString = this.selectedLanguage.join(', ');
-        this.languageStore.updateLanguagesSelected(this.selectedLanguagesString) ;
+        console.log (this.selectedLanguage)
+        this.languageStore.updateLanguagesSelected(this.selectedLanguage) ;
       },
-      deep: true, // Enable deep watching for changes within the array
+      deep: true,
     },
   },
   created() {

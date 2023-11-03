@@ -18,7 +18,6 @@ export default {
     console.log (url)
     api.get(url).then((response) => {
       this.questions = response.data;
-      console.log (this.questions)
     });
   }
 }

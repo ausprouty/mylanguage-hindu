@@ -10,44 +10,30 @@ export const useLanguageStore = defineStore("LanguageStore", {
     jVideoSegment: null,
   }),
   getters: {
-    getLanguages() {
-      return this.languages;
-    },
-    getLanguagesSelected() {
-      return this.languagesSelected;
-    },
 
-    getPrincipleLesson() {
-      return this.principleLesson;
+    getFirstLanguageCodeSelected: (state) => {
+      return state.languagesSelected.length > 0 ? state.languagesSelected[0] : 'eng00';
     },
-    getCommunityLesson() {
-      return this.communityLesson;
-    },
-    getLeadershipLesson() {
-      return this.leadershipLesson;
-    },
-    getJVideoSegment() {
-      return this.jVideoSegment;
-    },
+    
   },
   actions: {
     updateLanguages(newValue) {
       this.languages = newValue;
     },
     updateLanguagesSelected(newValue) {
-      this.languagesSelected = newValue;
+      this.languagesSelected = newValue
     },
     updatePrincipleLesson(newValue) {
-      this.principleLesson = newValue;
+      this.principleLesson = newValue
     },
     updateCommunityLesson(newValue) {
-      this.communityLesson = newValue;
+      this.communityLesson = newValue
     },
     updateLeadershipLesson(newValue) {
-      this.leadershipLesson = newValue;
+      this.leadershipLesson = newValue
     },
     updateJVideoSegment(newValue) {
-      this.jVideoSegment = newValue;
+      this.jVideoSegment = newValue
     },
   },
 });

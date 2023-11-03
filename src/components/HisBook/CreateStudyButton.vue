@@ -23,7 +23,7 @@ export default {
     createStudy() {
       var url =
         "api/dbs/view/" +
-        this.languageStore.dbsLesson +
+        this.languageStore.communityLesson +
         "/" +
         this.languageStore.language1.languageCodeHL +
       api.get(url).then((response) => {

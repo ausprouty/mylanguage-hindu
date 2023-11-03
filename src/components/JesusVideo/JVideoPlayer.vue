@@ -4,6 +4,7 @@
 
 <script>
 import { api } from "boot/axios";
+import { computed } from 'vue';
 import { useLanguageStore } from "stores/LanguageStore";
 export default {
   name: 'JVideoPlayer',
@@ -21,25 +22,29 @@ export default {
 
     };
   },
-  setup() {
+  setup () {
     const languageStore = useLanguageStore();
     return {
-      languageStore,
-    };
+      languageStore
+    }
   },
   created(){
-        var selected = this.languageStore.getLanguagesSelected;
-        console.log(selected)
-        this.show1 = true
-        console.log ('show videos')
-        var url =  'api/video/code/JESUS/' + this.languageCodeHL
-        console.log (url)
-        api.get(url).then((response) => {
-          var video1 = response.data.replace('-0-0', this.videoSegment)
-          console.log (video1)
-          this.videoIframe = this.iframeStart + video1 + this.iframeEnd
-        });
-      }
+    const firstLanguage = this.languageStore.getFirstLanguageCodeSelected
+    console.log(firstLanguage)
+   /* console.log(this.languageStore.getFirstLanguageSelected)
+    var languageCodeHL = this.firstLanguage
+    console.log ('language code is ' + languageCodeHL)
+    this.show1 = true
+    console.log ('show videos')
+    var url =  'api/video/code/JESUS/' + languageCodeHL
+    console.log (url)
+    api.get(url).then((response) => {
+      var video1 = response.data.replace('-0-0', this.videoSegment)
+      this.videoIframe = this.iframeStart + video1 + this.iframeEnd
+    });
+      */
+  }
+
 }
 </script>
 <style>
