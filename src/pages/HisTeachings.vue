@@ -1,109 +1,123 @@
 <template>
   <q-page padding>
     <div>
-      <div><LanguageSelect /></div>
-      <div><BiblePassageSelect /></div>
-      <div><CreateStudyButton   @displayText="handleDisplayLifePrinciple"/></div>
+      <div><HisTeachingsPassageSelect :languageCodeHL= "computedLanguageSelected" /></div>
+
       <hr />
-      <div id="pdfText" v-html="this.text"></div>
+      <div v-html="this.text"></div>
     </div>
   </q-page>
 </template>
 
 <script>
-import LanguageSelect from "components/LifePrinciples/LanguageSelect.vue";
-import BiblePassageSelect from "components/LifePrinciples/BiblePassageSelect.vue";
-import CreateStudyButton from "components/LifePrinciples/CreateStudyButton.vue";
+import { useLanguageStore } from "stores/LanguageStore";
+import HisTeachingsPassageSelect from "components/HisTeachings/HisTeachingsPassageSelect.vue";
+
 export default {
-  name: "DiscoveryBibleStudy",
+  name: "HisTeachings",
   components: {
-    LanguageSelect,
-    BiblePassageSelect,
-    CreateStudyButton,
+    HisTeachingsPassageSelect,
   },
   data() {
     return {
       text: "",
-      filename: 'LifePrinciples',
+      filename: "LifePrinciples",
       session: 1,
-      languageCodeHL: 'eng00'
     };
   },
-  methods:{
-    handleDisplayLifePrinciple(response){
-      this.text = response
+  setup () {
+    const languageStore = useLanguageStore();
+    const firstLanguage = languageStore.getFirstLanguageCodeSelected
+    return {
+      languageStore,
+      firstLanguage
     }
-  }
+  },
+  computed: {
+    computedLanguageSelected() {
+      return this.languageStore.getFirstLanguageCodeSelected;
+    }
+  },
+  watch: {
+    computedLanguageSelected: function (newLanguage, oldLanguage) {
+      if (newLanguage !== oldLanguage) {
+        return newLanguage;
+      }
+    }
+  },
+  methods: {
+    handleDisplayHisTeachings(response) {
+      this.text = response;
+    },
+  },
 };
 </script>
 
 <style>
-
-div.dbs{
+div.dbs {
   background-color: white;
   max-width: 800px;
-  margin:auto;
+  margin: auto;
   background-color: white;
   padding: 10px;
 }
-table{
-  width:100%;
+table {
+  width: 100%;
   max-width: 800px;
 }
 td {
-  width:50%;
+  width: 50%;
   vertical-align: top;
   padding: 10px;
 }
-li{
-  padding-top:10px;
+li {
+  padding-top: 10px;
 }
 
-title.dbs{
+title.dbs {
   font-size: 1.5em;
   text-align: center;
-
 }
-h1.dbs{
+h1.dbs {
   font-size: 2em;
-
 }
-h2.dbs{
+h2.dbs {
   margin-block-end: 0em;
   font-size: 1.5em;
   color: green;
 }
-h3.dbs{
+h3.dbs {
   margin-block-end: 0.3em;
   font-size: 1.17em;
 }
-h4.dbs{
+h4.dbs {
   margin-block-start: 0em;
   margin-block-end: 0em;
   font-size: 1em;
 }
-table.dbs{
+table.dbs {
   border-collapse: collapse;
   border: none;
 }
-td.dbs, th.dbs {
+td.dbs,
+th.dbs {
   border: none;
 }
-td.rtl{
+td.rtl {
   direction: rtl;
 }
 .ltr.dbs.link {
   text-align: center;
 }
-.languages{
+.languages {
   text-align: center;
 }
-.title{
+.title {
   text-align: center;
 }
-.biblereference{
+.biblereference {
   font-weight: bold;
-  color:green;
+  color: green;
 }
 .bible-container {
   display: flex;
@@ -115,6 +129,4 @@ td.rtl{
 .bible-text:first-child {
   margin-right: 20px;
 }
-
-
 </style>

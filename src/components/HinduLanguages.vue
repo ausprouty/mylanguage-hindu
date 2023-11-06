@@ -1,5 +1,5 @@
 <template>
-  <h4>Select Language(s)</h4>
+  <h4>Select Language</h4>
   <p>Some of our content is only available in English or Hindi, but we will try to honor your choices on this page</p>
   <q-option-group
       v-model="selectedLanguage"

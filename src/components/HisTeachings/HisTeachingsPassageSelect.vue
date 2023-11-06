@@ -2,12 +2,12 @@
   <div>
     <q-select
       filled
-      v-model="segment"
-      :options="segments"
+      v-model="lesson"
+      :options="lessons"
       option-label="title"
-      option-value="videoSegment"
-      @update:model-value="updateSegment"
-      label="Video Segment"
+      option-value="lesson"
+      @update:model-value="updatePassage"
+      label="Teachings"
     />
   </div>
 </template>
@@ -16,7 +16,7 @@
 import { api } from "boot/axios";
 import { useLanguageStore } from "stores/LanguageStore";
 export default {
-  name: "JVideoSegmentSelect",
+  name: "HisTeachingsPassageSelect",
   props: {
     languageCodeHL: String,
   },
@@ -28,36 +28,33 @@ export default {
   },
   data() {
     return {
-      segment: null,
-      segments: [],
-      video: null,
+      lesson : 1,
+      lessonss: [],
     };
   },
   watch: {
     languageCodeHL: function (newLanguage, oldLanguage) {
       if (newLanguage !== oldLanguage) {
-        this.getSegmentList(newLanguage);
+        this.getPassageList(newLanguage);
       }
     }
   },
-
   created() {
-    this.getSegmentList( this.languageCodeHL);
-    this.languageStore.updateJVideoSegment(this.segment);
+    this.getPassageList(this.languageCodeHL);
+    onsole.log(this.languageCodeHL);
+    this.languageStore.updateHisTeachingLesson(this.segment);
   },
   methods: {
-    getSegmentList(languageCodeHL) {
-      var url = "api/jvideo/segments/" + languageCodeHL;
+    getPassageList(languageCodeHL) {
+      var url = "api/life/studies/" + languageCodeHL;
       console.log(url);
       api.get(url).then((response) => {
         this.segments = response.data;
-        console.log (this.segments)
       });
     },
     updateSegment() {
-      this.languageStore.updateJVideoSegment(this.segment.videoSegment);
-      this.$emit('showVideo',this.segment.videoSegment)
+      this.languageStore.updateHisTeachingLesson(this.segment.videoSegment);
+      this.$emit('showTeaching',this.lesson)
     },
   },
 };
-</script>
