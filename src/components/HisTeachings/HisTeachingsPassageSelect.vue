@@ -6,7 +6,7 @@
       :options="lessons"
       option-label="title"
       option-value="lesson"
-      @update:model-value="updatePassage"
+      @update:model-value="updateLesson"
       label="Teachings"
     />
   </div>
@@ -28,33 +28,33 @@ export default {
   },
   data() {
     return {
-      lesson : 1,
-      lessonss: [],
+      lesson : null,
+      lessons: [],
     };
   },
   watch: {
     languageCodeHL: function (newLanguage, oldLanguage) {
       if (newLanguage !== oldLanguage) {
-        this.getPassageList(newLanguage);
+        this.getLessonList(newLanguage);
       }
     }
   },
   created() {
-    this.getPassageList(this.languageCodeHL);
-    onsole.log(this.languageCodeHL);
-    this.languageStore.updateHisTeachingLesson(this.segment);
+    this.getLessonList(this.languageCodeHL);
+    this.languageStore.updateHisTeachingLesson(this.lesson);
   },
   methods: {
-    getPassageList(languageCodeHL) {
-      var url = "api/life/studies/" + languageCodeHL;
-      console.log(url);
+    getLessonList(languageCodeHL) {
+      var url = "api/life_principles/studies/" + languageCodeHL;
       api.get(url).then((response) => {
-        this.segments = response.data;
+        this.lessons = response.data;
+        console.log (this.lessons)
       });
     },
-    updateSegment() {
-      this.languageStore.updateHisTeachingLesson(this.segment.videoSegment);
-      this.$emit('showTeaching',this.lesson)
+    updateLesson() {
+      this.languageStore.updateHisTeachingLesson(this.lesson);
+      this.$emit('showTeaching', this.lesson)
     },
   },
 };
+</script>

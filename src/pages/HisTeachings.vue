@@ -1,7 +1,7 @@
 <template>
   <q-page padding>
     <div>
-      <div><HisTeachingsPassageSelect :languageCodeHL= "computedLanguageSelected" /></div>
+      <div><HisTeachingsPassageSelect :languageCodeHL= "computedLanguageSelected" @showTeaching="handleShowTeaching" /></div>
 
       <hr />
       <div v-html="this.text"></div>
@@ -46,8 +46,8 @@ export default {
     }
   },
   methods: {
-    handleDisplayHisTeachings(response) {
-      this.text = response;
+    handleShowTeaching(response) {
+      console.log (response)
     },
   },
 };

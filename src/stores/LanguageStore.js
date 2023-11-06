@@ -4,7 +4,7 @@ export const useLanguageStore = defineStore("LanguageStore", {
   state: () => ({
     languages: [],
     languagesSelected: JSON.parse(localStorage.getItem("languagesSelected")),
-    principleLesson: null,
+    hisTeachingLesson: null,
     communityLesson: null,
     leadershipLesson: null,
     jVideoSegment: null,
@@ -30,9 +30,9 @@ export const useLanguageStore = defineStore("LanguageStore", {
       this.languagesSelected = newValue;
       localStorage.setItem("languagesSelected", JSON.stringify(newValue));
     },
-    updatePrincipleLesson(newValue) {
-      this.principleLesson = newValue;
-      localStorage.setItem("principleLesson", newValue);
+    updateHisTeachingLesson(newValue){
+      this.hisTeachingLesson = newValue;
+      localStorage.setItem("hisTeachingLesson", newValue);
     },
     updateCommunityLesson(newValue) {
       this.communityLesson = newValue;
