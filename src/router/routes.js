@@ -11,22 +11,22 @@ const routes = [
       },
       {
         name: 'MountainOfGod',
-        path: 'mountain',
+        path: '/mountain',
         component: () => import('pages/MountainOfGod.vue')
       },
       {
         name: 'BirthofGuru',
-        path: 'birth',
+        path: '/birth',
         component: () => import('pages/BirthOfGuru.vue')
       },
       {
         name: 'HisLife',
-        path: 'life',
+        path: '/life',
         component: () => import('src/pages/HisLife.vue')
       },
       {
         name: 'HisTeachings',
-        path: 'teachings',
+        path: '/teachings',
         component: () => import('pages/HisTeachings.vue')
       },
       {
@@ -37,12 +37,12 @@ const routes = [
 
     {
       name: 'FollowingHim',
-      path: 'following',
+      path: '/following',
       component: () => import('pages/FollowingHim.vue')
     },
     {
       name: 'AskHisFollowers',
-      path: 'questions',
+      path: '/questions',
       component: () => import('src/pages/AskHisFollowers.vue')
     },
     ]

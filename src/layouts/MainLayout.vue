@@ -99,7 +99,7 @@ const linksList = [
   {
     title: 'Ask His followers',
     icon: 'school',
-    link: '/questions'
+    link: 'questions'
   },
 
 ]

@@ -1,15 +1,17 @@
 <template>
   <div>
-    <q-select
-      filled
-      v-model="segment"
-      :options="segments"
-      option-label="title"
-      option-value="videoSegment"
-      @update:model-value="updateSegment"
-      label="Video Segment"
-    />
+    <div v-if="show">
+      <q-select
+        filled
+        v-model="segment"
+        :options="segments"
+        option-label="title"
+        option-value="videoSegment"
+        @update:model-value="updateSegment"
+        label="Video Segment"
+      />
   </div>
+</div>
 </template>
 
 <script>
@@ -31,6 +33,7 @@ export default {
       segment: null,
       segments: [],
       video: null,
+      show:false
     };
   },
   watch: {
@@ -53,6 +56,7 @@ export default {
         this.segments = response.data;
         console.log (this.segments)
       });
+      this.show = true;
     },
     updateSegment() {
       this.languageStore.updateJVideoSegment(this.segment.videoSegment);
@@ -61,3 +65,9 @@ export default {
   },
 };
 </script>
+<style>
+
+.q-item__label{
+  color:black;
+}
+</style>

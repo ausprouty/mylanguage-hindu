@@ -1,54 +1,58 @@
 <template>
   <h4>Select Language</h4>
-  <p>Some of our content is only available in English or Hindi, but we will try to honor your choices on this page</p>
+  <p>
+    Some of our content is only available in English or Hindi, but we will try
+    to honor your choices on this page
+  </p>
   <q-option-group
-      v-model="selectedLanguage"
-      type="checkbox"
-      color="primary"
-      :options="languageOptions"
-
-    />
+    v-model="selectedLanguage"
+    type="radio"
+    color="primary"
+    :options="languageOptions"
+  />
 </template>
 
 <script>
 import { api } from "boot/axios";
 import { useLanguageStore } from "stores/LanguageStore";
 export default {
-  name: 'HinduLanguages',
-  setup () {
+  name: "HinduLanguages",
+  setup() {
     const languageStore = useLanguageStore();
     return {
-      languageStore
-    }
+      languageStore,
+    };
   },
   data() {
     return {
       languageOptions: [],
-      languageArray:[],
-      selectedLanguage: this.languageStore.getLanguagesSelected
+      languageArray: [],
+      selectedLanguage: this.languageStore.getLanguageSelected,
     };
   },
   watch: {
     selectedLanguage: {
       handler() {
-        console.log (this.selectedLanguage)
-        this.languageStore.updateLanguagesSelected(this.selectedLanguage) ;
+        console.log(this.selectedLanguage);
+        this.languageStore.updateLanguageSelected(this.selectedLanguage);
       },
       deep: true,
     },
   },
   created() {
-    const firstLanguage = this.languageStore.getFirstLanguageCodeSelected
-    console.log (firstLanguage)
+    const firstLanguage = this.languageStore.getFirstLanguageCodeSelected;
+    console.log(firstLanguage);
     api.get("api/hindi/languages").then((response) => {
+      console.log(response.data);
       this.languageArray = response.data;
-      this.languageStore.updateLanguages(this.languageArray) ;
+      this.languageStore.updateLanguages(this.languageArray);
       this.languageOptions = this.languageArray.map((item) => ({
-        label: item.name ,
+        label: item.name,
         value: item.languageCodeHL,
       }));
-
+      console.log('langauge Data')
+      console.log(this.languageOptions);
     });
-  }
-}
+  },
+};
 </script>

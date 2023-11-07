@@ -47,7 +47,7 @@ export default {
   },
   methods: {
     handleShowTeaching(response) {
-      console.log (response)
+      alert (" I will show teaching for " + response)
     },
   },
 };

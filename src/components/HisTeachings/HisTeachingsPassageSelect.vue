@@ -1,11 +1,11 @@
 <template>
-  <div>
+  <div v-if ="show">
     <q-select
       filled
       v-model="lesson"
       :options="lessons"
-      option-label="title"
-      option-value="lesson"
+      option-label="label"
+      option-value="value"
       @update:model-value="updateLesson"
       label="Teachings"
     />
@@ -30,6 +30,7 @@ export default {
     return {
       lesson : null,
       lessons: [],
+      show:false
     };
   },
   watch: {
@@ -46,15 +47,27 @@ export default {
   methods: {
     getLessonList(languageCodeHL) {
       var url = "api/life_principles/studies/" + languageCodeHL;
+      console.log (url)
       api.get(url).then((response) => {
-        this.lessons = response.data;
-        console.log (this.lessons)
+        var data = response.data
+        this.lessons = data.map((item) => ({
+          label: item.title,
+          value: item.lesson,
+        }));
+        this.show = true
       });
     },
     updateLesson() {
-      this.languageStore.updateHisTeachingLesson(this.lesson);
-      this.$emit('showTeaching', this.lesson)
+      this.languageStore.updateHisTeachingLesson(this.lesson.value);
+      this.$emit('showTeaching', this.lesson.value)
     },
   },
 };
 </script>
+<style scoped>
+
+.q-item__label{
+  color:black;
+}
+</style>
+

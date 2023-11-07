@@ -3,34 +3,30 @@ import { defineStore } from "pinia";
 export const useLanguageStore = defineStore("LanguageStore", {
   state: () => ({
     languages: [],
-    languagesSelected: JSON.parse(localStorage.getItem("languagesSelected")),
-    hisTeachingLesson: null,
-    communityLesson: null,
-    leadershipLesson: null,
-    jVideoSegment: null,
+    LanguageSelected: 'eng00',
+    hisTeachingLesson: 1,
+    communityLesson: 1,
+    leadershipLesson: 1,
+    jVideoSegment: 1,
   }),
   getters: {
     getFirstLanguageCodeSelected: (state) => {
-      return state.languagesSelected.length > 0
-        ? state.languagesSelected[0]
-        : 'eng00';
+      return state.LanguageSelected;
     },
-    getLanguagesSelected: (state) => {
-      return state.languagesSelected.length > 0
-        ? state.languagesSelected
-        : JSON.parse(localStorage.getItem("languagesSelected"));
-    },
+    getLanguageSelected: (state) => {
+      return state.LanguageSelected;
+    }
   },
   actions: {
     updateLanguages(newValue) {
       this.languages = newValue;
       localStorage.setItem("languages", JSON.stringify(newValue));
     },
-    updateLanguagesSelected(newValue) {
-      this.languagesSelected = newValue;
-      localStorage.setItem("languagesSelected", JSON.stringify(newValue));
+    updateLanguageSelected(newValue) {
+      this.LanguageSelected = newValue;
+      localStorage.setItem("LanguageSelected", newValue);
     },
-    updateHisTeachingLesson(newValue){
+    updateHisTeachingLesson(newValue) {
       this.hisTeachingLesson = newValue;
       localStorage.setItem("hisTeachingLesson", newValue);
     },
@@ -47,4 +43,5 @@ export const useLanguageStore = defineStore("LanguageStore", {
       localStorage.setItem("jVdeoSegment", newValue);
     },
   },
-});
+}
+);
