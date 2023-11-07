@@ -43,15 +43,12 @@ export default {
     const firstLanguage = this.languageStore.getFirstLanguageCodeSelected;
     console.log(firstLanguage);
     api.get("api/hindi/languages").then((response) => {
-      console.log(response.data);
       this.languageArray = response.data;
       this.languageStore.updateLanguages(this.languageArray);
       this.languageOptions = this.languageArray.map((item) => ({
         label: item.name,
         value: item.languageCodeHL,
       }));
-      console.log('langauge Data')
-      console.log(this.languageOptions);
     });
   },
 };

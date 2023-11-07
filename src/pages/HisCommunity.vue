@@ -1,7 +1,7 @@
 <template>
   <q-page padding>
     <div>
-      <div><HisTeachingsPassageSelect :languageCodeHL= "computedLanguageSelected" @showTeaching="handleShowTeaching" /></div>
+      <div><HisCommunityPassageSelect :languageCodeHL= "computedLanguageSelected" @showTeaching="handleShowTeaching" /></div>
 
       <hr />
       <div v-html="this.text"></div>
@@ -11,17 +11,17 @@
 
 <script>
 import { useLanguageStore } from "stores/LanguageStore";
-import HisTeachingsPassageSelect from "components/HisTeachings/HisTeachingsPassageSelect.vue";
+import HisCommunityPassageSelect from "components/HisCommunity/HisCommunityPassageSelect.vue";
 
 export default {
-  name: "HisTeachings",
+  name: "HisCommunity",
   components: {
-    HisTeachingsPassageSelect,
+    HisCommunityPassageSelect,
   },
   data() {
     return {
       text: "",
-      filename: "LifePrinciples",
+      filename: "HisCommunity",
       session: 1,
     };
   },

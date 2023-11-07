@@ -7,7 +7,7 @@
       option-label="label"
       option-value="value"
       @update:model-value="updateLesson"
-      label="Teachings"
+      label="Communitys"
     />
   </div>
 </template>
@@ -16,7 +16,7 @@
 import { api } from "boot/axios";
 import { useLanguageStore } from "stores/LanguageStore";
 export default {
-  name: "HisTeachingsPassageSelect",
+  name: "CommunitysPassageSelect",
   props: {
     languageCodeHL: String,
   },
@@ -42,11 +42,11 @@ export default {
   },
   created() {
     this.getLessonList(this.languageCodeHL);
-    this.languageStore.updateHisTeachingLesson(this.lesson);
+    this.languageStore.updateLesson(this.lesson);
   },
   methods: {
     getLessonList(languageCodeHL) {
-      var url = "api/life_principles/studies/" + languageCodeHL;
+      var url = "api/dbs/studies/" + languageCodeHL;
       console.log (url)
       api.get(url).then((response) => {
         var data = response.data
@@ -58,16 +58,16 @@ export default {
       });
     },
     updateLesson() {
-      this.languageStore.updateHisTeachingLesson(this.lesson.value);
+      this.languageStore.updateCommunityLesson(this.lesson.value);
       var url =
-        "api/life_principles/view/" +
+        "api/dbs/view/" +
         this.lesson.value +
         "/" +
         this.languageCodeHL
       console.log (url)
       api.get(url).then((response) => {
         console.log(response);
-        this.$emit('showTeaching', response.data)
+        this.$emit('showLesson', response.data)
 
       });
     },
