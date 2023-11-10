@@ -6,7 +6,6 @@
     <div> <JVideoSegmentSelect :languageCodeHL= "computedLanguageSelected" @showVideo="handleNewVideoSegment"/></div>
     <div> <JVideoPlayer :videoSegment="videoSegment"  :languageCodeHL="computedLanguageSelected" /></div>
     <div><JVideoQuestions  :languageCodeHL= "computedLanguageSelected" /></div>
-    <p>{{computedLanguageSelected }}</p>
  <!-- content -->
   </q-page>
 </template>

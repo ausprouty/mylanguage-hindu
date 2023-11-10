@@ -87,9 +87,9 @@ const linksList = [
     link: '/teachings'
   },
   {
-    title: 'His Community',
+    title: 'His Holy Book',
     icon: 'school',
-    link: '/community'
+    link: '/book'
   },
   {
     title: 'Following Him',

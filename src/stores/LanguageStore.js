@@ -1,20 +1,32 @@
 import { defineStore } from "pinia";
 
-export const useLanguageStore = defineStore("LanguageStore", {
+export const useLanguageStore = defineStore("languageStore", {
   state: () => ({
     languages: [],
-    LanguageSelected: 'eng00',
+    languageSelected: 'eng00',
     hisTeachingLesson: 1,
-    communityLesson: 1,
-    leadershipLesson: 1,
+    bookLesson: 1,
     jVideoSegment: 1,
+    followingHimSegment: 1,
   }),
   getters: {
     getFirstLanguageCodeSelected: (state) => {
-      return state.LanguageSelected;
+      return state.languageSelected;
     },
     getLanguageSelected: (state) => {
-      return state.LanguageSelected;
+      return state.languageSelected;
+    },
+    getBookLesson: (state) => {
+      return state.bookLesson;
+    },
+    getHisTeachingLesson: (state) => {
+      return state.hisTeachingLesson;
+    },
+    getJVideoSegment: (state) => {
+      return state.jVideoSegment;
+    },
+    getFollowingHimSegment: (state) => {
+      return state.followingHimSegment;
     }
   },
   actions: {
@@ -23,24 +35,24 @@ export const useLanguageStore = defineStore("LanguageStore", {
       localStorage.setItem("languages", JSON.stringify(newValue));
     },
     updateLanguageSelected(newValue) {
-      this.LanguageSelected = newValue;
-      localStorage.setItem("LanguageSelected", newValue);
+      this.languageSelected = newValue;
+      localStorage.setItem("languageSelected", newValue);
     },
     updateHisTeachingLesson(newValue) {
       this.hisTeachingLesson = newValue;
       localStorage.setItem("hisTeachingLesson", newValue);
     },
-    updateCommunityLesson(newValue) {
-      this.communityLesson = newValue;
-      localStorage.setItem("communityLesson", newValue);
-    },
-    updateLeadershipLesson(newValue) {
-      this.leadershipLesson = newValue;
-      localStorage.setItem("leadershipLesson", newValue);
+    updateBookLesson(newValue) {
+      this.BookLesson = newValue;
+      localStorage.setItem("bookLesson", newValue);
     },
     updateJVideoSegment(newValue) {
       this.jVideoSegment = newValue;
       localStorage.setItem("jVdeoSegment", newValue);
+    },
+    updateFollowingHimSegment(newValue) {
+      this.followingHimSegmentt = newValue;
+      localStorage.setItem("followingHimSegment", newValue);
     },
   },
 }
