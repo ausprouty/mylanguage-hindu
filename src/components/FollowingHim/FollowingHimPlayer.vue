@@ -15,7 +15,7 @@ export default {
     return {
       show1: false,
       iframeStart:
-        '<iframe src="https://api.arclight.org/videoPlayerUrl?refId=',
+        '<iframe  id="guruplayer" src="https://api.arclight.org/videoPlayerUrl?refId=',
       iframeEnd:
         '&playerStyle=default" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>',
       videoIframe: null,
