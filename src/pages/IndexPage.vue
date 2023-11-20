@@ -8,52 +8,48 @@
         <li>Etc, etc.</li>
       </ul>
       <q-list bordered class ="list">
-        <q-item to="/mountain" clickable v-ripple class="bg-color1">
-          <q-item-section>Mountain of God</q-item-section>
-          <q-item-section thumbnail>
-            <img src="menu/mountain.jpg">
+        <q-item to="/mountain" clickable v-ripple >
+          <q-item-section menu_item>
+            <img src="menu/mountain.png">
           </q-item-section>
       </q-item>
-      <q-item to="/birth" clickable v-ripple class="bg-color2">
-          <q-item-section>Birth of the Guru</q-item-section>
-          <q-item-section thumbnail>
-            <img src="menu/birth.jpg">
+      <q-item to="/birth" clickable v-ripple>
+
+          <q-item-section menu_item>
+            <img src="menu/birth.png">
           </q-item-section>
       </q-item>
-      <q-item to="/life" clickable v-ripple class="bg-color3">
-          <q-item-section>His Life</q-item-section>
-          <q-item-section thumbnail>
-            <img src="menu/life.jpg">
+      <q-item to="/life" clickable v-ripple >
+
+          <q-item-section menu_item>
+            <img src="menu/life.png">
           </q-item-section>
       </q-item>
-      <q-item to="/teachings" clickable v-ripple class="bg-color4">
-          <q-item-section>His Teachings</q-item-section>
-          <q-item-section thumbnail>
-            <img src="menu/teachings.jpg">
+      <q-item to="/teachings" clickable v-ripple >
+          <q-item-section menu_item>
+            <img src="menu/teachings.png">
           </q-item-section>
       </q-item>
-      <q-item to="/book" clickable v-ripple  class="bg-color5">
-          <q-item-section>His Holy Book</q-item-section>
-          <q-item-section thumbnail>
-            <img src="menu/book.jpg">
+      <q-item to="/book" clickable v-ripple  >
+          <q-item-section menu_item>
+            <img src="menu/book.png">
           </q-item-section>
       </q-item>
-      <q-item to="/following" clickable v-ripple class="bg-color6">
-          <q-item-section>Following Him</q-item-section>
-          <q-item-section thumbnail>
-            <img src="menu/following.jpg">
+      <q-item to="/following" clickable v-ripple >
+          <q-item-section menu_item>
+            <img src="menu/following.png">
           </q-item-section>
       </q-item>
-      <q-item to="/leading" clickable v-ripple class="bg-color7">
-          <q-item-section>Leading Others</q-item-section>
-          <q-item-section thumbnail>
-            <img src="menu/leading.jpg">
+      <q-item to="/leading" clickable v-ripple >
+
+          <q-item-section menu_item>
+            <img src="menu/leading.png">
           </q-item-section>
       </q-item>
       <q-item to="/questions" clickable v-ripple class="bg-color8">
           <q-item-section>Ask His Followers</q-item-section>
-          <q-item-section thumbnail>
-            <img src="menu/questions.jpg">
+          <q-item-section menu_item>
+            <img src="menu/questions.png">
           </q-item-section>
       </q-item>
 
@@ -75,6 +71,10 @@ export default defineComponent({
 });
 </script>
 <style scoped>
+.menu_item{
+  width:95%;
+  max-width: 600px;
+}
 .bg-color1{
   background-color:#FF9933 ;
 }
