@@ -31,7 +31,7 @@ const routes = [
       },
       {
         name: 'HisBook',
-        path: 'book',
+        path: '/book',
         component: () => import('pages/HisBook.vue')
       },
 
@@ -39,6 +39,11 @@ const routes = [
       name: 'FollowingHim',
       path: '/following',
       component: () => import('pages/FollowingHim.vue')
+    },
+    {
+      name: 'LeadershipTeachings',
+      path: '/leadership',
+      component: () => import('pages/LeadershipTeachings.vue')
     },
     {
       name: 'AskHisFollowers',

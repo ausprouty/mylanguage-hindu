@@ -8,46 +8,52 @@
         <li>Etc, etc.</li>
       </ul>
       <q-list bordered class ="list">
-        <q-item to="/mountain" clickable v-ripple class="bg-positive">
+        <q-item to="/mountain" clickable v-ripple class="bg-color1">
           <q-item-section>Mountain of God</q-item-section>
           <q-item-section thumbnail>
-            <img src="https://cdn.quasar.dev/img/mountains.jpg">
+            <img src="menu/mountain.jpg">
           </q-item-section>
       </q-item>
-      <q-item to="/birth" clickable v-ripple class="bg-red-3">
+      <q-item to="/birth" clickable v-ripple class="bg-color2">
           <q-item-section>Birth of the Guru</q-item-section>
           <q-item-section thumbnail>
-            <img src="https://cdn.quasar.dev/img/mountains.jpg">
+            <img src="menu/birth.jpg">
           </q-item-section>
       </q-item>
-      <q-item to="/life" clickable v-ripple class="orange">
+      <q-item to="/life" clickable v-ripple class="bg-color3">
           <q-item-section>His Life</q-item-section>
           <q-item-section thumbnail>
-            <img src="https://cdn.quasar.dev/img/mountains.jpg">
+            <img src="menu/life.jpg">
           </q-item-section>
       </q-item>
-      <q-item to="/teachings" clickable v-ripple class="bg-lime-8">
+      <q-item to="/teachings" clickable v-ripple class="bg-color4">
           <q-item-section>His Teachings</q-item-section>
           <q-item-section thumbnail>
-            <img src="https://cdn.quasar.dev/img/mountains.jpg">
+            <img src="menu/teachings.jpg">
           </q-item-section>
       </q-item>
-      <q-item to="/book" clickable v-ripple  class="bg-blue-grey-5">
+      <q-item to="/book" clickable v-ripple  class="bg-color5">
           <q-item-section>His Holy Book</q-item-section>
           <q-item-section thumbnail>
-            <img src="https://cdn.quasar.dev/img/mountains.jpg">
+            <img src="menu/book.jpg">
           </q-item-section>
       </q-item>
-      <q-item to="/following" clickable v-ripple class="orange">
+      <q-item to="/following" clickable v-ripple class="bg-color6">
           <q-item-section>Following Him</q-item-section>
           <q-item-section thumbnail>
-            <img src="https://cdn.quasar.dev/img/mountains.jpg">
+            <img src="menu/following.jpg">
           </q-item-section>
       </q-item>
-      <q-item to="/questions" clickable v-ripple class="bg-purple-3">
+      <q-item to="/leading" clickable v-ripple class="bg-color7">
+          <q-item-section>Leading Others</q-item-section>
+          <q-item-section thumbnail>
+            <img src="menu/leading.jpg">
+          </q-item-section>
+      </q-item>
+      <q-item to="/questions" clickable v-ripple class="bg-color8">
           <q-item-section>Ask His Followers</q-item-section>
           <q-item-section thumbnail>
-            <img src="https://cdn.quasar.dev/img/mountains.jpg">
+            <img src="menu/questions.jpg">
           </q-item-section>
       </q-item>
 
@@ -69,9 +75,31 @@ export default defineComponent({
 });
 </script>
 <style scoped>
-.orange {
-  background-color: orange;
+.bg-color1{
+  background-color:#FF9933 ;
 }
+.bg-color2{
+  background-color: #4169E1 ;
+}
+.bg-color3{
+  background-color:#228B22 ;
+}
+.bg-color4{
+  background-color:#CD5C5C ;
+}
+.bg-color5{
+  background-color:#DAA520 ;
+}
+.bg-color6{
+  background-color:#40E0D0 ;
+}
+.bg-color7{
+  background-color:#FFBF00 ;
+}
+.bg-color8{
+  background-color:#808000 ;
+}
+
 .list{
   width:100%;
   max-width: 600px;

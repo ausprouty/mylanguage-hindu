@@ -2,7 +2,7 @@
   "name": "mylanguage-guru",
   "version": "0.0.1",
   "description": "Finding a Guru worth Following",
-  "productName": "Guru2023",
+  "productName": "Finding a Guru",
   "author": "ausprouty <bob.prouty@powertochange.org.au>",
   "private": true,
   "scripts": {
