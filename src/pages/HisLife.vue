@@ -1,6 +1,6 @@
 <template>
   <q-page padding>
-    <p>This video tells the life of the Lord Jesus.</p>
+    <h2>His Life</h2>
     <p>As you watch the video, ask yourself  "What is this guru like and is he worth following?"</p>
     <p>This video is available in many languages.  To change the language click the world globe above.</p>
     <div> <JVideoSegmentSelect :languageCodeHL= "computedLanguageSelected" @showVideo="handleNewVideoSegment"/></div>

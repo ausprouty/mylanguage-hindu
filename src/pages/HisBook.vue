@@ -1,5 +1,9 @@
 <template>
   <q-page padding>
+    <h2>His Holy Book</h2>
+    <p>His Holy Book starts with the time before there were any people.</p>
+    <p>It then tells the story of how the first two people interacted with God.</p>
+    <p>Read how God prepared people for the arrival of Lord Jesus.</p>
     <div>
       <div><HisBookPassageSelect :languageCodeHL= "computedLanguageSelected" @showPassage="handleShowPassage" /></div>
 

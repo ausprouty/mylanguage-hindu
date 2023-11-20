@@ -60,8 +60,8 @@ export default defineComponent({
     return {
 
       rightDrawerOpen,
-      toggleLeftDrawer () {
-        leftDrawerOpen.value = !leftDrawerOpen.value
+      toggleRightDrawer () {
+        rightDrawerOpen.value = !rightDrawerOpen.value
       },
     }
   }

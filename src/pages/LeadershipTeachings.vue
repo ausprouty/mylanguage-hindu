@@ -1,6 +1,8 @@
 <template>
   <q-page padding>
     <div>
+      <h2>Leading Others</h2>
+      <p>The Lord Jesus said that his devotees should tell everyone on earth what He has accomplished for them.</p>
       <div><LeadershipPassageSelect :languageCodeHL= "computedLanguageSelected" @showTeaching="handleShowTeaching" /></div>
 
       <hr />

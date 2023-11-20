@@ -1,5 +1,6 @@
 <template>
   <q-page padding>
+    <h2>Following Him</h2>
     <p>What does it mean to follow the Lord Jesus?</p>
     <p>This video is available in many languages.  To change the language click the world globe above.</p>
     <div> <FollowingHimSegmentSelect :languageCodeHL= "computedLanguageSelected" @showVideo="handleNewVideoSegment"/></div>

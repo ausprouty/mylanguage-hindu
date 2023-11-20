@@ -9,47 +9,47 @@
       </ul>
       <q-list bordered class ="list">
         <q-item to="/mountain" clickable v-ripple >
-          <q-item-section menu_item>
-            <img src="menu/mountain.png">
+          <q-item-section class="menu_item">
+            <img  class="menu_picture" src="menu/mountain.png">
           </q-item-section>
       </q-item>
       <q-item to="/birth" clickable v-ripple>
 
-          <q-item-section menu_item>
-            <img src="menu/birth.png">
+          <q-item-section class="menu_item">
+            <img  class="menu_picture" src="menu/birth.png">
           </q-item-section>
       </q-item>
       <q-item to="/life" clickable v-ripple >
 
-          <q-item-section menu_item>
-            <img src="menu/life.png">
+          <q-item-section class="menu_item">
+            <img  class="menu_picture" src="menu/life.png">
           </q-item-section>
       </q-item>
       <q-item to="/teachings" clickable v-ripple >
-          <q-item-section menu_item>
-            <img src="menu/teachings.png">
+          <q-item-section class="menu_item">
+            <img  class="menu_picture" src="menu/teachings.png">
           </q-item-section>
       </q-item>
       <q-item to="/book" clickable v-ripple  >
-          <q-item-section menu_item>
-            <img src="menu/book.png">
+          <q-item-section class="menu_item">
+            <img  class="menu_picture" src="menu/book.png">
           </q-item-section>
       </q-item>
       <q-item to="/following" clickable v-ripple >
-          <q-item-section menu_item>
-            <img src="menu/following.png">
+          <q-item-section class="menu_item">
+            <img  class="menu_picture" src="menu/following.png">
           </q-item-section>
       </q-item>
-      <q-item to="/leading" clickable v-ripple >
+      <q-item to="/leadership" clickable v-ripple >
 
-          <q-item-section menu_item>
-            <img src="menu/leading.png">
+          <q-item-section class="menu_item">
+            <img class="menu_picture" src="menu/leading.png">
           </q-item-section>
       </q-item>
       <q-item to="/questions" clickable v-ripple class="bg-color8">
           <q-item-section>Ask His Followers</q-item-section>
           <q-item-section menu_item>
-            <img src="menu/questions.png">
+            <img class="menu_picture" src="menu/questions.png">
           </q-item-section>
       </q-item>
 
@@ -71,9 +71,26 @@ export default defineComponent({
 });
 </script>
 <style scoped>
-.menu_item{
-  width:95%;
-  max-width: 600px;
+
+.menu_item {
+      margin-left: 10px;
+      margin-right: 10px;
+      max-width: 580px;
+      width: calc(100% - 20px);
+      margin: 0 auto;
+      background-color: #f0f0f0; /* Just for visibility */
+      padding: 10px; /* Optional: Add padding for content within the element */
+    }
+    .menu_picture {
+      max-width: 580px;
+      width: calc(100% - 0px);
+      margin: 0 auto;
+      background-color: #f0f0f0; /* Just for visibility */
+      padding: 10px; /* Optional: Add padding for content within the element */
+    }
+.xmenu_item{
+  width:90%;
+  max-width: 580px;
 }
 .bg-color1{
   background-color:#FF9933 ;
