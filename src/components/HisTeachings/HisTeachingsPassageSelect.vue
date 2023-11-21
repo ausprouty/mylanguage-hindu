@@ -43,6 +43,7 @@ export default {
   created() {
     this.getLessonList(this.languageCodeHL);
     this.languageStore.updateHisTeachingLesson(this.lesson);
+    this.updateLesson();
   },
   methods: {
     getLessonList(languageCodeHL) {

@@ -9,8 +9,11 @@ export default defineComponent({
   name: 'App'
 })
 </script>
-<style scoped>
+<style>
 .q-header{
   max-width: 600px;
+}
+.q-page{
+  margin:10px;
 }
 </style>

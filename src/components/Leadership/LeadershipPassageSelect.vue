@@ -43,6 +43,7 @@ export default {
   created() {
     this.getLessonList(this.languageCodeHL);
     this.languageStore.updateHisTeachingLesson(this.lesson);
+    this.updateLesson();
   },
   methods: {
     getLessonList(languageCodeHL) {
@@ -54,6 +55,7 @@ export default {
           label: item.title,
           value: item.lesson,
         }));
+        console.log (this.lessons)
         this.show = true
       });
     },

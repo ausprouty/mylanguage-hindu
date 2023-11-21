@@ -8,6 +8,7 @@
       <div><HisBookPassageSelect :languageCodeHL= "computedLanguageSelected" @showPassage="handleShowPassage" /></div>
 
       <hr />
+      <hr />
       <div v-html="this.text"></div>
     </div>
   </q-page>

@@ -8,6 +8,22 @@
 
       <hr />
       <div v-html="this.text"></div>
+      <q-btn
+          flat
+          dense
+          round
+          icon="arrow_back"
+          aria-label="Previous"
+          to="/"
+        />
+      <q-btn
+          flat
+          dense
+          round
+          icon="arrow_forward"
+          aria-label="Next"
+          to="/"
+        />
     </div>
   </q-page>
 </template>
@@ -15,6 +31,8 @@
 <script>
 import { useLanguageStore } from "stores/LanguageStore";
 import HisTeachingsPassageSelect from "components/HisTeachings/HisTeachingsPassageSelect.vue";
+
+
 
 export default {
   name: "HisTeachings",

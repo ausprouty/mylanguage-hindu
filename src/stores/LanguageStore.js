@@ -5,6 +5,7 @@ export const useLanguageStore = defineStore("languageStore", {
     languages: [],
     languageSelected: 'eng00',
     hisTeachingLesson: 1,
+    leadershipLesson: 1,
     bookLesson: 1,
     jVideoSegment: 1,
     followingHimSegment: 1,
@@ -21,6 +22,9 @@ export const useLanguageStore = defineStore("languageStore", {
     },
     getHisTeachingLesson: (state) => {
       return state.hisTeachingLesson;
+    },
+    getLeadershipLesson: (state) => {
+      return state.leadershipLesson;
     },
     getJVideoSegment: (state) => {
       return state.jVideoSegment;
@@ -42,6 +46,10 @@ export const useLanguageStore = defineStore("languageStore", {
       this.hisTeachingLesson = newValue;
       localStorage.setItem("hisTeachingLesson", newValue);
     },
+    updateLeadershipLesson(newValue) {
+      this.leadershipLesson = newValue;
+      localStorage.setItem("leadershipLesson", newValue);
+    },
     updateBookLesson(newValue) {
       this.BookLesson = newValue;
       localStorage.setItem("bookLesson", newValue);
@@ -54,6 +62,7 @@ export const useLanguageStore = defineStore("languageStore", {
       this.followingHimSegmentt = newValue;
       localStorage.setItem("followingHimSegment", newValue);
     },
+
   },
 }
 );
