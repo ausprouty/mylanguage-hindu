@@ -7,6 +7,7 @@
     <div> <FollowingHimPlayer :videoSegment="videoSegment"  :languageCodeHL="computedLanguageSelected" /></div>
     <div><FollowingHimQuestions  :languageCodeHL= "computedLanguageSelected" /></div>
  <!-- content -->
+ 
   </q-page>
 </template>
 

@@ -30,6 +30,7 @@ export default {
     return {
       study: null,
       supportedPassages: [],
+      lesson: 1,
       show:false
     };
   },
@@ -41,8 +42,9 @@ export default {
     }
   },
   created() {
-    this.getLessonList(this.languageCodeHL);
     this.updatePassage();
+    this.getLessonList(this.languageCodeHL);
+
   },
 
   methods: {
@@ -61,11 +63,17 @@ export default {
       });
     },
     updatePassage() {
-      console.log (this.study)
-      this.languageStore.updateBookLesson(this.study.value);
+      if (typeof (this.study.value == 'undefined')){
+        this.lesson = this.languageStore.getBookLesson;
+      }
+      else{
+        this.lesson = this.study.value
+        this.languageStore.updateBookLesson(this.study.value);
+
+      }
       var url =
         "api/dbs/view/" +
-        this.study.value +
+        this.lesson +
         "/" +
         this.languageCodeHL
       console.log (url)

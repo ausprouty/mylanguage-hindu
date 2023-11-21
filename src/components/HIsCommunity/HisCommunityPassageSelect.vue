@@ -30,7 +30,8 @@ export default {
     return {
       lesson : null,
       lessons: [],
-      show:false
+      show:false,
+      session: 1
     };
   },
   watch: {
@@ -42,7 +43,6 @@ export default {
   },
   created() {
     this.getLessonList(this.languageCodeHL);
-    this.languageStore.updateLesson(this.lesson);
     this.updateLesson();
   },
   methods: {
@@ -59,10 +59,16 @@ export default {
       });
     },
     updateLesson() {
-      this.languageStore.updateCommunityLesson(this.lesson.value);
+      if (typeof (this.study.value == 'undefined')){
+        this.session = this.languageStore.getCommunityLesson;
+      }
+      else{
+        this.session = this.study.value
+        this.languageStore.updateCommunityLesson(this.lesson.value);
+      }
       var url =
         "api/dbs/view/" +
-        this.lesson.value +
+        this.session +
         "/" +
         this.languageCodeHL
       console.log (url)

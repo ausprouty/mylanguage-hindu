@@ -11,6 +11,22 @@
       <hr />
       <div v-html="this.text"></div>
     </div>
+    <q-btn
+          flat
+          dense
+          round
+          icon="arrow_back"
+          aria-label="Previous"
+          to="/"
+        />
+      <q-btn
+          flat
+          dense
+          round
+          icon="arrow_forward"
+          aria-label="Next"
+          to="/"
+        />
   </q-page>
 </template>
 

@@ -30,6 +30,7 @@ export default {
     return {
       lesson : null,
       lessons: [],
+      session: 1,
       show:false
     };
   },
@@ -41,9 +42,9 @@ export default {
     }
   },
   created() {
-    this.getLessonList(this.languageCodeHL);
-    this.languageStore.updateHisTeachingLesson(this.lesson);
     this.updateLesson();
+    this.getLessonList(this.languageCodeHL);
+
   },
   methods: {
     getLessonList(languageCodeHL) {
@@ -59,10 +60,16 @@ export default {
       });
     },
     updateLesson() {
-      this.languageStore.updateHisTeachingLesson(this.lesson.value);
+      if (typeof (this.study.value == 'undefined')){
+        this.session = this.languageStore.getHisTeachingLesson;
+      }
+      else{
+        this.session = this.study.value
+        this.languageStore.updateHisTeachingLesson(this.lesson.value);
+      }
       var url =
         "api/life_principles/view/" +
-        this.lesson.value +
+        this.session +
         "/" +
         this.languageCodeHL
       console.log (url)
