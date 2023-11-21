@@ -4,25 +4,11 @@
       <h2>Leading Others</h2>
       <p>The Lord Jesus said that his devotees should tell everyone on earth what He has accomplished for them.</p>
       <div><LeadershipPassageSelect :languageCodeHL= "computedLanguageSelected" @showTeaching="handleShowTeaching" /></div>
+      <div> <LeadershipSegmentController :languageCodeHL="computedLanguageSelected" @showTeaching="handleShowTeaching"/></div>
 
       <hr />
       <div v-html="this.text"></div>
-      <q-btn
-          flat
-          dense
-          round
-          icon="arrow_back"
-          aria-label="Previous"
-          to="/"
-        />
-      <q-btn
-          flat
-          dense
-          round
-          icon="arrow_forward"
-          aria-label="Next"
-          to="/"
-        />
+
     </div>
   </q-page>
 </template>
@@ -30,11 +16,13 @@
 <script>
 import { useLanguageStore } from "stores/LanguageStore";
 import LeadershipPassageSelect from "components/Leadership/LeadershipPassageSelect.vue";
+import LeadershipSegmentController from "src/components/Leadership/LeadershipSegmentController.vue";
 
 export default {
   name: "LeadershipTeachings",
   components: {
     LeadershipPassageSelect,
+    LeadershipSegmentController,
   },
   data() {
     return {
@@ -64,10 +52,21 @@ export default {
     }
   },
   methods: {
-    handleShowTeaching(response) {
-      this.text =  response
+    handleShowTeaching(lesson) {
+      var url =
+        "api/leadership/view/" +
+        lesson +
+        "/" +
+        this.computedLanguageSelected
+      console.log (url)
+      api.get(url).then((response) => {
+        console.log(response);
+        this.text =  response
+
+
+      });
     },
-  },
+  }
 };
 </script>
 

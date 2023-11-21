@@ -1,41 +1,45 @@
 <template>
-  <div>
-    <q-btn
-      flat
-      dense
-      round
-      icon="arrow_back"
-      aria-label="Previous"
-      @click="showPreviousSegment"
-    />
-    Previous Section Next Section
-
-    <q-btn
-      flat
-      dense
-      round
-      icon="arrow_forward"
-      aria-label="Next"
-      @click="showNextSegment"
-    />
+  <div class="q-pa-md q-gutter-md q-flex">
+    <div class="q-gutter-md q-flex items-center inline">
+      <q-btn
+        flat
+        dense
+        round
+        icon="arrow_back"
+        aria-label="Previous"
+        @click="showPreviousSegment"
+      />
+      <span class="q-ml-md">Previous Passage</span>
+    </div>
+    <q-space class="inline"/>
+    <div class="q-gutter-md q-flex items-center inline">
+      <span class="q-mr-md">Next Passage</span>
+      <q-btn
+        flat
+        dense
+        round
+        icon="arrow_forward"
+        aria-label="Next"
+        @click="showNextSegment"
+      />
+    </div>
   </div>
 </template>
 
 <script>
 import { useLanguageStore } from "stores/LanguageStore";
 export default {
-  name: "JVideoSegmentController",
+  name: "LeadershipSegmentController",
   props: {
-    videoSegment: String,
     languageCodeHL: String,
   },
 
   data() {
     return {
-      minSegment: 6101,
-      maxSegment: 6161,
+      minSegment: 1,
+      maxSegment: 25,
       nextSegment: 0,
-      nextVideoSegment: "6101-0-0",
+      currentSegment:0
     };
   },
   setup() {
@@ -46,27 +50,36 @@ export default {
   },
   methods: {
     showNextSegment() {
-      console.log(this.videoSegment);
-      this.nextSegment = Number(this.stripVideoSegment(this.videoSegment)) + 1;
-      this.nextVideoSegment = this.restoreVideoSegment(this.nextSegment);
-      this.languageStore.updateJVideoSegment(this.nextVideoSegment);
-      console.log(this.nextVidoSegment);
-      this.$emit("showVideo", this.nextVideoSegment);
+      this.currentSegment = this.languageStore.getLeadershipLesson;
+      this.nextSegment = Number(this.currentSegment) + 1
+      this.languageStore.updateLeadershipLesson(this.nextSegment);
+      console.log(this.nextSegment);
+      this.$emit('showTeaching', this.nextSegment)
     },
     showPreviousSegment() {
-      this.nextSegment = Number(this.stripVideoSegment(this.videoSegment)) - 1;
-      this.nextVideoSegment = this.restoreVideoSegment(this.nextSegment);
-      this.languageStore.updateJVideoSegment(this.nextVideoSegment);
-      this.$emit("showVideo", this.nextVideoSegment);
-    },
-    stripVideoSegment(segment) {
-      var strip =  parseInt(segment, 10);
-      console.log (strip);
-      return strip
-    },
-    restoreVideoSegment(segment) {
-      return segment + "-0-0";
+      this.currentSegment = this.languageStore.getLeadershipLesson;
+      this.nextSegment = Number(this.currentSegment) - 1
+      this.languageStore.updateLeadershipLesson(this.nextSegment);
+      console.log(this.nextSegment);
+      this.$emit('showTeaching', this.nextSegment)
     },
   },
 };
 </script>
+<style scoped>
+
+.inline{
+  display:inline-block;
+}
+.q-gutter-md,
+.q-mr-md,
+.q-ml-md{
+  margin-top:0px;
+}
+.q-gutter-y-md,.q-gutter-md {
+    margin-top: 0px
+}
+.q-gutter-y-md>*,.q-gutter-md>* {
+    margin-top: 0px;
+}
+</style>

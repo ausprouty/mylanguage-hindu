@@ -24,9 +24,8 @@
 <script>
 import { useLanguageStore } from "stores/LanguageStore";
 export default {
-  name: "JVideoSegmentController",
+  name: "HisTeachingsSegmentController",
   props: {
-    videoSegment: String,
     languageCodeHL: String,
   },
 

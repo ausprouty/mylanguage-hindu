@@ -5,25 +5,11 @@
       <p>These are some of the things that Lord Jesus and his early followers taught.</p>
       <p>Many people have seen their lives transformed as they asked Lord Jesus to give them the power to put these teachings into action</p>
       <div><HisTeachingsPassageSelect :languageCodeHL= "computedLanguageSelected" @showTeaching="handleShowTeaching" /></div>
+      <div> <HisTeachingsSegmentController :languageCodeHL="computedLanguageSelected" @showTeaching="handleShowTeaching"/></div>
 
       <hr />
       <div v-html="this.text"></div>
-      <q-btn
-          flat
-          dense
-          round
-          icon="arrow_back"
-          aria-label="Previous"
-          to="/"
-        />
-      <q-btn
-          flat
-          dense
-          round
-          icon="arrow_forward"
-          aria-label="Next"
-          to="/"
-        />
+
     </div>
   </q-page>
 </template>
@@ -31,6 +17,7 @@
 <script>
 import { useLanguageStore } from "stores/LanguageStore";
 import HisTeachingsPassageSelect from "components/HisTeachings/HisTeachingsPassageSelect.vue";
+import HisTeachingsSegmentController from "src/components/HisTeachings/HisTeachingsSegmentController.vue";
 
 
 
@@ -38,6 +25,7 @@ export default {
   name: "HisTeachings",
   components: {
     HisTeachingsPassageSelect,
+    HisTeachingsSegmentController,
   },
   data() {
     return {

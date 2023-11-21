@@ -6,38 +6,25 @@
     <p>Read how God prepared people for the arrival of Lord Jesus.</p>
     <div>
       <div><HisBookPassageSelect :languageCodeHL= "computedLanguageSelected" @showPassage="handleShowPassage" /></div>
-
-      <hr />
-      <hr />
+      <div> <HisBookSegmentController :languageCodeHL="computedLanguageSelected" @showTeaching="handleShowPassage"/></div>
+      <hr/>
       <div v-html="this.text"></div>
     </div>
-    <q-btn
-          flat
-          dense
-          round
-          icon="arrow_back"
-          aria-label="Previous"
-          to="/"
-        />
-      <q-btn
-          flat
-          dense
-          round
-          icon="arrow_forward"
-          aria-label="Next"
-          to="/"
-        />
+
   </q-page>
 </template>
 
 <script>
 import { useLanguageStore } from "stores/LanguageStore";
 import HisBookPassageSelect from "components/HisBook/HisBookPassageSelect.vue";
+import HisBookSegmentController from "src/components/HisBook/HisBookSegmentController.vue";
 
 export default {
   name: "HisBook",
   components: {
     HisBookPassageSelect,
+    HisBookSegmentController
+
   },
   data() {
     return {
