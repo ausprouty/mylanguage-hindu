@@ -30,7 +30,7 @@ export default {
   },
   data() {
     return {
-      segment: null,
+      segment: {},
       segments: [],
       video: null,
       show:false

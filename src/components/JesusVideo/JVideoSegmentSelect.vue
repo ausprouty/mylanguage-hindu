@@ -54,7 +54,6 @@ export default {
       console.log(url);
       api.get(url).then((response) => {
         this.segments = response.data;
-        console.log (this.segments)
       });
       this.show = true;
     },

@@ -28,7 +28,7 @@ export default {
   },
   data() {
     return {
-      lesson : null,
+      lesson : {},
       lessons: [],
       show:false,
       session: 1
@@ -59,7 +59,7 @@ export default {
       });
     },
     updateLesson() {
-      if (typeof (this.study.value == 'undefined')){
+      if (typeof this.study.value === 'undefined'){
         this.session = this.languageStore.getCommunityLesson;
       }
       else{

@@ -28,7 +28,7 @@ export default {
   },
   data() {
     return {
-      study: null,
+      study: {},
       supportedPassages: [],
       lesson: 1,
       show:false
@@ -63,7 +63,7 @@ export default {
       });
     },
     updatePassage() {
-      if (typeof (this.study.value == 'undefined')){
+      if (typeof this.study.value === 'undefined'){
         this.lesson = this.languageStore.getBookLesson;
       }
       else{

@@ -28,8 +28,9 @@ export default {
   },
   data() {
     return {
-      lesson : null,
+      lesson : {},
       lessons: [],
+      session: 1,
       show:false
     };
   },
@@ -60,10 +61,16 @@ export default {
       });
     },
     updateLesson() {
-      this.languageStore.updateLeadershipLesson(this.lesson.value);
+      if (typeof this.lesson.value === 'undefined'){
+        this.session = this.languageStore.getLeadershipLesson;
+      }
+      else{
+        this.session = this.lesson.value
+        this.languageStore.updateLeadershipLesson(this.lesson.value);
+      }
       var url =
         "api/leadership/view/" +
-        this.lesson.value +
+        this.session +
         "/" +
         this.languageCodeHL
       console.log (url)

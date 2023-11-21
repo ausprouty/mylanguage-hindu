@@ -28,7 +28,7 @@ export default {
   },
   data() {
     return {
-      lesson : null,
+      lesson : {},
       lessons: [],
       session: 1,
       show:false
@@ -60,11 +60,11 @@ export default {
       });
     },
     updateLesson() {
-      if (typeof (this.study.value == 'undefined')){
+      if (typeof this.lesson.value === 'undefined'){
         this.session = this.languageStore.getHisTeachingLesson;
       }
       else{
-        this.session = this.study.value
+        this.session = this.lesson.value
         this.languageStore.updateHisTeachingLesson(this.lesson.value);
       }
       var url =
