@@ -28,7 +28,10 @@ export default {
   },
   data() {
     return {
-      lesson : {},
+      lesson : {
+        label: 'Select Value',
+        value: 1
+      },
       lessons: [],
       session: 1,
       show:false

@@ -5,56 +5,19 @@
       <p> Lord Jesus:</p>
       <ul>
         <li> Never told a lie</li>
-        <li>Etc, etc.</li>
+        <li>Etc</li>
       </ul>
-      <q-list bordered class ="list">
-        <q-item to="/mountain" clickable v-ripple >
-          <q-item-section class="menu_item">
-            <img  class="menu_picture" src="menu/mountain.png">
-          </q-item-section>
-      </q-item>
-      <q-item to="/birth" clickable v-ripple>
-
-          <q-item-section class="menu_item">
-            <img  class="menu_picture" src="menu/birth.png">
-          </q-item-section>
-      </q-item>
-      <q-item to="/life" clickable v-ripple >
-
-          <q-item-section class="menu_item">
-            <img  class="menu_picture" src="menu/life.png">
-          </q-item-section>
-      </q-item>
-      <q-item to="/teachings" clickable v-ripple >
-          <q-item-section class="menu_item">
-            <img  class="menu_picture" src="menu/teachings.png">
-          </q-item-section>
-      </q-item>
-      <q-item to="/book" clickable v-ripple  >
-          <q-item-section class="menu_item">
-            <img  class="menu_picture" src="menu/book.png">
-          </q-item-section>
-      </q-item>
-      <q-item to="/following" clickable v-ripple >
-          <q-item-section class="menu_item">
-            <img  class="menu_picture" src="menu/following.png">
-          </q-item-section>
-      </q-item>
-      <q-item to="/leadership" clickable v-ripple >
-
-          <q-item-section class="menu_item">
-            <img class="menu_picture" src="menu/leading.png">
-          </q-item-section>
-      </q-item>
-      <q-item to="/questions" clickable v-ripple class="bg-color8">
-          <q-item-section>Ask His Followers</q-item-section>
-          <q-item-section menu_item>
-            <img class="menu_picture" src="menu/questions.png">
-          </q-item-section>
-      </q-item>
-
-      </q-list>
-
+    <q-list bordered class="list">
+      <q-row>
+        <q-col v-for="(item, index) in menuItems" :key="index" cols="6">
+          <q-item :to="item.to" clickable v-ripple>
+            <q-item-section class="menu_item">
+              <img class="menu_picture" :src="item.imageSrc">
+            </q-item-section>
+          </q-item>
+        </q-col>
+      </q-row>
+    </q-list>
   </q-page>
 </template>
 
@@ -66,6 +29,16 @@ export default defineComponent({
   data() {
     return {
       selected: null,
+      menuItems: [
+        { to: '/mountain', imageSrc: 'menu/mountain.png' },
+        { to: '/birth', imageSrc: 'menu/birth.png' },
+        { to: '/life', imageSrc: 'menu/life.png' },
+        { to: '/teachings', imageSrc: 'menu/teachings.png' },
+        { to: '/book', imageSrc: 'menu/book.png' },
+        { to: '/following', imageSrc: 'menu/following.png' },
+        { to: '/leadership', imageSrc: 'menu/leading.png' },
+        { to: '/questions', imageSrc: 'menu/questions.png' },
+      ],
     };
   },
 });
@@ -73,51 +46,22 @@ export default defineComponent({
 <style scoped>
 
 .menu_item {
-      margin-left: 10px;
-      margin-right: 10px;
-      max-width: 580px;
-      width: calc(100% - 20px);
-      margin: 0 auto;
-      background-color: #f0f0f0; /* Just for visibility */
-      padding: 10px; /* Optional: Add padding for content within the element */
-    }
-    .menu_picture {
-      max-width: 580px;
-      width: calc(100% - 0px);
-      margin: 0 auto;
-      background-color: #f0f0f0; /* Just for visibility */
-      padding: 10px; /* Optional: Add padding for content within the element */
-    }
-.xmenu_item{
-  width:90%;
+  margin-left: 10px;
+  margin-right: 10px;
   max-width: 580px;
+  width: calc(45% - 20px);
+  margin: 0 auto;
+  background-color: #f0f0f0; /* Just for visibility */
+  padding: 10px; /* Optional: Add padding for content within the element */
 }
-.bg-color1{
-  background-color:#FF9933 ;
+.menu_picture {
+  max-width: 580px;
+  width: calc(45% - 0px);
+  margin: 0 auto;
+  background-color: #f0f0f0; /* Just for visibility */
+  padding: 10px; /* Optional: Add padding for content within the element */
 }
-.bg-color2{
-  background-color: #4169E1 ;
-}
-.bg-color3{
-  background-color:#228B22 ;
-}
-.bg-color4{
-  background-color:#CD5C5C ;
-}
-.bg-color5{
-  background-color:#DAA520 ;
-}
-.bg-color6{
-  background-color:#40E0D0 ;
-}
-.bg-color7{
-  background-color:#FFBF00 ;
-}
-.bg-color8{
-  background-color:#808000 ;
-}
-
-.list{
+.xlist{
   width:100%;
   max-width: 600px;
 }

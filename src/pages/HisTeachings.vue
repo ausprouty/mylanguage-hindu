@@ -16,6 +16,7 @@
 
 <script>
 import { useLanguageStore } from "stores/LanguageStore";
+import { api } from "boot/axios";
 import HisTeachingsPassageSelect from "components/HisTeachings/HisTeachingsPassageSelect.vue";
 import HisTeachingsSegmentController from "src/components/HisTeachings/HisTeachingsSegmentController.vue";
 

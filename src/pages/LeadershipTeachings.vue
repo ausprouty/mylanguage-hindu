@@ -15,6 +15,7 @@
 
 <script>
 import { useLanguageStore } from "stores/LanguageStore";
+import { api } from "boot/axios";
 import LeadershipPassageSelect from "components/Leadership/LeadershipPassageSelect.vue";
 import LeadershipSegmentController from "src/components/Leadership/LeadershipSegmentController.vue";
 
@@ -60,8 +61,8 @@ export default {
         this.computedLanguageSelected
       console.log (url)
       api.get(url).then((response) => {
-        console.log(response);
-        this.text =  response
+        console.log(response.data);
+        this.text =  response.data
 
 
       });
