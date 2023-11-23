@@ -74,7 +74,10 @@ export default {
 .q-gutter-md,
 .q-mr-md,
 .q-ml-md{
-  margin-top:0px;
+  margin-top:10px;
+  background-color:lightblue;
+  margin-left:10px;
+  margin-right:10px;
 }
 .q-gutter-y-md,.q-gutter-md {
     margin-top: 0px

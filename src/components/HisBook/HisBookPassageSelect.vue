@@ -8,6 +8,7 @@
       option-value="value"
       @update:model-value="updatePassage"
       label="Passage from His Holy Book"
+      color="lightblue"
     />
   </div>
 </template>

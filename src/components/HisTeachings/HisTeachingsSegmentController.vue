@@ -66,3 +66,20 @@ export default {
   },
 };
 </script>
+<style scoped>
+
+.inline{
+  display:inline-block;
+}
+.q-gutter-md,
+.q-mr-md,
+.q-ml-md{
+  margin-top:0px;
+}
+.q-gutter-y-md,.q-gutter-md {
+    margin-top: 0px
+}
+.q-gutter-y-md>*,.q-gutter-md>* {
+    margin-top: 0px;
+}
+</style>

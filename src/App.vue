@@ -15,5 +15,6 @@ export default defineComponent({
 }
 .q-page{
   margin:10px;
+  background-color: white;
 }
 </style>

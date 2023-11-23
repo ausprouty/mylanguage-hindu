@@ -12,25 +12,25 @@ export const useLanguageStore = defineStore("languageStore", {
   }),
   getters: {
     getFirstLanguageCodeSelected: (state) => {
-      return state.languageSelected;
+      return localStorage.getItem("languageSelected", state.languageSelected);
     },
     getLanguageSelected: (state) => {
-      return state.languageSelected;
+      return localStorage.getItem("languageSelected", state.languageSelected);
     },
     getBookLesson: (state) => {
-      return state.bookLesson;
+      return localStorage.getItem("bookLesson", state.bookLesson);
     },
     getHisTeachingLesson: (state) => {
-      return state.hisTeachingLesson;
+      return localStorage.getItem("hisTeachingLesson", state.hisTeachingLesson);
     },
     getLeadershipLesson: (state) => {
-      return state.leadershipLesson;
+      return localStorage.getItem("leadershipLesson", state.leadershipLesson);
     },
     getJVideoSegment: (state) => {
-      return state.jVideoSegment;
+      return localStorage.getItem("jVideoSegment", state.jVideoSegment);
     },
     getFollowingHimSegment: (state) => {
-      return state.followingHimSegment;
+      return localStorage.getItem("followingHimSegment", state.followingHimSegment);
     }
   },
   actions: {
