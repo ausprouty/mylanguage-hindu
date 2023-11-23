@@ -28,7 +28,9 @@ export default {
   },
   data() {
     return {
-      study: {},
+      study: {
+        value: 1,
+        label: 'SELECT'},
       supportedPassages: [],
       lesson: 1,
       show:false

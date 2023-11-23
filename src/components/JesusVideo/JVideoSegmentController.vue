@@ -9,11 +9,11 @@
         aria-label="Previous"
         @click="showPreviousSegment"
       />
-      <span class="q-ml-md">Previous Section</span>
+      <span class="q-ml-md">Previous</span>
     </div>
     <q-space class="inline"/>
     <div class="q-gutter-md q-flex items-center inline">
-      <span class="q-mr-md">Next Section</span>
+      <span class="q-mr-md">Next</span>
       <q-btn
         flat
         dense

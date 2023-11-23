@@ -4,8 +4,9 @@
     <p>As you watch the video, ask yourself  "What is this guru like and is he worth following?"</p>
     <p>This video is available in many languages.  To change the language click the world globe above.</p>
     <div> <JVideoSegmentSelect :languageCodeHL= "computedLanguageSelected" @showVideo="handleNewVideoSegment"/></div>
-    <div> <JVideoPlayer :videoSegment="videoSegment"  :languageCodeHL="computedLanguageSelected" /></div>
     <div> <JVideoSegmentController :videoSegment="videoSegment" :languageCodeHL="computedLanguageSelected" @showVideo="handleNewVideoSegment"/></div>
+    <div> <JVideoPlayer :videoSegment="videoSegment"  :languageCodeHL="computedLanguageSelected" /></div>
+
     <div><JVideoQuestions  :languageCodeHL= "computedLanguageSelected" /></div>
  <!-- content -->
   </q-page>

@@ -68,6 +68,9 @@ export default defineComponent({
 })
 </script>
 <style>
+h2{
+  font-size: 2rem;
+}
 .q-toolbar__title{
   font-size: 16px;
 }

@@ -1,12 +1,8 @@
 <template>
   <q-page class="bg-white" padding>
     <p>In order to make any real progress in our spiritual life we know we need a guru -- someone to show us the way, to challenge, correct, guide and help us.</p>
-    <p> We would like to invite you to consider having Lord Jesus as your Guru</p>
-    <p> Lord Jesus:</p>
-    <ul>
-      <li> Never told a Lie</li>
-      <li>Etc</li>
-    </ul>
+    <p> We would like to invite you to consider having Lord Jesus as your Guru. Lord Jesus healed many people.  He never told a lie or hurt anyone.  He was humble. He never married.  He lived a simple live and never used his power to gain wealth. </p>
+
     <table>
     <tr class = "full-width">
       <td class="side-by-side" @click="handleImageClick('/mountain')" clickable v-ripple >
