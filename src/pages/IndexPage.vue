@@ -7,11 +7,37 @@
       <li> Never told a Lie</li>
       <li>Etc</li>
     </ul>
+  
     <q-row>
-      <q-col v-for="(item, index) in this.menuItems" :key="index" cols="6">
-        <q-btn @click="handleImageClick(item.to)" flat>
-          <q-img :src="item.imageSrc" style="max-width: 100%" />
-        </q-btn>
+      <q-col class="side-by-side" to="/mountain" clickable v-ripple >
+        <img  class="menu_picture" src="menu/mountain.png">
+      </q-col>
+      <q-col class="side-by-side" to="/birth" clickable v-ripple>
+        <img  class="menu_picture" src="menu/birth.png">
+       </q-col>
+    </q-row>
+    <q-row>
+      <q-col class="side-by-side" to="/life" clickable v-ripple >
+        <img  class="menu_picture" src="menu/life.png">
+      </q-col>
+      <q-col class="side-by-side" to="/teachings" clickable v-ripple >
+        <img  class="menu_picture" src="menu/teachings.png">
+      </q-col>
+    </q-row>
+    <q-row>
+      <q-col class="side-by-side" to="/book" clickable v-ripple  >
+        <img  class="menu_picture" src="menu/book.png">
+      </q-col>
+      <q-col class="side-by-side" to="/following" clickable v-ripple >
+        <img  class="menu_picture" src="menu/following.png">
+      </q-col>
+    </q-row>
+    <q-row>
+      <q-col class="side-by-side" to="/leadership" clickable v-ripple >
+        <img class="menu_picture" src="menu/leading.png">
+      </q-col>
+      <q-col class="side-by-side" to="/questions" clickable v-ripple >
+          <img class="menu_picture" src="menu/questions.png">
       </q-col>
     </q-row>
   </q-page>
@@ -23,23 +49,9 @@ export default{
   data() {
     return {
       selected: null,
-      menuItems: [
-        { index: 1, to: '/mountain', imageSrc: 'menu/mountain.png' },
-        { index: 2, to: '/birth', imageSrc: 'menu/birth.png' },
-        { index: 3, to: '/life', imageSrc: 'menu/life.png' },
-        { index: 4,to: '/teachings', imageSrc: 'menu/teachings.png' },
-        { index: 5,to: '/book', imageSrc: 'menu/book.png' },
-        { index: 6, to: '/following', imageSrc: 'menu/following.png' },
-        { index: 7, to: '/leadership', imageSrc: 'menu/leading.png' },
-        { index: 8, to: '/questions', imageSrc: 'menu/questions.png' },
-      ],
     };
   },
-  methods: {
-    handleImageClick(to) {
-      this.$router.push(to);
-    },
-  },
+
 
 
 };
@@ -56,22 +68,16 @@ export default{
   padding: 10px; /* Optional: Add padding for content within the element */
 }
 .menu_picture {
-  max-width: 200px;
-  width: calc(100% - 0px);
+  max-width: 250px;
+  width: calc(50% - 10px);
   margin: 0 auto;
   background-color: #f0f0f0; /* Just for visibility */
   padding: 10px; /* Optional: Add padding for content within the element */
 }
 q-col.side-by-side{
-  width:20px;
+  width:45%;
+  padding: 10px;
+
 }
-.xlist{
-  width:100%;
-  max-width: 600px;
-}
-.q-item__section{
-  font-size: 1.5em;
-  font-weight: bold;
-  color: white;
-}
+
 </style>
