@@ -47,7 +47,7 @@ export default {
     },
     lessonSelected: function (newLesson, oldLesson) {
       if (newLesson !== oldLesson ){
-        this.setSelectedValue(newLesson);
+        this.updatePassage(newLesson);
       }
     },
   },

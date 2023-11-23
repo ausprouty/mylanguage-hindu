@@ -69,7 +69,7 @@ export default {
     },
     computedLessonSelected: function (newSession, oldSession) {
       if (newSession !== oldSession) {
-        console.log (this.newSession);
+        console.log (newSession);
         return newSession;
       }
     },
