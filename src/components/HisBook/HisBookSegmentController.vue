@@ -32,6 +32,7 @@ export default {
   name: "HisBookSegmentController",
   props: {
     languageCodeHL: String,
+    lessonSelected: String,
   },
 
   data() {
@@ -50,14 +51,18 @@ export default {
   },
   methods: {
     showNextSegment() {
+
       this.currentSegment = this.languageStore.getBookLesson;
+      console.log(this.currentSegment);
       this.nextSegment = Number(this.currentSegment) + 1
       this.languageStore.updateBookLesson(this.nextSegment);
       console.log(this.nextSegment);
       this.$emit('showTeaching', this.nextSegment)
     },
     showPreviousSegment() {
+
       this.currentSegment = this.languageStore.getBookLesson;
+      console.log(this.currentSegment);
       this.nextSegment = Number(this.currentSegment) - 1
       this.languageStore.updateBookLesson(this.nextSegment);
       console.log(this.nextSegment);

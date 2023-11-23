@@ -10,13 +10,14 @@
       <div>
         <HisBookPassageSelect
           :languageCodeHL="computedLanguageSelected"
-          :session="computedSessionSelected"
+          :lessonSelected="computedLessonSelected"
           @showPassage="handleShowPassage"
         />
       </div>
       <div>
         <HisBookSegmentController
           :languageCodeHL="computedLanguageSelected"
+          :lessonSelected="computedLessonSelected"
           @showTeaching="handleShowPassage"
         />
       </div>
@@ -41,16 +42,14 @@ export default {
   data() {
     return {
       text: "",
-      filename: "HisBook",
-      session: 1,
     };
   },
   setup() {
     const languageStore = useLanguageStore();
-    const firstLanguage = languageStore.getLanguageSelected;
+    const languageSelected= languageStore.getLanguageSelected;
     return {
       languageStore,
-      firstLanguage,
+      languageSelected,
     };
   },
   computed: {
@@ -58,6 +57,7 @@ export default {
       return this.languageStore.getLanguageSelected;
     },
     computedLessonSelected() {
+      console.log (this.languageStore.getBookLesson);
       return this.languageStore.getBookLesson;
     },
   },
@@ -69,21 +69,21 @@ export default {
     },
     computedLessonSelected: function (newSession, oldSession) {
       if (newSession !== oldSession) {
+        console.log (this.newSession);
         return newSession;
       }
     },
   },
 
   methods: {
-    handleShowPassage() {
+    handleShowPassage(lesson) {
       var url =
         "api/dbs/view/" +
-        this.computedLessonSelected +
+        lesson +
         "/" +
         this.computedLanguageSelected;
       console.log(url);
       api.get(url).then((response) => {
-        console.log(response.data);
         this.text = response.data;
       });
     },

@@ -1,5 +1,7 @@
 import { defineStore } from "pinia";
 
+
+
 export const useLanguageStore = defineStore("languageStore", {
   state: () => ({
     languages: [],
@@ -31,38 +33,45 @@ export const useLanguageStore = defineStore("languageStore", {
     },
     getFollowingHimSegment: (state) => {
       return localStorage.getItem("followingHimSegment", state.followingHimSegment);
-    }
+    },
   },
-  actions: {
+
+  actions :{
     updateLanguages(newValue) {
-      this.languages = newValue;
-      localStorage.setItem("languages", JSON.stringify(newValue));
+      var languages = JSON.stringify(newValue);
+      localStorage.setItem('languages', languages);
+      this.llanguages = languages;
     },
     updateLanguageSelected(newValue) {
+      localStorage.setItem('languageSelected' ,newValue);
       this.languageSelected = newValue;
-      localStorage.setItem("languageSelected", newValue);
     },
     updateHisTeachingLesson(newValue) {
+      localStorage.setItem('hisTeachingLesson' ,newValue);
       this.hisTeachingLesson = newValue;
-      localStorage.setItem("hisTeachingLesson", newValue);
     },
     updateLeadershipLesson(newValue) {
+      localStorage.setItem('leadershipLesson' ,newValue);
       this.leadershipLesson = newValue;
-      localStorage.setItem("leadershipLesson", newValue);
     },
     updateBookLesson(newValue) {
-      this.BookLesson = newValue;
-      localStorage.setItem("bookLesson", newValue);
+      localStorage.setItem('bookLesson' ,newValue);
+      this.bookLesson = newValue;
     },
     updateJVideoSegment(newValue) {
+      localStorage.setItem('jVideoSegment' ,newValue);
       this.jVideoSegment = newValue;
-      localStorage.setItem("jVdeoSegment", newValue);
     },
     updateFollowingHimSegment(newValue) {
-      this.followingHimSegmentt = newValue;
-      localStorage.setItem("followingHimSegment", newValue);
+      localStorage.setItem('followingHimSegment' ,newValue);
+      this.followingHimSegment = newValue;
     },
+  }
+});
 
-  },
-}
-);
+export const updateStateAndLocalStorage = (state, key, newValue) => {
+  state[key] = newValue;
+  console.log ('updating '+ key + 'to ' + newValue);
+  localStorage.setItem(key, newValue);
+};
+

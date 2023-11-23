@@ -77,7 +77,6 @@ export default {
         this.computedLanguageSelected;
       console.log(url);
       api.get(url).then((response) => {
-        console.log(response.data);
         this.text = response.data;
       });
     },

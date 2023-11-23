@@ -50,10 +50,12 @@ export default {
   },
   methods: {
     showNextSegment() {
+
       this.currentSegment = this.languageStore.getHisTeachingLesson;
+      console.log(this.currentSegment);
       this.nextSegment = Number(this.currentSegment) + 1
-      this.languageStore.updateHisTeachingLesson(this.nextSegment);
       console.log(this.nextSegment);
+      this.languageStore.updateHisTeachingLesson(this.nextSegment);
       this.$emit('showTeaching', this.nextSegment)
     },
     showPreviousSegment() {
