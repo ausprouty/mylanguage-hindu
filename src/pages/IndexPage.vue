@@ -4,34 +4,16 @@
     <p> We would like to invite you to consider having Lord Jesus as your Guru</p>
     <p> Lord Jesus:</p>
     <ul>
-      <li> Never told a lie</li>
+      <li> Never told a Lie</li>
       <li>Etc</li>
     </ul>
-    <q-table
-      :rows="this.tableRows"
-      :columns="this.tableColumns"
-      row-key="to"
-    >
-      <template v-slot:body-cell-image="props">
-
-        <q-td :props="props">
-          <q-img :src="props.row.imageSrc" style="max-width: 100px" />
-          <pre>{{ props.row.imageSrc }}</pre>
-        </q-td>
-      </template>
-      <template v-slot:body-cell-to="props">
-        <q-td :props="props">
-          <pre>{{ props.row.to }}</pre>
-          <q-btn
-            :to="props.row.to"
-            color="primary"
-            label="props.row.to"
-            dense
-            flat
-          />
-        </q-td>
-      </template>
-    </q-table>
+    <q-row>
+      <q-col v-for="(item, index) in this.menuItems" :key="index" cols="6">
+        <q-btn @click="handleImageClick(item.to)" flat>
+          <q-img :src="item.imageSrc" style="max-width: 100%" />
+        </q-btn>
+      </q-col>
+    </q-row>
   </q-page>
 </template>
 
@@ -42,34 +24,24 @@ export default{
     return {
       selected: null,
       menuItems: [
-        { to: '/mountain', imageSrc: 'menu/mountain.png' },
-        { to: '/birth', imageSrc: 'menu/birth.png' },
-        { to: '/life', imageSrc: 'menu/life.png' },
-        { to: '/teachings', imageSrc: 'menu/teachings.png' },
-        { to: '/book', imageSrc: 'menu/book.png' },
-        { to: '/following', imageSrc: 'menu/following.png' },
-        { to: '/leadership', imageSrc: 'menu/leading.png' },
-        { to: '/questions', imageSrc: 'menu/questions.png' },
+        { index: 1, to: '/mountain', imageSrc: 'menu/mountain.png' },
+        { index: 2, to: '/birth', imageSrc: 'menu/birth.png' },
+        { index: 3, to: '/life', imageSrc: 'menu/life.png' },
+        { index: 4,to: '/teachings', imageSrc: 'menu/teachings.png' },
+        { index: 5,to: '/book', imageSrc: 'menu/book.png' },
+        { index: 6, to: '/following', imageSrc: 'menu/following.png' },
+        { index: 7, to: '/leadership', imageSrc: 'menu/leading.png' },
+        { index: 8, to: '/questions', imageSrc: 'menu/questions.png' },
       ],
     };
   },
-  computed: {
-    tableRows() {
-      const rows = [];
-      var length = this.menuItems.length;
-      console.log (length);
-      for (let i = 0; i < length ; i += 2) {
-        rows.push(this.menuItems.slice(i, i + 2));
-     }
-     return rows;
-    },
-    tableColumns() {
-      return [
-        { name: 'image', required: true, label: 'Image', align: 'center', field: 'imageSrc', format: (val) => val },
-        { name: 'to', required: true, label: 'Action', align: 'center', field: 'to', format: (val) => val },
-      ];
+  methods: {
+    handleImageClick(to) {
+      this.$router.push(to);
     },
   },
+
+
 };
 </script>
 <style scoped>
