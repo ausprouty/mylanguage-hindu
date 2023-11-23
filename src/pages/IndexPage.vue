@@ -7,26 +7,36 @@
       <li> Never told a lie</li>
       <li>Etc</li>
     </ul>
-    <q-table bordered class="list">
-      <q-row v-for="(row, rowIndex) in Math.ceil(menuItems.length / 2)" :key="rowIndex">
-        <q-col class="side-by-side" v-for="colIndex in 2" :key="colIndex" cols="2">
-          <template v-if="menuItems[(rowIndex * 2) + colIndex]">
-            <q-item :to="menuItems[(rowIndex * 2) + colIndex].to" clickable v-ripple>
-              <q-item-section class="menu_item">
-                <img class="menu_picture" :src="menuItems[(rowIndex * 2) + colIndex].imageSrc">
-              </q-item-section>
-            </q-item>
-          </template>
-        </q-col>
-      </q-row>
+    <template>
+  <q-page>
+    <q-table
+      :rows="this.tableRows"
+      :columns="this.tableColumns"
+      row-key="to"
+      :rows-per-page-options="[2]"
+    >
+      <template v-slot:body-cell-image="props">
+        <q-td :props="props">
+          <q-img :src="props.row.imageSrc" style="max-width: 100px" />
+        </q-td>
+      </template>
+      <template v-slot:body-cell-to="props">
+        <q-td :props="props">
+          <q-btn
+            :to="props.row.to"
+            color="primary"
+            label="Go to Page"
+            dense
+            flat
+          />
+        </q-td>
+      </template>
     </q-table>
   </q-page>
 </template>
 
 <script>
-import { defineComponent } from "vue";
-
-export default defineComponent({
+export default{
   name: "IndexPage",
   data() {
     return {
@@ -43,7 +53,24 @@ export default defineComponent({
       ],
     };
   },
-});
+  computed: {
+    tableRows() {
+      const rows = [];
+      var length = this.menuItems.length;
+      console.log (length);
+      for (let i = 0; i < length ; i += 2) {
+        rows.push(this.menuItems.slice(i, i + 2));
+      }
+      return rows;
+    },
+    tableColumns() {
+      return [
+        { name: 'image', required: true, label: 'Image', align: 'center', field: 'imageSrc', format: (val) => val },
+        { name: 'to', required: true, label: 'Action', align: 'center', field: 'to', format: (val) => val },
+      ];
+    },
+  },
+};
 </script>
 <style scoped>
 
