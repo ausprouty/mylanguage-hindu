@@ -1,23 +1,28 @@
 <template>
-  <div>
-    <q-btn
-      flat
-      dense
-      round
-      icon="arrow_back"
-      aria-label="Previous"
-      @click="showPreviousSegment"
-    />
-    Previous Section Next Section
-
-    <q-btn
-      flat
-      dense
-      round
-      icon="arrow_forward"
-      aria-label="Next"
-      @click="showNextSegment"
-    />
+  <div class="q-pa-md q-gutter-md q-flex">
+    <div class="q-gutter-md q-flex items-center inline">
+      <q-btn
+        flat
+        dense
+        round
+        icon="arrow_back"
+        aria-label="Previous"
+        @click="showPreviousSegment"
+      />
+      <span class="q-ml-md">Previous Passage</span>
+    </div>
+    <q-space class="inline"/>
+    <div class="q-gutter-md q-flex items-center inline">
+      <span class="q-mr-md">Next Passage</span>
+      <q-btn
+        flat
+        dense
+        round
+        icon="arrow_forward"
+        aria-label="Next"
+        @click="showNextSegment"
+      />
+    </div>
   </div>
 </template>
 
@@ -31,10 +36,10 @@ export default {
 
   data() {
     return {
-      minSegment: 6101,
-      maxSegment: 6161,
-      nextSegment: 0,
-      nextVideoSegment: "6101-0-0",
+      minSegment: 1,
+      maxSegment: 23,
+      nextSegment: 1,
+
     };
   },
   setup() {
@@ -45,24 +50,18 @@ export default {
   },
   methods: {
     showNextSegment() {
-      console.log(this.videoSegment);
-      this.nextSegment = this.stripVideoSegment(this.videoSegment) + 1;
-      this.nextVideoSegment = this.restoreVideoSegment(this.nextSegment);
-      this.languageStore.updateJVideoSegment(this.nextVideoSegment);
-      console.log(this.vnextVidoSegment);
-      this.$emit("showVideo", this.nextVideoSegment);
+      this.currentSegment = this.languageStore.getHisTeachingLesson;
+      this.nextSegment = Number(this.currentSegment) + 1
+      this.languageStore.updateHisTeachingLesson(this.nextSegment);
+      console.log(this.nextSegment);
+      this.$emit('showTeaching', this.nextSegment)
     },
     showPreviousSegment() {
-      this.nextSegment = this.stripVideoSegment(this.videoSegment) - 1;
-      this.nextVideoSegment = this.restoreVideoSegment(this.nextSegment);
-      this.languageStore.updateJVideoSegment(this.nextVideoSegment);
-      this.$emit("showVideo", this.nextVideoSegment);
-    },
-    stripVideoSegment(segment) {
-      return segment.replace("-0-0", "");
-    },
-    restoreVideoSegment(segment) {
-      return segment + "-0-0";
+      this.currentSegment = this.languageStore.getHisTeachingLesson;
+      this.nextSegment = Number(this.currentSegment) - 1
+      this.languageStore.updateHisTeachingLesson(this.nextSegment);
+      console.log(this.nextSegment);
+      this.$emit('showTeaching', this.nextSegment)
     },
   },
 };

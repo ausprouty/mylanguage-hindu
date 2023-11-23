@@ -39,7 +39,7 @@ export default {
       minSegment: 1,
       maxSegment: 25,
       nextSegment: 0,
-      currentSegment:0
+      currentSegment:1
     };
   },
   setup() {
@@ -50,23 +50,23 @@ export default {
   },
   methods: {
     showNextSegment() {
-      this.currentSegment = this.languageStore.getLeadershipLesson;
+      this.currentSegment = this.languageStore.getBookLesson;
       this.nextSegment = Number(this.currentSegment) + 1
-      this.languageStore.updateLeadershipLesson(this.nextSegment);
+      this.languageStore.updateBookLesson(this.nextSegment);
       console.log(this.nextSegment);
       this.$emit('showTeaching', this.nextSegment)
     },
     showPreviousSegment() {
-      this.currentSegment = this.languageStore.getLeadershipLesson;
+      this.currentSegment = this.languageStore.getBookLesson;
       this.nextSegment = Number(this.currentSegment) - 1
-      this.languageStore.updateLeadershipLesson(this.nextSegment);
+      this.languageStore.updateBookLesson(this.nextSegment);
       console.log(this.nextSegment);
       this.$emit('showTeaching', this.nextSegment)
     },
   },
 };
 </script>
-<style scoped>
+<style >
 
 .inline{
   display:inline-block;

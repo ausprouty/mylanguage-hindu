@@ -73,17 +73,7 @@ export default {
         this.languageStore.updateBookLesson(this.study.value);
 
       }
-      var url =
-        "api/dbs/view/" +
-        this.lesson +
-        "/" +
-        this.languageCodeHL
-      console.log (url)
-      api.get(url).then((response) => {
-        console.log(response);
-        this.$emit('showPassage', response.data)
-
-      });
+      this.$emit('showPassage', this.lesson)
     },
   }
 };

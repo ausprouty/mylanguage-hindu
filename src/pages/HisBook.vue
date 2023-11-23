@@ -54,9 +54,21 @@ export default {
       }
     }
   },
+
   methods: {
-    handleShowPassage(response) {
-      this.text =  response
+    handleShowPassage(lesson) {
+      var url =
+        "api/dbs/view/" +
+        lesson +
+        "/" +
+        this.computedLanguageSelected
+      console.log (url)
+      api.get(url).then((response) => {
+        console.log(response.data);
+        this.text =  response.data
+
+
+      });
     },
   },
 };

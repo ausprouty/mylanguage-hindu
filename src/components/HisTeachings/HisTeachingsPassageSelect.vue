@@ -70,17 +70,7 @@ export default {
         this.session = this.lesson.value
         this.languageStore.updateHisTeachingLesson(this.lesson.value);
       }
-      var url =
-        "api/life_principles/view/" +
-        this.session +
-        "/" +
-        this.languageCodeHL
-      console.log (url)
-      api.get(url).then((response) => {
-        console.log(response);
-        this.$emit('showTeaching', response.data)
-
-      });
+      this.$emit('showTeaching', this.session)
     },
   }
 
