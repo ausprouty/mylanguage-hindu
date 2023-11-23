@@ -7,25 +7,25 @@
       <li> Never told a lie</li>
       <li>Etc</li>
     </ul>
-    <template>
-  <q-page>
     <q-table
       :rows="this.tableRows"
       :columns="this.tableColumns"
       row-key="to"
-      :rows-per-page-options="[2]"
     >
       <template v-slot:body-cell-image="props">
+
         <q-td :props="props">
           <q-img :src="props.row.imageSrc" style="max-width: 100px" />
+          <pre>{{ props.row.imageSrc }}</pre>
         </q-td>
       </template>
       <template v-slot:body-cell-to="props">
         <q-td :props="props">
+          <pre>{{ props.row.to }}</pre>
           <q-btn
             :to="props.row.to"
             color="primary"
-            label="Go to Page"
+            label="props.row.to"
             dense
             flat
           />
@@ -60,8 +60,8 @@ export default{
       console.log (length);
       for (let i = 0; i < length ; i += 2) {
         rows.push(this.menuItems.slice(i, i + 2));
-      }
-      return rows;
+     }
+     return rows;
     },
     tableColumns() {
       return [
