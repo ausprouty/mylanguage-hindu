@@ -2,15 +2,27 @@
   <q-page padding>
     <h2>His Holy Book</h2>
     <p>His Holy Book starts with the time before there were any people.</p>
-    <p>It then tells the story of how the first two people interacted with God.</p>
+    <p>
+      It then tells the story of how the first two people interacted with God.
+    </p>
     <p>Read how God prepared people for the arrival of Lord Jesus.</p>
     <div>
-      <div><HisBookPassageSelect :languageCodeHL= "computedLanguageSelected" @showPassage="handleShowPassage" /></div>
-      <div> <HisBookSegmentController :languageCodeHL="computedLanguageSelected" @showTeaching="handleShowPassage"/></div>
-      <hr/>
+      <div>
+        <HisBookPassageSelect
+          :languageCodeHL="computedLanguageSelected"
+          :session="computedSessionSelected"
+          @showPassage="handleShowPassage"
+        />
+      </div>
+      <div>
+        <HisBookSegmentController
+          :languageCodeHL="computedLanguageSelected"
+          @showTeaching="handleShowPassage"
+        />
+      </div>
+      <hr />
       <div v-html="this.text"></div>
     </div>
-
   </q-page>
 </template>
 
@@ -24,8 +36,7 @@ export default {
   name: "HisBook",
   components: {
     HisBookPassageSelect,
-    HisBookSegmentController
-
+    HisBookSegmentController,
   },
   data() {
     return {
@@ -34,40 +45,46 @@ export default {
       session: 1,
     };
   },
-  setup () {
+  setup() {
     const languageStore = useLanguageStore();
-    const firstLanguage = languageStore.getFirstLanguageCodeSelected
+    const firstLanguage = languageStore.getLanguageSelected;
     return {
       languageStore,
-      firstLanguage
-    }
+      firstLanguage,
+    };
   },
   computed: {
     computedLanguageSelected() {
-      return this.languageStore.getFirstLanguageCodeSelected;
-    }
+      return this.languageStore.getLanguageSelected;
+    },
+    computedLessonSelected() {
+      return this.languageStore.getBookLesson;
+    },
   },
   watch: {
     computedLanguageSelected: function (newLanguage, oldLanguage) {
       if (newLanguage !== oldLanguage) {
         return newLanguage;
       }
-    }
+    },
+    computedLessonSelected: function (newSession, oldSession) {
+      if (newSession !== oldSession) {
+        return newSession;
+      }
+    },
   },
 
   methods: {
-    handleShowPassage(lesson) {
+    handleShowPassage() {
       var url =
         "api/dbs/view/" +
-        lesson +
+        this.computedLessonSelected +
         "/" +
-        this.computedLanguageSelected
-      console.log (url)
+        this.computedLanguageSelected;
+      console.log(url);
       api.get(url).then((response) => {
         console.log(response.data);
-        this.text =  response.data
-
-
+        this.text = response.data;
       });
     },
   },

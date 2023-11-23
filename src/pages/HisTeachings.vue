@@ -2,14 +2,29 @@
   <q-page padding>
     <div>
       <h2>His Teachings</h2>
-      <p>These are some of the things that Lord Jesus and his early followers taught.</p>
-      <p>Many people have seen their lives transformed as they asked Lord Jesus to give them the power to put these teachings into action</p>
-      <div><HisTeachingsPassageSelect :languageCodeHL= "computedLanguageSelected" @showTeaching="handleShowTeaching" /></div>
-      <div> <HisTeachingsSegmentController :languageCodeHL="computedLanguageSelected" @showTeaching="handleShowTeaching"/></div>
+      <p>
+        These are some of the things that Lord Jesus and his early followers
+        taught.
+      </p>
+      <p>
+        Many people have seen their lives transformed as they asked Lord Jesus
+        to give them the power to put these teachings into action
+      </p>
+      <div>
+        <HisTeachingsPassageSelect
+          :languageCodeHL="computedLanguageSelected"
+          @showTeaching="handleShowTeaching"
+        />
+      </div>
+      <div>
+        <HisTeachingsSegmentController
+          :languageCodeHL="computedLanguageSelected"
+          @showTeaching="handleShowTeaching"
+        />
+      </div>
 
       <hr />
       <div v-html="this.text"></div>
-
     </div>
   </q-page>
 </template>
@@ -19,8 +34,6 @@ import { useLanguageStore } from "stores/LanguageStore";
 import { api } from "boot/axios";
 import HisTeachingsPassageSelect from "components/HisTeachings/HisTeachingsPassageSelect.vue";
 import HisTeachingsSegmentController from "src/components/HisTeachings/HisTeachingsSegmentController.vue";
-
-
 
 export default {
   name: "HisTeachings",
@@ -35,25 +48,25 @@ export default {
       session: 1,
     };
   },
-  setup () {
+  setup() {
     const languageStore = useLanguageStore();
-    const firstLanguage = languageStore.getFirstLanguageCodeSelected
+    const firstLanguage = languageStore.getLanguageSelected;
     return {
       languageStore,
-      firstLanguage
-    }
+      firstLanguage,
+    };
   },
   computed: {
     computedLanguageSelected() {
-      return this.languageStore.getFirstLanguageCodeSelected;
-    }
+      return this.languageStore.getLanguageSelected;
+    },
   },
   watch: {
     computedLanguageSelected: function (newLanguage, oldLanguage) {
       if (newLanguage !== oldLanguage) {
         return newLanguage;
       }
-    }
+    },
   },
   methods: {
     handleShowTeaching(lesson) {
@@ -61,16 +74,14 @@ export default {
         "api/life_principles/view/" +
         lesson +
         "/" +
-        this.computedLanguageSelected
-      console.log (url)
+        this.computedLanguageSelected;
+      console.log(url);
       api.get(url).then((response) => {
         console.log(response.data);
-        this.text =  response.data
-
-
+        this.text = response.data;
       });
     },
-  }
+  },
 };
 </script>
 

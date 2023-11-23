@@ -20,6 +20,7 @@ export default {
   name: "HisBookPassageSelect",
   props: {
     languageCodeHL: String,
+    lessonSelected: Number,
   },
   setup() {
     const languageStore = useLanguageStore();
@@ -30,7 +31,7 @@ export default {
   data() {
     return {
       study: {
-        value: 1,
+        value: this.lessonSelected,
         label: 'SELECT'},
       supportedPassages: [],
       lesson: 1,

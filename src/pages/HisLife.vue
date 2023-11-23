@@ -1,14 +1,36 @@
 <template>
   <q-page padding>
     <h2>His Life</h2>
-    <p>As you watch the video, ask yourself  "What is this guru like and is he worth following?"</p>
-    <p>This video is available in many languages.  To change the language click the world globe above.</p>
-    <div> <JVideoSegmentSelect :languageCodeHL= "computedLanguageSelected" @showVideo="handleNewVideoSegment"/></div>
-    <div> <JVideoSegmentController :videoSegment="videoSegment" :languageCodeHL="computedLanguageSelected" @showVideo="handleNewVideoSegment"/></div>
-    <div> <JVideoPlayer :videoSegment="videoSegment"  :languageCodeHL="computedLanguageSelected" /></div>
+    <p>
+      As you watch the video, ask yourself "What is this guru like and is he
+      worth following?"
+    </p>
+    <p>
+      This video is available in many languages. To change the language click
+      the world globe above.
+    </p>
+    <div>
+      <JVideoSegmentSelect
+        :languageCodeHL="computedLanguageSelected"
+        @showVideo="handleNewVideoSegment"
+      />
+    </div>
+    <div>
+      <JVideoSegmentController
+        :videoSegment="videoSegment"
+        :languageCodeHL="computedLanguageSelected"
+        @showVideo="handleNewVideoSegment"
+      />
+    </div>
+    <div>
+      <JVideoPlayer
+        :videoSegment="videoSegment"
+        :languageCodeHL="computedLanguageSelected"
+      />
+    </div>
 
-    <div><JVideoQuestions  :languageCodeHL= "computedLanguageSelected" /></div>
- <!-- content -->
+    <div><JVideoQuestions :languageCodeHL="computedLanguageSelected" /></div>
+    <!-- content -->
   </q-page>
 </template>
 
@@ -18,53 +40,52 @@ import JVideoSegmentSelect from "src/components/JesusVideo/JVideoSegmentSelect.v
 import JVideoSegmentController from "src/components/JesusVideo/JVideoSegmentController.vue";
 import JVideoQuestions from "src/components/JesusVideo/JVideoQuestions.vue";
 import { useLanguageStore } from "stores/LanguageStore";
-import { computed } from 'vue'
+import { computed } from "vue";
 
 export default {
-   name: 'HisLife',
-   components: {
+  name: "HisLife",
+  components: {
     JVideoPlayer,
     JVideoSegmentSelect,
     JVideoSegmentController,
-    JVideoQuestions
-
+    JVideoQuestions,
   },
   data() {
     return {
-      videoSegment: '6101-0-0',
-      languageSelected: this.languageStore.getFirstLanguageCodeSelected
+      videoSegment: "6101-0-0",
+      languageSelected: this.languageStore.getLanguageSelected,
     };
   },
-  setup () {
+  setup() {
     const languageStore = useLanguageStore();
-    const firstLanguage = languageStore.getFirstLanguageCodeSelected
+    const firstLanguage = languageStore.getLanguageSelected;
     return {
       languageStore,
-      firstLanguage
-    }
+      firstLanguage,
+    };
   },
   computed: {
     computedLanguageSelected() {
-      return this.languageStore.getFirstLanguageCodeSelected;
-    }
+      return this.languageStore.getLanguageSelected;
+    },
   },
   watch: {
     computedLanguageSelected: function (newLanguage, oldLanguage) {
       if (newLanguage !== oldLanguage) {
         return newLanguage;
       }
-    }
+    },
   },
 
-  methods:{
-    handleNewVideoSegment(response){
-      this.videoSegment = response
-    }
-  }
-
-}
+  methods: {
+    handleNewVideoSegment(response) {
+      this.videoSegment = response;
+    },
+  },
+};
 </script>
 <style>
-.q-page{
+.q-page {
   background-color: white;
-}</style>
+}
+</style>

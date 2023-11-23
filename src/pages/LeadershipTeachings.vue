@@ -2,13 +2,25 @@
   <q-page padding>
     <div>
       <h2>Leading Others</h2>
-      <p>The Lord Jesus said that his devotees should tell everyone on earth what He has accomplished for them.</p>
-      <div><LeadershipPassageSelect :languageCodeHL= "computedLanguageSelected" @showTeaching="handleShowTeaching" /></div>
-      <div> <LeadershipSegmentController :languageCodeHL="computedLanguageSelected" @showTeaching="handleShowTeaching"/></div>
+      <p>
+        The Lord Jesus said that his devotees should tell everyone on earth what
+        He has accomplished for them.
+      </p>
+      <div>
+        <LeadershipPassageSelect
+          :languageCodeHL="computedLanguageSelected"
+          @showTeaching="handleShowTeaching"
+        />
+      </div>
+      <div>
+        <LeadershipSegmentController
+          :languageCodeHL="computedLanguageSelected"
+          @showTeaching="handleShowTeaching"
+        />
+      </div>
 
       <hr />
       <div v-html="this.text"></div>
-
     </div>
   </q-page>
 </template>
@@ -32,42 +44,37 @@ export default {
       session: 1,
     };
   },
-  setup () {
+  setup() {
     const languageStore = useLanguageStore();
-    const firstLanguage = languageStore.getFirstLanguageCodeSelected
+    const firstLanguage = languageStore.getLanguageSelected;
     return {
       languageStore,
-      firstLanguage
-    }
+      firstLanguage,
+    };
   },
   computed: {
     computedLanguageSelected() {
-      return this.languageStore.getFirstLanguageCodeSelected;
-    }
+      return this.languageStore.getLanguageSelected;
+    },
   },
   watch: {
     computedLanguageSelected: function (newLanguage, oldLanguage) {
       if (newLanguage !== oldLanguage) {
         return newLanguage;
       }
-    }
+    },
   },
   methods: {
     handleShowTeaching(lesson) {
       var url =
-        "api/leadership/view/" +
-        lesson +
-        "/" +
-        this.computedLanguageSelected
-      console.log (url)
+        "api/leadership/view/" + lesson + "/" + this.computedLanguageSelected;
+      console.log(url);
       api.get(url).then((response) => {
         console.log(response.data);
-        this.text =  response.data
-
-
+        this.text = response.data;
       });
     },
-  }
+  },
 };
 </script>
 
