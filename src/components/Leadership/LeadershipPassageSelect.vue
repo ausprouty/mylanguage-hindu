@@ -1,8 +1,8 @@
 <template>
-  <div v-if ="show">
+  <div >
     <q-select
       filled
-      v-model="lesson"
+      v-model="selectedValue"
       :options="lessons"
       option-label="label"
       option-value="value"
@@ -28,13 +28,12 @@ export default {
   },
   data() {
     return {
-      lesson : {
+      selectedValue : {
         label: 'Select Value',
         value: 1
       },
       lessons: [],
-      session: 1,
-      show:false
+
     };
   },
   watch: {
@@ -42,11 +41,21 @@ export default {
       if (newLanguage !== oldLanguage) {
         this.getLessonList(newLanguage);
       }
+    },
+    currentSegment: function (newLesson, oldLesson) {
+      if (newLesson !== oldLesson) {
+        this.updateSelectBar(newLesson);
+
+      }
     }
+  },
+  computed: {
+    currentSegment() {
+      return this.languageStore.getLeadershipLesson;
+    },
   },
   created() {
     this.getLessonList(this.languageCodeHL);
-    this.languageStore.updateHisTeachingLesson(this.lesson);
     this.updateLesson();
   },
   methods: {
@@ -59,28 +68,30 @@ export default {
           label: item.title,
           value: item.lesson,
         }));
-        console.log (this.lessons)
-        this.show = true
+        this.updateSelectBar(this.currentSegment);
       });
     },
     updateLesson() {
-      if (typeof this.lesson.value === 'undefined'){
-        this.session = this.languageStore.getLeadershipLesson;
+      this.languageStore.updateLeadershipLesson(this.selectedValue.value);
+      this.$emit('showTeaching', this.selectedValue.value)
+    },
+    updateSelectBar(key){
+      key = key-1;
+      if (key >= 0){
+        this.selectedValue.label = this.lessons[key].label;
+        this.selectedValue.value = this.lessons[key].value;
       }
       else{
-        this.session = this.lesson.value
-        this.languageStore.updateLeadershipLesson(this.lesson.value);
+        this.selectedValue.label = 'SELECT';
+        this.selectedValue.value = 1;
       }
-      this.$emit('showTeaching', this.session)
     },
   }
 
 };
 </script>
 <style scoped>
-
-.q-item__label{
-  color:black;
+.q-item__label {
+  color: black;
 }
 </style>
-

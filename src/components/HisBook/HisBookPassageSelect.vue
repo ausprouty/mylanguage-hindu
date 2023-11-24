@@ -1,5 +1,5 @@
 <template>
-  <div  v-if ="show">
+  <div >
     <q-select
       filled
       v-model="selectedValue"
@@ -35,8 +35,6 @@ export default {
         value: 1,
       },
       supportedPassages: [],
-      lesson: 1,
-      show:false
     };
   },
   watch: {
@@ -45,20 +43,22 @@ export default {
         this.getLessonList(newLanguage);
       }
     },
-    lessonSelected: function (newLesson, oldLesson) {
+    currentSegment: function (newLesson, oldLesson) {
       if (newLesson !== oldLesson ){
-        this.updatePassage(newLesson);
+        this.updateSelectBar(newLesson);
       }
     },
   },
-  created() {
-    console.log (this.lessonSelected);
-    this.updatePassage();
-    this.getLessonList(this.languageCodeHL);
+  computed: {
+    currentSegment() {
+      return this.languageStore.getBookLesson;
+    },
   },
-
+  created() {
+    this.getLessonList(this.languageCodeHL);
+    this.updatePassage();
+  },
   methods: {
-
     getLessonList(languageCodeHL) {
       var url = "api/dbs/studies/" + languageCodeHL;
       console.log (url)
@@ -68,27 +68,25 @@ export default {
           label: item.title,
           value: item.lesson,
         }));
-        this.updateSelectBar()
-        this.show = true
+        this.updateSelectBar(this.currentSegment)
       });
     },
-    updateSelectBar(){
-      console.log (this.lessonSelected);
-      var arrayIndex = Number(this.lessonSelected) -1;
-      if (arrayIndex >= 0){
-        this.selectedValue.label = this.supportedPassages[arrayIndex].label;
-        this.selectedValue.value = this.supportedPassages[arrayIndex].value;
+    updatePassage() {
+      this.languageStore.updateBookLesson(this.selectedValue.value);
+      this.$emit('showPassage', this.selectedValue.value)
+    },
+    updateSelectBar(key){
+      key = key-1;
+      if (key >= 0){
+        this.selectedValue.label = this.supportedPassages[key].label;
+        this.selectedValue.value = this.supportedPassages[key].value;
       }
       else{
         this.selectedValue.label = 'SELECT';
         this.selectedValue.value = 1;
       }
     },
-    updatePassage() {
-      this.lesson = this.selectedValue.value
-      this.languageStore.updateBookLesson(this.selectedValue.value);
-      this.$emit('showPassage', this.lesson)
-    },
+
   }
 };
 </script>
