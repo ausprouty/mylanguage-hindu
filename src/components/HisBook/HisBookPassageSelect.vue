@@ -20,7 +20,6 @@ export default {
   name: "HisBookPassageSelect",
   props: {
     languageCodeHL: String,
-    lessonSelected:String,
   },
   setup() {
     const languageStore = useLanguageStore();
@@ -56,7 +55,7 @@ export default {
   },
   created() {
     this.getLessonList(this.languageCodeHL);
-    this.updatePassage();
+
   },
   methods: {
     getLessonList(languageCodeHL) {
@@ -69,6 +68,7 @@ export default {
           value: item.lesson,
         }));
         this.updateSelectBar(this.currentSegment)
+        this.updatePassage();
       });
     },
     updatePassage() {

@@ -55,7 +55,6 @@ export const useLanguageStore = defineStore("languageStore", {
       this.leadershipLesson = newValue;
     },
     updateBookLesson(newValue) {
-      alert ('I Updated Book Lesson with: ' + newValue )
       localStorage.setItem('bookLesson' ,newValue);
       this.bookLesson = newValue;
     },

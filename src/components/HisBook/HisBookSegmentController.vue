@@ -32,7 +32,6 @@ export default {
   name: "HisBookSegmentController",
   props: {
     languageCodeHL: String,
-    lessonSelected: String,
   },
 
   data() {
@@ -62,7 +61,6 @@ export default {
       this.$emit('showTeaching', this.nextSegment)
     },
     showPreviousSegment() {
-
       console.log(this.currentSegment);
       this.nextSegment = Number(this.currentSegment) - 1
       this.languageStore.updateBookLesson(this.nextSegment);

@@ -55,8 +55,6 @@ export default {
   },
   created() {
     this.getLessonList(this.languageCodeHL);
-
-
   },
   methods: {
     getLessonList(languageCodeHL) {

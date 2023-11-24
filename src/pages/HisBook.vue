@@ -10,14 +10,12 @@
       <div>
         <HisBookPassageSelect
           :languageCodeHL="computedLanguageSelected"
-          :lessonSelected="computedLessonSelected"
           @showPassage="handleShowPassage"
         />
       </div>
       <div>
         <HisBookSegmentController
           :languageCodeHL="computedLanguageSelected"
-          :lessonSelected="computedLessonSelected"
           @showTeaching="handleShowPassage"
         />
       </div>
