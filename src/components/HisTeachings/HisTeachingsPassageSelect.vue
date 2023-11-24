@@ -41,7 +41,18 @@ export default {
       if (newLanguage !== oldLanguage) {
         this.getLessonList(newLanguage);
       }
+    },
+    currentSegment: function (newLesson, oldLesson) {
+      if (newLesson !== oldLesson) {
+        this.updateSelectBar(newLesson);
+
+      }
     }
+  },
+  computed: {
+    currentSegment() {
+      return this.languageStore.getHisTeachingLesson;
+    },
   },
   created() {
     this.updateLesson();
@@ -58,7 +69,7 @@ export default {
           label: item.title,
           value: item.lesson,
         }));
-        this.show = true
+        this.updateSelectBar(this.currentSegment);
       });
     },
 
@@ -66,12 +77,11 @@ export default {
       this.languageStore.updateHisTeachingLesson(this.selectedValue.value);
       this.$emit('showTeaching', this.selectedValue.value)
     },
-    updateSelectBar(){
-      console.log (this.lessonSelected);
-      var arrayIndex = Number(this.selectedValue.value) -1;
-      if (arrayIndex >= 0){
-        this.selectedValue.label = this.lessons[arrayIndex].label;
-        this.selectedValue.value = this.lessons[arrayIndex].value;
+    updateSelectBar(key){
+      key = key-1;
+      if (key >= 0){
+        this.selectedValue.label = this.lessons[key].label;
+        this.selectedValue.value = this.lessons[key].value;
       }
       else{
         this.selectedValue.label = 'SELECT';
