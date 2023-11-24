@@ -56,7 +56,7 @@ export default {
   },
   created() {
     this.getLessonList(this.languageCodeHL);
-    this.updateLesson();
+
   },
   methods: {
     getLessonList(languageCodeHL) {
@@ -69,6 +69,7 @@ export default {
           value: item.lesson,
         }));
         this.updateSelectBar(this.currentSegment);
+        this.updateLesson();
       });
     },
     updateLesson() {
