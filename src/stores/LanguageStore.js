@@ -9,7 +9,7 @@ export const useLanguageStore = defineStore("languageStore", {
     hisTeachingLesson: 1,
     leadershipLesson: 1,
     bookLesson: 1,
-    jVideoSegment: 1,
+    jVideoSegment: '6101-0-0',
     followingHimSegment: 1,
   }),
   getters: {

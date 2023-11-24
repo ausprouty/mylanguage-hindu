@@ -1,13 +1,13 @@
 <template>
   <div>
-    <div v-if="show">
+    <div >
       <q-select
         filled
-        v-model="segment"
+        v-model="selectedValue"
         :options="segments"
         option-label="title"
         option-value="videoSegment"
-        @update:model-value="updateSegment"
+        @update:model-value="updateLesson"
         label="Video Segment"
       />
   </div>
@@ -30,10 +30,12 @@ export default {
   },
   data() {
     return {
-      segment: null,
+      selectedValue : {
+        videoSegment: '6101-0-0',
+        title: 'SELECT'
+      },
       segments: [],
       video: null,
-      show:false
     };
   },
   watch: {
@@ -41,12 +43,22 @@ export default {
       if (newLanguage !== oldLanguage) {
         this.getSegmentList(newLanguage);
       }
+    },
+    currentSegment: function (newLesson, oldLesson) {
+      if (newLesson !== oldLesson) {
+        this.updateSelectBar(newLesson);
+
+      }
     }
   },
-
+  computed: {
+    currentSegment() {
+      return this.languageStore.getJVideoSegment;
+    },
+  },
   created() {
     this.getSegmentList( this.languageCodeHL);
-    this.languageStore.updateJVideoSegment(this.segment);
+    this.updateLesson();
   },
   methods: {
     getSegmentList(languageCodeHL) {
@@ -54,12 +66,21 @@ export default {
       console.log(url);
       api.get(url).then((response) => {
         this.segments = response.data;
+        this.updateSelectBar(this.currentSegment);
       });
-      this.show = true;
     },
-    updateSegment() {
-      this.languageStore.updateJVideoSegment(this.segment.videoSegment);
-      this.$emit('showVideo',this.segment.videoSegment)
+    updateLesson() {
+      this.languageStore.updateJVideoSegment(this.selectedValue.videoSegment);
+      this.$emit('showVideo',this.selectedValue.videoSegment)
+    },
+    updateSelectBar(currentSegment){
+
+      for (var i = 0; i< this.segments.length; i++){
+        console.log (this.segments[i].videoSegment);
+        if (this.segments[i].videoSegment == currentSegment){
+          this.selectedValue = this.segments[i];
+        }
+      }
     },
   },
 };

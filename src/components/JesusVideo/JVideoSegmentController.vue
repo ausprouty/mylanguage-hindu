@@ -1,6 +1,6 @@
 <template>
   <div class="q-pa-md q-gutter-md q-flex">
-    <div class="q-gutter-md q-flex items-center inline">
+    <div  v-if="this.currentSegment > this.minSegment"  class="q-gutter-md q-flex items-center inline">
       <q-btn
         flat
         dense
@@ -12,7 +12,7 @@
       <span class="q-ml-md">Previous</span>
     </div>
     <q-space class="inline"/>
-    <div class="q-gutter-md q-flex items-center inline">
+    <div v-if="this.currentSegment < this.maxSegment"  class="q-gutter-md q-flex items-center inline">
       <span class="q-mr-md">Next</span>
       <q-btn
         flat
@@ -37,11 +37,16 @@ export default {
 
   data() {
     return {
-      minSegment: 6101,
-      maxSegment: 6161,
+      minSegment: '6101-0-0',
+      maxSegment: '6161-0-0',
       nextSegment: 0,
-      nextVideoSegment: "6101-0-0",
+      nextVideoSegment: '6101-0-0',
     };
+  },
+  computed: {
+    currentSegment() {
+      return this.languageStore.jVideoSegment;
+    },
   },
   setup() {
     const languageStore = useLanguageStore();
@@ -66,7 +71,6 @@ export default {
     },
     stripVideoSegment(segment) {
       var strip = parseInt(segment, 10);
-      console.log(strip);
       return strip;
     },
     restoreVideoSegment(segment) {

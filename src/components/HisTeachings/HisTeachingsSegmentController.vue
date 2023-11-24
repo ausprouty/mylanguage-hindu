@@ -53,9 +53,7 @@ export default {
       languageStore,
     };
   },
-  created(){
-    console.log (this.currentSegment);
-  },
+
   methods: {
     showNextSegment() {
 
