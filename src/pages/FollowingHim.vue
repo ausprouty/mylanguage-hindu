@@ -57,7 +57,7 @@ export default {
     };
   },
   created(){
-     if (typeof this.$route.params.lessonLink !== 'undefined'){
+     if (this.$route.params.lessonLink !== ''){
       this.languageStore.updateFollowingHimSegment(this.$route.params.lessonLink);
      }
   },

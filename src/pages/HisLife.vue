@@ -44,7 +44,8 @@ import { computed } from "vue";
 export default {
   name: "HisLife",
   props:{
-    lessonLink : Number
+    lessonLink : Number,
+    languageCode: String
   },
   components: {
     JVideoPlayer,
@@ -67,8 +68,11 @@ export default {
     };
   },
   created(){
-     if (typeof this.$route.params.lessonLink !== 'undefined'){
+     if (this.$route.params.lessonLink !== ''){
       this.languageStore.updateHisLifeLesson(this.$route.params.lessonLink);
+     }
+     if (this.$route.params.languageCode !== ''){
+      this.languageStore.updateLanguageSelected(this.$route.params.languageCode);
      }
   },
   computed: {

@@ -21,17 +21,17 @@ const routes = [
       },
       {
         name: 'HisLife',
-        path: '/life/:lessonLink?',
+        path: '/life/:lessonLink?/:languageCode?',
         component: () => import('src/pages/HisLife.vue')
       },
       {
         name: 'HisTeachings',
-        path: '/teachings/:lessonLink?',
+        path: '/teachings/:lessonLink?/:languageCode?',
         component: () => import('pages/HisTeachings.vue')
       },
       {
         name: 'HisBook',
-        path: '/book/:lessonLink?',
+        path: '/book/:lessonLink?/:languageCode?',
         component: () => import('pages/HisBook.vue')
       },
 
@@ -42,7 +42,7 @@ const routes = [
     },
     {
       name: 'LeadershipTeachings',
-      path: '/leadership/:lessonLink?',
+      path: '/leadership/:lessonLink?/:languageCode?',
       component: () => import('pages/LeadershipTeachings.vue')
     },
     {

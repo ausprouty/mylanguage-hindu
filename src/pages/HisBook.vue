@@ -36,7 +36,8 @@ import HisBookSegmentController from "src/components/HisBook/HisBookSegmentContr
 export default {
   name: "HisBook",
   props:{
-    lessonLink : Number
+    lessonLink : Number,
+    languageCode: String
   },
   components: {
     HisBookPassageSelect,
@@ -56,8 +57,11 @@ export default {
     };
   },
   created(){
-     if (typeof this.$route.params.lessonLink !== 'undefined'){
+     if (this.$route.params.lessonLink !== ''){
       this.languageStore.updateBookLesson(this.$route.params.lessonLink);
+     }
+     if (this.$route.params.languageCode !== ''){
+      this.languageStore.updateLanguageSelected(this.$route.params.languageCode);
      }
   },
   computed: {
@@ -82,7 +86,6 @@ export default {
       }
     },
   },
-
   methods: {
     handleShowPassage(lesson) {
       var url =

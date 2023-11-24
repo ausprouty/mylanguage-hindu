@@ -38,7 +38,8 @@ import HisTeachingsSegmentController from "src/components/HisTeachings/HisTeachi
 export default {
   name: "HisTeachings",
   props:{
-    lessonLink : Number
+    lessonLink : Number,
+    languageCode: String
   },
   components: {
     HisTeachingsPassageSelect,
@@ -58,8 +59,12 @@ export default {
     };
   },
   created(){
-     if (typeof this.$route.params.lessonLink !== 'undefined'){
+    console.log (this.$route.params)
+     if (this.$route.params.lessonLink !== ''){
       this.languageStore.updateHisTeachingLesson(this.$route.params.lessonLink);
+     }
+     if (this.$route.params.languageCode !== ''){
+      this.languageStore.updateLanguageSelected(this.$route.params.languageCode);
      }
   },
   computed: {
