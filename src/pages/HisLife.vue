@@ -24,7 +24,6 @@
     </div>
     <div>
       <JVideoPlayer
-        :videoSegment="videoSegment"
         :languageCodeHL="computedLanguageSelected"
       />
     </div>
@@ -52,7 +51,7 @@ export default {
   },
   data() {
     return {
-      videoSegment: "6101-0-0",
+
       languageSelected: this.languageStore.getLanguageSelected,
     };
   },

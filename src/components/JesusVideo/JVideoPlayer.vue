@@ -4,11 +4,11 @@
 
 <script>
 import { api } from "boot/axios";
+import { useLanguageStore } from "stores/LanguageStore";
 
 export default {
   name: "JVideoPlayer",
   props: {
-    videoSegment: String,
     languageCodeHL: String,
   },
   data() {
@@ -19,6 +19,12 @@ export default {
       iframeEnd:
         '&playerStyle=default" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>',
       videoIframe: null,
+    };
+  },
+  setup() {
+    const languageStore = useLanguageStore();
+    return {
+      languageStore,
     };
   },
 
@@ -35,6 +41,11 @@ export default {
       if (newVideoSegment !== oldVideoSegment) {
         this.updateVideoIframe(this.languageCodeHL, newVideoSegment);
       }
+    },
+  },
+  computed: {
+    videoSegment() {
+      return this.languageStore.getJVideoSegment;
     },
   },
   methods: {
