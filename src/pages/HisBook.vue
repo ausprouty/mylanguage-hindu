@@ -35,6 +35,9 @@ import HisBookSegmentController from "src/components/HisBook/HisBookSegmentContr
 
 export default {
   name: "HisBook",
+  props:{
+    lessonLink : Number
+  },
   components: {
     HisBookPassageSelect,
     HisBookSegmentController,
@@ -51,6 +54,11 @@ export default {
       languageStore,
       languageSelected,
     };
+  },
+  created(){
+     if (typeof this.$route.params.lessonLink !== 'undefined'){
+      this.languageStore.updateBookLesson(this.$route.params.lessonLink);
+     }
   },
   computed: {
     computedLanguageSelected() {

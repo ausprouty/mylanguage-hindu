@@ -34,6 +34,9 @@ import { computed } from "vue";
 
 export default {
   name: "FollowingHim",
+  props:{
+    lessonLink : Number
+  },
   components: {
     FollowingHimPlayer,
     FollowingHimSegmentSelect,
@@ -52,6 +55,11 @@ export default {
       languageStore,
       firstLanguage,
     };
+  },
+  created(){
+     if (typeof this.$route.params.lessonLink !== 'undefined'){
+      this.languageStore.updateFollowingHimSegment(this.$route.params.lessonLink);
+     }
   },
   computed: {
     computedLanguageSelected() {

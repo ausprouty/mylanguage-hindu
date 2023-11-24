@@ -33,6 +33,9 @@ import LeadershipSegmentController from "src/components/Leadership/LeadershipSeg
 
 export default {
   name: "LeadershipTeachings",
+  props:{
+    lessonLink : Number
+  },
   components: {
     LeadershipPassageSelect,
     LeadershipSegmentController,
@@ -51,6 +54,11 @@ export default {
       languageStore,
       firstLanguage,
     };
+  },
+  created(){
+     if (typeof this.$route.params.lessonLink !== 'undefined'){
+      this.languageStore.updateLeadershipLesson(this.$route.params.lessonLink);
+     }
   },
   computed: {
     computedLanguageSelected() {

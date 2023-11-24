@@ -37,6 +37,9 @@ import HisTeachingsSegmentController from "src/components/HisTeachings/HisTeachi
 
 export default {
   name: "HisTeachings",
+  props:{
+    lessonLink : Number
+  },
   components: {
     HisTeachingsPassageSelect,
     HisTeachingsSegmentController,
@@ -44,8 +47,6 @@ export default {
   data() {
     return {
       text: "",
-      filename: "LifePrinciples",
-      session: 1,
     };
   },
   setup() {
@@ -55,6 +56,11 @@ export default {
       languageStore,
       firstLanguage,
     };
+  },
+  created(){
+     if (typeof this.$route.params.lessonLink !== 'undefined'){
+      this.languageStore.updateHisTeachingLesson(this.$route.params.lessonLink);
+     }
   },
   computed: {
     computedLanguageSelected() {

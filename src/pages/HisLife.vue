@@ -43,6 +43,9 @@ import { computed } from "vue";
 
 export default {
   name: "HisLife",
+  props:{
+    lessonLink : Number
+  },
   components: {
     JVideoPlayer,
     JVideoSegmentSelect,
@@ -62,6 +65,11 @@ export default {
       languageStore,
       firstLanguage,
     };
+  },
+  created(){
+     if (typeof this.$route.params.lessonLink !== 'undefined'){
+      this.languageStore.updateHisLifeLesson(this.$route.params.lessonLink);
+     }
   },
   computed: {
     computedLanguageSelected() {

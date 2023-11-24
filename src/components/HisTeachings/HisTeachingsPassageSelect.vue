@@ -45,7 +45,6 @@ export default {
     currentSegment: function (newLesson, oldLesson) {
       if (newLesson !== oldLesson) {
         this.updateSelectBar(newLesson);
-
       }
     }
   },
@@ -56,7 +55,7 @@ export default {
   },
   created() {
     this.getLessonList(this.languageCodeHL);
-    this.updateLesson();
+
 
   },
   methods: {
@@ -70,6 +69,7 @@ export default {
           value: item.lesson,
         }));
         this.updateSelectBar(this.currentSegment);
+        this.updateLesson();
       });
     },
     updateLesson() {

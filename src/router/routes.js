@@ -21,17 +21,17 @@ const routes = [
       },
       {
         name: 'HisLife',
-        path: '/life',
+        path: '/life/:lessonLink?',
         component: () => import('src/pages/HisLife.vue')
       },
       {
         name: 'HisTeachings',
-        path: '/teachings',
+        path: '/teachings/:lessonLink?',
         component: () => import('pages/HisTeachings.vue')
       },
       {
         name: 'HisBook',
-        path: '/book',
+        path: '/book/:lessonLink?',
         component: () => import('pages/HisBook.vue')
       },
 
@@ -42,7 +42,7 @@ const routes = [
     },
     {
       name: 'LeadershipTeachings',
-      path: '/leadership',
+      path: '/leadership/:lessonLink?',
       component: () => import('pages/LeadershipTeachings.vue')
     },
     {
