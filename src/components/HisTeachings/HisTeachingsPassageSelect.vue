@@ -1,8 +1,8 @@
 <template>
-  <div v-if ="show">
+   <div>
     <q-select
       filled
-      v-model="lesson"
+      v-model="selectedValue"
       :options="lessons"
       option-label="label"
       option-value="value"
@@ -28,13 +28,12 @@ export default {
   },
   data() {
     return {
-      lesson : {
+      selectedValue : {
         value: 1,
         label: 'SELECT'
       },
       lessons: [],
-      session: 1,
-      show:false
+
     };
   },
   watch: {
@@ -62,15 +61,22 @@ export default {
         this.show = true
       });
     },
+
     updateLesson() {
-      if (typeof this.lesson.value === 'undefined'){
-        this.session = this.languageStore.getHisTeachingLesson;
+      this.languageStore.updateHisTeachingLesson(this.selectedValue.value);
+      this.$emit('showTeaching', this.selectedValue.value)
+    },
+    updateSelectBar(){
+      console.log (this.lessonSelected);
+      var arrayIndex = Number(this.selectedValue.value) -1;
+      if (arrayIndex >= 0){
+        this.selectedValue.label = this.lessons[arrayIndex].label;
+        this.selectedValue.value = this.lessons[arrayIndex].value;
       }
       else{
-        this.session = this.lesson.value
-        this.languageStore.updateHisTeachingLesson(this.lesson.value);
+        this.selectedValue.label = 'SELECT';
+        this.selectedValue.value = 1;
       }
-      this.$emit('showTeaching', this.session)
     },
   }
 

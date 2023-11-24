@@ -85,15 +85,8 @@ export default {
       }
     },
     updatePassage() {
-      console.log ()
-      if (this.selectedValue === null){
-        this.lesson = this.languageStore.getBookLesson;
-      }
-      else{
-        this.lesson = this.selectedValue.value
-        this.languageStore.updateBookLesson(this.selectedValue.value);
-
-      }
+      this.lesson = this.selectedValue.value
+      this.languageStore.updateBookLesson(this.selectedValue.value);
       this.$emit('showPassage', this.lesson)
     },
   }
