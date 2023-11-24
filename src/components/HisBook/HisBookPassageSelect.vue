@@ -76,14 +76,18 @@ export default {
       this.$emit('showPassage', this.selectedValue.value)
     },
     updateSelectBar(key){
-      key = key-1;
-      if (key >= 0){
-        this.selectedValue.label = this.supportedPassages[key].label;
-        this.selectedValue.value = this.supportedPassages[key].value;
-      }
-      else{
-        this.selectedValue.label = 'SELECT';
-        this.selectedValue.value = 1;
+      console.log(this.supportedPassages)
+      console.log (key)
+      if (typeof this.supportedPassages != undefined){
+        key = key-1;
+        if (key >= 0){
+          this.selectedValue.label = this.supportedPassages[key].label;
+          this.selectedValue.value = this.supportedPassages[key].value;
+        }
+        else{
+          this.selectedValue.label = 'SELECT';
+          this.selectedValue.value = 1;
+        }
       }
     },
 

@@ -55,10 +55,12 @@ export const useLanguageStore = defineStore("languageStore", {
       this.leadershipLesson = newValue;
     },
     updateBookLesson(newValue) {
+      alert ('I Updated Book Lesson with: ' + newValue )
       localStorage.setItem('bookLesson' ,newValue);
       this.bookLesson = newValue;
     },
     updateJVideoSegment(newValue) {
+      console.log(newValue)
       localStorage.setItem('jVideoSegment' ,newValue);
       this.jVideoSegment = newValue;
     },
@@ -69,9 +71,5 @@ export const useLanguageStore = defineStore("languageStore", {
   }
 });
 
-export const updateStateAndLocalStorage = (state, key, newValue) => {
-  state[key] = newValue;
-  console.log ('updating '+ key + 'to ' + newValue);
-  localStorage.setItem(key, newValue);
-};
+
 

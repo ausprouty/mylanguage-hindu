@@ -58,6 +58,7 @@ export default {
   },
   created() {
     this.getSegmentList( this.languageCodeHL);
+    this.selectedValue.videoSegment = this.currentSegment
     this.updateLesson();
   },
   methods: {
@@ -74,9 +75,8 @@ export default {
       this.$emit('showVideo',this.selectedValue.videoSegment)
     },
     updateSelectBar(currentSegment){
-
+      this.selectedValue = this.segments[0]
       for (var i = 0; i< this.segments.length; i++){
-        console.log (this.segments[i].videoSegment);
         if (this.segments[i].videoSegment == currentSegment){
           this.selectedValue = this.segments[i];
         }

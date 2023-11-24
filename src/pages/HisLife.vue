@@ -17,7 +17,7 @@
     </div>
     <div>
       <JVideoSegmentController
-        :videoSegment="videoSegment"
+        :videoSegment="computedVideoSegmant"
         :languageCodeHL="computedLanguageSelected"
         @showVideo="handleNewVideoSegment"
       />
@@ -61,15 +61,19 @@ export default {
   },
   setup() {
     const languageStore = useLanguageStore();
-    const firstLanguage = languageStore.getLanguageSelected;
     return {
-      languageStore,
-      firstLanguage,
+      languageStore
     };
   },
   created(){
      if (this.$route.params.lessonLink !== ''){
-      this.languageStore.updateHisLifeLesson(this.$route.params.lessonLink);
+      var videoSegmentLink = '61';
+      if (this.$route.params.lessonLink < 10) {
+        videoSegmentLink += '0'
+      }
+      videoSegmentLink += this.$route.params.lessonLink + '-0-0';
+      console.log (videoSegmentLink);
+      this.languageStore.updateJVideoSegment(videoSegmentLink);
      }
      if (this.$route.params.languageCode !== ''){
       this.languageStore.updateLanguageSelected(this.$route.params.languageCode);
@@ -79,8 +83,16 @@ export default {
     computedLanguageSelected() {
       return this.languageStore.getLanguageSelected;
     },
+    computedVideoSegmant() {
+      return this.languageStore.getJVideoSegment;
+    },
   },
   watch: {
+    computedVideoSegmant: function (newValue, oldValue) {
+      if (newValue !== oldValue) {
+        return newValue;
+      }
+    },
     computedLanguageSelected: function (newLanguage, oldLanguage) {
       if (newLanguage !== oldLanguage) {
         return newLanguage;
