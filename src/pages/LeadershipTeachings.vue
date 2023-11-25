@@ -8,13 +8,11 @@
       </p>
       <div>
         <LeadershipPassageSelect
-          :languageCodeHL="computedLanguageSelected"
           @showTeaching="handleShowTeaching"
         />
       </div>
       <div>
         <LeadershipSegmentController
-          :languageCodeHL="computedLanguageSelected"
           @showTeaching="handleShowTeaching"
         />
       </div>
@@ -59,25 +57,15 @@ export default {
       this.languageStore.updateLeadershipLesson(this.$route.params.lessonLink);
      }
      if (this.$route.params.languageCode !== ''){
+      console.log ('updated languagecode to: '  +  this.$route.params.languageCode)
       this.languageStore.updateLanguageSelected(this.$route.params.languageCode);
      }
   },
-  computed: {
-    computedLanguageSelected() {
-      return this.languageStore.getLanguageSelected;
-    },
-  },
-  watch: {
-    computedLanguageSelected: function (newLanguage, oldLanguage) {
-      if (newLanguage !== oldLanguage) {
-        return newLanguage;
-      }
-    },
-  },
+
   methods: {
     handleShowTeaching(lesson) {
       var url =
-        "api/leadership/view/" + lesson + "/" + this.computedLanguageSelected;
+        "api/leadership/view/" + lesson + "/" + this.languageStore.getLanguageSelected;
       console.log(url);
       api.get(url).then((response) => {
         this.text = response.data;

@@ -40,8 +40,6 @@ export default {
     },
   },
   created() {
-    const firstLanguage = this.languageStore.getFirstLanguageCodeSelected;
-    console.log(firstLanguage);
     api.get("api/hindi/languages").then((response) => {
       this.languageArray = response.data;
       this.languageStore.updateLanguages(this.languageArray);

@@ -30,9 +30,6 @@
 import { useLanguageStore } from "stores/LanguageStore";
 export default {
   name: "LeadershipSegmentController",
-  props: {
-    languageCodeHL: String,
-  },
 
   data() {
     return {
@@ -56,13 +53,11 @@ export default {
     showNextSegment() {
       this.nextSegment = Number(this.currentSegment) + 1
       this.languageStore.updateLeadershipLesson(this.nextSegment);
-      console.log(this.nextSegment);
       this.$emit('showTeaching', this.nextSegment)
     },
     showPreviousSegment() {
       this.nextSegment = Number(this.currentSegment) - 1
       this.languageStore.updateLeadershipLesson(this.nextSegment);
-      console.log(this.nextSegment);
       this.$emit('showTeaching', this.nextSegment)
     },
   },

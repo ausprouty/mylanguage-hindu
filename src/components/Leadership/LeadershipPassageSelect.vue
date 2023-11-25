@@ -17,9 +17,6 @@ import { api } from "boot/axios";
 import { useLanguageStore } from "stores/LanguageStore";
 export default {
   name: "LeadershipPassageSelect",
-  props: {
-    languageCodeHL: String,
-  },
   setup() {
     const languageStore = useLanguageStore();
     return {
@@ -45,7 +42,6 @@ export default {
     currentSegment: function (newLesson, oldLesson) {
       if (newLesson !== oldLesson) {
         this.updateSelectBar(newLesson);
-
       }
     }
   },
@@ -53,10 +49,12 @@ export default {
     currentSegment() {
       return this.languageStore.getLeadershipLesson;
     },
+    languageCodeHL() {
+      return this.languageStore.getLanguageSelected;
+    },
   },
   created() {
     this.getLessonList(this.languageCodeHL);
-
   },
   methods: {
     getLessonList(languageCodeHL) {
