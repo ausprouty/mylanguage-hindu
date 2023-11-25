@@ -37,12 +37,14 @@
     <q-page-container class="set_size">
       <router-view />
     </q-page-container>
+    <ShareLink />
   </q-layout>
 </template>
 
 <script>
 import { defineComponent, ref } from 'vue'
 import HinduLanguages from 'components/HinduLanguages.vue'
+import ShareLink from 'components/ShareLink.vue'
 
 
 
@@ -50,7 +52,8 @@ export default defineComponent({
   name: 'MainLayout',
 
   components: {
-    HinduLanguages
+    HinduLanguages,
+    ShareLink
   },
 
   setup () {
