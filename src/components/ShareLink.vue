@@ -13,7 +13,13 @@
 <meta name="twitter:image" content="https://myfriends.network/sites/myfriends/images/standard/MyFriends-App-Twitter.jpg">
 
 
-<q-btn @click="shareUrl" icon="share" label="Share"></q-btn>
+<q-btn class="shareLink"
+flat
+dense
+round
+
+@click="shareUrl"
+icon="share"></q-btn>
 </template>
 
 <script>
@@ -89,7 +95,8 @@ export default {
 }
 </script>
 <style scoped>
-.q-item__section{
-  color:black;
+.shareLink{
+  padding-right: 40px;
 }
+
 </style>

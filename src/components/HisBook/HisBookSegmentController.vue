@@ -1,6 +1,6 @@
 <template>
   <div class="q-pa-md q-gutter-md q-flex">
-    <div v-if="this.currentSegment > this.minSegment" class="q-gutter-md q-flex items-center inline">
+    <div  v-if="this.currentSegment > this.minSegment" class="q-gutter-md q-flex items-center inline"  @click="showPreviousSegment">
       <q-btn
         flat
         dense
@@ -11,8 +11,8 @@
       />
       <span class="q-ml-md">Previous Passage</span>
     </div>
-    <q-space class="inline"/>
-    <div v-if="this.currentSegment < this.maxSegment" class="q-gutter-md q-flex items-center inline">
+
+    <div v-if="this.currentSegment < this.maxSegment"  class="q-gutter-md q-flex items-center inline align-right" @click="showNextSegment">
       <span class="q-mr-md">Next Passage</span>
       <q-btn
         flat
@@ -25,7 +25,6 @@
     </div>
   </div>
 </template>
-
 <script>
 import { useLanguageStore } from "stores/LanguageStore";
 export default {
@@ -70,18 +69,21 @@ export default {
   },
 };
 </script>
-<style >
+<style scoped>
+.align-right{
+  text-align: right;
+}
 
 .inline{
   display:inline-block;
 }
+div.inline{
+  width:50%;
+}
 .q-gutter-md,
 .q-mr-md,
 .q-ml-md{
-  margin-top:10px;
-  background-color:lightblue;
-  margin-left:10px;
-  margin-right:10px;
+  margin-top:0px;
 }
 .q-gutter-y-md,.q-gutter-md {
     margin-top: 0px

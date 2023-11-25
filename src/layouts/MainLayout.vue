@@ -15,6 +15,7 @@
          Finding a Guru worth Following
         </q-toolbar-title>
         <q-space />
+        <ShareLink />
         <q-btn
           flat
           dense
@@ -37,7 +38,7 @@
     <q-page-container class="set_size">
       <router-view />
     </q-page-container>
-    <ShareLink />
+
   </q-layout>
 </template>
 
