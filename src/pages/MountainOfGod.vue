@@ -30,8 +30,6 @@ export default {
       this.$router.push('/birth');
     },
   }
-
-  }
 }
 </script>
 

@@ -85,12 +85,17 @@ export default {
     },
   },
   methods: {
+
     handleShowPassage(lesson) {
+      var language = this.languageStore.getLanguageSelected;
+      if (language ==  null){
+        language = 'eng00';
+      }
       var url =
         "api/dbs/view/" +
         lesson +
         "/" +
-        this.computedLanguageSelected;
+        language;
       console.log(url);
       api.get(url).then((response) => {
         this.text = response.data;

@@ -64,8 +64,12 @@ export default {
 
   methods: {
     handleShowTeaching(lesson) {
+      var language = this.languageStore.getLanguageSelected;
+      if (language ==  null){
+        language = 'eng00';
+      }
       var url =
-        "api/leadership/view/" + lesson + "/" + this.languageStore.getLanguageSelected;
+        "api/leadership/view/" + lesson + "/" + language ;
       console.log(url);
       api.get(url).then((response) => {
         this.text = response.data;

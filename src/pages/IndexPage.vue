@@ -32,15 +32,19 @@
       <td class="side-by-side" @click="handleImageClick('/leadership')" clickable v-ripple >
         <img class="menu_picture" src="menu/leading.png">
       </td>
-      <td class="side-by-side" @click="handleImageClick('/questions')" clickable v-ripple >
+      <td class="side-by-side" @click="openExternalWebsite()" clickable v-ripple >
           <img class="menu_picture" src="menu/questions.png">
       </td>
     </tr>
   </table>
+  <br>
+  <br>
   </q-page>
 </template>
 
 <script>
+import { api } from "boot/axios";
+import { useLanguageStore } from "stores/LanguageStore";
 export default{
   name: "IndexPage",
   data() {
@@ -48,10 +52,29 @@ export default{
       selected: null,
     };
   },
+  setup() {
+    const languageStore = useLanguageStore();
+    return {
+      languageStore
+    };
+  },
   methods: {
     handleImageClick(to) {
       // Handle the click event, e.g., navigate to the specified route
       this.$router.push(to);
+    },
+    openExternalWebsite(){
+      var url =
+        "api/ask/" +
+        this.languageStore.getLanguageSelected
+      console.log(url);
+      api.get(url).then((response) => {
+        var externalURL = 'https://www.everyperson.com/contact.php';
+        if (typeof response.data.contactPage != 'undefined' ){
+          externalURL = response.data.contactPage
+        }
+        window.open(externalURL, '_blank');
+      });
     },
   }
 

@@ -1,15 +1,15 @@
 <template>
-<meta property="og:title" content="MyFriends App">
-<meta property="og:description" content="Bible Discovery outlines to help you and your friends discover God's story together.">
+<meta property="og:title" content="Finding a Guru worth Following">
+<meta property="og:description" content="In order to make any real progress in our spiritual life we know we need a guru.">
 <meta property="og:image" content="https://myfriends.network/sites/myfriends/images/standard/MyFriends-App-Facebook.jpg">
-<meta property="og:url" content="https://myfriends.network/content/{{ webPage }}">
+<meta property="og:url" content="https://guru.mmylanguage.net.au">
 <meta property="og:type" content="website">
 
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@PtCAus">
-<meta name="twitter:title" content="Power to Change Australia">
-<meta name="twitter:description" content="Bible Discovery outlines to help you and your friends discover God's story together.">
+<meta name="twitter:title" content="Finding a Guru worth Following">
+<meta name="twitter:description" content="In order to make any real progress in our spiritual life we know we need a guru">
 <meta name="twitter:image" content="https://myfriends.network/sites/myfriends/images/standard/MyFriends-App-Twitter.jpg">
 
 
@@ -35,7 +35,7 @@ export default {
   },
   methods:{
     shareUrl() {
-      var subject = 'Here is the link'
+      var subject = 'Finding a Guru worth Following'
       var message = 'Here is the link'
       let url = window.location.href
       var page = this.getLastSegment(url)

@@ -9,11 +9,11 @@
         aria-label="Previous"
         @click="showPreviousSegment"
       />
-      <span class="q-ml-md">Previous Passage</span>
+      <span class="q-ml-md">Previous</span>
     </div>
 
     <div v-if="this.currentSegment < this.maxSegment"  class="q-gutter-md q-flex items-center inline align-right" @click="showNextSegment">
-      <span class="q-mr-md">Next Passage</span>
+      <span class="q-mr-md">Next</span>
       <q-btn
         flat
         dense
@@ -53,17 +53,13 @@ export default {
   },
   methods: {
     showNextSegment() {
-      console.log(this.currentSegment);
       this.nextSegment = Number(this.currentSegment) + 1
       this.languageStore.updateBookLesson(this.nextSegment);
-      console.log(this.nextSegment);
       this.$emit('showTeaching', this.nextSegment)
     },
     showPreviousSegment() {
-      console.log(this.currentSegment);
       this.nextSegment = Number(this.currentSegment) - 1
       this.languageStore.updateBookLesson(this.nextSegment);
-      console.log(this.nextSegment);
       this.$emit('showTeaching', this.nextSegment)
     },
   },

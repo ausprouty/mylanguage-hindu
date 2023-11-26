@@ -14,7 +14,7 @@
         <q-toolbar-title>
          Finding a Guru worth Following
         </q-toolbar-title>
-        <q-space />
+
         <ShareLink />
         <q-btn
           flat
@@ -37,7 +37,11 @@
 
     <q-page-container class="set_size">
       <router-view />
+      <footer class="footer"> Copyright 2023 Power to Change
+    </footer>
     </q-page-container>
+
+
 
   </q-layout>
 </template>
@@ -72,6 +76,17 @@ export default defineComponent({
 })
 </script>
 <style>
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
 h2{
   font-size: 2rem;
 }
