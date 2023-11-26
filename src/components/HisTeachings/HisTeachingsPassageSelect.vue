@@ -8,7 +8,7 @@
       option-value="value"
       @update:model-value="updateLesson"
       label="Teachings"
-      bg-color="blue-3"
+      class="select"
     />
   </div>
 </template>

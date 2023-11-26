@@ -1,7 +1,5 @@
 import { defineStore } from "pinia";
 
-
-
 export const useLanguageStore = defineStore("languageStore", {
   state: () => ({
     languages: [],
@@ -13,26 +11,48 @@ export const useLanguageStore = defineStore("languageStore", {
     followingHimSegment: 1,
   }),
   getters: {
-    getFirstLanguageCodeSelected: (state) => {
-      return localStorage.getItem("languageSelected", state.languageSelected);
-    },
+
     getLanguageSelected: (state) => {
-      return localStorage.getItem("languageSelected", state.languageSelected);
+      var selected = localStorage.getItem("languageSelected", state.languageSelected);
+      if (typeof selected == 'undefined'){
+        selected = 'eng00'
+      }
+      return selected
     },
     getBookLesson: (state) => {
-      return localStorage.getItem("bookLesson", state.bookLesson);
+      var selected = localStorage.getItem("bookLesson", state.bookLesson);
+      if (typeof selected == 'undefined'){
+        selected = 1
+      }
+      return selected
     },
     getHisTeachingLesson: (state) => {
-      return localStorage.getItem("hisTeachingLesson", state.hisTeachingLesson);
+      var selected = localStorage.getItem("hisTeachingLesson", state.hisTeachingLesson);
+      if (typeof selected == 'undefined'){
+        selected = 1
+      }
+      return selected
     },
     getLeadershipLesson: (state) => {
-      return localStorage.getItem("leadershipLesson", state.leadershipLesson);
+      var selected = localStorage.getItem("leadershipLesson", state.leadershipLesson);
+      if (typeof selected == 'undefined'){
+        selected = 1
+      }
+      return selected
     },
     getJVideoSegment: (state) => {
-      return localStorage.getItem("jVideoSegment", state.jVideoSegment);
+      var selected = localStorage.getItem("jVideoSegment", state.jVideoSegment);
+      if (typeof selected == 'undefined'){
+        selected = '6101-0-0'
+      }
+      return selected
     },
     getFollowingHimSegment: (state) => {
-      return localStorage.getItem("followingHimSegment", state.followingHimSegment);
+      var selected = localStorage.getItem("followingHimSegment", state.followingHimSegment);
+      if (typeof selected == 'undefined'){
+        selected = 1
+      }
+      return selected
     },
   },
 
@@ -40,31 +60,31 @@ export const useLanguageStore = defineStore("languageStore", {
     updateLanguages(newValue) {
       var languages = JSON.stringify(newValue);
       localStorage.setItem('languages', languages);
-      this.llanguages = languages;
+      this.languages = languages;
     },
     updateLanguageSelected(newValue) {
-      localStorage.setItem('languageSelected' ,newValue);
+      localStorage.setItem('languageSelected', newValue);
       this.languageSelected = newValue;
     },
     updateHisTeachingLesson(newValue) {
-      localStorage.setItem('hisTeachingLesson' ,newValue);
+      localStorage.setItem('hisTeachingLesson', newValue);
       this.hisTeachingLesson = newValue;
     },
     updateLeadershipLesson(newValue) {
-      localStorage.setItem('leadershipLesson' ,newValue);
+      localStorage.setItem('leadershipLesson', newValue);
       this.leadershipLesson = newValue;
     },
     updateBookLesson(newValue) {
-      localStorage.setItem('bookLesson' ,newValue);
+      localStorage.setItem('bookLesson', newValue);
       this.bookLesson = newValue;
     },
     updateJVideoSegment(newValue) {
       console.log(newValue)
-      localStorage.setItem('jVideoSegment' ,newValue);
+      localStorage.setItem('jVideoSegment', newValue);
       this.jVideoSegment = newValue;
     },
     updateFollowingHimSegment(newValue) {
-      localStorage.setItem('followingHimSegment' ,newValue);
+      localStorage.setItem('followingHimSegment', newValue);
       this.followingHimSegment = newValue;
     },
   }

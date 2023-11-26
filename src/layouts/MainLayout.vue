@@ -12,7 +12,7 @@
         />
 
         <q-toolbar-title>
-         Finding a Guru worth Following
+         Finding a Guru
         </q-toolbar-title>
 
         <ShareLink />
@@ -77,12 +77,10 @@ export default defineComponent({
 </script>
 <style>
 .footer {
-    background-color: #333;
+    background-color:darkgrey;
     color: white;
     padding: 10px;
     text-align: center;
-    position: fixed;
-    bottom: 0;
     width:100%;
     max-width: 600px;
     margin: 0 auto;

@@ -9,6 +9,7 @@
         option-value="value"
         @update:model-value="updateSegment"
         label="Video Segment"
+        class="select"
       />
   </div>
 </div>

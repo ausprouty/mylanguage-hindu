@@ -9,7 +9,7 @@
         option-value="videoSegment"
         @update:model-value="updateLesson"
         label="Video Segment"
-      bg-color="blue-3"
+        class="select"
       />
   </div>
 </div>

@@ -26,6 +26,7 @@
 <script>
 import { useLanguageStore } from "stores/LanguageStore";
 import { api } from "boot/axios";
+import { useRoute } from 'vue-router'
 import LeadershipPassageSelect from "components/Leadership/LeadershipPassageSelect.vue";
 import LeadershipSegmentController from "src/components/Leadership/LeadershipSegmentController.vue";
 
@@ -48,26 +49,24 @@ export default {
   },
   setup() {
     const languageStore = useLanguageStore();
+    const route = useRoute()
+    if (route.params.lessonLink !== ''){
+      console.log ('updated leadershipLesson to: '  +  route.params.lessonLink)
+      languageStore.updateLeadershipLesson(route.params.lessonLink);
+     }
+     if (route.params.languageCode !== ''){
+      console.log ('updated languagecode to: '  +  route.params.languageCode)
+      languageStore.updateLanguageSelected(route.params.languageCode);
+     }
     return {
       languageStore,
     };
   },
-  created(){
-     if (this.$route.params.lessonLink !== ''){
-      this.languageStore.updateLeadershipLesson(this.$route.params.lessonLink);
-     }
-     if (this.$route.params.languageCode !== ''){
-      console.log ('updated languagecode to: '  +  this.$route.params.languageCode)
-      this.languageStore.updateLanguageSelected(this.$route.params.languageCode);
-     }
-  },
+
 
   methods: {
     handleShowTeaching(lesson) {
       var language = this.languageStore.getLanguageSelected;
-      if (language ==  null){
-        language = 'eng00';
-      }
       var url =
         "api/leadership/view/" + lesson + "/" + language ;
       console.log(url);
