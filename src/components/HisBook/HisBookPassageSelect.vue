@@ -18,9 +18,6 @@ import { api } from "boot/axios";
 import { useLanguageStore } from "stores/LanguageStore";
 export default {
   name: "HisBookPassageSelect",
-  props: {
-    languageCodeHL: String,
-  },
   setup() {
     const languageStore = useLanguageStore();
     return {

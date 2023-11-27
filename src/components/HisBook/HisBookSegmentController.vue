@@ -29,10 +29,6 @@
 import { useLanguageStore } from "stores/LanguageStore";
 export default {
   name: "HisBookSegmentController",
-  props: {
-    languageCodeHL: String,
-  },
-
   data() {
     return {
       minSegment: 1,

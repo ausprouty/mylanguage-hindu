@@ -12,13 +12,11 @@
       </p>
       <div>
         <HisTeachingsPassageSelect
-          :languageCodeHL="computedLanguageSelected"
           @showTeaching="handleShowTeaching"
         />
       </div>
       <div>
         <HisTeachingsSegmentController
-          :languageCodeHL="computedLanguageSelected"
           @showTeaching="handleShowTeaching"
         />
       </div>
@@ -32,6 +30,7 @@
 <script>
 import { useLanguageStore } from "stores/LanguageStore";
 import { api } from "boot/axios";
+import { useRoute } from 'vue-router'
 import HisTeachingsPassageSelect from "components/HisTeachings/HisTeachingsPassageSelect.vue";
 import HisTeachingsSegmentController from "src/components/HisTeachings/HisTeachingsSegmentController.vue";
 
@@ -52,35 +51,41 @@ export default {
   },
   setup() {
     const languageStore = useLanguageStore();
-    const firstLanguage = languageStore.getLanguageSelected;
+    const route = useRoute()
+    if (route.params.lessonLink !== ''){
+      console.log ('updated HisTeachingLesson to: '  +  route.params.lessonLink)
+      languageStore.updateHisTeachingLesson(route.params.lessonLink);
+     }
+     if (route.params.languageCode !== ''){
+      console.log ('updated languagecode to: '  +  route.params.languageCode)
+      languageStore.updateLanguageSelected(route.params.languageCode);
+     }
     return {
       languageStore,
-      firstLanguage,
     };
   },
   created(){
-    console.log (this.$route.params)
-     if (this.$route.params.lessonLink !== ''){
-      this.languageStore.updateHisTeachingLesson(this.$route.params.lessonLink);
-     }
-     if (this.$route.params.languageCode !== ''){
-      this.languageStore.updateLanguageSelected(this.$route.params.languageCode);
-     }
+    this.handleShowTeaching()
   },
-  computed: {
-    computedLanguageSelected() {
+  computed:{
+    computedLanguage(){
       return this.languageStore.getLanguageSelected;
     },
+    compuedTeachingLesson(){
+      return  this.languageStore.getHisTeachingLesson
+    }
   },
-  watch: {
-    computedLanguageSelected: function (newLanguage, oldLanguage) {
-      if (newLanguage !== oldLanguage) {
-        return newLanguage;
-      }
+  watch:{
+    computedLanguage(newValue, oldValue){
+      this.handleShowTeaching();
     },
+    computedTeachingLesson(newValue, oldValue){
+      this.handleShowTeaching();
+    }
   },
   methods: {
-    handleShowTeaching(lesson) {
+    handleShowTeaching() {
+      var lesson = this.languageStore.getHisTeachingLesson
       var language = this.languageStore.getLanguageSelected;
       var url =
         "api/life_principles/view/" +

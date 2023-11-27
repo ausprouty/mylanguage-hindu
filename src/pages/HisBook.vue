@@ -9,13 +9,11 @@
     <div>
       <div>
         <HisBookPassageSelect
-          :languageCodeHL="computedLanguageSelected"
           @showPassage="handleShowPassage"
         />
       </div>
       <div>
         <HisBookSegmentController
-          :languageCodeHL="computedLanguageSelected"
           @showTeaching="handleShowPassage"
         />
       </div>
@@ -28,6 +26,8 @@
 <script>
 import { useLanguageStore } from "stores/LanguageStore";
 import { api } from "boot/axios";
+import { useRoute } from 'vue-router'
+
 import HisBookPassageSelect from "components/HisBook/HisBookPassageSelect.vue";
 import HisBookSegmentController from "src/components/HisBook/HisBookSegmentController.vue";
 
@@ -48,45 +48,42 @@ export default {
   },
   setup() {
     const languageStore = useLanguageStore();
-    const languageSelected= languageStore.getLanguageSelected;
+    const route = useRoute()
+    if (route.params.lessonLink !== ''){
+      console.log ('updated leadershipLesson to: '  +  route.params.lessonLink)
+      languageStore.updateBookLesson(route.params.lessonLink);
+     }
+     if (route.params.languageCode !== ''){
+      console.log ('updated languagecode to: '  +  route.params.languageCode)
+      languageStore.updateLanguageSelected(route.params.languageCode);
+     }
     return {
       languageStore,
-      languageSelected,
     };
   },
   created(){
-     if (this.$route.params.lessonLink !== ''){
-      this.languageStore.updateBookLesson(this.$route.params.lessonLink);
-     }
-     if (this.$route.params.languageCode !== ''){
-      this.languageStore.updateLanguageSelected(this.$route.params.languageCode);
-     }
+    this.handleShowTeaching()
   },
-  computed: {
-    computedLanguageSelected() {
+  computed:{
+    computedLanguage(){
       return this.languageStore.getLanguageSelected;
     },
-    computedLessonSelected() {
-      console.log (this.languageStore.getBookLesson);
-      return this.languageStore.getBookLesson;
-    },
+    compuedTeachingLesson(){
+      return  this.languageStore.getHisTeachingLesson
+    }
   },
-  watch: {
-    computedLanguageSelected: function (newLanguage, oldLanguage) {
-      if (newLanguage !== oldLanguage) {
-        return newLanguage;
-      }
+  watch:{
+    computedLanguage(newValue, oldValue){
+      this.handleShowTeaching();
     },
-    computedLessonSelected: function (newSession, oldSession) {
-      if (newSession !== oldSession) {
-        console.log (newSession);
-        return newSession;
-      }
-    },
+    computedTeachingLesson(newValue, oldValue){
+      this.handleShowTeaching();
+    }
   },
   methods: {
 
-    handleShowPassage(lesson) {
+    handleShowPassage() {
+      var lesson = this.languageStore.getHisTeachingLesson
       var language = this.languageStore.getLanguageSelected;
       var url =
         "api/dbs/view/" +

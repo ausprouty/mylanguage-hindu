@@ -30,9 +30,6 @@
 import { useLanguageStore } from "stores/LanguageStore";
 export default {
   name: "HisTeachingsSegmentController",
-  props: {
-    languageCodeHL: String,
-  },
 
   data() {
     return {

@@ -39,8 +39,6 @@ export default {
   data() {
     return {
       text: "",
-      filename: "Leadership",
-      session: 1,
     };
   },
   setup() {
@@ -71,11 +69,9 @@ export default {
   },
   watch:{
     computedLanguage(newValue, oldValue){
-      alert ('language has changed')
       this.handleShowTeaching();
     },
     computedTeachingLesson(newValue, oldValue){
-      alert ('lesson has changed')
       this.handleShowTeaching();
     }
   },

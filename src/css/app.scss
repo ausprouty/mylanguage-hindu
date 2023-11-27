@@ -55,7 +55,8 @@ title.dbs {
   text-align: center;
 }
 h1.dbs {
-  font-size: 2em;
+  font-size: 1.5em;
+  line-height: 1rem;
 }
 h2.dbs {
   margin-block-end: 0em;
@@ -91,6 +92,10 @@ td.rtl {
 }
 .title {
   text-align: center;
+}
+p.copyright{
+  text-align: center;
+  color: grey;
 }
 
 .bible-container {
