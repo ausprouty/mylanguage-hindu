@@ -7,7 +7,7 @@
         round
         icon="arrow_back"
         aria-label="Previous"
-        @click="showPreviousSegment"
+
       />
       <span class="q-ml-md">Previous</span>
     </div>
@@ -20,7 +20,6 @@
         round
         icon="arrow_forward"
         aria-label="Next"
-        @click="showNextSegment"
       />
     </div>
   </div>

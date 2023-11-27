@@ -7,14 +7,10 @@
         He has accomplished for them.
       </p>
       <div>
-        <LeadershipPassageSelect
-          @showTeaching="handleShowTeaching"
-        />
+        <LeadershipPassageSelect   @showTeaching="handleShowTeaching" />
       </div>
       <div>
-        <LeadershipSegmentController
-          @showTeaching="handleShowTeaching"
-        />
+        <LeadershipSegmentController   @showTeaching="handleShowTeaching" />
       </div>
 
       <hr />
@@ -62,10 +58,30 @@ export default {
       languageStore,
     };
   },
-
-
+  created(){
+    this.handleShowTeaching()
+  },
+  computed:{
+    computedLanguage(){
+      return this.languageStore.getLanguageSelected;
+    },
+    compuedTeachingLesson(){
+      return  this.languageStore.getHisTeachingLesson
+    }
+  },
+  watch:{
+    computedLanguage(newValue, oldValue){
+      alert ('language has changed')
+      this.handleShowTeaching();
+    },
+    computedTeachingLesson(newValue, oldValue){
+      alert ('lesson has changed')
+      this.handleShowTeaching();
+    }
+  },
   methods: {
-    handleShowTeaching(lesson) {
+    handleShowTeaching() {
+      var lesson = this.languageStore.getLeadershipLesson
       var language = this.languageStore.getLanguageSelected;
       var url =
         "api/leadership/view/" + lesson + "/" + language ;

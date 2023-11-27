@@ -14,41 +14,46 @@ export const useLanguageStore = defineStore("languageStore", {
 
     getLanguageSelected: (state) => {
       var selected = localStorage.getItem("languageSelected", state.languageSelected);
-      if (typeof selected == 'undefined'){
+      if (selected == null){
         selected = 'eng00'
+        localStorage.setItem("languageSelected", selected)
       }
       return selected
     },
     getBookLesson: (state) => {
       var selected = localStorage.getItem("bookLesson", state.bookLesson);
-      if (typeof selected == 'undefined'){
+      if (selected == null){
         selected = 1
+        localStorage.setItem("bookLesson", selected)
       }
       return selected
     },
     getHisTeachingLesson: (state) => {
       var selected = localStorage.getItem("hisTeachingLesson", state.hisTeachingLesson);
-      if (typeof selected == 'undefined'){
+      if (selected == null){
         selected = 1
+        localStorage.setItem("hisTeachingLesson", selected)
       }
       return selected
     },
     getLeadershipLesson: (state) => {
       var selected = localStorage.getItem("leadershipLesson", state.leadershipLesson);
-      if (typeof selected == 'undefined'){
+      if (selected == null){
         selected = 1
+        localStorage.setItem("leadershipLesson", selected)
       }
       return selected
     },
     getJVideoSegment: (state) => {
       var selected = localStorage.getItem("jVideoSegment", state.jVideoSegment);
-      if (typeof selected == 'undefined'){
+      if (selected == null){
         selected = '6101-0-0'
+        localStorage.setItem("leadershipLesson", selected)
       }
       return selected
     },
     getFollowingHimSegment: (state) => {
-      var selected = localStorage.getItem("followingHimSegment", state.followingHimSegment);
+      var selected = localStorage.getItem("jVideoSegment", state.followingHimSegment);
       if (typeof selected == 'undefined'){
         selected = 1
       }
