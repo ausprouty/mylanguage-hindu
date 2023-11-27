@@ -1,13 +1,13 @@
 <template>
   <div>
-    <div v-if="show">
+    <div>
       <q-select
         filled
-        v-model="segment"
+        v-model="selectedValue"
         :options="segments"
-        option-label="label"
-        option-value="value"
-        @update:model-value="updateSegment"
+        option-label="title"
+        option-value="videoSegment"
+        @update:model-value="updateLesson"
         label="Video Segment"
         class="select"
       />
@@ -31,47 +31,76 @@ export default {
   },
   data() {
     return {
-      segment: {
-        value: 1,
-        label: 'SELECT'
+      selectedValue : {
+        videoSegment: '1-0-0',
+        title: 'SELECT'
       },
-      segments: [],
       video: null,
-      show:false
-    };
+      segments: [
+        {
+          videoSegment: '1-0-0',
+          title: '1. Who Is God?',
+        },
+        {
+          videoSegment: '2-0-0',
+          title: '2. Who Is Jesus?',
+        },
+        {
+          videoSegment: '3-0-0',
+          title: '3. Prayer - Talking to God',
+        },
+        {
+          videoSegment: '4-0-0',
+          title: '4. Living as a Disciple of Jesus',
+        },
+        {
+          videoSegment: '5-0-0',
+          title: '5. Sharing Your Faith With Others',
+        },
+      ],
+    }
   },
   watch: {
     languageCodeHL: function (newLanguage, oldLanguage) {
       if (newLanguage !== oldLanguage) {
         this.getSegmentList(newLanguage);
       }
+    },
+    currentSegment: function (newLesson, oldLesson) {
+      if (newLesson !== oldLesson) {
+        this.updateSelectBar(newLesson);
+
+      }
     }
   },
-
+  computed: {
+    currentSegment() {
+      return this.languageStore.getFollowingHimSegment;
+    },
+  },
   created() {
-    this.getSegmentList( this.languageCodeHL);
-    this.languageStore.updateJVideoSegment(this.segment);
+    this.selectedValue.videoSegment = this.currentSegment
+    this.updateLesson();
+
   },
-  methods: {
-    getSegmentList(languageCodeHL) {
-      var url = "api/followingjesus/segments/" + languageCodeHL;
-      console.log(url);
-      api.get(url).then((response) => {
-        var data = JSON.parse(response.data);
-        console.log(data)
-        this.segments = data.map((item) => ({
-          label: item.Title,
-          value: item.VideoSegment,
-        }));
-        console.log (this.segments)
-      });
-      this.show = true;
+  methods:{
+    updateLesson() {
+      console.log (this.selectedValue)
+      //this.languageStore.updateFollowingHimSegment(this.selectedValue.videoSegment);
+      this.$emit('showVideo',this.selectedValue.videoSegment)
     },
-    updateSegment() {
-      this.languageStore.updateFollowingHimSegment(this.segment.value);
-      this.$emit('showVideo',this.segment.value)
+    getSegmentList(){ // all is English now
+      return;
     },
-  },
+    updateSelectBar(currentSegment){
+      this.selectedValue = this.segments[0]
+      for (var i = 0; i< this.segments.length; i++){
+        if (this.segments[i].videoSegment == currentSegment){
+          this.selectedValue = this.segments[i];
+        }
+      }
+    },
+  }
 };
 </script>
 <style>

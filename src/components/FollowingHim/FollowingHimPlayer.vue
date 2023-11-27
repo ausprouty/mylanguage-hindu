@@ -4,21 +4,26 @@
 
 <script>
 import { api } from "boot/axios";
+import { useLanguageStore } from "stores/LanguageStore";
 
 export default {
-  name: "FollwongHimPlayer",
+  name: "FollowinggHimPlayer",
   props: {
-    videoSegment: String,
     languageCodeHL: String,
   },
   data() {
     return {
-      show1: false,
       iframeStart:
         '<iframe  id="guruplayer" src="https://api.arclight.org/videoPlayerUrl?refId=',
       iframeEnd:
         '&playerStyle=default" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>',
       videoIframe: null,
+    };
+  },
+  setup() {
+    const languageStore = useLanguageStore();
+    return {
+      languageStore,
     };
   },
 
@@ -37,16 +42,27 @@ export default {
       }
     },
   },
-  methods: {
-    updateVideoIframe(languageCodeHL, videoSegment) {
-      var url = "api/language/languageCodeJF/" + languageCodeHL;
-      api.get(url).then((response) => {
-        var video1 = '1_' + response.data + '-fj_' + videoSegment;
-        console.log (video1)
-        this.videoIframe = this.iframeStart + video1 + this.iframeEnd;
-      });
+  computed: {
+    videoSegment() {
+      return this.languageStore.getFollowingHimSegment;
     },
   },
+  methods: {
+    updateVideoIframe(languageCodeHL, videoSegment) {
+      var url = 'api/language/languageCodeJFFollowingJesus/' + languageCodeHL;
+      api.get(url).then((response) => {
+        console.log (response)
+        var videoLanguage = '529'
+        if (response.data != null){
+          videoLanguage = response.data
+        }
+        var video1 = '1_' + videoLanguage + '-fj_' + videoSegment;
+        console.log (video1)
+        this.videoIframe = this.iframeStart + video1 + this.iframeEnd;
+
+      });
+    }
+  }
 };
 </script>
 <style>

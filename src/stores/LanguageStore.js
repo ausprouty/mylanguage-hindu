@@ -53,9 +53,10 @@ export const useLanguageStore = defineStore("languageStore", {
       return selected
     },
     getFollowingHimSegment: (state) => {
-      var selected = localStorage.getItem("jVideoSegment", state.followingHimSegment);
-      if (typeof selected == 'undefined'){
-        selected = 1
+      var selected = localStorage.getItem("followingHimSegment", state.followingHimSegment);
+      if (selected == null || selected == 'undefined'){
+        selected = '1-0-0'
+        localStorage.setItem("followingHimSegment", selected)
       }
       return selected
     },

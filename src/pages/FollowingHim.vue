@@ -50,10 +50,8 @@ export default {
   },
   setup() {
     const languageStore = useLanguageStore();
-    const firstLanguage = languageStore.getLanguageSelected;
     return {
       languageStore,
-      firstLanguage,
     };
   },
   created(){
