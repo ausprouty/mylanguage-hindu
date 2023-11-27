@@ -5,8 +5,13 @@ const routes = [
     component: () => import('layouts/MainLayout.vue'),
     children: [
       {
-        name: 'Index',
+        name: 'RestorePage',
         path: '/',
+        component: () => import('pages/Restore.vue')
+      },
+      {
+        name: 'Index',
+        path: '/index',
         component: () => import('pages/IndexPage.vue')
       },
       {
@@ -48,7 +53,7 @@ const routes = [
     {
       name: 'AskHisFollowers',
       path: '/questions',
-      component: () => import('src/pages/AskHisFollowers.vue')
+      component: () => import('src/pages/Restore.vue')
     },
     ]
   },

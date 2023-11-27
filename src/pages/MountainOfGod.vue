@@ -23,6 +23,7 @@
 </template>
 
 <script>
+import { useLanguageStore } from "stores/LanguageStore";
 export default {
   name: 'MountainOfGod',
   methods: {

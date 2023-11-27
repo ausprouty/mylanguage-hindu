@@ -6,7 +6,16 @@
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-  name: 'App'
+  name: 'App',
+  created() {
+    // Retrieve the stored path from local storage
+    const storedPath = localStorage.getItem('currentPath');
+
+    if (storedPath) {
+      // Navigate to the stored path
+      this.$router.push(storedPath);
+    }
+  },
 })
 </script>
 <style>

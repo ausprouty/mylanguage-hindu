@@ -9,6 +9,7 @@ export const useLanguageStore = defineStore("languageStore", {
     bookLesson: 1,
     jVideoSegment: '6101-0-0',
     followingHimSegment: 1,
+    previousPage: '/index'
   }),
   getters: {
 
@@ -60,6 +61,10 @@ export const useLanguageStore = defineStore("languageStore", {
       }
       return selected
     },
+    getPreviousPage: (state) => {
+      var selected = localStorage.getItem("previousPage", '/index');
+      return selected
+    },
   },
 
   actions :{
@@ -92,6 +97,10 @@ export const useLanguageStore = defineStore("languageStore", {
     updateFollowingHimSegment(newValue) {
       localStorage.setItem('followingHimSegment', newValue);
       this.followingHimSegment = newValue;
+    },
+    updatePreviousPage(newValue) {
+      localStorage.set("previousPage", newValue);
+
     },
   }
 });
