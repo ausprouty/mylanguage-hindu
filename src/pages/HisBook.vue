@@ -9,12 +9,12 @@
     <div>
       <div>
         <HisBookPassageSelect
-          @showPassage="handleShowPassage"
+          @showPassage="handleShowTeaching"
         />
       </div>
       <div>
         <HisBookSegmentController
-          @showTeaching="handleShowPassage"
+          @showTeaching="handleShowTeaching"
         />
       </div>
       <hr />
@@ -50,11 +50,9 @@ export default {
     const languageStore = useLanguageStore();
     const route = useRoute()
     if (route.params.lessonLink !== ''){
-      console.log ('updated leadershipLesson to: '  +  route.params.lessonLink)
       languageStore.updateBookLesson(route.params.lessonLink);
      }
      if (route.params.languageCode !== ''){
-      console.log ('updated languagecode to: '  +  route.params.languageCode)
       languageStore.updateLanguageSelected(route.params.languageCode);
      }
     return {
@@ -68,22 +66,22 @@ export default {
     computedLanguage(){
       return this.languageStore.getLanguageSelected;
     },
-    compuedTeachingLesson(){
-      return  this.languageStore.getHisTeachingLesson
+    computedBookLesson(){
+      return  this.languageStore.getBookLesson
     }
   },
   watch:{
     computedLanguage(newValue, oldValue){
       this.handleShowTeaching();
     },
-    computedTeachingLesson(newValue, oldValue){
+    computedBookLesson(newValue, oldValue){
       this.handleShowTeaching();
     }
   },
   methods: {
 
-    handleShowPassage() {
-      var lesson = this.languageStore.getHisTeachingLesson
+    handleShowTeaching() {
+      var lesson = this.languageStore.getBookLesson
       var language = this.languageStore.getLanguageSelected;
       var url =
         "api/dbs/view/" +

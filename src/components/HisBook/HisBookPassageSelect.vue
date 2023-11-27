@@ -46,7 +46,11 @@ export default {
     },
   },
   computed: {
+    languageCodeHL(){
+      return this.languageStore.getLanguageSelected;
+    },
     currentSegment() {
+
       return this.languageStore.getBookLesson;
     },
   },

@@ -71,7 +71,7 @@ export default {
     computedLanguage(){
       return this.languageStore.getLanguageSelected;
     },
-    compuedTeachingLesson(){
+    computedTeachingLesson(){
       return  this.languageStore.getHisTeachingLesson
     }
   },

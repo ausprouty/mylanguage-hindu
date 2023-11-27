@@ -63,15 +63,15 @@ export default {
     computedLanguage(){
       return this.languageStore.getLanguageSelected;
     },
-    compuedTeachingLesson(){
-      return  this.languageStore.getHisTeachingLesson
+    computedLeadershipLesson(){
+      return  this.languageStore.getLeadershipLesson
     }
   },
   watch:{
     computedLanguage(newValue, oldValue){
       this.handleShowTeaching();
     },
-    computedTeachingLesson(newValue, oldValue){
+    computedLeadershipLesson(newValue, oldValue){
       this.handleShowTeaching();
     }
   },
