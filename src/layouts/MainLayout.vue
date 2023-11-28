@@ -12,7 +12,9 @@
         />
 
         <q-toolbar-title>
-         Finding a Guru
+          <router-link to="/index" exact class="toolbar-title">
+            Finding a Guru
+          </router-link>
         </q-toolbar-title>
 
         <ShareLink />
@@ -76,6 +78,11 @@ export default defineComponent({
 })
 </script>
 <style>
+.toolbar-title{
+  color: white;
+  text-decoration:none;
+  font-size: 1.5em;
+}
 .footer {
     background-color:darkgrey;
     color: white;

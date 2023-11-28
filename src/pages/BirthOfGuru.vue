@@ -21,13 +21,9 @@
 </template>
 
 <script>
-import { useLanguageStore } from "stores/LanguageStore";
 export default {
   name: 'BirthOfGuru',
-  created:{
-    const languageStore = useLanguageStore();
-    updatePreviousPage(newValue)
-  }
+
   methods: {
     showNextSegment(){
       this.$router.push('/life');

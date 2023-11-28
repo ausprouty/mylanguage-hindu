@@ -7,7 +7,7 @@ const routes = [
       {
         name: 'RestorePage',
         path: '/',
-        component: () => import('pages/Restore.vue')
+        component: () => import('src/pages/RestorePage.vue')
       },
       {
         name: 'Index',
@@ -53,7 +53,7 @@ const routes = [
     {
       name: 'AskHisFollowers',
       path: '/questions',
-      component: () => import('src/pages/Restore.vue')
+      component: () => import('src/pages/RestorePage.vue')
     },
     ]
   },
