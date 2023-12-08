@@ -15,7 +15,7 @@ export default {
     return {
       show1: false,
       iframeStart:
-        '<iframe id="guruplayer" src="https://api.arclight.org/videoPlayerUrl?refId=',
+        '<iframe id="guruplayer" src="',
       iframeEnd:
         '&playerStyle=default" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>',
       videoIframe: null,
@@ -50,7 +50,7 @@ export default {
   },
   methods: {
     updateVideoIframe(languageCodeHL, videoSegment) {
-      var url = "api/video/code/JESUS/" + languageCodeHL;
+      var url = "api/jvideo/source/" + videoSegment +'/' + languageCodeHL;
       api.get(url).then((response) => {
         var video1 = response.data.replace("-0-0", videoSegment);
         this.videoIframe = this.iframeStart + video1 + this.iframeEnd;

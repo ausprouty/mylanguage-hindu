@@ -66,7 +66,9 @@ export default {
     getSegmentList(languageCodeHL) {
       var url = "api/jvideo/segments/" + languageCodeHL;
       console.log(url);
+
       api.get(url).then((response) => {
+        console.log (response.data)
         this.segments = response.data;
         this.updateSelectBar(this.currentSegment);
       });
