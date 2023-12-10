@@ -40,7 +40,7 @@ export default {
     },
   },
   created() {
-    api.get("api/hindi/languages").then((response) => {
+    api.get("api/languages/hindi").then((response) => {
       this.languageArray = response.data;
       this.languageStore.updateLanguages(this.languageArray);
       this.languageOptions = this.languageArray.map((item) => ({

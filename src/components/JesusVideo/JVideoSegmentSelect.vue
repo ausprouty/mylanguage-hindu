@@ -6,7 +6,7 @@
         v-model="selectedValue"
         :options="segments"
         option-label="title"
-        option-value="videoSegment"
+        option-value="id"
         @update:model-value="updateLesson"
         label="Video Segment"
         class="select"
@@ -32,7 +32,7 @@ export default {
   data() {
     return {
       selectedValue : {
-        videoSegment: '6101-0-0',
+        id: 1,
         title: 'SELECT'
       },
       segments: [],

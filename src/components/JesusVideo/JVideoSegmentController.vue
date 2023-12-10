@@ -1,6 +1,6 @@
 <template>
   <div class="q-pa-md q-gutter-md q-flex">
-    <div  v-if="this.currentSegment > this.minSegment"  class="q-gutter-md q-flex items-center inline">
+    <div  v-if="this.videoId > this.minVideoId"  class="q-gutter-md q-flex items-center inline">
       <q-btn
         flat
         dense
@@ -12,7 +12,7 @@
       <span class="q-ml-md">Previous</span>
     </div>
     <q-space class="inline"/>
-    <div v-if="this.currentSegment < this.maxSegment"  class="q-gutter-md q-flex items-center inline">
+    <div v-if="this.videoId < this.maxVideoId"  class="q-gutter-md q-flex items-center inline">
       <span class="q-mr-md">Next</span>
       <q-btn
         flat
@@ -31,15 +31,15 @@ import { useLanguageStore } from "stores/LanguageStore";
 export default {
   name: "JVideoSegmentController",
   props: {
-    videoSegment: String,
+    videoId: String,
     languageCodeHL: String,
   },
 
   data() {
     return {
-      minSegment: '6101-0-0',
-      maxSegment: '6161-0-0',
-      nextSegment: 0,
+      minVideoId: 1,
+      maxVideoId: 61,
+      nextVideoId: 0,
       nextVideoSegment: '6101-0-0',
     };
   },
@@ -56,25 +56,14 @@ export default {
   },
   methods: {
     showNextSegment() {
-      console.log(this.videoSegment);
-      this.nextSegment = Number(this.stripVideoSegment(this.videoSegment)) + 1;
-      this.nextVideoSegment = this.restoreVideoSegment(this.nextSegment);
-      this.languageStore.updateJVideoSegment(this.nextVideoSegment);
-      console.log(this.nextVideoSegment);
+      this.nextId = this.videoId + 1;
+      this.languageStore.updateJVideoSegment(this.nextVideoId);
       this.$emit("showVideo", this.nextVideoSegment);
     },
     showPreviousSegment() {
-      this.nextSegment = Number(this.stripVideoSegment(this.videoSegment)) - 1;
-      this.nextVideoSegment = this.restoreVideoSegment(this.nextSegment);
-      this.languageStore.updateJVideoSegment(this.nextVideoSegment);
+      this.nextId = this.videoId - 1;
+      this.languageStore.updateJVideoSegment(this.nextVideoId);
       this.$emit("showVideo", this.nextVideoSegment);
-    },
-    stripVideoSegment(segment) {
-      var strip = parseInt(segment, 10);
-      return strip;
-    },
-    restoreVideoSegment(segment) {
-      return segment + "-0-0";
     },
   },
 };
