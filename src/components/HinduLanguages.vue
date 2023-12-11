@@ -45,7 +45,8 @@ export default {
       this.languageStore.updateLanguages(this.languageArray);
       this.languageOptions = this.languageArray.map((item) => ({
         label: item.name,
-        value: item.languageCodeHL,
+        languageCodeHL: item.languageCodeHL,
+        langaugeCodeJF: item.languageCodeJF
       }));
     });
   },

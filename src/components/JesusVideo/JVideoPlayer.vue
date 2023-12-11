@@ -15,9 +15,9 @@ export default {
     return {
       show1: false,
       iframeStart:
-        '<iframe id="guruplayer" src="',
+        '<iframe id="guruplayer" ',
       iframeEnd:
-        '&playerStyle=default" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>',
+        ' allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>',
       videoIframe: null,
     };
   },
@@ -28,9 +28,7 @@ export default {
     };
   },
 
-  created() {
-    this.updateVideoIframe(this.languageCodeHL, this.videoSegment)
-  },
+
   watch: {
     languageCodeHL: function (newLanguage, oldLanguage) {
       if (newLanguage !== oldLanguage) {
@@ -49,12 +47,19 @@ export default {
     },
   },
   methods: {
-    updateVideoIframe(languageCodeHL, videoSegment) {
-      var url = "api/jvideo/source/" + videoSegment +'/' + languageCodeHL;
-      api.get(url).then((response) => {
-        var video1 = response.data.replace("-0-0", videoSegment);
-        this.videoIframe = this.iframeStart + video1 + this.iframeEnd;
-      });
+
+    updateVideoIframe(videoSegment) {
+      var videoSegment = 4;
+      var segments = this.languageStore.getJVideoSegments;
+      console.log (segments)
+      for (var i = 0; i < segments.segments.length; i++){
+        if (segments.segments[i].id == videoSegment){
+          var videoSource = segments.segments[i].src
+          break;
+        }
+      }
+      this.videoIframe = this.iframeStart + videoSource + this.iframeEnd;
+      console.log (this.videoIframe)
     },
   },
 };

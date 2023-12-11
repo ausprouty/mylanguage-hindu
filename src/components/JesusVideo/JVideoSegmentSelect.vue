@@ -36,6 +36,8 @@ export default {
         title: 'SELECT'
       },
       segments: [],
+      languageCodeJF: 529,
+      languageCodeHLL: 'eng00',
       video: null,
     };
   },
@@ -64,12 +66,12 @@ export default {
   },
   methods: {
     getSegmentList(languageCodeHL) {
-      var url = "api/jvideo/segments/" + languageCodeHL;
+      var url = "api/jvideo/segments/" + this.languageCodeHLL + '/' + this.languageCodeJF;
       console.log(url);
-
       api.get(url).then((response) => {
         console.log (response.data)
         this.segments = response.data;
+        this.languageStore.updateJVideoSegments(this.languageCodeHLL, this.languageCodeJF, this.segments);
         this.updateSelectBar(this.currentSegment);
       });
     },
