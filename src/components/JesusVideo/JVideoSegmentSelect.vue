@@ -20,9 +20,7 @@ import { api } from "boot/axios";
 import { useLanguageStore } from "stores/LanguageStore";
 export default {
   name: "JVideoSegmentSelect",
-  props: {
-    languageCodeHL: String,
-  },
+
   setup() {
     const languageStore = useLanguageStore();
     return {
@@ -36,15 +34,13 @@ export default {
         title: 'SELECT'
       },
       segments: [],
-      languageCodeJF: 529,
-      languageCodeHLL: 'eng00',
       video: null,
     };
   },
   watch: {
     languageCodeHL: function (newLanguage, oldLanguage) {
       if (newLanguage !== oldLanguage) {
-        this.getSegmentList(newLanguage);
+        this.getSegmentList();
       }
     },
     currentSegment: function (newLesson, oldLesson) {
@@ -58,6 +54,12 @@ export default {
     currentSegment() {
       return this.languageStore.getJVideoSegment;
     },
+    languageCodeHL() {
+      return this.languageStore.getLangaugeCodeHLSelected;
+    },
+    languageCodeJF() {
+      return this.languageStore.getLangaugeCodeJFSelected;
+    },
   },
   created() {
     this.getSegmentList( this.languageCodeHL);
@@ -66,12 +68,12 @@ export default {
   },
   methods: {
     getSegmentList(languageCodeHL) {
-      var url = "api/jvideo/segments/" + this.languageCodeHLL + '/' + this.languageCodeJF;
+      var url = "api/jvideo/segments/" + languageCodeHL + '/' + this.languageCodeJF;
       console.log(url);
       api.get(url).then((response) => {
         console.log (response.data)
         this.segments = response.data;
-        this.languageStore.updateJVideoSegments(this.languageCodeHLL, this.languageCodeJF, this.segments);
+        this.languageStore.updateJVideoSegments(this.languageCodeHL, this.languageCodeJF, this.segments);
         this.updateSelectBar(this.currentSegment);
       });
     },

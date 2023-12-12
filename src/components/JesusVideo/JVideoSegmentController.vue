@@ -31,8 +31,7 @@ import { useLanguageStore } from "stores/LanguageStore";
 export default {
   name: "JVideoSegmentController",
   props: {
-    videoId: String,
-    languageCodeHL: String,
+    videoId: Number
   },
 
   data() {
@@ -46,6 +45,9 @@ export default {
   computed: {
     currentSegment() {
       return this.languageStore.jVideoSegment;
+    },
+    languageCodeHL() {
+      return this.languageStore.getLangaugeCodeHLSelected;
     },
   },
   setup() {

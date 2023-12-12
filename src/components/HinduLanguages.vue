@@ -20,21 +20,29 @@ export default {
   setup() {
     const languageStore = useLanguageStore();
     return {
-      languageStore,
+      languageStore
     };
   },
   data() {
     return {
       languageOptions: [],
       languageArray: [],
-      selectedLanguage: this.languageStore.getLanguageSelected,
+      selectedLanguage: 'eng00',
     };
   },
   watch: {
     selectedLanguage: {
       handler() {
-        console.log(this.selectedLanguage);
-        this.languageStore.updateLanguageSelected(this.selectedLanguage);
+        this.languageCodeJF=529;
+        console.log (this.languageOptions)
+        for( var i = 0; i < this.languageOptions.length; i++){
+          if (this.languageOptions[i].value == this.selectedLanguage){
+            this.languageCodeJF = this.languageOptions[i].languageCodeJF;
+            break;
+          }
+        }
+        console.log (this.languageCodeJF)
+        this.languageStore.updateLanguageSelected(this.selectedLanguage, this.languageCodeJF);
       },
       deep: true,
     },
@@ -45,7 +53,7 @@ export default {
       this.languageStore.updateLanguages(this.languageArray);
       this.languageOptions = this.languageArray.map((item) => ({
         label: item.name,
-        languageCodeHL: item.languageCodeHL,
+        value: item.languageCodeHL,
         langaugeCodeJF: item.languageCodeJF
       }));
     });

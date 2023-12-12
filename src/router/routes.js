@@ -6,12 +6,12 @@ const routes = [
     children: [
       {
         name: 'RestorePage',
-        path: '/',
+        path: '/restore',
         component: () => import('src/pages/RestorePage.vue')
       },
       {
         name: 'Index',
-        path: '/index',
+        path: '/',
         component: () => import('pages/IndexPage.vue')
       },
       {

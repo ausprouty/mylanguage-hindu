@@ -8,9 +8,7 @@ import { useLanguageStore } from "stores/LanguageStore";
 
 export default {
   name: "JVideoPlayer",
-  props: {
-    languageCodeHL: String,
-  },
+
   data() {
     return {
       show1: false,
@@ -37,11 +35,14 @@ export default {
     },
     videoSegment: function (newVideoSegment, oldVideoSegment) {
       if (newVideoSegment !== oldVideoSegment) {
-        this.updateVideoIframe(this.languageCodeHL, newVideoSegment);
+        this.updateVideoIframe(newVideoSegment);
       }
     },
   },
   computed: {
+    languageCodeHL() {
+      return this.languageStore.getLangaugeCodeHLSelected;
+    },
     videoSegment() {
       return this.languageStore.getJVideoSegment;
     },
@@ -49,7 +50,6 @@ export default {
   methods: {
 
     updateVideoIframe(videoSegment) {
-      var videoSegment = 4;
       var segments = this.languageStore.getJVideoSegments;
       console.log (segments)
       for (var i = 0; i < segments.segments.length; i++){

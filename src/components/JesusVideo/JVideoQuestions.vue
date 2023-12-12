@@ -4,11 +4,16 @@
 </template>
 <script>
 import { api } from "boot/axios";
+import { useLanguageStore } from "stores/LanguageStore";
 export default {
   name: 'JVideoQuestions',
-  props:{
-    languageCodeHL: String,
+  setup() {
+    const languageStore = useLanguageStore();
+    return {
+      languageStore,
+    };
   },
+
   data() {
     return {
       questions : '',
@@ -20,6 +25,11 @@ export default {
         this.showQuestions(newLanguage);
       }
     }
+  },
+  computed:{
+    languageCodeHL() {
+      return this.languageStore.getLanguageCodeHLSelected;
+    },
   },
   methods:{
     showQuestions(languageCodeHL){
