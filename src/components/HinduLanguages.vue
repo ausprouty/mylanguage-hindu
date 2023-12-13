@@ -28,6 +28,7 @@ export default {
       languageOptions: [],
       languageArray: [],
       selectedLanguage: 'eng00',
+      languageCodeJF: '529'
     };
   },
   watch: {
@@ -35,8 +36,11 @@ export default {
       handler() {
         this.languageCodeJF=529;
         console.log (this.languageOptions)
+        console.log ("selected language: " + this.selectedLanguage)
         for( var i = 0; i < this.languageOptions.length; i++){
+          console.log ("language Options: " + this.languageOptions[i].value)
           if (this.languageOptions[i].value == this.selectedLanguage){
+            console.log( this.languageOptions[i] )
             this.languageCodeJF = this.languageOptions[i].languageCodeJF;
             break;
           }
@@ -54,7 +58,7 @@ export default {
       this.languageOptions = this.languageArray.map((item) => ({
         label: item.name,
         value: item.languageCodeHL,
-        langaugeCodeJF: item.languageCodeJF
+        languageCodeJF: item.languageCodeJF
       }));
     });
   },

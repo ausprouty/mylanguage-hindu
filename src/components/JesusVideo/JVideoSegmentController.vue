@@ -1,6 +1,9 @@
 <template>
   <div class="q-pa-md q-gutter-md q-flex">
-    <div  v-if="this.videoId > this.minVideoId"  class="q-gutter-md q-flex items-center inline">
+    <div
+      v-if="this.videoId > this.minVideoId"
+      class="q-gutter-md q-flex items-center inline"
+    >
       <q-btn
         flat
         dense
@@ -11,8 +14,11 @@
       />
       <span class="q-ml-md">Previous</span>
     </div>
-    <q-space class="inline"/>
-    <div v-if="this.videoId < this.maxVideoId"  class="q-gutter-md q-flex items-center inline">
+    <q-space class="inline" />
+    <div
+      v-if="this.videoId < this.maxVideoId"
+      class="q-gutter-md q-flex items-center inline"
+    >
       <span class="q-mr-md">Next</span>
       <q-btn
         flat
@@ -31,7 +37,7 @@ import { useLanguageStore } from "stores/LanguageStore";
 export default {
   name: "JVideoSegmentController",
   props: {
-    videoId: Number
+    videoId: Number,
   },
 
   data() {
@@ -39,7 +45,7 @@ export default {
       minVideoId: 1,
       maxVideoId: 61,
       nextVideoId: 0,
-      nextVideoSegment: '6101-0-0',
+
     };
   },
   computed: {
@@ -47,7 +53,7 @@ export default {
       return this.languageStore.jVideoSegment;
     },
     languageCodeHL() {
-      return this.languageStore.getLangaugeCodeHLSelected;
+      return this.languageStore.getLanguageCodeHLSelected;
     },
   },
   setup() {
@@ -60,30 +66,31 @@ export default {
     showNextSegment() {
       this.nextId = this.videoId + 1;
       this.languageStore.updateJVideoSegment(this.nextVideoId);
-      this.$emit("showVideo", this.nextVideoSegment);
+      this.$emit("showVideo", this.nextVideoId);
     },
     showPreviousSegment() {
       this.nextId = this.videoId - 1;
       this.languageStore.updateJVideoSegment(this.nextVideoId);
-      this.$emit("showVideo", this.nextVideoSegment);
+      this.$emit("showVideo", this.nextVideoId);
     },
   },
 };
 </script>
 <style scoped>
-
-.inline{
-  display:inline-block;
+.inline {
+  display: inline-block;
 }
 .q-gutter-md,
 .q-mr-md,
-.q-ml-md{
-  margin-top:0px;
+.q-ml-md {
+  margin-top: 0px;
 }
-.q-gutter-y-md,.q-gutter-md {
-    margin-top: 0px
+.q-gutter-y-md,
+.q-gutter-md {
+  margin-top: 0px;
 }
-.q-gutter-y-md>*,.q-gutter-md>* {
-    margin-top: 0px;
+.q-gutter-y-md > *,
+.q-gutter-md > * {
+  margin-top: 0px;
 }
 </style>

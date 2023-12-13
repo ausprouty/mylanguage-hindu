@@ -7,7 +7,7 @@ export const useLanguageStore = defineStore("languageStore", {
     leadershipLesson: null,
     bookLesson: null,
     followingHimSegment: null,
-    jVideoSegment: null,
+    jVideoSegmentId: null,
     jVideoSegments:{
       languageCodeHL: null,
       languageCodeJF: null,
@@ -40,9 +40,9 @@ export const useLanguageStore = defineStore("languageStore", {
       return state.hisTeachingLesson
     },
 
-    getJVideoSegment: (state) => {
+    getJVideoSegmentId: (state) => {
       if (state.jVideoSegment == null){
-        state.jVideoSegment = localStorage.getItem("jVideoSegment", 1)
+        state.jVideoSegment = localStorage.getItem("jVideoSegmentId", 1)
       }
       return state.jVideoSegment
     },
@@ -121,9 +121,9 @@ export const useLanguageStore = defineStore("languageStore", {
       localStorage.setItem('hisTeachingLesson', newValue);
       this.hisTeachingLesson = newValue;
     },
-    updateJVideoSegment(newValue) {
+    updateJVideoSegmentId(newValue) {
       console.log(newValue)
-      localStorage.setItem('jVideoSegment', newValue);
+      localStorage.setItem('jVideoSegmentId', newValue);
       this.jVideoSegment = newValue;
     },
     updateJVideoSegments(languageCodeHL, languageCodeJF, segments){

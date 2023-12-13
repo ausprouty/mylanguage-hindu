@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div >
+    <div>
       <q-select
         filled
         v-model="selectedValue"
@@ -11,8 +11,8 @@
         label="Video Segment"
         class="select"
       />
+    </div>
   </div>
-</div>
 </template>
 
 <script>
@@ -29,9 +29,9 @@ export default {
   },
   data() {
     return {
-      selectedValue : {
+      selectedValue: {
         id: 1,
-        title: 'SELECT'
+        title: "SELECT",
       },
       segments: [],
       video: null,
@@ -46,45 +46,52 @@ export default {
     currentSegment: function (newLesson, oldLesson) {
       if (newLesson !== oldLesson) {
         this.updateSelectBar(newLesson);
-
       }
-    }
+    },
   },
   computed: {
-    currentSegment() {
-      return this.languageStore.getJVideoSegment;
+    currentSegmentId() {
+      return this.languageStore.getJVideoSegmentId;
     },
     languageCodeHL() {
-      return this.languageStore.getLangaugeCodeHLSelected;
+      return this.languageStore.getLanguageCodeHLSelected;
     },
     languageCodeJF() {
-      return this.languageStore.getLangaugeCodeJFSelected;
+      return this.languageStore.getLanguageCodeJFSelected;
     },
   },
   created() {
-    this.getSegmentList( this.languageCodeHL);
-    this.selectedValue.videoSegment = this.currentSegment
+    this.getSegmentList(this.languageCodeHL);
+    this.selectedValue.id = this.currentSegmentId;
     this.updateLesson();
   },
   methods: {
     getSegmentList(languageCodeHL) {
-      var url = "api/jvideo/segments/" + languageCodeHL + '/' + this.languageCodeJF;
+      console.log ('getSegmentList for: ' +  languageCodeHL)
+      var url =
+        "api/jvideo/segments/" + languageCodeHL + "/" + this.languageCodeJF;
       console.log(url);
       api.get(url).then((response) => {
-        console.log (response.data)
         this.segments = response.data;
-        this.languageStore.updateJVideoSegments(this.languageCodeHL, this.languageCodeJF, this.segments);
-        this.updateSelectBar(this.currentSegment);
+        console.log('this segments');
+        console.log(this.segments);
+        this.languageStore.updateJVideoSegments(
+          this.languageCodeHL,
+          this.languageCodeJF,
+          this.segments
+        );
+        console.log (this.currentSegmentId);
+        this.updateSelectBar(this.currentSegmentId);
       });
     },
     updateLesson() {
-      this.languageStore.updateJVideoSegment(this.selectedValue.videoSegment);
-      this.$emit('showVideo',this.selectedValue.videoSegment)
+      this.languageStore.updateJVideoSegmentId(this.selectedValue.id);
+      this.$emit("showVideo", this.selectedValue.id);
     },
-    updateSelectBar(currentSegment){
-      this.selectedValue = this.segments[0]
-      for (var i = 0; i< this.segments.length; i++){
-        if (this.segments[i].videoSegment == currentSegment){
+    updateSelectBar(currentSegmentId) {
+      this.selectedValue = this.segments[0];
+      for (var i = 0; i < this.segments.length; i++) {
+        if (this.segments[i].videoSegment == currentSegmentId) {
           this.selectedValue = this.segments[i];
         }
       }
@@ -93,8 +100,7 @@ export default {
 };
 </script>
 <style>
-
-.q-item__label{
-  color:black;
+.q-item__label {
+  color: black;
 }
 </style>

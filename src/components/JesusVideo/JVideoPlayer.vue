@@ -12,10 +12,9 @@ export default {
   data() {
     return {
       show1: false,
-      iframeStart:
-        '<iframe id="guruplayer" ',
+      iframeStart: '<iframe id="guruplayer" ',
       iframeEnd:
-        ' allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>',
+        " allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>",
       videoIframe: null,
     };
   },
@@ -26,40 +25,62 @@ export default {
     };
   },
 
-
   watch: {
     languageCodeHL: function (newLanguage, oldLanguage) {
       if (newLanguage !== oldLanguage) {
-        this.updateVideoIframe(newLanguage, this.videoSegment);
+        this.updateVideoShown();
       }
     },
     videoSegment: function (newVideoSegment, oldVideoSegment) {
       if (newVideoSegment !== oldVideoSegment) {
-        this.updateVideoIframe(newVideoSegment);
+        this.updateVideoShown();
       }
     },
   },
   computed: {
     languageCodeHL() {
-      return this.languageStore.getLangaugeCodeHLSelected;
+      return this.languageStore.getLanguageCodeHLSelected;
     },
-    videoSegment() {
-      return this.languageStore.getJVideoSegment;
+    languageCodeJF() {
+      return this.languageStore.getLanguageCodeJFSelected;
+    },
+    videoSegmentId() {
+      return this.languageStore.getJVideoSegmentId;
     },
   },
   methods: {
-
-    updateVideoIframe(videoSegment) {
+    updateVideoShown(){
       var segments = this.languageStore.getJVideoSegments;
-      console.log (segments)
-      for (var i = 0; i < segments.segments.length; i++){
-        if (segments.segments[i].id == videoSegment){
-          var videoSource = segments.segments[i].src
+      if (segments.languageCodeHL != this.languageStore.getLanguageCodeHLSelected){
+        var url =
+        "api/jvideo/segments/" + this.languageCodeHL + "/" + this.languageCodeJF
+        console.log(url);
+        api.get(url).then((response) => {
+          this.segments = response.data;
+          this.languageStore.updateJVideoSegments(
+            this.languageCodeHL,
+            this.languageCodeJF,
+            this.segments
+          );
+
+        });
+      }
+      else{
+        updateVideoIframe();
+      }
+
+    },
+    updateVideoIframe() {
+      console.log (this.videoSegmentId);
+      var segments = this.languageStore.getJVideoSegments;
+      for (var i = 0; i < segments.segments.length; i++) {
+        if (segments.segments[i].id == this.videoSegmentId) {
+          var videoSource = segments.segments[i].src;
           break;
         }
       }
       this.videoIframe = this.iframeStart + videoSource + this.iframeEnd;
-      console.log (this.videoIframe)
+      console.log(this.videoIframe);
     },
   },
 };

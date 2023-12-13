@@ -70,7 +70,7 @@ export default {
           case 'leadership':
           return '/'+ this.languageStore.getLeadershipLesson
           case 'life':
-            return '/'+ this.languageStore.getJVideoSegment ;
+            return '/'+ this.languageStore.getJVideoSegmentId ;
           case 'teachings':
             return '/'+ this.languageStore.getHisTeachingLesson
           case 'book':

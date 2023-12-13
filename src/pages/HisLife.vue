@@ -67,13 +67,7 @@ export default {
   },
   created(){
      if (this.$route.params.lessonLink !== ''){
-      var videoSegmentLink = '61';
-      if (this.$route.params.lessonLink < 10) {
-        videoSegmentLink += '0'
-      }
-      videoSegmentLink += this.$route.params.lessonLink + '-0-0';
-      console.log (videoSegmentLink);
-      this.languageStore.updateJVideoSegment(videoSegmentLink);
+      this.languageStore.updateJVideoSegmentId(this.$route.params.lessonLink);
      }
      if (this.$route.params.languageCode !== ''){
       this.languageStore.updateLanguageSelected(this.$route.params.languageCode);
@@ -83,12 +77,12 @@ export default {
     computedLanguageSelected() {
       return this.languageStore.getLanguageSelected;
     },
-    computedVideoSegmant() {
-      return this.languageStore.getJVideoSegment;
+    computedVideoSegmentId() {
+      return this.languageStore.getJVideoSegmentId;
     },
   },
   watch: {
-    computedVideoSegmant: function (newValue, oldValue) {
+    computedVideoSegmantId: function (newValue, oldValue) {
       if (newValue !== oldValue) {
         return newValue;
       }
