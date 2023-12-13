@@ -64,9 +64,7 @@ export default {
   },
   methods: {
     showNextSegment() {
-      console.log ('current:' + this.currentSegmentId);
       this.nextVideoId = this.currentSegmentId + 1;
-      console.log ('next:' + this.nextVideoId);
       this.languageStore.updateJVideoSegmentId(this.nextVideoId);
       this.$emit("showVideo", this.nextVideoId);
     },

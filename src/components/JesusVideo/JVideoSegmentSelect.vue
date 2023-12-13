@@ -85,10 +85,8 @@ export default {
       this.$emit("showVideo", this.selectedValue.id);
     },
     updateSelectBar(currentSegmentId) {
-      console.log (currentSegmentId)
       this.selectedValue = this.segments[0];
       for (var i = 0; i < this.segments.length; i++) {
-        console.log (this.segments[i])
         if (this.segments[i].id == currentSegmentId) {
           this.selectedValue = this.segments[i];
         }
