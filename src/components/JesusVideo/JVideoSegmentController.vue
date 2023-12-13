@@ -1,7 +1,7 @@
 <template>
   <div class="q-pa-md q-gutter-md q-flex">
     <div
-      v-if="this.videoId > this.minVideoId"
+      v-if="this.currentSegmentId > this.minVideoId"
       class="q-gutter-md q-flex items-center inline"
     >
       <q-btn
@@ -16,7 +16,7 @@
     </div>
     <q-space class="inline" />
     <div
-      v-if="this.videoId < this.maxVideoId"
+      v-if="this.currentSegmentId < this.maxVideoId"
       class="q-gutter-md q-flex items-center inline"
     >
       <span class="q-mr-md">Next</span>
@@ -49,8 +49,8 @@ export default {
     };
   },
   computed: {
-    currentSegment() {
-      return this.languageStore.jVideoSegment;
+    currentSegmentId() {
+      return this.languageStore.jVideoSegmentId;
     },
     languageCodeHL() {
       return this.languageStore.getLanguageCodeHLSelected;
@@ -64,13 +64,15 @@ export default {
   },
   methods: {
     showNextSegment() {
-      this.nextId = this.videoId + 1;
-      this.languageStore.updateJVideoSegment(this.nextVideoId);
+      console.log ('current:' + this.currentSegmentId);
+      this.nextVideoId = this.currentSegmentId + 1;
+      console.log ('next:' + this.nextVideoId);
+      this.languageStore.updateJVideoSegmentId(this.nextVideoId);
       this.$emit("showVideo", this.nextVideoId);
     },
     showPreviousSegment() {
-      this.nextId = this.videoId - 1;
-      this.languageStore.updateJVideoSegment(this.nextVideoId);
+      this.nextVideoId = this.currentSegmentId - 1;
+      this.languageStore.updateJVideoSegmentId(this.nextVideoId);
       this.$emit("showVideo", this.nextVideoId);
     },
   },

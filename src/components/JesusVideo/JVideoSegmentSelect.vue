@@ -43,7 +43,7 @@ export default {
         this.getSegmentList();
       }
     },
-    currentSegment: function (newLesson, oldLesson) {
+    currentSegmentId: function (newLesson, oldLesson) {
       if (newLesson !== oldLesson) {
         this.updateSelectBar(newLesson);
       }
@@ -67,20 +67,16 @@ export default {
   },
   methods: {
     getSegmentList(languageCodeHL) {
-      console.log ('getSegmentList for: ' +  languageCodeHL)
       var url =
         "api/jvideo/segments/" + languageCodeHL + "/" + this.languageCodeJF;
       console.log(url);
       api.get(url).then((response) => {
         this.segments = response.data;
-        console.log('this segments');
-        console.log(this.segments);
         this.languageStore.updateJVideoSegments(
           this.languageCodeHL,
           this.languageCodeJF,
           this.segments
         );
-        console.log (this.currentSegmentId);
         this.updateSelectBar(this.currentSegmentId);
       });
     },
@@ -89,9 +85,11 @@ export default {
       this.$emit("showVideo", this.selectedValue.id);
     },
     updateSelectBar(currentSegmentId) {
+      console.log (currentSegmentId)
       this.selectedValue = this.segments[0];
       for (var i = 0; i < this.segments.length; i++) {
-        if (this.segments[i].videoSegment == currentSegmentId) {
+        console.log (this.segments[i])
+        if (this.segments[i].id == currentSegmentId) {
           this.selectedValue = this.segments[i];
         }
       }

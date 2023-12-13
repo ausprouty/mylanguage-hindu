@@ -24,7 +24,9 @@ export default {
       languageStore,
     };
   },
-
+  created(){
+    this.updateVideoShown()
+  },
   watch: {
     languageCodeHL: function (newLanguage, oldLanguage) {
       if (newLanguage !== oldLanguage) {
@@ -62,11 +64,12 @@ export default {
             this.languageCodeJF,
             this.segments
           );
+          this.updateVideoIframe();
 
         });
       }
       else{
-        updateVideoIframe();
+        this.updateVideoIframe();
       }
 
     },

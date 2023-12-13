@@ -23,9 +23,7 @@
       />
     </div>
     <div>
-      <JVideoPlayer
-        :languageCodeHL="computedLanguageSelected"
-      />
+      <JVideoPlayer :languageCodeHL="computedLanguageSelected" />
     </div>
 
     <div><JVideoQuestions :languageCodeHL="computedLanguageSelected" /></div>
@@ -43,9 +41,9 @@ import { computed } from "vue";
 
 export default {
   name: "HisLife",
-  props:{
-    lessonLink : Number,
-    languageCode: String
+  props: {
+    lessonLink: Number,
+    languageCode: String,
   },
   components: {
     JVideoPlayer,
@@ -55,23 +53,24 @@ export default {
   },
   data() {
     return {
-
       languageSelected: this.languageStore.getLanguageSelected,
     };
   },
   setup() {
     const languageStore = useLanguageStore();
     return {
-      languageStore
+      languageStore,
     };
   },
-  created(){
-     if (this.$route.params.lessonLink !== ''){
+  created() {
+    if (this.$route.params.lessonLink !== "") {
       this.languageStore.updateJVideoSegmentId(this.$route.params.lessonLink);
-     }
-     if (this.$route.params.languageCode !== ''){
-      this.languageStore.updateLanguageSelected(this.$route.params.languageCode);
-     }
+    }
+    if (this.$route.params.languageCode !== "") {
+      this.languageStore.updateLanguageSelected(
+        this.$route.params.languageCode
+      );
+    }
   },
   computed: {
     computedLanguageSelected() {
