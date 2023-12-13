@@ -82,7 +82,7 @@ export default {
 
     handleShowTeaching() {
       var lesson = this.languageStore.getBookLesson
-      var language = this.languageStore.getLanguageSelected;
+      var language = this.languageStore.getLanguageCodeHLSelected;
       var url =
         "api/dbs/view/" +
         lesson +

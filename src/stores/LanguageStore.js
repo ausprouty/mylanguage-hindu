@@ -138,6 +138,14 @@ export const useLanguageStore = defineStore("languageStore", {
       localStorage.setItem('languages', languages);
       this.languages = languages;
     },
+    updateLanguageCodeHLSelected(languageCodeHL){
+      this.languageSelected.languageCodeHL = languageCodeHL;
+      localStorage.setItem('languageSelected', JSON.stringify(this.languageSelected));
+    },
+    updateLanguageCodeJFSelected(languageCodeJF){
+      this.languageSelected.languageCodeJF = languageCodeJF;
+      localStorage.setItem('languageSelected', JSON.stringify(this.languageSelected));
+    },
     updateLanguageSelected(languageCodeHL, languageCodeJF){
       this.languageSelected.languageCodeHL = languageCodeHL;
       this.languageSelected.languageCodeJF = languageCodeJF;

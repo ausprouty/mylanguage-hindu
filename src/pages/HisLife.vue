@@ -11,22 +11,22 @@
     </p>
     <div>
       <JVideoSegmentSelect
-        :languageCodeHL="computedLanguageSelected"
+        :languageCodeHL="computedLanguageCodeHLSelected"
         @showVideo="handleNewVideoSegment"
       />
     </div>
     <div>
       <JVideoSegmentController
-        :videoSegment="computedVideoSegmant"
-        :languageCodeHL="computedLanguageSelected"
+        :videoSegment="computedVideoSegmentId"
+        :languageCodeHL="computedLanguageCodeHLSelected"
         @showVideo="handleNewVideoSegment"
       />
     </div>
     <div>
-      <JVideoPlayer :languageCodeHL="computedLanguageSelected" />
+      <JVideoPlayer :languageCodeHL="computedLanguageCodeHLSelected" />
     </div>
 
-    <div><JVideoQuestions :languageCodeHL="computedLanguageSelected" /></div>
+    <div><JVideoQuestions :languageCodeHL="computedLanguageCodeHLSelected" /></div>
     <!-- content -->
   </q-page>
 </template>
@@ -67,14 +67,14 @@ export default {
       this.languageStore.updateJVideoSegmentId(this.$route.params.lessonLink);
     }
     if (this.$route.params.languageCode !== "") {
-      this.languageStore.updateLanguageSelected(
+      this.languageStore.updateLanguageCodeHLSelected(
         this.$route.params.languageCode
       );
     }
   },
   computed: {
-    computedLanguageSelected() {
-      return this.languageStore.getLanguageSelected;
+    computedLanguageCodeHLSelected() {
+      return this.languageStore.getLanguageCodeHLSelected;
     },
     computedVideoSegmentId() {
       return this.languageStore.getJVideoSegmentId;

@@ -49,7 +49,7 @@ export default {
   },
   computed: {
     languageCodeHL(){
-      return this.languageStore.getLanguageSelected;
+      return this.languageStore.getLanguageCodeHLSelected;
     },
     currentSegment() {
       return this.languageStore.getHisTeachingLesson;

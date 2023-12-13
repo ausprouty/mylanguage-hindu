@@ -50,7 +50,7 @@ export default {
      }
      if (route.params.languageCode !== ''){
       console.log ('updated languagecode to: '  +  route.params.languageCode)
-      languageStore.updateLanguageSelected(route.params.languageCode);
+      languageStore.updateLanguageCodeHLSelected(route.params.languageCode);
      }
     return {
       languageStore,

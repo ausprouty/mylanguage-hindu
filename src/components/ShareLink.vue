@@ -85,7 +85,7 @@ export default {
           case 'life':
           case 'teachings':
           case 'book':
-            return '/' + this.languageStore.getLanguageSelected
+            return '/' + this.languageStore.getLanguageCodeHLSelected
         default:
             return ''
         }

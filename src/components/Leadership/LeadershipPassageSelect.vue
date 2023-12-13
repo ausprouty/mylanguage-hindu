@@ -51,7 +51,7 @@ export default {
       return this.languageStore.getLeadershipLesson;
     },
     languageCodeHL() {
-      return this.languageStore.getLanguageSelected;
+      return this.languageStore.getLanguageCodeHLSelected;
     },
   },
   created() {
