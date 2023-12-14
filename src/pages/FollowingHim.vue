@@ -8,18 +8,18 @@
     </p>
     <div>
       <FollowingHimSegmentSelect
-        :languageCodeHL="computedLanguageSelected"
+        :languageCodeHL="computedLanguageCodeHL"
         @showVideo="handleNewVideoSegment"
       />
     </div>
     <div>
       <FollowingHimPlayer
         :videoSegment="videoSegment"
-        :languageCodeHL="computedLanguageSelected"
+        :languageCodeHL="computedLanguageCodeHL"
       />
     </div>
     <div>
-      <FollowingHimQuestions :languageCodeHL="computedLanguageSelected" />
+      <FollowingHimQuestions :languageCodeHL="computedLanguageCodeHL" />
     </div>
     <!-- content -->
   </q-page>
@@ -45,7 +45,7 @@ export default {
   data() {
     return {
       videoSegment: "1-0-0",
-      languageSelected: this.languageStore.getLanguageSelected,
+      languageCodeJFSelected: this.languageStore.getLanguageCodeJFSelected,
     };
   },
   setup() {
@@ -60,12 +60,15 @@ export default {
      }
   },
   computed: {
-    computedLanguageSelected() {
-      return this.languageStore.getLanguageSelected;
+    computedLanguageCodeHL() {
+      return this.languageStore.getLanguageCodeHLSelected;
+    },
+    computedLanguageCodeJF() {
+      return this.languageStore.getLanguageCodeJFSelected;
     },
   },
   watch: {
-    computedLanguageSelected: function (newLanguage, oldLanguage) {
+    computedLanguageCodeHL: function (newLanguage, oldLanguage) {
       if (newLanguage !== oldLanguage) {
         return newLanguage;
       }

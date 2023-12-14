@@ -49,18 +49,13 @@ export default {
   },
   methods: {
     updateVideoIframe(languageCodeHL, videoSegment) {
-      var url = 'api/language/languageCodeJFFollowingJesus/' + languageCodeHL;
-      api.get(url).then((response) => {
-        console.log (response)
-        var videoLanguage = '529'
-        if (response.data != null){
-          videoLanguage = response.data
-        }
-        var video1 = '1_' + videoLanguage + '-fj_' + videoSegment;
-        console.log (video1)
-        this.videoIframe = this.iframeStart + video1 + this.iframeEnd;
-
-      });
+      var videoLanguage = this.languageStore.getLanguageCodeJFSelected;
+      if (videoSegment ?? true){
+        videoSegment = "1-0-0"
+      }
+      var video1 = '1_' + videoLanguage + '-fj_' + videoSegment;
+      console.log (video1)
+      this.videoIframe = this.iframeStart + video1 + this.iframeEnd;
     }
   }
 };

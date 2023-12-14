@@ -53,25 +53,36 @@ export default {
   methods: {
     updateVideoShown(){
       var segments = this.languageStore.getJVideoSegments;
+      console.log ('this is segments')
+      console.log (segments)
+      if (segments ?? true){
+        console.log ('I am getting new JV segments because there are not any')
+        this.getNewJVideoSegments();
+      }
       if (segments.languageCodeHL != this.languageStore.getLanguageCodeHLSelected){
-        var url =
-        "api/jvideo/segments/" + this.languageCodeHL + "/" + this.languageCodeJF
-        console.log(url);
-        api.get(url).then((response) => {
-          this.segments = response.data;
-          this.languageStore.updateJVideoSegments(
-            this.languageCodeHL,
-            this.languageCodeJF,
-            this.segments
-          );
-          this.updateVideoIframe();
-
-        });
+        console.log ('I am getting new JV segments because language changed')
+        this.getNewJVideoSegments();
       }
       else{
+        console.log ('I am NOT getting new JV segments because we have them')
         this.updateVideoIframe();
       }
-
+    },
+    getNewJVideoSegments(){
+      var url =
+        "api/jvideo/segments/" + this.languageCodeHL + "/" + this.languageCodeJF
+      console.log(url);
+      api.get(url).then((response) => {
+        this.segments = response.data;
+        console.log (this.segments)
+        console.log (this.languageCodeHL+ '  ' + this.languageCodeJF)
+        this.languageStore.updateJVideoSegments(
+          this.languageCodeHL,
+          this.languageCodeJF,
+          this.segments
+        );
+        this.updateVideoIframe();
+      });
     },
     updateVideoIframe() {
       console.log (this.videoSegmentId);

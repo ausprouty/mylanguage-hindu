@@ -9,8 +9,8 @@ export const useLanguageStore = defineStore("languageStore", {
     followingHimSegment: null,
     jVideoSegmentId: 1,
     jVideoSegments:{
-      languageCodeHL: null,
-      languageCodeJF: null,
+      languageCodeHL: 'eng00',
+      languageCodeJF: '529',
       segments:[]
     },
     languages: [],
@@ -22,34 +22,34 @@ export const useLanguageStore = defineStore("languageStore", {
   }),
   getters: {
     getBookLesson: (state) => {
-      if (state.bookLesson == null){
+      if (state.bookLesson ?? true){
         state.bookLesson = localStorage.getItem("bookLesson", 1)
       }
       return state.bookLesson
     },
     getFollowingHimSegment: (state) => {
-      if (state.followingHimSegment == null){
+      if (state.followingHimSegment ?? true){
         state.followingHimSegment = localStorage.getItem("followingHimSegment", 1)
       }
       return state.followingHimSegment
     },
     getHisTeachingLesson: (state) => {
-      if (state.hisTeachingLesson == null){
+      if (state.hisTeachingLesson ?? true){
         state.hisTeachingLesson = localStorage.getItem("hisTeachingLesson", 1)
       }
       return state.hisTeachingLesson
     },
 
     getJVideoSegmentId: (state) => {
-      if (state.jVideoSegmentId == null){
+      if (state.jVideoSegmentId ?? true){
         console.log ('getting jvideoSegmentId from local storage')
         state.jVideoSegmentId = localStorage.getItem("jVideoSegmentId", 1)
       }
       return state.jVideoSegmentId
     },
     getJVideoSegments: (state) => {
-      if (state.jVideoSegments == null){
-        var local = JSON.parse(localStorage.getItem("jVideoSegments"));
+      if (state.jVideoSegments ?? true){
+        var local = localStorage.getItem("jVideoSegments");
         if (local  && local != 'undefined'){
           state.jVideoSegments = JSON.parse(local)
         }
@@ -59,6 +59,20 @@ export const useLanguageStore = defineStore("languageStore", {
       }
       return state.jVideoSegments
     },
+    getLanguageCodeHLSelected: (state) => {
+      if (state.languageSelected ?? true){
+       var local = localStorage.getItem("languageSelected");
+       if (local  && local != 'undefined'){
+        state.languageSelected = JSON.parse(local)
+       }
+       else{
+        state.languageSelected.languageCodeHL = 'eng00',
+        state.languageSelected.languageCodeJF = 529
+       }
+      }
+      return state.languageSelected.languageCodeHL
+    },
+
     getLanguageCodeJFSelected: (state) => {
       if (!state.languageSelected){
        var local = localStorage.getItem("languageSelected");
@@ -71,18 +85,7 @@ export const useLanguageStore = defineStore("languageStore", {
       }
       return state.languageSelected.languageCodeJF
     },
-    getLanguageCodeHLSelected: (state) => {
-      if (!state.languageSelected){
-       var local = localStorage.getItem("languageSelected");
-       if (local  && local != 'undefined'){
-        state.languageSelected = JSON.parse(local)
-       }
-       else{
-        state.languageSelected = {}
-       }
-      }
-      return state.languageSelected.languageCodeHL
-    },
+
     getLanguageSelected: (state) => {
       if (state.languageSelected.languageCodeHL == null){
         var local = localStorage.getItem("languageSelected")
@@ -97,7 +100,7 @@ export const useLanguageStore = defineStore("languageStore", {
       return state.languageSelected
     },
     getLeadershipLesson: (state) => {
-      if (state.leadershipLesson == null){
+      if (state.leadershipLesson ?? true){
         state.leadershipLesson = localStorage.getItem("leadershipLesson", 1)
       }
       return state.leadershipLesson
@@ -123,15 +126,18 @@ export const useLanguageStore = defineStore("languageStore", {
       this.hisTeachingLesson = newValue;
     },
     updateJVideoSegmentId(newValue) {
-      console.log(newValue)
-      localStorage.setItem('jVideoSegmentId', newValue);
-      this.jVideoSegmentId = newValue;
+      if (newValue != null){
+        localStorage.setItem('jVideoSegmentId', newValue);
+        this.jVideoSegmentId = newValue;
+      }
     },
     updateJVideoSegments(languageCodeHL, languageCodeJF, segments){
-      this.jVideoSegments.languageCodeHL = languageCodeHL;
-      this.jVideoSegments.languageCodeJF = languageCodeJF;
-      this.jVideoSegments.segments = segments;
-      localStorage.setItem('jVideoSegments', JSON.stringify(this.jVideSegments));
+      var jVideoSegments ={ }
+      jVideoSegments.languageCodeHL = languageCodeHL
+      jVideoSegments.languageCodeJF = languageCodeJF
+      jVideoSegments.segments = segments;
+      localStorage.setItem('jVideoSegments', JSON.stringify(jVideoSegments));
+      this.jVideoSegments = jVideoSegments
     },
     updateLanguages(newValue) {
       var languages = JSON.stringify(newValue);

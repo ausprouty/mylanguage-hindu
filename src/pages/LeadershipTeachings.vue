@@ -78,7 +78,7 @@ export default {
   methods: {
     handleShowTeaching() {
       var lesson = this.languageStore.getLeadershipLesson
-      var language = this.languageStore.getLanguageSelected;
+      var language = this.languageStore.getLanguageCodeHLSelected;
       var url =
         "api/leadership/view/" + lesson + "/" + language ;
       console.log(url);

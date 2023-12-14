@@ -20,7 +20,6 @@ import { api } from "boot/axios";
 import { useLanguageStore } from "stores/LanguageStore";
 export default {
   name: "JVideoSegmentSelect",
-
   setup() {
     const languageStore = useLanguageStore();
     return {
@@ -40,7 +39,7 @@ export default {
   watch: {
     languageCodeHL: function (newLanguage, oldLanguage) {
       if (newLanguage !== oldLanguage) {
-        this.getSegmentList();
+        this.getSegmentList(newLanguage );
       }
     },
     currentSegmentId: function (newLesson, oldLesson) {
@@ -67,16 +66,21 @@ export default {
   },
   methods: {
     getSegmentList(languageCodeHL) {
+      console.log (languageCodeHL + "in JVideoSegmentSelect")
       var url =
         "api/jvideo/segments/" + languageCodeHL + "/" + this.languageCodeJF;
       console.log(url);
       api.get(url).then((response) => {
         this.segments = response.data;
+        console.log (this.segments)
+        var languageCodeHL = 529
+        console.log (languageCodeHL)
         this.languageStore.updateJVideoSegments(
-          this.languageCodeHL,
+          languageCodeHL,
           this.languageCodeJF,
           this.segments
         );
+        console.log (languageCodeHL)
         this.updateSelectBar(this.currentSegmentId);
       });
     },
