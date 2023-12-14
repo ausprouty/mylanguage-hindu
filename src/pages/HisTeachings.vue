@@ -86,7 +86,7 @@ export default {
   methods: {
     handleShowTeaching() {
       var lesson = this.languageStore.getHisTeachingLesson
-      var language = this.languageStore.getLanguageSelected;
+      var language = this.languageStore.getLanguageCodeHLSelected;
       var url =
         "api/life_principles/view/" +
         lesson +
