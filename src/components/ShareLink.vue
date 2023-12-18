@@ -67,24 +67,28 @@ export default {
     },
     getLessonNumber(page){
         switch (page){
+          case 'book':
+          return '/'+ this.languageStore.getBookLesson
+          case 'following':
+          return '/'+ this.languageStore.getFollowingHimSegment
           case 'leadership':
           return '/'+ this.languageStore.getLeadershipLesson
           case 'life':
             return '/'+ this.languageStore.getJVideoSegmentId ;
           case 'teachings':
             return '/'+ this.languageStore.getHisTeachingLesson
-          case 'book':
-          return '/'+ this.languageStore.getBookLesson
+
           default:
             return ''
         }
     },
     getLanguage(page){
         switch (page){
+          case 'book':
+          case 'following':
           case 'leadership':
           case 'life':
           case 'teachings':
-          case 'book':
             return '/' + this.languageStore.getLanguageCodeHLSelected
         default:
             return ''

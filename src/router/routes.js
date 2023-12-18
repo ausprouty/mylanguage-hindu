@@ -42,7 +42,7 @@ const routes = [
 
     {
       name: 'FollowingHim',
-      path: '/following',
+      path: '/following/:lessonLink?/:languageCode?',
       component: () => import('pages/FollowingHim.vue')
     },
     {

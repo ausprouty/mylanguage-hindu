@@ -60,6 +60,11 @@ export default {
       ],
     }
   },
+  created() {
+    console.log (this.selectedValue)
+    this.selectedValue.videoSegment = this.currentSegment ;
+    this.updateLesson();
+  },
   watch: {
     languageCodeHL: function (newLanguage, oldLanguage) {
       if (newLanguage !== oldLanguage) {
@@ -85,20 +90,24 @@ export default {
   },
   methods:{
     updateLesson() {
-      console.log (this.selectedValue)
-      //this.languageStore.updateFollowingHimSegment(this.selectedValue.videoSegment);
+      console.log (this.selectedValue.videoSegment)
+      this.updateSelectBar(this.selectedValue.videoSegment)
+      this.languageStore.updateFollowingHimSegment(this.selectedValue.videoSegment);
       this.$emit('showVideo',this.selectedValue.videoSegment)
     },
     getSegmentList(){ // all is English now
       return;
     },
     updateSelectBar(currentSegment){
+      console.log (currentSegment)
       this.selectedValue = this.segments[0]
+      console.log (this.selectedValue)
       for (var i = 0; i< this.segments.length; i++){
         if (this.segments[i].videoSegment == currentSegment){
           this.selectedValue = this.segments[i];
         }
       }
+      console.log (this.selectedValue)
     },
   }
 };

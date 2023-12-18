@@ -85,11 +85,16 @@ export default {
       });
     },
     updateVideoIframe() {
-      console.log (this.videoSegmentId);
+      var videoSegmentId = this.videoSegmentId
+      if ( videoSegmentId ?? true){
+        videoSegmentId  = 1
+      }
+      console.log ('videosegmentid ' + videoSegmentId);
+      var videoSource = ''
       var segments = this.languageStore.getJVideoSegments;
       for (var i = 0; i < segments.segments.length; i++) {
-        if (segments.segments[i].id == this.videoSegmentId) {
-          var videoSource = segments.segments[i].src;
+        if (segments.segments[i].id == videoSegmentId) {
+          videoSource = segments.segments[i].src;
           break;
         }
       }

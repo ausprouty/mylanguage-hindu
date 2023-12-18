@@ -58,6 +58,10 @@ export default {
      if (this.$route.params.lessonLink !== ''){
       this.languageStore.updateFollowingHimSegment(this.$route.params.lessonLink);
      }
+     if (this.$route.params.languageCode !== ''){
+      console.log ('updated languagecode to: '  +  route.params.languageCode)
+      this.languageStore.updateLanguageCodeHLSelected(route.params.languageCode);
+     }
   },
   computed: {
     computedLanguageCodeHL() {

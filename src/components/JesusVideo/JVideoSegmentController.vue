@@ -50,7 +50,7 @@ export default {
   },
   computed: {
     currentSegmentId() {
-      return this.languageStore.jVideoSegmentId;
+      return Number(this.languageStore.jVideoSegmentId);
     },
     languageCodeHL() {
       return this.languageStore.getLanguageCodeHLSelected;

@@ -3,7 +3,7 @@ import { defineStore } from "pinia";
 export const useLanguageStore = defineStore("languageStore", {
   state: () => ({
 
-    hisTeachingLesson: null,
+    hisTeachingLesson: '1-0-0',
     leadershipLesson: null,
     bookLesson: null,
     followingHimSegment: null,
@@ -15,8 +15,8 @@ export const useLanguageStore = defineStore("languageStore", {
     },
     languages: [],
     languageSelected: {
-      languageCodeHL: null,
-      languageCodeJF: null
+      languageCodeHL: 'eng00',
+      languageCodeJF: 529
     },
     previousPage: '/index'
   }),
@@ -29,7 +29,7 @@ export const useLanguageStore = defineStore("languageStore", {
     },
     getFollowingHimSegment: (state) => {
       if (state.followingHimSegment ?? true){
-        state.followingHimSegment = localStorage.getItem("followingHimSegment", 1)
+        state.followingHimSegment = localStorage.getItem("followingHimSegment", '1-0-0')
       }
       return state.followingHimSegment
     },
@@ -60,42 +60,25 @@ export const useLanguageStore = defineStore("languageStore", {
       return state.jVideoSegments
     },
     getLanguageCodeHLSelected: (state) => {
-      if (state.languageSelected ?? true){
-       var local = localStorage.getItem("languageSelected");
-       if (local  && local != 'undefined'){
-        state.languageSelected = JSON.parse(local)
-       }
-       else{
-        state.languageSelected.languageCodeHL = 'eng00',
-        state.languageSelected.languageCodeJF = 529
-       }
+      if (state.languageSelected == null){
+        var local = localStorage.getItem("languageSelected", '{"languageSelected":{"languageCodeHL":"eng00","languageCodeJF":529}}');
+          state.languageSelected = JSON.parse(local)
       }
       return state.languageSelected.languageCodeHL
     },
 
     getLanguageCodeJFSelected: (state) => {
-      if (!state.languageSelected){
-       var local = localStorage.getItem("languageSelected");
-       if (local  && local != 'undefined'){
-        state.languageSelected = JSON.parse(local)
-       }
-       else{
-        state.languageSelected = {}
-       }
+      if (state.languageSelected == null){
+        var local = localStorage.getItem("languageSelected", '{"languageSelected":{"languageCodeHL":"eng00","languageCodeJF":529}}');
+          state.languageSelected = JSON.parse(local)
       }
       return state.languageSelected.languageCodeJF
     },
 
     getLanguageSelected: (state) => {
-      if (state.languageSelected.languageCodeHL == null){
-        var local = localStorage.getItem("languageSelected")
-        if (local && local != 'undefined'){
-          state.languageSelected = JSON.parse(local);
-        }
-        else{
-          state.languageSelected.languageCodeHL = 'eng00'
-          state.languageSelected.languageCodeJF = 529
-        }
+      if (state.languageSelected == null){
+        var local = localStorage.getItem("languageSelected", '{"languageSelected":{"languageCodeHL":"eng00","languageCodeJF":529}}');
+          state.languageSelected = JSON.parse(local)
       }
       return state.languageSelected
     },
@@ -114,21 +97,29 @@ export const useLanguageStore = defineStore("languageStore", {
 
   actions :{
     updateBookLesson(newValue) {
-      localStorage.setItem('bookLesson', newValue);
-      this.bookLesson = newValue;
+      if (newValue > 0 && newValue < 24){
+        localStorage.setItem('bookLesson', newValue);
+        this.bookLesson = newValue;
+      }
+
     },
     updateFollowingHimSegment(newValue) {
       localStorage.setItem('followingHimSegment', newValue);
       this.followingHimSegment = newValue;
     },
     updateHisTeachingLesson(newValue) {
-      localStorage.setItem('hisTeachingLesson', newValue);
-      this.hisTeachingLesson = newValue;
+      if (newValue > 0 &&  newValue < 24){
+        localStorage.setItem('hisTeachingLesson', newValue);
+        this.hisTeachingLesson = newValue;
+      }
+
     },
     updateJVideoSegmentId(newValue) {
       if (newValue != null){
-        localStorage.setItem('jVideoSegmentId', newValue);
-        this.jVideoSegmentId = newValue;
+        if (newValue > 0 && newValue < 62){
+          localStorage.setItem('jVideoSegmentId', newValue);
+          this.jVideoSegmentId = newValue;
+        }
       }
     },
     updateJVideoSegments(languageCodeHL, languageCodeJF, segments){
@@ -158,8 +149,10 @@ export const useLanguageStore = defineStore("languageStore", {
       localStorage.setItem('languageSelected', JSON.stringify(this.languageSelected));
     },
     updateLeadershipLesson(newValue) {
-      localStorage.setItem('leadershipLesson', newValue);
-      this.leadershipLesson = newValue;
+      if (newValue > 0 && newValue < 24){
+        localStorage.setItem('leadershipLesson', newValue);
+        this.leadershipLesson = newValue;
+      }
     },
     updatePreviousPage(newValue) {
       localStorage.set("previousPage", newValue);
