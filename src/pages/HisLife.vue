@@ -95,7 +95,10 @@ export default {
 
   methods: {
     handleNewVideoSegment(response) {
+      console.log ('handleNewVideoSegment')
+      console.log (response)
       this.videoSegment = response;
+      this.languageStore.updateJVideoSegmentId(response)
     },
   },
 };

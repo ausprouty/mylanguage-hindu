@@ -22,33 +22,33 @@ export const useLanguageStore = defineStore("languageStore", {
   }),
   getters: {
     getBookLesson: (state) => {
-      if (state.bookLesson ?? true){
+      if (state.bookLesson == null || typeof state.bookLesson == 'undefined'){
         state.bookLesson = localStorage.getItem("bookLesson", 1)
       }
       return state.bookLesson
     },
     getFollowingHimSegment: (state) => {
-      if (state.followingHimSegment ?? true){
+      if (state.followingHimSegment  == null || typeof state.followingHimSegment == 'undefined'){
         state.followingHimSegment = localStorage.getItem("followingHimSegment", '1-0-0')
       }
       return state.followingHimSegment
     },
     getHisTeachingLesson: (state) => {
-      if (state.hisTeachingLesson ?? true){
+      if (state.hisTeachingLesson == null || typeof state.hisTeachingLesson == 'undefined'){
         state.hisTeachingLesson = localStorage.getItem("hisTeachingLesson", 1)
       }
       return state.hisTeachingLesson
     },
 
     getJVideoSegmentId: (state) => {
-      if (state.jVideoSegmentId ?? true){
+      if (state.jVideoSegmentId  == null || typeof state.jVideoSegmentId == 'undefined'){
         console.log ('getting jvideoSegmentId from local storage')
         state.jVideoSegmentId = localStorage.getItem("jVideoSegmentId", 1)
       }
       return state.jVideoSegmentId
     },
     getJVideoSegments: (state) => {
-      if (state.jVideoSegments ?? true){
+      if (state.jVideoSegments == null || typeof state.jVideoSegments == 'undefined'){
         var local = localStorage.getItem("jVideoSegments");
         if (local  && local != 'undefined'){
           state.jVideoSegments = JSON.parse(local)
@@ -83,7 +83,7 @@ export const useLanguageStore = defineStore("languageStore", {
       return state.languageSelected
     },
     getLeadershipLesson: (state) => {
-      if (state.leadershipLesson ?? true){
+      if (state.leadershipLesson  == null || typeof state.leadershipLesson  == 'undefined'){
         state.leadershipLesson = localStorage.getItem("leadershipLesson", 1)
       }
       return state.leadershipLesson

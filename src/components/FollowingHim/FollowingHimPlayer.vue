@@ -50,7 +50,7 @@ export default {
   methods: {
     updateVideoIframe(languageCodeHL, videoSegment) {
       var videoLanguage = this.languageStore.getLanguageCodeJFSelected;
-      if (videoSegment ?? true){
+      if (videoSegment == null || typeof videoSegment == 'undefined'){
         videoSegment = "1-0-0"
       }
       var video1 = '1_' + videoLanguage + '-fj_' + videoSegment;

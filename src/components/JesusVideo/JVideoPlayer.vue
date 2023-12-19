@@ -33,7 +33,7 @@ export default {
         this.updateVideoShown();
       }
     },
-    videoSegment: function (newVideoSegment, oldVideoSegment) {
+    videoSegmentId: function (newVideoSegment, oldVideoSegment) {
       if (newVideoSegment !== oldVideoSegment) {
         this.updateVideoShown();
       }
@@ -55,7 +55,7 @@ export default {
       var segments = this.languageStore.getJVideoSegments;
       console.log ('this is segments')
       console.log (segments)
-      if (segments ?? true){
+      if (segments == null || typeof segments == 'undefined'){
         console.log ('I am getting new JV segments because there are not any')
         this.getNewJVideoSegments();
       }
@@ -85,16 +85,19 @@ export default {
       });
     },
     updateVideoIframe() {
+   
       var videoSegmentId = this.videoSegmentId
-      if ( videoSegmentId ?? true){
+      if ( videoSegmentId == null || typeof videoSegmentId == 'undefined'){
         videoSegmentId  = 1
       }
       console.log ('videosegmentid ' + videoSegmentId);
-      var videoSource = ''
+      var videoSource = 'src="https://api.arclight.org/videoPlayerUrl?refId=1_529-jf6101-0-0&start=0&end=&playerStyle=default"'
       var segments = this.languageStore.getJVideoSegments;
+      console.log (segments.segments);
       for (var i = 0; i < segments.segments.length; i++) {
         if (segments.segments[i].id == videoSegmentId) {
           videoSource = segments.segments[i].src;
+          console.log (videoSource)
           break;
         }
       }

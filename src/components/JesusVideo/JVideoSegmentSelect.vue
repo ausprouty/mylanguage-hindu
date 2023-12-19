@@ -85,6 +85,7 @@ export default {
       });
     },
     updateLesson() {
+      console.log (this.selectedValue)
       this.languageStore.updateJVideoSegmentId(this.selectedValue.id);
       this.$emit("showVideo", this.selectedValue.id);
     },
