@@ -5,8 +5,13 @@ const routes = [
     component: () => import('layouts/MainLayout.vue'),
     children: [
       {
-        name: 'RestorePage',
+        name: 'International',
         path: '/',
+        component: () => import('src/pages/InternationalTest.vue')
+      },
+      {
+        name: 'RestorePage',
+        path: '/restore',
         component: () => import('src/pages/RestorePage.vue')
       },
       {

@@ -5,6 +5,10 @@ quasar mode add pwa
 yarn add --dev dotenv
 https://quasar.dev/quasar-cli-vite/handling-process-env
 
+from https://quasar.dev/options/app-internationalization/
+     yarn add vue-i18n@next
+      yarn add --dev @intlify/vue-i18n-loader
+
 
 quasar new component something
 quasar dev
