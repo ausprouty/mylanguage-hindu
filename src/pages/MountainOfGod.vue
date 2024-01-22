@@ -1,8 +1,8 @@
 <template>
   <q-page>
-    <h2>The Mountain of God</h2>
-    <p>You may have heard the story of the Mountain of God where people say there are many paths to the top of the mountain.</p>
-    <p>What do mountain climbers think of that story?  Watch this vido and find out</p>
+    <h2> {{ $t("mountain.title") }}</h2>
+    <p>{{ $t("mountain.para1") }}</p>
+    <p>{{ $t("mountain.para") }}</p>
 
     <div>
       <div style="padding:75% 0 0 0;position:relative;">
@@ -10,7 +10,7 @@
 
     </div>
     <div   class="q-gutter-md q-flex items-center inline align-right" @click="showNextSegment">
-      <span class="q-mr-md">Next Video</span>
+      <span class="q-mr-md">{{ $t("menu.nextVideo") }}</span>
       <q-btn
         flat
         dense

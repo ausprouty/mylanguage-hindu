@@ -1,7 +1,9 @@
 <template>
   <q-page padding>
-    <p>This is my success</p>
-    {{ $t("success") }}
+    <p>This is my success {{ $t("success") }}</p>
+    <p> {{ $t("index.para1") }}</p>
+    <p> {{ $t("index.para2") }}</p>
+
   </q-page>
 </template>
 

@@ -1,15 +1,9 @@
 <template>
   <q-page>
-    <h2>Birth of the Guru</h2>
     <div>
-      <p>
-        A group of astrologers saw a strange new star about 2,000 years ago that
-        led them to believe that a new king had been born in Israel. So they
-        started on a long trip to visit this king, show their respect and give
-        him gifts.
-      </p>
-
-      <p>Watch this video to see what they discovered.</p>
+      <h2> {{ $t("birth.title") }}</h2>
+      <p>{{ $t("birth.para1") }}</p>
+      <p>{{ $t("birth.para2") }}</p>
     </div>
     <div style="padding: 75% 0 0 0; position: relative">
       <iframe
@@ -24,7 +18,7 @@
       class="q-gutter-md q-flex items-center inline align-right"
       @click="showNextSegment"
     >
-      <span class="q-mr-md">Next</span>
+      <span class="q-mr-md">{{ $t("menu.next") }}</</span>
       <q-btn flat dense round icon="arrow_forward" aria-label="Next" />
     </div>
   </q-page>

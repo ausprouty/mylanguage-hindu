@@ -1,14 +1,8 @@
 <template>
   <q-page padding>
-    <h2>His Life</h2>
-    <p>
-      As you watch the video, ask yourself "What is this guru like and is he
-      worth following?"
-    </p>
-    <p>
-      This video is available in many languages. To change the language click
-      the world globe above.
-    </p>
+    <h2> {{ $t("life.title") }}</h2>
+      <p>{{ $t("life.para1") }}</p>
+      <p>{{ $t("life.para2") }}</p>
     <div>
       <JVideoSegmentSelect
         :languageCodeHL="computedLanguageCodeHLSelected"

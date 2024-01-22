@@ -6,7 +6,7 @@ const routes = [
     children: [
       {
         name: 'International',
-        path: '/',
+        path: '/test',
         component: () => import('src/pages/InternationalTest.vue')
       },
       {
