@@ -2,7 +2,7 @@
   <q-page>
     <h2> {{ $t("mountain.title") }}</h2>
     <p>{{ $t("mountain.para1") }}</p>
-    <p>{{ $t("mountain.para") }}</p>
+    <p>{{ $t("mountain.para2") }}</p>
 
     <div>
       <div style="padding:75% 0 0 0;position:relative;">

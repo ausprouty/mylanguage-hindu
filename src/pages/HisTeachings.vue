@@ -1,15 +1,10 @@
 <template>
   <q-page padding>
     <div>
-      <h2>His Teachings</h2>
-      <p>
-        These are some of the things that Lord Jesus and his early followers
-        taught.
-      </p>
-      <p>
-        Many people have seen their lives transformed as they asked Lord Jesus
-        to give them the power to put these teachings into action
-      </p>
+      <h2> {{ $t("teach.title") }}</h2>
+      <p>{{ $t("teach.para1") }}</p>
+      <p>{{ $t("teach.para2") }}</p>
+      <p>{{ $t("teach.para3") }}</p>
       <div>
         <HisTeachingsPassageSelect
           @showTeaching="handleShowTeaching"

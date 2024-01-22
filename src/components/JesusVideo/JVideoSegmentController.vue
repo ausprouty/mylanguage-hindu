@@ -12,14 +12,14 @@
         aria-label="Previous"
         @click="showPreviousSegment"
       />
-      <span class="q-ml-md">Previous</span>
+      <span class="q-ml-md">{{$t("menu.previous")}}</span>
     </div>
     <q-space class="inline" />
     <div
       v-if="this.currentSegmentId < this.maxVideoId"
       class="q-gutter-md q-flex items-center inline"
     >
-      <span class="q-mr-md">Next</span>
+      <span class="q-mr-md">{{$t("menu.next")}}</span>
       <q-btn
         flat
         dense

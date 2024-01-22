@@ -1,11 +1,8 @@
 <template>
   <q-page padding>
-    <h2>Following Him</h2>
-    <p>What does it mean to follow the Lord Jesus?</p>
-    <p>
-      This video is available in many languages. To change the language click
-      the world globe above.
-    </p>
+    <h2> {{ $t("follow.title") }}</h2>
+    <p>{{ $t("follow.para1") }}</p>
+    <p>{{ $t("follow.para2") }}</p>
     <div>
       <FollowingHimSegmentSelect
         :languageCodeHL="computedLanguageCodeHL"
