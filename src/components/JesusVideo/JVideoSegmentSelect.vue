@@ -29,7 +29,7 @@ export default {
   data() {
     return {
       selectedValue: {
-        id: 1,
+        id: this.languageStore.getJVideoSegmentId,
         title: "SELECT",
       },
       segments: [],
@@ -62,6 +62,7 @@ export default {
   created() {
     this.getSegmentList(this.languageCodeHL);
     this.selectedValue.id = this.currentSegmentId;
+    console.log ('created with ' + this.selectedValue.id)
     this.updateLesson();
   },
   methods: {

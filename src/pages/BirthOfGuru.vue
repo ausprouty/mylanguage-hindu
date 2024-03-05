@@ -18,7 +18,7 @@
       class="q-gutter-md q-flex items-center inline align-right"
       @click="showNextSegment"
     >
-      <span class="q-mr-md">{{ $t("menu.next") }}</</span>
+      <span class="q-mr-md">{{ $t("menu.next") }}</span>
       <q-btn flat dense round icon="arrow_forward" aria-label="Next" />
     </div>
   </q-page>

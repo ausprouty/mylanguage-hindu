@@ -53,18 +53,18 @@ export default {
   methods: {
     updateVideoShown(){
       var segments = this.languageStore.getJVideoSegments;
-      console.log ('this is segments')
-      console.log (segments)
+     // console.log ('this is segments')
+    //  console.log (segments)
       if (segments == null || typeof segments == 'undefined'){
-        console.log ('I am getting new JV segments because there are not any')
+       // console.log ('I am getting new JV segments because there are not any')
         this.getNewJVideoSegments();
       }
       if (segments.languageCodeHL != this.languageStore.getLanguageCodeHLSelected){
-        console.log ('I am getting new JV segments because language changed')
+       // console.log ('I am getting new JV segments because language changed')
         this.getNewJVideoSegments();
       }
       else{
-        console.log ('I am NOT getting new JV segments because we have them')
+       // console.log ('I am NOT getting new JV segments because we have them')
         this.updateVideoIframe();
       }
     },
@@ -85,7 +85,7 @@ export default {
       });
     },
     updateVideoIframe() {
-   
+
       var videoSegmentId = this.videoSegmentId
       if ( videoSegmentId == null || typeof videoSegmentId == 'undefined'){
         videoSegmentId  = 1
@@ -93,7 +93,7 @@ export default {
       console.log ('videosegmentid ' + videoSegmentId);
       var videoSource = 'src="https://api.arclight.org/videoPlayerUrl?refId=1_529-jf6101-0-0&start=0&end=&playerStyle=default"'
       var segments = this.languageStore.getJVideoSegments;
-      console.log (segments.segments);
+      //console.log (segments.segments);
       for (var i = 0; i < segments.segments.length; i++) {
         if (segments.segments[i].id == videoSegmentId) {
           videoSource = segments.segments[i].src;
@@ -102,7 +102,7 @@ export default {
         }
       }
       this.videoIframe = this.iframeStart + videoSource + this.iframeEnd;
-      console.log(this.videoIframe);
+      //console.log(this.videoIframe);
     },
   },
 };

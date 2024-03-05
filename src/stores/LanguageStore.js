@@ -3,11 +3,11 @@ import { defineStore } from "pinia";
 export const useLanguageStore = defineStore("languageStore", {
   state: () => ({
 
-    hisTeachingLesson: '1-0-0',
+    hisTeachingLesson:null,
     leadershipLesson: null,
     bookLesson: null,
     followingHimSegment: null,
-    jVideoSegmentId: 1,
+    jVideoSegmentId: null,
     jVideoSegments:{
       languageCodeHL: 'eng00',
       languageCodeJF: '529',
