@@ -15,6 +15,9 @@ export default defineComponent({
       // Navigate to the stored path
       this.$router.push(storedPath);
     }
+    else{
+      this.$router.push('index');
+    }
   },
 })
 </script>
