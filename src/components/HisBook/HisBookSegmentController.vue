@@ -1,27 +1,21 @@
 <template>
   <div class="q-pa-md q-gutter-md q-flex">
-    <div  v-if="this.currentSegment > this.minSegment" class="q-gutter-md q-flex items-center inline"  @click="showPreviousSegment">
-      <q-btn
-        flat
-        dense
-        round
-        icon="arrow_back"
-        aria-label="Previous"
-        
-      />
+    <div
+      v-if="this.currentSegment > this.minSegment"
+      class="q-gutter-md q-flex items-center inline"
+      @click="showPreviousSegment"
+    >
+      <q-btn flat dense round icon="arrow_back" aria-label="Previous" />
       <span class="q-ml-md">Previous</span>
     </div>
 
-    <div v-if="this.currentSegment < this.maxSegment"  class="q-gutter-md q-flex items-center inline align-right" @click="showNextSegment">
+    <div
+      v-if="this.currentSegment < this.maxSegment"
+      class="q-gutter-md q-flex items-center inline align-right"
+      @click="showNextSegment"
+    >
       <span class="q-mr-md">Next</span>
-      <q-btn
-        flat
-        dense
-        round
-        icon="arrow_forward"
-        aria-label="Next"
-
-      />
+      <q-btn flat dense round icon="arrow_forward" aria-label="Next" />
     </div>
   </div>
 </template>
@@ -32,7 +26,7 @@ export default {
   data() {
     return {
       minSegment: 1,
-      maxSegment: 25,
+      maxSegment: 23,
       nextSegment: 0,
     };
   },
@@ -49,38 +43,40 @@ export default {
   },
   methods: {
     showNextSegment() {
-      this.nextSegment = Number(this.currentSegment) + 1
+      this.nextSegment = Number(this.currentSegment) + 1;
       this.languageStore.updateBookLesson(this.nextSegment);
-      this.$emit('showTeaching', this.nextSegment)
+      this.$emit("showTeaching", this.nextSegment);
     },
     showPreviousSegment() {
-      this.nextSegment = Number(this.currentSegment) - 1
+      this.nextSegment = Number(this.currentSegment) - 1;
       this.languageStore.updateBookLesson(this.nextSegment);
-      this.$emit('showTeaching', this.nextSegment)
+      this.$emit("showTeaching", this.nextSegment);
     },
   },
 };
 </script>
 <style scoped>
-.align-right{
+.align-right {
   text-align: right;
 }
 
-.inline{
-  display:inline-block;
+.inline {
+  display: inline-block;
 }
-div.inline{
-  width:50%;
+div.inline {
+  width: 50%;
 }
 .q-gutter-md,
 .q-mr-md,
-.q-ml-md{
-  margin-top:0px;
+.q-ml-md {
+  margin-top: 0px;
 }
-.q-gutter-y-md,.q-gutter-md {
-    margin-top: 0px
+.q-gutter-y-md,
+.q-gutter-md {
+  margin-top: 0px;
 }
-.q-gutter-y-md>*,.q-gutter-md>* {
-    margin-top: 0px;
+.q-gutter-y-md > *,
+.q-gutter-md > * {
+  margin-top: 0px;
 }
 </style>

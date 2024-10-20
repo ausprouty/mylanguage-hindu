@@ -25,6 +25,15 @@ const routes = [
         component: () => import('pages/MountainOfGod.vue')
       },
       {
+        name: 'Karma',
+        path: 'karma',
+        component: () => import('src/pages/KarmaContent.vue')
+      },{
+        name: 'Deepalavi',
+        path: '/deepavali',
+        component: () => import('src/pages/DeepavaliContent.vue')
+      },
+      {
         name: 'BirthofGuru',
         path: '/birth',
         component: () => import('pages/BirthOfGuru.vue')
