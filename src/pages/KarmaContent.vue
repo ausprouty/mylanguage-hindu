@@ -77,8 +77,9 @@
 </template>
 
 <style>
-    body {
+     body {
         font-family: Arial, sans-serif;
+        font-size:12pt;
         line-height: 1.6;
         background-color: #f5f5f5;
         margin: 20px;
@@ -90,10 +91,10 @@
         color: #333;
     }
     h1{
-      font-size:24pt;
+      font-size:18pt;
     }
     h2{
-      font-size:18pt;
+      font-size:16pt;
     }
     .text_picture {
       max-width: 100%; /* Prevents the image from exceeding the container's width */

@@ -3,49 +3,46 @@
     <div>
     <img   class="text_picture" src="menu/deepavali.png">
   </div>
-    <h1>Happy Deepavali</h1>
 
-    <p>
-        The festival of Deepavali is a beautiful and dazzling time of fun and religious observance. It reminds us of the victory of light over darkness and good over evil.
-    </p>
+  <h1>Deepavali and the Light of Lord Shri Jesus</h1>
 
-    <blockquote>
-        Lord Shri Jesus Christ said, "I am the light of the world: he that follows me shall never walk in darkness but will have the light of life."
-    </blockquote>
+<p>The festival of Deepavali is a beautiful celebration of light overcoming darkness and good triumphing over what troubles the soul. It is a time of joy, reflection, and hope.</p>
 
-    <p>
-        The Deepavali lamps remind us of Lord Shri Jesus Christ's victory over the darkness of sin that resides in all of us. His sinless life and sacrificial death have the power to blot out the darkness of sin from us.
-    </p>
+<p>Deepavali reminds me of the words of Lord Shri Jesus:</p>
 
-    <blockquote>
-        Regarding His getting up alive again after death, Lord Shri Jesus Christ said, "I am the resurrection and the life, he who believes in me will live, even though he dies."
-    </blockquote>
+<blockquote>
+    “I am the light of the world. Whoever follows me will not walk in darkness but will have the light of life.”
+</blockquote>
 
-    <p>
-        Devotee John said about Lord Shri Jesus in the Scriptures, "In him was life, and that life was the light of men. The light shines in the darkness, but the darkness has not understood it."
-    </p>
+<p>Just as the Deepavali lamps symbolize the victory of light, they also remind us of how Lord Shri Jesus' perfect life and selfless sacrifice can free us from the inner darkness that weighs on our hearts.</p>
 
-    <p>
-        Today, you can be freed from your darkness through the light of Lord Shri Jesus Christ. Lord Shri Jesus is coming back again to destroy the darkness of Kalyug. May Almighty God, through His divine light, dispel all your darkness and bring in light.
-    </p>
+<blockquote>
+    “In him was life, and that life was the light of all people. The light shines in the darkness, and the darkness has not overcome it.”
+</blockquote>
 
-    <h2>A Deepavali Prayer</h2>
+<p>As we look forward to the end of Kalyug, we also await the return of Lord Shri Jesus, who will bring everlasting light to this world.</p>
 
-    <p>On this occasion of Deepavali, you can pray:</p>
+<p>Today, you too can experience freedom from your burdens through the light of Lord Shri Jesus Christ. He invites us, saying:</p>
 
-    <blockquote>
-        Eternal Father, Son, Holy Spirit, I bow my head at your feet. <br>
-        Father, you have said that, if I seek you with all of my heart, I will certainly find you. <br>
-        Lord Shri Jesus Christ, you are the supreme light, let your divine light destroy all my darkness and free me from all evil. <br>
-        Holy Spirit, transform my heart and take residence in me. <br>
-        Triune God, reveal yourself to me. So be it.
-    </blockquote>
+<blockquote>
+    “Come to me, all you who are weary and burdened, and I will give you rest. Take my yoke upon you and learn from me, for I am gentle and humble in heart, and you will find rest for your souls. For my yoke is easy, and my burden is light.”
+</blockquote>
+
+<p>Lord Shri Jesus is coming again to dispel the darkness of Kalyug and bring lasting peace. May Lord Shri Jesus, through His divine light, fill your life with hope, peace, and joy this Deepavali.</p>
+
+<h2>On this occasion of Deepavali, you can pray…</h2>
+
+<blockquote>
+    Lord Shri Jesus, I bow my head at your feet. You have said that if I seek you with all my heart, I will surely find you. Lord Shri Jesus, you are the supreme light—let your divine light shine within me, lifting every burden and freeing me from the darkness that troubles my soul. Fill my heart with your presence and guide me in your way of peace. Reveal yourself to me, that I may walk in your light and rest in your love.
+</blockquote>
+
   </q-page>
 </template>
 
 <style scoped>
     body {
         font-family: Arial, sans-serif;
+        font-size:12pt;
         line-height: 1.6;
         background-color: #f5f5f5;
         margin: 20px;
@@ -57,7 +54,10 @@
         color: #333;
     }
     h1{
-      font-size:24pt;
+      font-size:18pt;
+    }
+    h2{
+      font-size:16pt;
     }
     .text_picture {
     max-width: 100%; /* Prevents the image from exceeding the container's width */
