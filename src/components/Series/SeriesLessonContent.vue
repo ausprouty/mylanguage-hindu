@@ -32,8 +32,8 @@
 <script>
 import { ref, computed, watch, onMounted } from "vue";
 import { useLanguageStore } from "stores/LanguageStore";
-import DbsQuestions from "src/components/DbsQuestions.vue";
-import DbsLookup from "src/components/DbsLookup.vue";
+import DbsQuestions from "src/components/Series/DbsQuestions.vue";
+import DbsLookup from "src/components/Series/DbsLookup.vue";
 
 export default {
   name: "SeriesLessonContent",

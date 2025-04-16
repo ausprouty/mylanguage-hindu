@@ -29,7 +29,7 @@ module.exports = configure(function (ctx) {
     // app boot file (/src/boot)
     // --> boot files are part of "main.js"
     // https://v2.quasar.dev/quasar-cli/boot-files
-    boot: ["axios", 'localStorage', 'i18n'],
+    boot: ["axios", "localStorage", "i18n", "storage-check"],
 
     // https://v2.quasar.dev/quasar-cli-vite/quasar-config-js#css
     css: ["app.scss"],
@@ -71,10 +71,13 @@ module.exports = configure(function (ctx) {
               .loader('@intlify/vue-i18n-loader')
       },
       env: {
-        API: ctx.dev
-          ? "http://localhost/mylanguage-namespaced/"
-          //:// "http://localhost/mylanguage-namespaced/"
-         : "https://api.mylanguage.net.au/",
+        LEGACY_API: ctx.dev
+          ? "http://localhost/mylanguage-namespaced/" // Legacy API in development
+          : "https://api.mylanguage.net.au/", // Legacy API in production
+
+        CURRENT_API: ctx.dev
+          ? "http://localhost/api_mylanguage/" // Current API in development
+          : "https://api2.mylanguage.net.au/", // Current API in production
       },
 
       vueRouterMode: "history", // available values: 'hash', 'history'

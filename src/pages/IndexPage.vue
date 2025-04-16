@@ -23,12 +23,12 @@
       <td class="side-by-side" @click="handleImageClick('/life')" clickable v-ripple >
         <img  class="menu_picture" src="menu/life.png">
       </td>
-      <td class="side-by-side" @click="handleImageClick('/teachings')" clickable v-ripple >
+      <td class="side-by-side" @click="handleImageClick('/series/teachings')" clickable v-ripple >
         <img  class="menu_picture" src="menu/teachings.png">
       </td>
     </tr>
     <tr class = "full-width">
-      <td class="side-by-side" @click="handleImageClick('/book')" clickable v-ripple  >
+      <td class="side-by-side" @click="handleImageClick('/series/book')" clickable v-ripple  >
         <img  class="menu_picture" src="menu/book.png">
       </td>
       <td class="side-by-side" @click="handleImageClick('/following')" clickable v-ripple >
@@ -36,7 +36,7 @@
       </td>
     </tr>
     <tr class = "full-width">
-      <td class="side-by-side" @click="handleImageClick('/leadership')" clickable v-ripple >
+      <td class="side-by-side" @click="handleImageClick('/series/leadership')" clickable v-ripple >
         <img class="menu_picture" src="menu/leading.png">
       </td>
       <td class="side-by-side" @click="openExternalWebsite()" clickable v-ripple >
@@ -50,7 +50,7 @@
 </template>
 
 <script>
-import { api } from "boot/axios";
+import { currentApi } from "boot/axios";
 import { useLanguageStore } from "stores/LanguageStore";
 export default{
   name: "IndexPage",
@@ -75,7 +75,7 @@ export default{
         "api/ask/" +
         this.languageStore.getLanguageSelected
       console.log(url);
-      api.get(url).then((response) => {
+      currentApi.get(url).then((response) => {
         var externalURL = 'https://www.everyperson.com/contact.php';
         if (typeof response.data.contactPage != 'undefined' ){
           externalURL = response.data.contactPage

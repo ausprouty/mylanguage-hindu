@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import { api } from "boot/axios";
+import { currentApi } from "boot/axios";
 import { useLanguageStore } from "stores/LanguageStore";
 
 export default {
@@ -72,7 +72,7 @@ export default {
       var url =
         "api/jvideo/segments/" + this.languageCodeHL + "/" + this.languageCodeJF
       console.log(url);
-      api.get(url).then((response) => {
+      currentApi.get(url).then((response) => {
         this.segments = response.data;
         console.log (this.segments)
         console.log (this.languageCodeHL+ '  ' + this.languageCodeJF)

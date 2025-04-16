@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import { api } from "boot/axios";
+
 import { useLanguageStore } from "stores/LanguageStore";
 
 export default {

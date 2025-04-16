@@ -3,7 +3,7 @@
   </div>
 </template>
 <script>
-import { api } from "boot/axios";
+import { currentApi } from "boot/axios";
 export default {
   name: 'FollowingHimQuestions',
   props:{
@@ -25,7 +25,7 @@ export default {
     showQuestions(languageCodeHL){
       var url = 'api/jvideo/questions/'+ languageCodeHL
       console.log (url)
-      api.get(url).then((response) => {
+      currentApi.get(url).then((response) => {
         console.log (response)
         this.questions = response.data;
       });

@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import { api } from "boot/axios";
+import { currentApi } from "boot/axios";
 import { useLanguageStore } from "stores/LanguageStore";
 export default {
   name: "HinduLanguages",
@@ -52,7 +52,7 @@ export default {
     },
   },
   created() {
-    api.get("api/languages/hindi").then((response) => {
+    currentApi.get("currentApi/languages/hindi").then((response) => {
       this.languageArray = response.data;
       this.languageStore.updateLanguages(this.languageArray);
       this.languageOptions = this.languageArray.map((item) => ({

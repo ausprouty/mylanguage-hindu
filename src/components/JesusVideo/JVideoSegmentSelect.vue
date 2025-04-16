@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import { api } from "boot/axios";
+import { currentApi } from "boot/axios";
 import { useLanguageStore } from "stores/LanguageStore";
 export default {
   name: "JVideoSegmentSelect",
@@ -71,7 +71,7 @@ export default {
       var url =
         "api/jvideo/segments/" + languageCodeHL + "/" + this.languageCodeJF;
       console.log(url);
-      api.get(url).then((response) => {
+      currentApi.get(url).then((response) => {
         this.segments = response.data;
         console.log (this.segments)
         var languageCodeHL = 529
