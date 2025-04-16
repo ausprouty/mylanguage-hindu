@@ -1,7 +1,7 @@
 {
     "language": {
         "EnglishName": "Slovak",
-        "hlCode": "slo00",
+        "HLcode": "slo00",
         "google": "sk"
     },
     "menu": {
@@ -14,38 +14,56 @@
     },
     "index": {
         "para": {
-            "1": "Duchovný rast nie je samostatná cesta – deje sa v komunite. Všetci potrebujeme múdrosť, ktorej môžeme dôverovať, a ľudí, ktorí nás na ceste povzbudzujú. Nižšie uvedené lekcie vám pomôžu objaviť, ako Božia múdrosť formuje životy, buduje skutočné vzťahy a odhaľuje Jeho lásku a starostlivosť o vás.",
-            "2": "Zhromaždite svojich priateľov a začnite objavovať! Kliknite na obrázky nižšie a začnite svoju cestu – objavte nielen múdrosť, ale aj vzťah s Bohom a duchovným spoločenstvom, do ktorého vás pozýva."
+            "1": "Aby sme dosiahli skutočný pokrok v našom duchovnom živote, vieme, že potrebujeme gurua -- niekoho, kto nám ukáže cestu, bude nás vyzývať, opravovať, viesť a pomáhať nám.",
+            "2": "Radi by sme vás pozvali, aby ste uvažovali o tom, že za svojho Gurua budete mať Pána Ježiša. Pán Ježiš uzdravil veľa ľudí. Nikdy neklamal a nikomu neublížil. Bol skromný. Nikdy sa neoženil. Žil jednoduchým životom a svoju moc nikdy nevyužil na získanie bohatstva."
         }
     },
     "dbs": {
-        "title": "Objavovanie duchovného spoločenstva",
+        "title": "Jeho svätá kniha",
         "para": {
-            "1": "Objavovanie duchovnej komunity vás zavedie na cestu históriou, skúmajúc, ako sa ľudia od samého začiatku spájali s Bohom – cez výzvy, otázky a momenty, ktoré menia život. Ak ste zvedaví na vieru, účel a čo znamená patriť, táto séria je skvelým miestom, kde začať.",
-            "2": "Zhromaždite priateľov a prečítajte si, ako Boh pripravil ľudí na príchod Ježiša a duchovné spoločenstvo, ktoré založil.",
-            "3": "Vyberte si svoj obľúbený jazyk kliknutím na zemeguľu vyššie."
+            "1": "Jeho Svätá kniha začína časom predtým, než tam boli nejakí ľudia. Potom rozpráva príbeh o tom, ako prví dvaja ľudia interagovali s Bohom.",
+            "2": "Prečítajte si, ako Boh pripravil ľudí na príchod Pána Ježiša.",
+            "3": "Zhromaždite priateľov a prečítajte si, ako Boh pripravil ľudí na príchod Ježiša a duchovné spoločenstvo, ktoré založil.",
+            "4": "Vyberte si svoj obľúbený jazyk kliknutím na zemeguľu vyššie."
         }
     },
     "life": {
-        "title": "Životné problémy",
+        "title": "Jeho Učenie",
         "para": {
-            "1": "Life Issues skúma praktické učenie Ježiša a jeho prvých nasledovníkov – múdrosť, ktorá zmenila životy po stáročia. Mnohí zažili premenu tým, že pozvali Ježiša, aby im pomohol žiť tieto pravdy. Môže to byť pravda aj u vás?",
-            "2": "Zhromaždite svojich priateľov a zistite, čo objavíte, keď budete diskutovať o nasledujúcich otázkach.",
+            "1": "Toto sú niektoré z vecí, ktoré učil Pán Ježiš a jeho raní nasledovníci.",
+            "2": "Mnohí ľudia videli, ako sa ich životy zmenili, keď prosili Pána Ježiša, aby im dal moc uviesť tieto učenia do praxe.",
             "3": "Zhromaždite svojich priateľov a zistite, čo objavíte, keď budete diskutovať o nasledujúcich otázkach.",
             "4": "Vyberte si svoj obľúbený jazyk kliknutím na zemeguľu vyššie."
         }
     },
     "jVideo": {
-        "title": "Život Ježiša",
+        "title": "Jeho Život",
         "para": {
-            "1": "Ježišove slová a činy formovali dejiny a ponúkajú múdrosť, ktorá stojí mimo. Pri pozeraní tohto videa si položte otázku: Čo učil Ježiš? Ako sa jeho múdrosť porovnáva s tým, čo povedali iní – a čo by to mohlo znamenať pre vás?",
-            "2": "Toto video je dostupné v mnohých jazykoch. Ak chcete zmeniť jazyk, kliknite na zemeguľu vyššie."
+            "1": "Pri pozeraní videa si položte otázku \"Aký je tento guru a stojí za to ho nasledovať?\"",
+            "2": "Toto video je dostupné v mnohých jazykoch. Ak chcete zmeniť jazyk, kliknite na zemeguľu vyššie.",
+            "3": "Zhromaždite svojich priateľov a zistite, čo objavíte, keď budete diskutovať o nasledujúcich otázkach."
         }
     },
     "lead": {
-        "title": "Objavovanie vodcovstva",
         "para": {
             "1": "Objavovanie vodcovstva skúma princípy, ktoré Ježiš učil svojich vodcov – múdrosť, ktorá formovala vodcovstvo so služobníckym srdcom po celé generácie. Mnohí zažili premenu tým, že sa spoliehali na Ježiša, ktorý im pomáha viesť cielene a bezúhonne. Mohlo by to formovať aj vaše vedenie?",
+            "2": "Zhromaždite svojich priateľov a zistite, čo objavíte, keď budete diskutovať o nasledujúcich otázkach.",
+            "3": "Vyberte si svoj obľúbený jazyk kliknutím na zemeguľu vyššie."
+        }
+    },
+    "video": {
+        "question": {
+            "1": "Čo ti to hovorí o Ježišovi?",
+            "2": "Čo ti to hovorí o Bohu?",
+            "3": "Čo vám to hovorí o ľuďoch?",
+            "4": "Ak je to pravda, aký rozdiel by to znamenalo vo vašom živote?",
+            "5": "S ktorými piatimi ľuďmi sa môžete podeliť o svoje objavy?"
+        }
+    },
+    "follow": {
+        "title": "Nasledovanie Ho",
+        "para": {
+            "1": "Čo znamená nasledovať Pána Ježiša? Jeho Svätá kniha začína časom predtým, než tam boli nejakí ľudia.",
             "2": "Zhromaždite svojich priateľov a zistite, čo objavíte, keď budete diskutovať o nasledujúcich otázkach.",
             "3": "Vyberte si svoj obľúbený jazyk kliknutím na zemeguľu vyššie."
         }

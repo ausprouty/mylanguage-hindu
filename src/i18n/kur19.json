@@ -1,7 +1,7 @@
 {
     "language": {
         "EnglishName": "Kurdish",
-        "hlCode": "kur19",
+        "HLcode": "kur19",
         "google": "ku"
     },
     "menu": {
@@ -14,39 +14,57 @@
     },
     "index": {
         "para": {
-            "1": "Pêşkeftina giyanî ne rêwîtiyek solo ye - ew di civakê de çêdibe. Em hemî hewceyê şehrezayiya ku em dikarin pê bawer bin û mirovên ku di rê de me teşwîq dikin hewce ne. Dersên li jêr wê ji we re bibin alîkar ku hûn pêbihesin ku şehrezayiya Xwedê çawa jiyanên dirust dike, têkiliyên rastîn ava dike, û hezkirin û lênihêrîna wî ji we re eşkere dike.",
-            "2": "Hevalên xwe kom bikin û dest bi keşfê bikin! Li ser wêneyên jêrîn bikirtînin da ku rêwîtiya xwe dest pê bikin - ne tenê şehrezayiyê, lê têkiliyek bi Xwedê û civata giyanî re ku Ew we vedixwîne kifş bikin."
+            "1": "Ji bo ku em di jiyana xwe ya giyanî de pêşkeftinek rastîn pêk bînin, em dizanin ku em hewceyê guruyek in -- kesek ku rê nîşanî me bide, dijwar bike, rast bike, rêber bike û alîkariya me bike.",
+            "2": "Em dixwazin we vexwînin ku hûn Xudan Îsa wekî Guruyê xwe bifikirin. Xudan Îsa gelek kes qenc kirin. Wî tu carî derew negot û zirar neda kesî. Ew nerm bû. Ew qet zewicî. Jiyaneke sade dijiya û tu carî hêza xwe ji bo bidestxistina dewlemendiyê bi kar neanî."
         }
     },
     "dbs": {
-        "title": "Vedîtina Civata Ruhanî",
+        "title": "Pirtûka Wî ya Pîroz",
         "para": {
-            "1": "Vedîtina Civata Ruhanî we di nav dîrokê de rêwîtiyek digire, lêkolîn dike ka mirov çawa ji destpêkê ve bi Xwedê re têkildar bûne - bi dijwarî, pirs û demên ku jiyanê diguherînin. Heke hûn li ser bawerî, armanc, û wateya ku tê çi wateyê meraq dikin, ev rêz ji bo destpêkirinê cîhek girîng e.",
-            "2": "Hevalên xwe kom bikin û bixwînin ka Xwedê çawa mirov ji bo hatina Jesussa û civata giyanî ya ku wî dest pê kir amade kir.",
-            "3": "Bi tikandina li ser cîhana cîhanê ya li jor zimanê xweya bijare hilbijêrin."
+            "1": "Pirtûka Wî ya Pîroz bi dema berî hebûna mirovan dest pê dike. Dûv re ew çîroka ku her du mirovên pêşîn bi Xwedê re têkilî danî vedibêje.",
+            "2": "Bixwînin ku Xwedê çawa mirov ji bo hatina Xudan Jesussa amade kir.",
+            "3": "Hevalên xwe kom bikin û bixwînin ka Xwedê çawa mirov ji bo hatina Jesussa û civata giyanî ya ku wî dest pê kir amade kir.",
+            "4": "Bi tikandina li ser cîhana cîhanê ya li jor zimanê xweya bijare hilbijêrin."
         }
     },
     "life": {
-        "title": "Pirsgirêkên Jiyanê",
+        "title": "Hînkirinên Wî",
         "para": {
-            "1": "Pirsgirêkên Jiyanê hînkirinên pratîkî yên Jesussa û şagirtên wî yên pêşîn - şehrezayiya ku bi sedsalan jiyan guherandiye vedikole. Gelekan bi vexwendina Îsa vegerandin ku alîkariya wan bike ku van rastiyan bijîn. Dibe ku ev ji bo we jî rast be?",
-            "2": "Hevalên xwe kom bikin û gava ku hûn pirsên jêrîn nîqaş dikin bibînin ka hûn çi kifş dikin.",
-            "3": "Hevalên xwe kom bikin û gava ku hûn pirsên jêrîn nîqaş dikin bibînin ka hûn çi kifş dikin.",
+            "1": "Ev hinek ji wan tiştên ku Xudan Îsa û şagirtên wî yên pêşîn hîn kirin.",
+            "2": "Gelek mirovan dît ku jiyana wan guherî dema ku wan ji Xudan Jesussa xwest ku hêzê bide wan ku van hînkirinan bixin meriyetê.",
+            "3": "Dema ku hûn li ser pirsên jêrîn nîqaş dikin, hevalên xwe kom bikin û bibînin ku hûn çi kifş dikin.",
             "4": "Bi tikandina li ser cîhana cîhanê ya li jor zimanê xweya bijare hilbijêrin."
         }
     },
     "jVideo": {
-        "title": "Jiyana Îsa",
+        "title": "Jiyana Wî",
         "para": {
-            "1": "Gotin û kirinên Îsa dîrok şekil dane, û şehrezayiyek ku ji hev cihê radiweste pêşkêş dike. Çaxê hûn li vê vîdêo temaşe dikin, ji xwe bipirsin: Îsa çi hîn kir? Aqilmendiya wî bi ya ku yên din gotine re çawa dide hev - û ew dikare ji bo we çi wateyê bide?",
-            "2": "Ev vîdyo bi gelek zimanan heye. Ji bo guherandina ziman li ser cîhana cîhanê ya li jor bikirtînin."
+            "1": "Gava ku hûn vîdyoyê temaşe dikin, ji xwe bipirsin \"Ev guru çawa ye û hêjayî şopandina wî ye?\"",
+            "2": "Ev vîdyo bi gelek zimanan heye. Ji bo guherandina ziman li ser cîhana cîhanê ya li jor bikirtînin.",
+            "3": "Dema ku hûn li ser pirsên jêrîn nîqaş dikin, hevalên xwe kom bikin û bibînin ku hûn çi kifş dikin."
         }
     },
     "lead": {
-        "title": "Keşifkirina Rêbertiyê",
         "para": {
-            "1": "Vedîtina Rêbertiyê prensîbên ku Jesussa hînî rêberên xwe kir vedikole - şehrezayiya ku ji bo nifşan rêberiya dilpak çêkir. Gelekan bi îtbariya xwe li ser Îsa ku alîkariya wan bike ku bi mebest û durustî rêve bibin, veguhertin dîtin. Ma ev dikare serokatiya we jî çêbike?",
-            "2": "Hevalên xwe kom bikin û gava ku hûn pirsên jêrîn nîqaş dikin bibînin ka hûn çi kifş dikin.",
+            "1": "Vedîtina Rêbertiyê prensîbên ku Jesussa hînî rêberên xwe kir vedikole - şehrezayiya ku bi nifşan rêberiya dilpak çêkir. Gelekan bi îtbariya xwe li ser Îsa ku ji wan re bibe alîkar ku bi armanc û durustî rêve bibin, veguhertin dîtin. Ma ev dikare serokatiya we jî çêbike?",
+            "2": "Dema ku hûn li ser pirsên jêrîn nîqaş dikin, hevalên xwe kom bikin û bibînin ku hûn çi kifş dikin.",
+            "3": "Bi tikandina li ser cîhana cîhanê ya li jor zimanê xweya bijare hilbijêrin."
+        }
+    },
+    "video": {
+        "question": {
+            "1": "Ev ji we re li ser Îsa çi dibêje?",
+            "2": "Ev ji we re li ser Xwedê çi dibêje?",
+            "3": "Ev li ser mirovan çi ji we re vedibêje?",
+            "4": "Ger ev rast be, ew ê di jiyana we de çi cûdahiyê bike?",
+            "5": "Pênc kesên ku hûn dikarin vedîtinên xwe pê re parve bikin kî ne?"
+        }
+    },
+    "follow": {
+        "title": "Li pey Wî",
+        "para": {
+            "1": "Wateya peyketina Xudan Îsa çi ye? Pirtûka Wî ya Pîroz bi dema berî hebûna mirovan dest pê dike.",
+            "2": "Dema ku hûn li ser pirsên jêrîn nîqaş dikin, hevalên xwe kom bikin û bibînin ku hûn çi kifş dikin.",
             "3": "Bi tikandina li ser cîhana cîhanê ya li jor zimanê xweya bijare hilbijêrin."
         }
     }

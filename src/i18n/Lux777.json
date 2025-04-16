@@ -1,7 +1,7 @@
 {
     "language": {
         "EnglishName": "Luxembourgish",
-        "hlCode": "Lux777",
+        "HLcode": "Lux777",
         "google": "lb"
     },
     "menu": {
@@ -14,38 +14,56 @@
     },
     "index": {
         "para": {
-            "1": "Spirituelle Wuesstum ass keng Solo Rees - et geschitt an der Gemeinschaft. Mir brauchen all Wäisheet, déi mir kënne vertrauen a Leit, déi eis laanscht de Wee encouragéieren. D'Lektioune hei ënnen hëllefen Iech z'entdecken wéi d'Wäisheet vu Gott d'Liewe formt, echt Bezéiungen baut an seng Léift a Betreiung fir Iech opzeweisen.",
-            "2": "Sammelt Är Frënn a fänkt un ze entdecken! Klickt op d'Biller hei drënner fir Är Rees unzefänken - net nëmme Wäisheet z'entdecken, awer eng Bezéiung mat Gott an der spiritueller Gemeinschaft, op déi hien Iech invitéiert."
+            "1": "Fir e richtege Fortschrëtt an eisem spirituellen Liewen ze maachen, wësse mer datt mir e Guru brauchen - een deen eis de Wee weist, erausfuerdert, korrigéiert, guidéiert an hëlleft eis.",
+            "2": "Mir wëllen Iech invitéieren fir den Här Jesus als Äre Guru ze hunn. Den Här Jesus huet vill Leit geheelt. Hien huet ni eng Ligen gesot oder iergendeen verletzt. Hie war bescheiden. Hien huet ni bestuet. Hien huet en einfacht Liewen gelieft an huet seng Kraaft ni benotzt fir Räichtum ze kréien."
         }
     },
     "dbs": {
-        "title": "Entdeckt spirituell Gemeinschaft",
+        "title": "Säi Hellege Buch",
         "para": {
-            "1": "Spiritual Community Entdeckung hëlt Iech op eng Rees duerch d'Geschicht, entdeckt wéi d'Leit vun Ufank un mat Gott verbonne sinn - duerch Erausfuerderungen, Froen a Liewensverännerende Momenter. Wann Dir virwëtzeg sidd iwwer Glawen, Zweck, a wat et heescht ze gehéieren, ass dës Serie eng super Plaz fir unzefänken.",
-            "2": "Sammelt Är Frënn a liest wéi Gott d'Leit virbereet huet fir d'Arrivée vum Jesus an déi spirituell Gemeinschaft déi hien ugefaang huet.",
-            "3": "Wielt Är Liiblingssprooch andeems Dir op de Weltglob uewen klickt."
+            "1": "Säin Hellege Buch fänkt mat der Zäit un ier et Leit waren. Et erzielt dann d'Geschicht wéi déi éischt zwee Leit mat Gott interagéiert hunn.",
+            "2": "Liest wéi Gott d'Leit op d'Arrivée vum Här Jesus virbereet huet.",
+            "3": "Sammelt Är Frënn a liest wéi Gott d'Leit virbereet huet fir d'Arrivée vum Jesus an déi spirituell Gemeinschaft déi hien ugefaang huet.",
+            "4": "Wielt Är Liiblingssprooch andeems Dir op de Weltglob uewen klickt."
         }
     },
     "life": {
-        "title": "Liewen Themen",
+        "title": "Seng Léier",
         "para": {
-            "1": "Life Issues entdeckt déi praktesch Léier vu Jesus a senge fréie Matleefer - Wäisheet déi d'Liewe fir Jorhonnerte geännert huet. Vill hunn Transformatioun erlieft andeems de Jesus invitéiert huet fir hinnen ze hëllefen dës Wourechten auszeliewen. Konnt dat och fir Iech richteg sinn?",
-            "2": "Sammelt Är Frënn a kuckt wat Dir entdeckt wann Dir déi folgend Froen diskutéiert.",
+            "1": "Dëst sinn e puer vun de Saachen, déi den Här Jesus a seng fréi Unhänger geléiert hunn.",
+            "2": "Vill Leit hunn hiert Liewen transforméiert gesinn wéi se den Här Jesus gefrot hunn hinnen d'Kraaft ze ginn fir dës Léier an Handlung ëmzesetzen.",
             "3": "Sammelt Är Frënn a kuckt wat Dir entdeckt wann Dir déi folgend Froen diskutéiert.",
             "4": "Wielt Är Liiblingssprooch andeems Dir op de Weltglob uewen klickt."
         }
     },
     "jVideo": {
-        "title": "D'Liewen vum Jesus",
+        "title": "Säi Liewen",
         "para": {
-            "1": "Dem Jesus seng Wierder an Handlungen hunn d'Geschicht geformt, eng Wäisheet ubidden déi auserneen steet. Wéi Dir dëse Video kuckt, frot Iech selwer: Wat huet de Jesus geléiert? Wéi vergläicht seng Wäisheet mat deem wat anerer gesot hunn - a wat kéint et fir Iech bedeiten?",
-            "2": "Dëse Video ass a ville Sprooche verfügbar. Fir d'Sprooch z'änneren, klickt op de Weltglob uewen."
+            "1": "Wéi Dir de Video kuckt, frot Iech selwer \"Wat ass dëse Guru an ass et derwäert ze verfollegen?\"",
+            "2": "Dëse Video ass a ville Sprooche verfügbar. Fir d'Sprooch z'änneren, klickt op de Weltglob uewen.",
+            "3": "Sammelt Är Frënn a kuckt wat Dir entdeckt wann Dir déi folgend Froen diskutéiert."
         }
     },
     "lead": {
-        "title": "Entdeckt Leadership",
         "para": {
             "1": "Entdeckt Leadership exploréiert d'Prinzipien, déi de Jesus senge Leader geléiert huet - Wäisheet, déi déngschthäerzeg Leedung fir Generatiounen geformt huet. Vill hunn Transformatioun erlieft andeems se op de Jesus vertrauen fir hinnen ze hëllefen mat Zweck an Integritéit ze féieren. Konnt dëst Är Leedung och gestalten?",
+            "2": "Sammelt Är Frënn a kuckt wat Dir entdeckt wann Dir déi folgend Froen diskutéiert.",
+            "3": "Wielt Är Liiblingssprooch andeems Dir op de Weltglob uewen klickt."
+        }
+    },
+    "video": {
+        "question": {
+            "1": "Wat seet dat Iech iwwer de Jesus?",
+            "2": "Wat seet Iech dëst iwwer Gott?",
+            "3": "Wat seet Iech dëst iwwer Leit?",
+            "4": "Wann dat stëmmt, wat fir en Ënnerscheed géif et an Ärem Liewen maachen?",
+            "5": "Wien si fënnef Leit mat deenen Dir Är Entdeckungen deele kënnt?"
+        }
+    },
+    "follow": {
+        "title": "Him no",
+        "para": {
+            "1": "Wat heescht et dem Här Jesus ze verfollegen? Säin Hellege Buch fänkt mat der Zäit un ier et Leit waren.",
             "2": "Sammelt Är Frënn a kuckt wat Dir entdeckt wann Dir déi folgend Froen diskutéiert.",
             "3": "Wielt Är Liiblingssprooch andeems Dir op de Weltglob uewen klickt."
         }

@@ -1,7 +1,7 @@
 {
     "language": {
         "EnglishName": "Hawaiian",
-        "hlCode": "haw98",
+        "HLcode": "haw98",
         "google": "haw"
     },
     "menu": {
@@ -14,38 +14,56 @@
     },
     "index": {
         "para": {
-            "1": "ʻAʻole kahi huakaʻi hele kaʻawale ka ulu ʻuhane - hiki i ke kaiāulu. Pono mākou a pau i ka naʻauao hiki iā mākou ke hilinaʻi a me nā poʻe e paipai iā mākou ma ke ala. Na nā haʻawina ma lalo nei e kōkua iā ʻoe e ʻike i ke ʻano o ka naʻauao o ke Akua i hoʻohālikelike ai i ke ola, kūkulu i nā pilina maoli, a hōʻike i kona aloha a mālama iā ʻoe.",
-            "2": "E hōʻuluʻulu i kāu mau hoaaloha a hoʻomaka e ʻimi! Kaomi i nā kiʻi ma lalo nei e hoʻomaka i kāu huakaʻi - ʻaʻole ʻike wale i ka naʻauao, akā i kahi pilina me ke Akua a me ke kaiāulu ʻuhane āna i kono ai iā ʻoe."
+            "1": "I mea e holomua maoli ai ko mākou ola ʻuhane, ʻike mākou pono mākou i ke kumu - he mea e hōʻike mai iā mākou i ke ala, e hoʻokūkū, hoʻoponopono, alakaʻi a kōkua iā mākou.",
+            "2": "Makemake mākou e kono iā ʻoe e noʻonoʻo i ka Haku ʻo Iesū i Guru. Ua hoola ka Haku Iesu i na kanaka he nui. ʻAʻole ʻo ia i haʻi wahaheʻe a hōʻeha paha i kekahi. He haʻahaʻa ʻo ia. ʻAʻole ʻo ia i male. Ua noho maʻalahi ʻo ia a ʻaʻole hoʻohana i kona mana e loaʻa ai ka waiwai."
         }
     },
     "dbs": {
-        "title": "ʻIke ʻana i ke Kaiaulu ʻuhane",
+        "title": "Kona Buke Hemolele",
         "para": {
-            "1": "ʻO ka Discovering Spiritual Community e alakaʻi iā ʻoe i kahi huakaʻi ma ka mōʻaukala, e ʻimi ana i ka pili ʻana o nā kānaka me ke Akua mai kinohi mai—ma o nā pilikia, nā nīnau, a me nā manawa hoʻololi i ke ola. Inā makemake ʻoe e pili ana i ka manaʻoʻiʻo, ke kumu, a me ke ʻano o ke komo ʻana, he wahi maikaʻi kēia moʻo e hoʻomaka ai.",
-            "2": "E hōʻuluʻulu i kāu mau hoaaloha a heluhelu i ka hoʻomākaukau ʻana o ke Akua i nā kānaka no ka hiki ʻana mai o Iesū a me ke kaiāulu ʻuhane āna i hoʻomaka ai.",
-            "3": "E koho i kāu ʻōlelo punahele ma ke kaomi ʻana i ka honua honua ma luna."
+            "1": "Hoʻomaka kāna Buke Hemolele me ka manawa ma mua o ka loaʻa ʻana o kekahi poʻe. A laila haʻi ʻia ka moʻolelo o ka launa ʻana o nā kānaka ʻelua me ke Akua.",
+            "2": "E heluhelu i ka hoomakaukau ana o ke Akua i na kanaka no ka hiki ana mai o ka Haku Iesu.",
+            "3": "E hōʻuluʻulu i kāu mau hoaaloha a heluhelu i ka hoʻomākaukau ʻana o ke Akua i nā kānaka no ka hiki ʻana mai o Iesū a me ke kaiāulu ʻuhane āna i hoʻomaka ai.",
+            "4": "E koho i kāu ʻōlelo punahele ma ke kaomi ʻana i ka honua honua ma luna."
         }
     },
     "life": {
-        "title": "Nā Pili Ola",
+        "title": "kana ao ana",
         "para": {
-            "1": "Ke ʻimi nei ʻo Life Issues i nā ʻōlelo aʻo pono a Iesu a me kāna poʻe hahai mua - naʻauao i hoʻololi i ke ola no nā kenekulia. Nui ka poʻe i ʻike i ka hoʻololi ʻana ma ke kono ʻana iā Iesu e kōkua iā lākou e ola i kēia mau ʻoiaʻiʻo. He ʻoiaʻiʻo paha kēia iā ʻoe?",
-            "2": "E hōʻuluʻulu i kāu mau hoaaloha a ʻike i nā mea āu i ʻike ai i kāu kūkākūkā ʻana i kēia mau nīnau.",
+            "1": "ʻO kēia kekahi mau mea a ka Haku ʻo Iesū a me kāna poʻe haumāna mua i aʻo ai.",
+            "2": "He nui ka poʻe i ʻike i ko lākou ola i hoʻololi ʻia i ko lākou noi ʻana i ka Haku ʻo Iesū e hāʻawi iā lākou i ka mana e hoʻokō i kēia mau aʻo ʻana.",
             "3": "E hōʻuluʻulu i kāu mau hoaaloha a ʻike i nā mea āu i ʻike ai i kāu kūkākūkā ʻana i kēia mau nīnau.",
             "4": "E koho i kāu ʻōlelo punahele ma ke kaomi ʻana i ka honua honua ma luna."
         }
     },
     "jVideo": {
-        "title": "Ke ola o Iesu",
+        "title": "Kona Ola",
         "para": {
-            "1": "Ua hoʻokumu ka ʻōlelo a me nā hana a Iesu i ka mōʻaukala, e hāʻawi ana i kahi naʻauao kū ʻokoʻa. Ke nānā nei ʻoe i kēia wikiō, e nīnau iā ʻoe iho: He aha kā Iesu i aʻo ai? Pehea ka hoʻohālikelike ʻana o kona naʻauao i ka mea a nā poʻe ʻē aʻe i ʻōlelo ai - a he aha ke ʻano o ia mea iā ʻoe?",
-            "2": "Loaʻa kēia wikiō ma nā ʻōlelo he nui. No ka hoʻololi ʻana i ka ʻōlelo, kaomi i ka honua honua ma luna."
+            "1": "I kou nānā ʻana i ke wikiō, e nīnau iā ʻoe iho \"He aha ke ʻano o kēia guru a pono ʻo ia e hahai?\"",
+            "2": "Loaʻa kēia wikiō ma nā ʻōlelo he nui. No ka hoʻololi ʻana i ka ʻōlelo, kaomi i ka honua honua ma luna.",
+            "3": "E hōʻuluʻulu i kāu mau hoaaloha a ʻike i nā mea āu i ʻike ai i kāu kūkākūkā ʻana i kēia mau nīnau."
         }
     },
     "lead": {
-        "title": "ʻIke ʻana i ke alakaʻi",
         "para": {
-            "1": "Ke ʻimi nei ʻo Discovering Leadership i nā loina a Iesu i aʻo ai i kāna mau alakaʻi - ʻo ka naʻauao i hoʻokumu i ke alakaʻi puʻuwai kauā no nā hanauna. Nui ka poʻe i ʻike i ka hoʻololi ʻana ma o ka hilinaʻi ʻana iā Iesū e kōkua iā lākou e alakaʻi me ke kumu a me ka pololei. Hiki paha kēia i kāu alakaʻi?",
+            "1": "Ke ʻimi nei ʻo Discovering Leadership i nā loina a Iesu i aʻo ai i kāna mau alakaʻi - ʻo ka naʻauao i hoʻokumu i ke alakaʻi puʻuwai kauā no nā hanauna. Nui ka poʻe i ʻike i ka hoʻololi ʻana ma o ka hilinaʻi ʻana iā Iesū e kōkua iā lākou e alakaʻi me ke kumu a me ka pololei. Hiki paha i kēia ke hoʻohālike i kāu alakaʻi?",
+            "2": "E hōʻuluʻulu i kāu mau hoaaloha a ʻike i nā mea āu i ʻike ai i kāu kūkākūkā ʻana i kēia mau nīnau.",
+            "3": "E koho i kāu ʻōlelo punahele ma ke kaomi ʻana i ka honua honua ma luna."
+        }
+    },
+    "video": {
+        "question": {
+            "1": "He aha kēia e haʻi iā ʻoe no Iesu?",
+            "2": "He aha kēia e haʻi iā ʻoe no ke Akua?",
+            "3": "He aha kēia e haʻi ai iā ʻoe e pili ana i nā kānaka?",
+            "4": "Inā he ʻoiaʻiʻo kēia, he aha ka ʻokoʻa i kou ola?",
+            "5": "ʻO wai nā kānaka ʻelima hiki iā ʻoe ke kaʻana like i kāu mau ʻike?"
+        }
+    },
+    "follow": {
+        "title": "Mamuli ona",
+        "para": {
+            "1": "Heaha ke ano o ka hahai ana i ka Haku ia Iesu? Hoʻomaka kāna Buke Hemolele me ka manawa ma mua o ka loaʻa ʻana o kekahi poʻe.",
             "2": "E hōʻuluʻulu i kāu mau hoaaloha a ʻike i nā mea āu i ʻike ai i kāu kūkākūkā ʻana i kēia mau nīnau.",
             "3": "E koho i kāu ʻōlelo punahele ma ke kaomi ʻana i ka honua honua ma luna."
         }

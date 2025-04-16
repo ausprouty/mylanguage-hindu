@@ -1,7 +1,7 @@
 {
     "language": {
         "EnglishName": "Latin",
-        "hlCode": "Lat777",
+        "HLcode": "Lat777",
         "google": "la"
     },
     "menu": {
@@ -14,40 +14,58 @@
     },
     "index": {
         "para": {
-            "1": "Spirituale incrementum non solo itinere est - in communitate accidit. Omnes sapientiam egere possumus ac homines in via fidere possumus qui nos hortantur. Lectiones infra despicias adiuvabunt quomodo sapientia Dei vitam informat, genuinas necessitudines aedificat atque amorem suum tibi curaque revelat.",
-            "2": "Colligite amicos vestros et explorandi incipite! Imaginibus infra strepita ut iter tuum incipias - non sapientiam tantum, sed relationem cum Deo et communitatem spiritualem ad te invitat."
+            "1": "Ut ad aliquem verum progressum in vita spirituali nostra cognoscamus guru egere debemus - quis nobis viam ostendat, provocat, corrigat, dirigat et adiuvet.",
+            "2": "Velimus te invitare ut Dominum Iesum Guru habere consideres. Dominus Iesus multos sanavit. Numquam mentitus est nec cuiquam nocuit. Humilis erat. numquam nupsit. Simplex vita vixit, neque opes ad lucrandas usus est."
         }
     },
     "dbs": {
-        "title": "Spiritualis Communitatis exploratio",
+        "title": "Liber Sanctus",
         "para": {
-            "1": "Spiritualis Communitas detegens vos iter per historiam accipit, explorans quomodo homines ab initio coniungunt cum Deo - per provocationes, quaestiones et momenta vitae commutabiles. Si curiosus es de fide, proposito, et quid ad rem pertineat, magna haec series est committitur.",
-            "2": "Colligite amicos vestros et legite quomodo Deus plebem praeparavit ad Iesu adventum et ad communitatem spiritualem pergit.",
-            "3": "Linguam gratam elige strepitando in orbe terrarum supra."
+            "1": "Sanctus Liber incipit a tempore antequam essent aliqui. Deinde narrat quomodo primi duo homines cum Deo interact.",
+            "2": "Lege quomodo praeparavit Deus plebem in adventu Domini Iesu.",
+            "3": "Colligite amicos vestros et legite quomodo Deus plebem praeparavit ad adventum Iesu et ad communitatem spiritualem profectus est.",
+            "4": "Linguam tuam gratam elige strepitando in orbe terrarum supra."
         }
     },
     "life": {
-        "title": "Vita Exitus",
+        "title": "Doctrinae eius",
         "para": {
-            "1": "Vita Exitus practicas scrutatur doctrinas Iesu eiusque sequaces — sapientiam quae vitam mutavit in saecula. Multi transformationem experti sunt Iesum invitare ad adiuvandum ut has veritates vivant. Potuitne hoc etiam verum esse?",
-            "2": "Colligite amicos tuos et vide quid invenias sicut de sequentibus quaestionibus discutias.",
-            "3": "Colligite amicos tuos et vide quid invenias sicut de sequentibus quaestionibus discutias.",
-            "4": "Linguam gratam elige strepitando in orbe terrarum supra."
+            "1": "Haec sunt quae Dominus Iesus et discipuli eius docuerunt.",
+            "2": "Multi homines vitam transformatam viderunt Dominum Iesum rogaverunt ut eis dare potestatem has doctrinas in agendis.",
+            "3": "Colligite amicos vestros et vide quid invenias sicut de sequentibus quaestionibus discutias.",
+            "4": "Linguam tuam gratam elige strepitando in orbe terrarum supra."
         }
     },
     "jVideo": {
-        "title": "Vita Iesu",
+        "title": "Vita eius",
         "para": {
-            "1": "Verba et actiones Iesu historiam conformaverunt, sapientiam praebens separatam. Cum hoc videas, te ipsum interroga: Quid docuit Iesus? Quomodo eius sapientia comparatur ad ea quae alii dixerunt, et quid sibi vult?",
-            "2": "Hoc video in multis linguis praesto est. Linguam commutare super orbem terrarum deprime."
+            "1": "Ut video, te ipsum interroga \"Quae est hoc Guru simile et talis est?\"",
+            "2": "Hoc video in multis linguis praesto est. Linguam commutare super orbem terrarum deprime.",
+            "3": "Colligite amicos vestros et vide quid invenias sicut de sequentibus quaestionibus discutias."
         }
     },
     "lead": {
-        "title": "Inventio Leadership",
         "para": {
             "1": "Ductu detegens principia perquirit Iesus duces suos docuit - sapientiam quae ducit ad generationes ancillas cordatos formavit. Multi transformationem experti sunt in fidentes Iesum adiuvandum ut proposito et integritate ducant. Poteratne haec formare ducem tuum?",
-            "2": "Colligite amicos tuos et vide quid invenias sicut de sequentibus quaestionibus discutias.",
-            "3": "Linguam gratam elige strepitando in orbe terrarum supra."
+            "2": "Colligite amicos vestros et vide quid invenias sicut de sequentibus quaestionibus discutias.",
+            "3": "Linguam tuam gratam elige strepitando in orbe terrarum supra."
+        }
+    },
+    "video": {
+        "question": {
+            "1": "Quid hoc tibi dicit de Jesu?",
+            "2": "Quid tibi hoc de Deo dicam?",
+            "3": "Quid hoc tibi de populo dicam?",
+            "4": "Si hoc verum est, quid interest in vita tua?",
+            "5": "Qui sunt quinque homines cum inventis tuis communicare potes?"
+        }
+    },
+    "follow": {
+        "title": "post eum",
+        "para": {
+            "1": "Quid sibi vult Dominum Iesum sequi? Sanctus Liber incipit a tempore antequam essent aliqui.",
+            "2": "Colligite amicos vestros et vide quid invenias sicut de sequentibus quaestionibus discutias.",
+            "3": "Linguam tuam gratam elige strepitando in orbe terrarum supra."
         }
     }
 }

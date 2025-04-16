@@ -1,7 +1,7 @@
 {
     "language": {
         "EnglishName": "Swahili",
-        "hlCode": "swc00",
+        "HLcode": "swc00",
         "google": "sw"
     },
     "menu": {
@@ -14,38 +14,56 @@
     },
     "index": {
         "para": {
-            "1": "Ukuaji wa kiroho sio safari ya mtu binafsi - hufanyika katika jamii. Sote tunahitaji hekima tunayoweza kuamini na watu wanaotutia moyo njiani. Masomo yaliyo hapa chini yatakusaidia kugundua jinsi hekima ya Mungu hutengeneza maisha, hujenga mahusiano ya kweli, na kufichua upendo na utunzaji Wake kwako.",
-            "2": "Kusanya marafiki zako na anza kuchunguza! Bofya picha zilizo hapa chini ili kuanza safari yako - kugundua si hekima tu, lakini uhusiano na Mungu na jumuiya ya kiroho Anakualika."
+            "1": "Ili kufanya maendeleo yoyote ya kweli katika maisha yetu ya kiroho tunajua tunahitaji gwiji -- mtu wa kutuonyesha njia, kutupa changamoto, kusahihisha, kutuongoza na kutusaidia.",
+            "2": "Tungependa kukualika kufikiria kuwa na Bwana Yesu kama Guru wako. Bwana Yesu aliwaponya watu wengi. Hakusema uwongo wala kumuumiza mtu yeyote. Alikuwa mnyenyekevu. Hakuwahi kuoa. Aliishi maisha rahisi na hakutumia nguvu zake kupata utajiri."
         }
     },
     "dbs": {
-        "title": "Kugundua Jumuiya ya Kiroho",
+        "title": "Kitabu chake kitakatifu",
         "para": {
-            "1": "Kugundua Jumuiya ya Kiroho hukuchukua katika safari kupitia historia, kuchunguza jinsi watu wameunganishwa na Mungu tangu mwanzo—kupitia changamoto, maswali, na nyakati za kubadilisha maisha. Ikiwa una hamu ya kujua kuhusu imani, kusudi, na maana ya kuwa mshiriki, mfululizo huu ni mahali pazuri pa kuanzia.",
-            "2": "Kusanya marafiki zako na usome jinsi Mungu alivyowatayarisha watu kwa ajili ya ujio wa Yesu na jumuiya ya kiroho aliyoianzisha.",
-            "3": "Chagua lugha yako uipendayo kwa kubofya ulimwengu wa dunia hapo juu."
+            "1": "Kitabu chake kitakatifu kinaanza na wakati kabla ya kuwepo watu wowote. Kisha inasimulia hadithi ya jinsi watu wawili wa kwanza walivyotangamana na Mungu.",
+            "2": "Soma jinsi Mungu alivyowatayarisha watu kwa ajili ya kuja kwa Bwana Yesu.",
+            "3": "Kusanya marafiki zako na usome jinsi Mungu alivyotayarisha watu kwa ajili ya ujio wa Yesu na jumuiya ya kiroho aliyoianzisha.",
+            "4": "Chagua lugha yako uipendayo kwa kubofya ulimwengu wa dunia hapo juu."
         }
     },
     "life": {
-        "title": "Masuala ya Maisha",
+        "title": "Mafundisho Yake",
         "para": {
-            "1": "Masuala ya Maisha yanachunguza mafundisho ya vitendo ya Yesu na wafuasi wake wa mapema - hekima ambayo imebadilisha maisha kwa karne nyingi. Wengi wamepitia mabadiliko kwa kumwalika Yesu awasaidie kuishi kwa kupatana na kweli hizi. Je, hii inaweza kuwa kweli kwako pia?",
-            "2": "Kusanya marafiki zako na uone kile unachogundua unapojadili maswali yafuatayo.",
+            "1": "Hayo ni baadhi ya mambo ambayo Bwana Yesu na wafuasi wake wa mapema walifundisha.",
+            "2": "Watu wengi wameona maisha yao yamebadilika huku wakimwomba Bwana Yesu awape uwezo wa kuyaweka mafundisho haya katika matendo.",
             "3": "Kusanya marafiki zako na uone kile unachogundua unapojadili maswali yafuatayo.",
             "4": "Chagua lugha yako uipendayo kwa kubofya ulimwengu wa dunia hapo juu."
         }
     },
     "jVideo": {
-        "title": "Maisha ya Yesu",
+        "title": "Maisha Yake",
         "para": {
-            "1": "Maneno na matendo ya Yesu yametokeza historia, na kutoa hekima isiyo na kifani. Unapotazama video hii, jiulize: Yesu alifundisha nini? Hekima yake inalinganaje na yale ambayo wengine wamesema - na inaweza kumaanisha nini kwako?",
-            "2": "Video hii inapatikana katika lugha nyingi. Ili kubadilisha lugha bofya ulimwengu wa dunia hapo juu."
+            "1": "Unapotazama video, jiulize \"Huyu gwiji yukoje na anafaa kufuatwa?\"",
+            "2": "Video hii inapatikana katika lugha nyingi. Ili kubadilisha lugha bofya ulimwengu wa dunia hapo juu.",
+            "3": "Kusanya marafiki zako na uone kile unachogundua unapojadili maswali yafuatayo."
         }
     },
     "lead": {
-        "title": "Kugundua Uongozi",
         "para": {
             "1": "Kugundua Uongozi huchunguza kanuni ambazo Yesu alifundisha viongozi wake - hekima ambayo imeunda uongozi wa moyo wa mtumishi kwa vizazi. Wengi wamepitia mabadiliko kwa kumtegemea Yesu ili awasaidie kuongoza kwa kusudi na uadilifu. Je, hii inaweza kuunda uongozi wako pia?",
+            "2": "Kusanya marafiki zako na uone kile unachogundua unapojadili maswali yafuatayo.",
+            "3": "Chagua lugha yako uipendayo kwa kubofya ulimwengu wa dunia hapo juu."
+        }
+    },
+    "video": {
+        "question": {
+            "1": "Je, hii inakuambia nini kuhusu Yesu?",
+            "2": "Je, hii inakuambia nini kuhusu Mungu?",
+            "3": "Je, hii inakuambia nini kuhusu watu?",
+            "4": "Ikiwa hii ni kweli, itafanya tofauti gani katika maisha yako?",
+            "5": "Je, ni watu gani watano unaoweza kushiriki nao uvumbuzi wako?"
+        }
+    },
+    "follow": {
+        "title": "Kumfuata Yeye",
+        "para": {
+            "1": "Je, inamaanisha nini kumfuata Bwana Yesu? Kitabu chake kitakatifu kinaanza na wakati kabla ya kuwepo watu wowote.",
             "2": "Kusanya marafiki zako na uone kile unachogundua unapojadili maswali yafuatayo.",
             "3": "Chagua lugha yako uipendayo kwa kubofya ulimwengu wa dunia hapo juu."
         }

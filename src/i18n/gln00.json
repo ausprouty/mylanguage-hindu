@@ -1,7 +1,7 @@
 {
     "language": {
         "EnglishName": "Galician",
-        "hlCode": "gln00",
+        "HLcode": "gln00",
         "google": "gl"
     },
     "menu": {
@@ -14,38 +14,56 @@
     },
     "index": {
         "para": {
-            "1": "O crecemento espiritual non é unha viaxe en solitario, ocorre en comunidade. Todos necesitamos sabedoría na que confiar e persoas que nos animen no camiño. As leccións que aparecen a continuación axudaranche a descubrir como a sabedoría de Deus moldea as vidas, constrúe relacións xenuínas e revela o seu amor e coidado por ti.",
-            "2": "Reúne aos teus amigos e comeza a explorar! Fai clic nas imaxes de abaixo para comezar a túa viaxe, descubrindo non só a sabedoría, senón unha relación con Deus e a comunidade espiritual á que te invita."
+            "1": "Para facer un progreso real na nosa vida espiritual, sabemos que necesitamos un gurú: alguén que nos mostre o camiño, que nos desafie, corrixa, guíe e axude.",
+            "2": "Queremos invitarte a que consideres ter ao Señor Xesús como o teu Guru. O Señor Xesús curou moitas persoas. Nunca dixo unha mentira nin magoou a ninguén. Era humilde. Nunca casou. Viviu unha vida sinxela e nunca usou o seu poder para gañar riqueza."
         }
     },
     "dbs": {
-        "title": "Descubrindo a Comunidade Espiritual",
+        "title": "O seu Libro Sagrado",
         "para": {
-            "1": "Discovering Spiritual Community lévache nunha viaxe pola historia, explorando como as persoas se conectaron con Deus desde o principio, a través de desafíos, preguntas e momentos que cambiaron a vida. Se tes curiosidade pola fe, o propósito e o que significa pertencer, esta serie é un excelente lugar para comezar.",
-            "2": "Reúne aos teus amigos e le como Deus preparou ás persoas para a chegada de Xesús e a comunidade espiritual que el comezou.",
-            "3": "Selecciona o teu idioma favorito facendo clic no globo terráqueo de arriba."
+            "1": "O seu Libro Sagrado comeza coa época anterior a que houbese xente. A continuación, conta a historia de como as dúas primeiras persoas interactuaron con Deus.",
+            "2": "Le como Deus preparou a xente para a chegada do Señor Xesús.",
+            "3": "Reúne aos teus amigos e le como Deus preparou ás persoas para a chegada de Xesús e a comunidade espiritual que el comezou.",
+            "4": "Selecciona o teu idioma favorito facendo clic no globo terráqueo de arriba."
         }
     },
     "life": {
-        "title": "Cuestións da Vida",
+        "title": "As súas Ensinanzas",
         "para": {
-            "1": "Life Issues explora as ensinanzas prácticas de Xesús e os seus primeiros seguidores, unha sabedoría que cambiou vidas durante séculos. Moitos experimentaron a transformación invitando a Xesús a que lles axude a vivir estas verdades. Isto tamén pode ser certo para ti?",
-            "2": "Reúne aos teus amigos e mira o que descobres mentres comentas as seguintes preguntas.",
+            "1": "Estas son algunhas das cousas que o Señor Xesús e os seus primeiros seguidores ensinaron.",
+            "2": "Moitas persoas viron as súas vidas transformadas cando lle pediron ao Señor Xesús que lles dea o poder de poñer en práctica estas ensinanzas.",
             "3": "Reúne aos teus amigos e mira o que descobres mentres comentas as seguintes preguntas.",
             "4": "Selecciona o teu idioma favorito facendo clic no globo terráqueo de arriba."
         }
     },
     "jVideo": {
-        "title": "A Vida de Xesús",
+        "title": "A súa Vida",
         "para": {
-            "1": "As palabras e accións de Xesús conformaron a historia, ofrecendo unha sabedoría que se diferencia. Mentres miras este vídeo, pregúntase: Que ensinou Xesús? Como se compara a súa sabedoría co que outros dixeron e que podería significar para ti?",
-            "2": "Este vídeo está dispoñible en moitos idiomas. Para cambiar o idioma, fai clic no globo terráqueo superior."
+            "1": "Mentres miras o vídeo, pregúntase \"Como é este gurú e paga a pena seguirlo?\"",
+            "2": "Este vídeo está dispoñible en moitos idiomas. Para cambiar o idioma, fai clic no globo terráqueo superior.",
+            "3": "Reúne aos teus amigos e mira o que descobres mentres comentas as seguintes preguntas."
         }
     },
     "lead": {
-        "title": "Descubrindo o liderado",
         "para": {
             "1": "Discovering Leadership explora os principios que Xesús ensinou aos seus líderes: a sabedoría que moldeou o liderado con corazón de servo durante xeracións. Moitos experimentaron a transformación confiando en Xesús para axudarlles a liderar con propósito e integridade. Podería isto moldear tamén o teu liderado?",
+            "2": "Reúne aos teus amigos e mira o que descobres mentres comentas as seguintes preguntas.",
+            "3": "Selecciona o teu idioma favorito facendo clic no globo terráqueo de arriba."
+        }
+    },
+    "video": {
+        "question": {
+            "1": "Que che di isto de Xesús?",
+            "2": "Que che di isto de Deus?",
+            "3": "Que che di isto da xente?",
+            "4": "Se isto é certo, que diferenza faría na túa vida?",
+            "5": "Quen son cinco persoas coas que podes compartir os teus descubrimentos?"
+        }
+    },
+    "follow": {
+        "title": "Seguíndoo",
+        "para": {
+            "1": "Que significa seguir ao Señor Xesús? O seu Libro Sagrado comeza coa época anterior a que houbese xente.",
             "2": "Reúne aos teus amigos e mira o que descobres mentres comentas as seguintes preguntas.",
             "3": "Selecciona o teu idioma favorito facendo clic no globo terráqueo de arriba."
         }

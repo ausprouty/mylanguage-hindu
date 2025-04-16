@@ -1,7 +1,7 @@
 {
     "language": {
         "EnglishName": "Haitian Creole",
-        "hlCode": "hat00",
+        "HLcode": "hat00",
         "google": "ht"
     },
     "menu": {
@@ -14,38 +14,56 @@
     },
     "index": {
         "para": {
-            "1": "Kwasans espirityèl se pa yon vwayaj solo - li rive nan kominote a. Nou tout bezwen sajès nou ka fè konfyans ak moun ki ankouraje nou sou wout la. Leson ki anba yo pral ede w dekouvri ki jan sajès Bondye fòme lavi, bati relasyon otantik, ak revele lanmou li ak swen pou ou.",
-            "2": "Rasanble zanmi ou yo epi kòmanse eksplore! Klike sou imaj ki anba yo pou kòmanse vwayaj ou - dekouvri pa sèlman sajès, men yon relasyon ak Bondye ak kominote espirityèl li envite ou nan."
+            "1": "Pou nou kapab fè nenpòt pwogrè reyèl nan lavi espirityèl nou an, nou konnen nou bezwen yon gourou - yon moun ki montre nou wout la, defi, korije, gide ak ede nou.",
+            "2": "Nou ta renmen envite w pou w konsidere w genyen Senyè Jezi kòm gourou w. Senyè Jezi te geri anpil moun. Li pa janm di yon manti oswa blese pèsonn. Li te enb. Li pa janm marye. Li te viv yon vi ki senp epi li pa janm sèvi ak pouvwa l 'yo genyen richès."
         }
     },
     "dbs": {
-        "title": "Dekouvri kominote espirityèl",
+        "title": "Liv Sen li a",
         "para": {
-            "1": "Discovering Spiritual Community mennen w nan yon vwayaj nan listwa, eksplore fason moun te konekte ak Bondye depi nan kòmansman an—atravè defi, kesyon, ak moman ki chanje lavi yo. Si w se kirye sou lafwa, objektif, ak sa sa vle di fè pati, seri sa a se yon bon kote pou kòmanse.",
-            "2": "Rasanble zanmi w yo epi li kijan Bondye te prepare moun pou rive Jezi ak kominote espirityèl li te kòmanse a.",
-            "3": "Chwazi lang ou pi renmen lè w klike sou glòb mondyal ki anwo a."
+            "1": "Liv Sen li a kòmanse ak tan anvan te gen nenpòt moun. Apre sa, li rakonte istwa ki jan de premye moun yo te kominike avèk Bondye.",
+            "2": "Li kijan Bondye te prepare moun pou arive Senyè Jezi.",
+            "3": "Rasanble zanmi ou yo epi li kijan Bondye te prepare moun pou rive Jezi ak kominote espirityèl li te kòmanse a.",
+            "4": "Chwazi lang ou pi renmen lè w klike sou glòb mondyal ki anwo a."
         }
     },
     "life": {
-        "title": "Pwoblèm lavi",
+        "title": "Ansèyman li yo",
         "para": {
-            "1": "Life Issues eksplore ansèyman pratik Jezi ak premye disip li yo — sajès ki chanje lavi pandan plizyè syèk. Anpil moun te fè eksperyans transfòmasyon lè yo envite Jezi pou l ede yo viv verite sa yo. Èske sa ta ka vre pou ou tou?",
-            "2": "Rasanble zanmi ou yo epi wè sa ou dekouvri pandan w ap diskite kesyon sa yo.",
+            "1": "Sa yo se kèk nan bagay Senyè Jezi ak premye disip li yo te anseye.",
+            "2": "Anpil moun te wè lavi yo transfòme lè yo te mande Senyè Jezi pou l ba yo pouvwa pou mete ansèyman sa yo an aksyon.",
             "3": "Rasanble zanmi ou yo epi wè sa ou dekouvri pandan w ap diskite kesyon sa yo.",
             "4": "Chwazi lang ou pi renmen lè w klike sou glòb mondyal ki anwo a."
         }
     },
     "jVideo": {
-        "title": "Lavi Jezi a",
+        "title": "Lavi li",
         "para": {
-            "1": "Pawòl Jezi yo ak aksyon yo te fòme istwa, yo ofri yon sajès ki kanpe apa. Pandan w ap gade videyo sa a, mande tèt ou: Ki sa Jezi te anseye? Ki jan bon konprann li konpare ak sa lòt moun te di - e ki sa li ka vle di pou ou?",
-            "2": "Videyo sa a disponib nan plizyè lang. Pou chanje lang, klike sou glòb mondyal ki anlè a."
+            "1": "Pandan w ap gade videyo a, mande tèt ou \"Ki jan gourou sa a ye e èske li vo swiv?\"",
+            "2": "Videyo sa a disponib nan plizyè lang. Pou chanje lang, klike sou glòb mondyal ki anlè a.",
+            "3": "Rasanble zanmi ou yo epi wè sa ou dekouvri pandan w ap diskite kesyon sa yo."
         }
     },
     "lead": {
-        "title": "Dekouvri Lidèchip",
         "para": {
             "1": "Dekouvri Lidèchip yo eksplore prensip Jezi te anseye dirijan li yo — sajès ki te fòme lidèchip ki gen kè sèvitè pandan plizyè jenerasyon. Anpil moun te fè eksperyans transfòmasyon lè yo konte sou Jezi pou l ede yo dirije ak objektif ak entegrite. Èske sa ka fòme lidèchip ou tou?",
+            "2": "Rasanble zanmi ou yo epi wè sa ou dekouvri pandan w ap diskite kesyon sa yo.",
+            "3": "Chwazi lang ou pi renmen lè w klike sou glòb mondyal ki anwo a."
+        }
+    },
+    "video": {
+        "question": {
+            "1": "Kisa sa di w sou Jezi?",
+            "2": "Kisa sa di ou sou Bondye?",
+            "3": "Kisa sa di ou sou moun?",
+            "4": "Si sa a se vre, ki diferans li ta fè nan lavi ou?",
+            "5": "Ki moun ki senk moun ou ka pataje dekouvèt ou yo?"
+        }
+    },
+    "follow": {
+        "title": "Swiv li",
+        "para": {
+            "1": "Ki sa sa vle di suiv Senyè Jezi a? Liv Sen li a kòmanse ak tan anvan te gen nenpòt moun.",
             "2": "Rasanble zanmi ou yo epi wè sa ou dekouvri pandan w ap diskite kesyon sa yo.",
             "3": "Chwazi lang ou pi renmen lè w klike sou glòb mondyal ki anwo a."
         }

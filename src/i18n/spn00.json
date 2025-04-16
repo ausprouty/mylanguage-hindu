@@ -1,12 +1,12 @@
 {
     "language": {
         "EnglishName": "Spanish",
-        "hlCode": "spn00",
+        "HLcode": "spn00",
         "google": "es"
     },
     "menu": {
         "next": "Próximo",
-        "nextVideo": "Siguiente vídeo",
+        "nextVideo": "Siguiente Vídeo",
         "previous": "Anterior",
         "select": "Seleccionar",
         "videoSegment": "Segmento de vídeo",
@@ -14,38 +14,56 @@
     },
     "index": {
         "para": {
-            "1": "El crecimiento espiritual no es un viaje en solitario: ocurre en comunidad. Todos necesitamos sabiduría en la que podamos confiar y personas que nos alienten en el camino. Las lecciones siguientes le ayudarán a descubrir cómo la sabiduría de Dios da forma a sus vidas, construye relaciones genuinas y revela su amor y cuidado por usted.",
-            "2": "¡Reúne a tus amigos y comienza a explorar! Haga clic en las imágenes a continuación para comenzar su viaje, descubriendo no solo la sabiduría, sino también una relación con Dios y la comunidad espiritual a la que Él lo invita."
+            "1": "Para lograr un progreso real en nuestra vida espiritual, sabemos que necesitamos un gurú, alguien que nos muestre el camino, que nos desafíe, nos corrija, nos guíe y nos ayude.",
+            "2": "Nos gustaría invitarte a considerar tener al Señor Jesús como tu Guru. El Señor Jesús sanó a muchas personas. Nunca dijo una mentira ni lastimó a nadie. Él era humilde. Nunca se casó. Vivió una vida sencilla y nunca usó su poder para hacerse rico."
         }
     },
     "dbs": {
-        "title": "Descubriendo la comunidad espiritual",
+        "title": "Su libro sagrado",
         "para": {
-            "1": "Descubriendo la Comunidad Espiritual te lleva en un viaje a través de la historia, explorando cómo las personas se han conectado con Dios desde el principio, a través de desafíos, preguntas y momentos que cambian la vida. Si tiene curiosidad sobre la fe, el propósito y lo que significa pertenecer, esta serie es un excelente lugar para comenzar.",
-            "2": "Reúne a tus amigos y lee cómo Dios preparó a las personas para la llegada de Jesús y la comunidad espiritual que él inició.",
-            "3": "Seleccione su idioma favorito haciendo clic en el globo terráqueo de arriba."
+            "1": "Su Libro Sagrado comienza con el tiempo anterior a que existiera el pueblo. Luego cuenta la historia de cómo las dos primeras personas interactuaron con Dios.",
+            "2": "Lea cómo Dios preparó a las personas para la llegada del Señor Jesús.",
+            "3": "Reúne a tus amigos y lee cómo Dios preparó a las personas para la llegada de Jesús y la comunidad espiritual que él inició.",
+            "4": "Seleccione su idioma favorito haciendo clic en el globo terráqueo de arriba."
         }
     },
     "life": {
-        "title": "Problemas de la vida",
+        "title": "sus enseñanzas",
         "para": {
-            "1": "Life Issues explora las enseñanzas prácticas de Jesús y sus primeros seguidores: sabiduría que ha cambiado vidas durante siglos. Muchos han experimentado una transformación al invitar a Jesús a ayudarlos a vivir estas verdades. ¿Podría ser esto cierto para usted también?",
-            "2": "Reúne a tus amigos y mira lo que descubres mientras discutes las siguientes preguntas.",
+            "1": "Estas son algunas de las cosas que enseñaron el Señor Jesús y sus primeros seguidores.",
+            "2": "Muchas personas han visto sus vidas transformadas cuando le pidieron al Señor Jesús que les diera el poder de poner en práctica estas enseñanzas.",
             "3": "Reúne a tus amigos y mira lo que descubres mientras discutes las siguientes preguntas.",
             "4": "Seleccione su idioma favorito haciendo clic en el globo terráqueo de arriba."
         }
     },
     "jVideo": {
-        "title": "La vida de Jesús",
+        "title": "su vida",
         "para": {
-            "1": "Las palabras y acciones de Jesús han dado forma a la historia, ofreciendo una sabiduría que se distingue. Mientras miras este video, pregúntate: ¿Qué enseñó Jesús? ¿Cómo se compara su sabiduría con lo que otros han dicho y qué podría significar para usted?",
-            "2": "Este vídeo está disponible en muchos idiomas. Para cambiar el idioma, haga clic en el globo terráqueo de arriba."
+            "1": "Mientras miras el vídeo, pregúntate: \"¿Cómo es este gurú? ¿Vale la pena seguirlo?\".",
+            "2": "Este vídeo está disponible en muchos idiomas. Para cambiar el idioma, haga clic en el globo terráqueo de arriba.",
+            "3": "Reúne a tus amigos y mira lo que descubres mientras discutes las siguientes preguntas."
         }
     },
     "lead": {
-        "title": "Descubriendo el liderazgo",
         "para": {
-            "1": "Descubriendo el Liderazgo explora los principios que Jesús enseñó a sus líderes: sabiduría que ha dado forma a un liderazgo con corazón de siervo durante generaciones. Muchos han experimentado una transformación al confiar en Jesús para que los ayude a liderar con propósito e integridad. ¿Podría esto moldear también su liderazgo?",
+            "1": "Descubriendo el Liderazgo explora los principios que Jesús enseñó a sus líderes: sabiduría que ha dado forma a un liderazgo con corazón de siervo durante generaciones. Muchos han experimentado una transformación al confiar en que Jesús los ayudará a liderar con propósito e integridad. ¿Podría esto moldear también su liderazgo?",
+            "2": "Reúne a tus amigos y mira lo que descubres mientras discutes las siguientes preguntas.",
+            "3": "Seleccione su idioma favorito haciendo clic en el globo terráqueo de arriba."
+        }
+    },
+    "video": {
+        "question": {
+            "1": "¿Qué te dice esto acerca de Jesús?",
+            "2": "¿Qué te dice esto acerca de Dios?",
+            "3": "¿Qué te dice esto sobre las personas?",
+            "4": "Si esto es cierto, ¿qué diferencia haría en tu vida?",
+            "5": "¿Quiénes son las cinco personas con las que puedes compartir tus descubrimientos?"
+        }
+    },
+    "follow": {
+        "title": "Siguiéndolo",
+        "para": {
+            "1": "¿Qué significa seguir al Señor Jesús? Su Libro Sagrado comienza con el tiempo anterior a que existiera el pueblo.",
             "2": "Reúne a tus amigos y mira lo que descubres mientras discutes las siguientes preguntas.",
             "3": "Seleccione su idioma favorito haciendo clic en el globo terráqueo de arriba."
         }

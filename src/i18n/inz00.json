@@ -1,7 +1,7 @@
 {
     "language": {
         "EnglishName": "Indonesian",
-        "hlCode": "inz00",
+        "HLcode": "inz00",
         "google": "id"
     },
     "menu": {
@@ -14,38 +14,56 @@
     },
     "index": {
         "para": {
-            "1": "Pertumbuhan spiritual bukanlah sebuah perjalanan yang dilakukan sendirian – hal ini terjadi dalam komunitas. Kita semua membutuhkan kebijaksanaan yang dapat kita percayai dan orang-orang yang menyemangati kita selama ini. Pelajaran di bawah ini akan membantu Anda menemukan bagaimana hikmat Tuhan membentuk kehidupan, membangun hubungan yang sejati, dan mengungkapkan kasih serta perhatian-Nya kepada Anda.",
-            "2": "Kumpulkan teman-teman Anda dan mulailah menjelajah! Klik pada gambar di bawah untuk memulai perjalanan Anda — menemukan bukan hanya kebijaksanaan, namun juga hubungan dengan Tuhan dan komunitas spiritual yang Dia undang untuk Anda masuki."
+            "1": "Untuk mencapai kemajuan nyata dalam kehidupan spiritual kita, kita tahu bahwa kita membutuhkan seorang guru -- seseorang yang menunjukkan jalan, menantang, mengoreksi, membimbing dan membantu kita.",
+            "2": "Kami ingin mengajak Anda untuk mempertimbangkan untuk menjadikan Tuhan Yesus sebagai Guru Anda. Tuhan Yesus menyembuhkan banyak orang. Dia tidak pernah berbohong atau menyakiti siapa pun. Dia rendah hati. Dia tidak pernah menikah. Dia menjalani kehidupan sederhana dan tidak pernah menggunakan kekuasaannya untuk mendapatkan kekayaan."
         }
     },
     "dbs": {
-        "title": "Menemukan Komunitas Spiritual",
+        "title": "Kitab Suci-Nya",
         "para": {
-            "1": "Menemukan Komunitas Spiritual membawa Anda pada perjalanan melalui sejarah, menjelajahi bagaimana manusia terhubung dengan Tuhan sejak awal—melalui tantangan, pertanyaan, dan momen yang mengubah hidup. Jika Anda penasaran tentang iman, tujuan, dan apa artinya menjadi bagian, seri ini adalah awal yang baik.",
-            "2": "Kumpulkan teman-teman Anda dan bacalah bagaimana Tuhan mempersiapkan orang-orang untuk kedatangan Yesus dan komunitas spiritual yang Ia dirikan.",
-            "3": "Pilih bahasa favorit Anda dengan mengklik globe dunia di atas."
+            "1": "Kitab Suci-Nya dimulai sejak sebelum ada manusia. Kemudian menceritakan kisah bagaimana dua orang pertama berinteraksi dengan Tuhan.",
+            "2": "Baca bagaimana Tuhan mempersiapkan manusia menyambut kedatangan Tuhan Yesus.",
+            "3": "Kumpulkan teman-teman Anda dan bacalah bagaimana Tuhan mempersiapkan orang-orang untuk kedatangan Yesus dan komunitas spiritual yang Ia dirikan.",
+            "4": "Pilih bahasa favorit Anda dengan mengklik globe dunia di atas."
         }
     },
     "life": {
-        "title": "Masalah Kehidupan",
+        "title": "AjaranNya",
         "para": {
-            "1": "Life Issues mengeksplorasi ajaran praktis Yesus dan para pengikut awalnya — kebijaksanaan yang telah mengubah kehidupan selama berabad-abad. Banyak orang telah mengalami transformasi dengan mengundang Yesus untuk membantu mereka menghidupi kebenaran ini. Apakah ini juga berlaku bagi Anda?",
-            "2": "Kumpulkan teman-teman Anda dan lihat apa yang Anda temukan saat Anda mendiskusikan pertanyaan-pertanyaan berikut.",
+            "1": "Inilah beberapa hal yang diajarkan Tuhan Yesus dan para pengikut mula-mula.",
+            "2": "Banyak orang telah melihat kehidupan mereka berubah ketika mereka memohon kepada Tuhan Yesus untuk memberi mereka kekuatan untuk menerapkan ajaran-ajaran ini ke dalam tindakan.",
             "3": "Kumpulkan teman-teman Anda dan lihat apa yang Anda temukan saat Anda mendiskusikan pertanyaan-pertanyaan berikut.",
             "4": "Pilih bahasa favorit Anda dengan mengklik globe dunia di atas."
         }
     },
     "jVideo": {
-        "title": "Kehidupan Yesus",
+        "title": "Hidupnya",
         "para": {
-            "1": "Kata-kata dan tindakan Yesus telah membentuk sejarah, menawarkan hikmah yang berbeda. Saat Anda menonton video ini, tanyakan pada diri Anda: Apa yang Yesus ajarkan? Bagaimana kebijaksanaannya dibandingkan dengan apa yang dikatakan orang lain — dan apa pengaruhnya bagi Anda?",
-            "2": "Video ini tersedia dalam banyak bahasa. Untuk mengubah bahasa klik globe dunia di atas."
+            "1": "Saat Anda menonton videonya, tanyakan pada diri Anda, \"Seperti apa guru ini dan apakah dia layak untuk diikuti?\"",
+            "2": "Video ini tersedia dalam banyak bahasa. Untuk mengubah bahasa klik globe dunia di atas.",
+            "3": "Kumpulkan teman-teman Anda dan lihat apa yang Anda temukan saat Anda mendiskusikan pertanyaan-pertanyaan berikut."
         }
     },
     "lead": {
-        "title": "Menemukan Kepemimpinan",
         "para": {
             "1": "Discovering Leadership mengeksplorasi prinsip-prinsip yang Yesus ajarkan kepada para pemimpinnya — kebijaksanaan yang telah membentuk kepemimpinan yang berhati pelayan selama beberapa generasi. Banyak orang telah mengalami transformasi dengan mengandalkan Yesus untuk membantu mereka memimpin dengan tujuan dan integritas. Bisakah hal ini juga membentuk kepemimpinan Anda?",
+            "2": "Kumpulkan teman-teman Anda dan lihat apa yang Anda temukan saat Anda mendiskusikan pertanyaan-pertanyaan berikut.",
+            "3": "Pilih bahasa favorit Anda dengan mengklik globe dunia di atas."
+        }
+    },
+    "video": {
+        "question": {
+            "1": "Apa yang diceritakan di sini tentang Yesus kepada Anda?",
+            "2": "Apa yang diceritakan di sini kepada Anda tentang Tuhan?",
+            "3": "Apa yang diceritakan di sini tentang manusia?",
+            "4": "Jika ini benar, perubahan apa yang akan terjadi dalam hidup Anda?",
+            "5": "Siapakah lima orang yang dapat Anda ajak berbagi penemuan Anda?"
+        }
+    },
+    "follow": {
+        "title": "Mengikuti Dia",
+        "para": {
+            "1": "Apa artinya mengikuti Tuhan Yesus? Kitab Suci-Nya dimulai sejak sebelum ada manusia.",
             "2": "Kumpulkan teman-teman Anda dan lihat apa yang Anda temukan saat Anda mendiskusikan pertanyaan-pertanyaan berikut.",
             "3": "Pilih bahasa favorit Anda dengan mengklik globe dunia di atas."
         }

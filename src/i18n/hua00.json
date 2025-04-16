@@ -1,7 +1,7 @@
 {
     "language": {
         "EnglishName": "Hausa",
-        "hlCode": "hua00",
+        "HLcode": "hua00",
         "google": "ha"
     },
     "menu": {
@@ -14,38 +14,56 @@
     },
     "index": {
         "para": {
-            "1": "Ci gaban ruhaniya ba tafiya ba ce kawai - yana faruwa a cikin al'umma. Dukanmu muna buƙatar hikima da za mu iya dogara da mutanen da suke ƙarfafa mu a hanya. Darussan da ke ƙasa za su taimake ka ka gano yadda hikimar Allah ke siffanta rayuwa, gina dangantaka ta gaskiya, da kuma bayyana ƙauna da kulawarsa a gare ka.",
-            "2": "Tara abokanka kuma fara bincike! Danna kan Hotunan da ke ƙasa don fara tafiyarku - gano ba hikima ba kawai, amma dangantaka da Allah da al'ummar ruhaniya da yake gayyatar ku zuwa ciki."
+            "1": "Domin mu sami ci gaba na gaske a rayuwarmu ta ruhaniya mun san muna buƙatar guru -- wanda zai nuna mana hanya, don ƙalubalanci, gyara, ja-gora da taimaka mana.",
+            "2": "Muna so mu gayyace ku don yin la'akari da samun Ubangiji Yesu a matsayin Guru ku. Ubangiji Yesu ya warkar da mutane da yawa. Bai taba yin karya ko cutar da kowa ba. Ya kasance mai tawali'u. Bai taba yin aure ba. Ya yi rayuwa mai sauƙi kuma bai taɓa amfani da ikonsa don samun wadata ba."
         }
     },
     "dbs": {
-        "title": "Gano Al'ummar Ruhaniya",
+        "title": "Littafinsa Mai Tsarki",
         "para": {
-            "1": "Gano Al'umma ta Ruhaniya yana ɗaukar ku cikin tafiya cikin tarihi, bincika yadda mutane suka yi alaƙa da Allah tun daga farko - ta ƙalubale, tambayoyi, da lokuta masu canza rayuwa. Idan kuna sha'awar bangaskiya, manufa, da abin da ake nufi da kasancewa, wannan silsilar wuri ne mai kyau don farawa.",
-            "2": "Ka tara abokanka ka karanta yadda Allah ya shirya mutane don zuwan Yesu da kuma rukunin ruhaniya da ya soma.",
-            "3": "Zaɓi harshen da kuka fi so ta danna kan duniyar duniyar da ke sama."
+            "1": "Littafinsa mai tsarki ya fara da zamanin da kafin a sami wasu mutane. Sannan ya ba da labarin yadda mutane biyu na farko suka yi hulɗa da Allah.",
+            "2": "Karanta yadda Allah ya shirya mutane don zuwan Ubangiji Yesu.",
+            "3": "Ka tara abokanka ka karanta yadda Allah ya shirya mutane don zuwan Yesu da kuma rukunin ruhaniya da ya soma.",
+            "4": "Zaɓi harshen da kuka fi so ta danna kan duniyar duniyar da ke sama."
         }
     },
     "life": {
-        "title": "Batutuwan Rayuwa",
+        "title": "Koyarwarsa",
         "para": {
-            "1": "Batutuwan rayuwa sun bincika koyarwa mai amfani na Yesu da mabiyansa na farko—hikima da ta canza rayuwa shekaru aru-aru. Mutane da yawa sun sami canji ta wajen gayyatar Yesu ya taimaka musu su bi da waɗannan gaskiyar. Wannan zai iya zama gaskiya gare ku kuma?",
-            "2": "Ka tara abokanka kuma ka ga abin da ka gano yayin da kake tattauna waɗannan tambayoyin.",
+            "1": "Waɗannan wasu abubuwa ne da Ubangiji Yesu da mabiyansa na farko suka koyar.",
+            "2": "Mutane da yawa sun ga yadda rayuwarsu ta canja sa’ad da suka roƙi Ubangiji Yesu ya ba su ikon aiwatar da waɗannan koyarwar.",
             "3": "Ka tara abokanka kuma ka ga abin da ka gano yayin da kake tattauna waɗannan tambayoyin.",
             "4": "Zaɓi harshen da kuka fi so ta danna kan duniyar duniyar da ke sama."
         }
     },
     "jVideo": {
-        "title": "Rayuwar Yesu",
+        "title": "Rayuwarsa",
         "para": {
-            "1": "Kalmomin Yesu da ayyukansa sun tsara tarihi, suna ba da hikima da ta bambanta. Yayin da kuke kallon wannan bidiyon, ku tambayi kanku: Menene Yesu ya koyar? Ta yaya hikimarsa ta kwatanta da abin da wasu suka faɗa — kuma mene ne hakan zai iya nufi a gare ku?",
-            "2": "Ana samun wannan bidiyon a cikin yaruka da yawa. Don canza harshe danna duniyar duniyar da ke sama."
+            "1": "Yayin da kuke kallon bidiyon, ku tambayi kanku \"Mene ne wannan guru kuma ya cancanci bi?\"",
+            "2": "Ana samun wannan bidiyon a cikin yaruka da yawa. Don canza harshe danna duniyar duniyar da ke sama.",
+            "3": "Ka tara abokanka kuma ka ga abin da ka gano yayin da kake tattauna waɗannan tambayoyin."
         }
     },
     "lead": {
-        "title": "Gano Jagoranci",
         "para": {
             "1": "Gano Jagoranci yana bincika ƙa'idodin da Yesu ya koyar da shugabanninsa - hikimar da ta haifar da jagoranci na zuciya na bawa na tsararraki. Mutane da yawa sun sami canji ta wajen dogara ga Yesu ya taimaka musu su yi ja-gora da manufa da aminci. Wannan zai iya siffanta shugabancin ku kuma?",
+            "2": "Ka tara abokanka kuma ka ga abin da ka gano yayin da kake tattauna waɗannan tambayoyin.",
+            "3": "Zaɓi harshen da kuka fi so ta danna kan duniyar duniyar da ke sama."
+        }
+    },
+    "video": {
+        "question": {
+            "1": "Menene wannan ya gaya muku game da Yesu?",
+            "2": "Menene wannan ke gaya muku game da Allah?",
+            "3": "Menene wannan ke gaya muku game da mutane?",
+            "4": "Idan wannan gaskiya ne, menene bambanci zai haifar a rayuwar ku?",
+            "5": "Wanene mutane biyar za ku iya raba abubuwan bincikenku da su?"
+        }
+    },
+    "follow": {
+        "title": "Bin Shi",
+        "para": {
+            "1": "Menene ma’anar bin Ubangiji Yesu? Littafinsa mai tsarki ya fara da zamanin da kafin a sami wasu mutane.",
             "2": "Ka tara abokanka kuma ka ga abin da ka gano yayin da kake tattauna waɗannan tambayoyin.",
             "3": "Zaɓi harshen da kuka fi so ta danna kan duniyar duniyar da ke sama."
         }

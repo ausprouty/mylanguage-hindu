@@ -1,7 +1,7 @@
 {
     "language": {
         "EnglishName": "Welsh",
-        "hlCode": "wls00",
+        "HLcode": "wls00",
         "google": "cy"
     },
     "menu": {
@@ -14,38 +14,56 @@
     },
     "index": {
         "para": {
-            "1": "Nid taith unigol yw twf ysbrydol - mae'n digwydd yn y gymuned. Mae arnom ni i gyd angen doethineb y gallwn ymddiried ynddo a phobl sy'n ein hannog ar hyd y ffordd. Bydd y gwersi isod yn eich helpu i ddarganfod sut mae doethineb Duw yn siapio bywydau, yn adeiladu perthnasoedd dilys, ac yn datgelu Ei gariad a’i ofal amdanoch chi.",
-            "2": "Casglwch eich ffrindiau a dechreuwch archwilio! Cliciwch ar y delweddau isod i gychwyn eich taith — gan ddarganfod nid yn unig doethineb, ond perthynas â Duw a’r gymuned ysbrydol y mae’n eich gwahodd iddi."
+            "1": "Er mwyn gwneud unrhyw gynnydd gwirioneddol yn ein bywyd ysbrydol rydyn ni'n gwybod bod angen guru arnom ni -- rhywun i ddangos y ffordd i ni, i herio, cywiro, arwain a helpu ni.",
+            "2": "Hoffem eich gwahodd i ystyried cael yr Arglwydd Iesu yn Guru. Iachaodd yr Arglwydd Iesu lawer o bobl. Ni ddywedodd gelwydd na brifo neb erioed. Roedd yn ostyngedig. Ni briododd erioed. Roedd yn byw bywyd syml ac ni ddefnyddiodd ei bŵer i ennill cyfoeth."
         }
     },
     "dbs": {
-        "title": "Darganfod Cymuned Ysbrydol",
+        "title": "Ei Lyfr Sanctaidd",
         "para": {
-            "1": "Mae Darganfod Cymuned Ysbrydol yn mynd â chi ar daith trwy hanes, gan archwilio sut mae pobl wedi cysylltu â Duw o'r cychwyn cyntaf - trwy heriau, cwestiynau, ac eiliadau sy'n newid bywyd. Os ydych chi'n chwilfrydig am ffydd, pwrpas, a beth mae'n ei olygu i berthyn, mae'r gyfres hon yn lle gwych i ddechrau.",
-            "2": "Casglwch eich ffrindiau a darllenwch sut y gwnaeth Duw baratoi pobl ar gyfer dyfodiad Iesu a’r gymuned ysbrydol a gychwynnodd.",
-            "3": "Dewiswch eich hoff iaith trwy glicio ar y glôb byd uchod."
+            "1": "Mae ei Lyfr Sanctaidd yn cychwyn gyda'r amser cyn bod unrhyw bobl. Yna mae'n adrodd hanes sut y gwnaeth y ddau berson cyntaf ryngweithio â Duw.",
+            "2": "Darllenwch sut y paratôdd Duw bobl ar gyfer dyfodiad yr Arglwydd Iesu.",
+            "3": "Casglwch eich ffrindiau a darllenwch sut y paratôdd Duw bobl ar gyfer dyfodiad Iesu a’r gymuned ysbrydol a gychwynnodd.",
+            "4": "Dewiswch eich hoff iaith trwy glicio ar y glôb byd uchod."
         }
     },
     "life": {
-        "title": "Materion Bywyd",
+        "title": "Ei Ddysgeidiaeth",
         "para": {
-            "1": "Mae Life Issues yn archwilio dysgeidiaeth ymarferol Iesu a’i ddilynwyr cynnar—doethineb sydd wedi newid bywydau ers canrifoedd. Mae llawer wedi profi trawsnewid trwy wahodd Iesu i'w helpu i fyw'r gwirioneddau hyn. A allai hyn fod yn wir i chi hefyd?",
-            "2": "Casglwch eich ffrindiau a gweld beth rydych chi'n ei ddarganfod wrth i chi drafod y cwestiynau canlynol.",
+            "1": "Dyma rai o’r pethau a ddysgodd yr Arglwydd Iesu a’i ddilynwyr cynnar.",
+            "2": "Mae llawer o bobl wedi gweld eu bywydau’n cael eu trawsnewid wrth iddyn nhw ofyn i’r Arglwydd Iesu roi’r pŵer iddyn nhw roi’r ddysgeidiaeth hyn ar waith.",
             "3": "Casglwch eich ffrindiau a gweld beth rydych chi'n ei ddarganfod wrth i chi drafod y cwestiynau canlynol.",
             "4": "Dewiswch eich hoff iaith trwy glicio ar y glôb byd uchod."
         }
     },
     "jVideo": {
-        "title": "Bywyd Iesu",
+        "title": "Ei Fywyd",
         "para": {
-            "1": "Mae geiriau a gweithredoedd Iesu wedi llunio hanes, gan gynnig doethineb sy’n sefyll ar wahân. Wrth i chi wylio'r fideo hwn, gofynnwch i chi'ch hun: Beth ddysgodd Iesu? Sut mae ei ddoethineb yn cymharu â'r hyn y mae eraill wedi'i ddweud - a beth allai ei olygu i chi?",
-            "2": "Mae'r fideo hwn ar gael mewn llawer o ieithoedd. I newid yr iaith cliciwch ar y glôb byd uchod."
+            "1": "Wrth i chi wylio'r fideo, gofynnwch i chi'ch hun \"Sut beth yw'r guru hwn ac a yw'n werth ei ddilyn?\"",
+            "2": "Mae'r fideo hwn ar gael mewn llawer o ieithoedd. I newid yr iaith cliciwch ar y glôb byd uchod.",
+            "3": "Casglwch eich ffrindiau a gweld beth rydych chi'n ei ddarganfod wrth i chi drafod y cwestiynau canlynol."
         }
     },
     "lead": {
-        "title": "Darganfod Arweinyddiaeth",
         "para": {
             "1": "Mae Darganfod Arweinyddiaeth yn archwilio’r egwyddorion a ddysgodd Iesu i’w arweinwyr—doethineb sydd wedi llywio arweiniad gwas-galon ers cenedlaethau. Mae llawer wedi profi trawsnewid trwy ddibynnu ar Iesu i'w helpu i arwain gyda phwrpas ac uniondeb. A allai hyn siapio eich arweinyddiaeth hefyd?",
+            "2": "Casglwch eich ffrindiau a gweld beth rydych chi'n ei ddarganfod wrth i chi drafod y cwestiynau canlynol.",
+            "3": "Dewiswch eich hoff iaith trwy glicio ar y glôb byd uchod."
+        }
+    },
+    "video": {
+        "question": {
+            "1": "Beth mae hyn yn ei ddweud wrthych am Iesu?",
+            "2": "Beth mae hyn yn ei ddweud wrthych chi am Dduw?",
+            "3": "Beth mae hyn yn ei ddweud wrthych chi am bobl?",
+            "4": "Os yw hyn yn wir, pa wahaniaeth y byddai'n ei wneud yn eich bywyd?",
+            "5": "Pwy yw pump o bobl y gallwch chi rannu eich darganfyddiadau gyda nhw?"
+        }
+    },
+    "follow": {
+        "title": "Yn ei Ddilyn Ef",
+        "para": {
+            "1": "Beth mae dilyn yr Arglwydd Iesu yn ei olygu? Mae ei Lyfr Sanctaidd yn cychwyn gyda'r amser cyn bod unrhyw bobl.",
             "2": "Casglwch eich ffrindiau a gweld beth rydych chi'n ei ddarganfod wrth i chi drafod y cwestiynau canlynol.",
             "3": "Dewiswch eich hoff iaith trwy glicio ar y glôb byd uchod."
         }

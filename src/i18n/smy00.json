@@ -1,12 +1,12 @@
 {
     "language": {
         "EnglishName": "Samoan",
-        "hlCode": "smy00",
+        "HLcode": "smy00",
         "google": "sm"
     },
     "menu": {
         "next": "Sosoo ai",
-        "nextVideo": "Isi Vitio",
+        "nextVideo": "Le isi Vitio",
         "previous": "Muamua",
         "select": "Filifili",
         "videoSegment": "Vaega Vitio",
@@ -14,40 +14,58 @@
     },
     "index": {
         "para": {
-            "1": "O le tuputupu aʻe faaleagaga e le o se malaga toʻatasi - e tupu i totonu o nuʻu. Tatou te manaʻomia uma le poto e mafai ona tatou faʻatuatuaina ma tagata e faʻamalosia i tatou i le ala. O lesona o loʻo i lalo o le a fesoasoani ia te oe e iloa ai le auala e mamanuina ai olaga e le atamai o le Atua, fausia sootaga moni, ma faʻaalia Lona alofa ma le tausiga mo oe.",
-            "2": "Fa'apotopoto au uo ma amata su'esu'e! Kiliki ata o lo'o i lalo e amata ai lau malaga - e le na'o le poto, ae o se mafutaga ma le Atua ma le fa'alapotopotoga faaleagaga Na te valaaulia oe i totonu."
+            "1": "Ina ia mafai ona faia soʻo se alualu i luma moni i lo tatou olaga faaleagaga tatou te iloa tatou te manaʻomia se guru --se tasi e faʻaali mai ia i tatou le ala, e luʻitau, faʻasaʻo, taʻitaʻia ma fesoasoani ia i tatou.",
+            "2": "Matou te manaʻo e valaʻauina oe e mafaufau i le avea o le Alii o Iesu ma ou Guru. Na faamaloloina e le Alii o Iesu le toatele o tagata. Na te lei faia lava se pepelo pe faatiga i se tasi. Sa lotomaualalo o ia. E lei faaipoipo lava o ia. Sa ola o ia i se olaga faigofie ma e leʻi faaaogāina lona malosi e maua ai le tamaoaiga."
         }
     },
     "dbs": {
-        "title": "Su'esu'eina o Nuu Faaleagaga",
+        "title": "Lana Tusi Paia",
         "para": {
-            "1": "Discovering Spiritual Community e ave ai oe i se faigamalaga i tala faasolopito, su'esu'e pe na faapefea ona fesootai tagata ma le Atua mai lava i le amataga—e ala i luitau, fesili, ma taimi e suia ai olaga. Afai e te fia iloa e uiga i le faatuatua, faamoemoega, ma le uiga o le auai, o lenei faasologa o se nofoaga lelei e amata ai.",
-            "2": "Faapotopoto au uo ma faitau pe na faapefea ona saunia e le Atua tagata mo le afio mai o Iesu ma le nuu faaleagaga na ia amataina.",
-            "3": "Filifili lau gagana e te fiafia i ai e ala i le kiliki i luga ole lalolagi kelope."
+            "1": "O Lana Tusi Paia e amata i le taimi a o lei i ai ni tagata. Ona faamatala ai lea o le auala na fegalegaleai ai tagata muamua e toalua ma le Atua.",
+            "2": "Faitau le auala na saunia ai e le Atua tagata mo le afio mai o le Alii o Iesu.",
+            "3": "Faapotopoto au uo ma faitau pe na faapefea ona saunia e le Atua tagata mo le afio mai o Iesu ma le nuu faaleagaga na ia amataina.",
+            "4": "Filifili lau gagana e sili ona e fiafia i ai e ala i le kiliki i luga ole lalolagi kelope."
         }
     },
     "life": {
-        "title": "Mataupu o le Olaga",
+        "title": "Ana Aoaoga",
         "para": {
-            "1": "O Mataupu o le Olaga e suʻesuʻeina aʻoaʻoga aoga a Iesu ma ona uluaʻi soo - o le atamai na suia ai olaga mo le tele o seneturi. E toʻatele ua oo i suiga e ala i le valaaulia o Iesu e fesoasoani iā ​​i latou e ola i nei upu moni. Mata e moni foi lenei mea mo oe?",
-            "2": "Faapotopoto au uo ma vaai mea e te mauaina a o e talanoaina fesili nei.",
+            "1": "O nisi nei o mea na aʻoaʻoina e le Alii o Iesu ma ona uluaʻi soo.",
+            "2": "E toatele tagata ua vaaia le suia o o latou olaga a o latou ole atu i le Alii o Iesu e tuuina atu ia i latou le mana e faatino ai nei aoaoga.",
             "3": "Faapotopoto au uo ma vaai mea e te mauaina a o e talanoaina fesili nei.",
-            "4": "Filifili lau gagana e te fiafia i ai e ala i le kiliki i luga ole lalolagi kelope."
+            "4": "Filifili lau gagana e sili ona e fiafia i ai e ala i le kiliki i luga ole lalolagi kelope."
         }
     },
     "jVideo": {
-        "title": "Le Soifuaga o Iesu",
+        "title": "Lona Soifua",
         "para": {
-            "1": "O upu ma gaoioiga a Iesu ua mamanuina ai talafaasolopito, ua ofoina mai ai se atamai e tu ese. A o e matamata i lenei vitio, fesili ifo ia te oe lava: O le a le mea na aoao mai e Iesu? E faapefea ona faatusatusa lona atamai i mea na fai mai ai isi—ma o le ā lona uiga iā te oe?",
-            "2": "E maua lenei vitio i le tele o gagana. Ina ia sui le gagana kiliki le lalolagi kelope i luga."
+            "1": "A o e matamata i le vitio, fesili ifo ia te oe lava \"O le a le uiga o lenei guru ma e tatau ona ia mulimuli?\"",
+            "2": "E maua lenei vitio i le tele o gagana. Ina ia sui le gagana kiliki le lalolagi kelope i luga.",
+            "3": "Faapotopoto au uo ma vaai mea e te mauaina a o e talanoaina fesili nei."
         }
     },
     "lead": {
-        "title": "Mauaina o le Taitaiga",
         "para": {
-            "1": "Discovering Leadership e suʻesuʻeina mataupu faavae na aʻoaʻo e Iesu i ona taʻitaʻi - o le poto na faʻavaeina ai le taʻitaʻiga loto-auauna mo augatupulaga. E toʻatele ua oo i suiga e ala i le faalagolago iā Iesu e fesoasoani iā ​​i latou e taʻitaʻia ma le faamoemoe ma le faamaoni. E mafai ea ona fa'apena fo'i lau ta'ita'iga?",
+            "1": "Discovering Leadership e suʻesuʻeina mataupu faavae na aʻoaʻo e Iesu i ona taʻitaʻi - o le poto na faʻavaeina ai le taʻitaʻiga loto-auauna mo augatupulaga. E toʻatele ua oo i suiga e ala i le faalagolago iā Iesu e fesoasoani iā ​​i latou e taʻitaʻia ma le faamoemoe ma le faamaoni. E mafai foi e lenei mea ona fa'atulagaina lau ta'ita'iga?",
             "2": "Faapotopoto au uo ma vaai mea e te mauaina a o e talanoaina fesili nei.",
-            "3": "Filifili lau gagana e te fiafia i ai e ala i le kiliki i luga ole lalolagi kelope."
+            "3": "Filifili lau gagana e sili ona e fiafia i ai e ala i le kiliki i luga ole lalolagi kelope."
+        }
+    },
+    "video": {
+        "question": {
+            "1": "O le a se mea e ta'u atu e lenei mea ia te oe e uiga ia Iesu?",
+            "2": "O le a se mea e ta'u atu e lenei mea ia te oe e uiga i le Atua?",
+            "3": "O le a se mea e ta'u atu e lenei mea ia te oe e uiga i tagata?",
+            "4": "Afai e moni lenei mea, o le a se eseesega e faia i lou olaga?",
+            "5": "O ai tagata e toalima e mafai ona e fa'asoa iai au mea na maua?"
+        }
+    },
+    "follow": {
+        "title": "Mulimuli ia te Ia",
+        "para": {
+            "1": "O le a le uiga o le mulimuli i le Alii o Iesu? O Lana Tusi Paia e amata i le taimi a o lei i ai ni tagata.",
+            "2": "Faapotopoto au uo ma vaai mea e te mauaina a o e talanoaina fesili nei.",
+            "3": "Filifili lau gagana e sili ona e fiafia i ai e ala i le kiliki i luga ole lalolagi kelope."
         }
     }
 }

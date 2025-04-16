@@ -1,7 +1,7 @@
 {
     "language": {
         "EnglishName": "Finnish",
-        "hlCode": "fin00",
+        "HLcode": "fin00",
         "google": "fi"
     },
     "menu": {
@@ -14,38 +14,56 @@
     },
     "index": {
         "para": {
-            "1": "Henkinen kasvu ei ole yksinmatkaa – se tapahtuu yhteisössä. Me kaikki tarvitsemme viisautta, johon voimme luottaa, ja ihmisiä, jotka kannustavat meitä matkan varrella. Alla olevat oppitunnit auttavat sinua löytämään, kuinka Jumalan viisaus muokkaa elämää, rakentaa aitoja ihmissuhteita ja paljastaa rakkautensa ja huolenpitonsa sinua kohtaan.",
-            "2": "Kerää ystäväsi ja aloita tutkiminen! Napsauta alla olevia kuvia aloittaaksesi matkasi – löytääksesi paitsi viisauden, myös suhteen Jumalaan ja hengelliseen yhteisöön, johon Hän kutsuu sinut."
+            "1": "Voidaksemme saavuttaa todellista edistystä henkisessä elämässämme tiedämme tarvitsevamme gurun – jonkun, joka näyttää meille tien, haastaa, oikaisee, opastaa ja auttaa meitä.",
+            "2": "Haluaisimme kutsua sinut harkitsemaan Herran Jeesuksen ottamista gurunasi. Herra Jeesus paransi monia ihmisiä. Hän ei koskaan valehdellut tai satuttanut ketään. Hän oli nöyrä. Hän ei koskaan naimisissa. Hän eli yksinkertaista elämää eikä koskaan käyttänyt valtaansa varallisuuden hankkimiseen."
         }
     },
     "dbs": {
-        "title": "Hengellisen yhteisön löytäminen",
+        "title": "Hänen pyhä kirjansa",
         "para": {
-            "1": "Discovering Spiritual Community vie sinut matkalle läpi historian ja tutkii, kuinka ihmiset ovat alusta asti yhteydessä Jumalaan – haasteiden, kysymysten ja elämää muuttavien hetkien kautta. Jos olet utelias uskosta, tarkoituksesta ja siitä, mitä tarkoittaa kuuluminen, tämä sarja on loistava paikka aloittaa.",
-            "2": "Kerää ystäväsi ja lue, kuinka Jumala valmisti ihmisiä Jeesuksen ja hänen perustamansa hengellisen yhteisön saapumista varten.",
-            "3": "Valitse suosikkikielesi napsauttamalla yllä olevaa maailmanpalloa."
+            "1": "Hänen pyhä kirjansa alkaa ajasta ennen kuin ihmisiä oli olemassa. Sitten se kertoo tarinan siitä, kuinka kaksi ensimmäistä ihmistä olivat vuorovaikutuksessa Jumalan kanssa.",
+            "2": "Lue kuinka Jumala valmisti ihmisiä Herran Jeesuksen tuloa varten.",
+            "3": "Kerää ystäväsi ja lue, kuinka Jumala valmisti ihmisiä Jeesuksen ja hänen perustamansa hengellisen yhteisön saapumista varten.",
+            "4": "Valitse suosikkikielesi napsauttamalla yllä olevaa maailmanpalloa."
         }
     },
     "life": {
-        "title": "Elämän ongelmat",
+        "title": "Hänen opetuksensa",
         "para": {
-            "1": "Life Issues tutkii Jeesuksen ja hänen varhaisten seuraajiensa käytännön opetuksia – viisautta, joka on muuttanut elämää vuosisatojen ajan. Monet ovat kokeneet muutosta kutsumalla Jeesusta auttamaan heitä elämään näiden totuuksien mukaan. Voiko tämä olla totta myös sinulle?",
-            "2": "Kokoa ystäväsi ja katso, mitä löydät, kun keskustelet seuraavista kysymyksistä.",
+            "1": "Nämä ovat joitain asioita, joita Herra Jeesus ja hänen varhaiset seuraajansa opettivat.",
+            "2": "Monet ihmiset ovat nähneet elämänsä muuttuneen, kun he pyysivät Herraa Jeesusta antamaan heille voiman toteuttaa nämä opetukset.",
             "3": "Kokoa ystäväsi ja katso, mitä löydät, kun keskustelet seuraavista kysymyksistä.",
             "4": "Valitse suosikkikielesi napsauttamalla yllä olevaa maailmanpalloa."
         }
     },
     "jVideo": {
-        "title": "Jeesuksen elämä",
+        "title": "Hänen Elämänsä",
         "para": {
-            "1": "Jeesuksen sanat ja teot ovat muokanneet historiaa tarjoten viisautta, joka erottuu toisistaan. Kun katsot tätä videota, kysy itseltäsi: Mitä Jeesus opetti? Miten hänen viisautensa verrataan siihen, mitä muut ovat sanoneet – ja mitä se voisi tarkoittaa sinulle?",
-            "2": "Tämä video on saatavilla useilla kielillä. Voit vaihtaa kieltä napsauttamalla yllä olevaa maailmanpalloa."
+            "1": "Kun katsot videota, kysy itseltäsi: Millainen tämä guru on ja kannattaako häntä seurata?",
+            "2": "Tämä video on saatavilla useilla kielillä. Voit vaihtaa kieltä napsauttamalla yllä olevaa maailmanpalloa.",
+            "3": "Kokoa ystäväsi ja katso, mitä löydät, kun keskustelet seuraavista kysymyksistä."
         }
     },
     "lead": {
-        "title": "Johtajuuden löytäminen",
         "para": {
             "1": "Discovering Leadership tutkii periaatteita, jotka Jeesus opetti johtajilleen – viisautta, joka on muokannut palvelijasydämistä johtajuutta sukupolvien ajan. Monet ovat kokeneet muutosta luottaen siihen, että Jeesus auttaa heitä johtamaan tarkoituksenmukaisesti ja nuhteettomasti. Voisiko tämä muokata myös johtajuuttasi?",
+            "2": "Kokoa ystäväsi ja katso, mitä löydät, kun keskustelet seuraavista kysymyksistä.",
+            "3": "Valitse suosikkikielesi napsauttamalla yllä olevaa maailmanpalloa."
+        }
+    },
+    "video": {
+        "question": {
+            "1": "Mitä tämä kertoo sinulle Jeesuksesta?",
+            "2": "Mitä tämä kertoo sinulle Jumalasta?",
+            "3": "Mitä tämä kertoo ihmisistä?",
+            "4": "Jos tämä on totta, mitä merkitystä sillä olisi elämääsi?",
+            "5": "Ketkä ovat viisi ihmistä, joiden kanssa voit jakaa löytösi?"
+        }
+    },
+    "follow": {
+        "title": "Hänen perässään",
+        "para": {
+            "1": "Mitä Herran Jeesuksen seuraaminen tarkoittaa? Hänen pyhä kirjansa alkaa ajasta ennen kuin ihmisiä oli olemassa.",
             "2": "Kokoa ystäväsi ja katso, mitä löydät, kun keskustelet seuraavista kysymyksistä.",
             "3": "Valitse suosikkikielesi napsauttamalla yllä olevaa maailmanpalloa."
         }

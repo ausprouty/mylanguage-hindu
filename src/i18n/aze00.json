@@ -1,7 +1,7 @@
 {
     "language": {
         "EnglishName": "",
-        "hlCode": "aze00",
+        "HLcode": "aze00",
         "google": "az"
     },
     "menu": {
@@ -14,38 +14,56 @@
     },
     "index": {
         "para": {
-            "1": "Mənəvi inkişaf tək səyahət deyil - bu, cəmiyyətdə olur. Hamımızın etibar edə biləcəyimiz müdrikliyə və bizi bu yolda ruhlandıran insanlara ehtiyacı var. Aşağıdakı dərslər sizə Allahın müdrikliyinin həyatı necə formalaşdırdığını, həqiqi münasibətlər qurduğunu və Onun sizə olan sevgisini və qayğısını aşkara çıxarmağa kömək edəcək.",
-            "2": "Dostlarınızı toplayın və kəşf etməyə başlayın! Səyahətinizə başlamaq üçün aşağıdakı şəkillərə klikləyin - təkcə müdrikliyi deyil, həm də Allahla və Onun sizi dəvət etdiyi ruhani cəmiyyətlə əlaqəni kəşf edin."
+            "1": "Mənəvi həyatımızda hər hansı bir real irəliləyiş əldə etmək üçün bilirik ki, bir guruya ehtiyacımız var -- bizə yol göstərən, meydan oxuyan, düzəltmək, bələdçilik etmək və bizə kömək etmək üçün kimsə lazımdır.",
+            "2": "Biz sizi Rəbb İsanın sizin Gurunuz olduğunu düşünməyə dəvət etmək istərdik. Rəbb İsa bir çox insana şəfa verdi. Heç vaxt yalan danışmadı və heç kimə zərər vermədi. O, təvazökar idi. Heç vaxt evlənməyib. Sadə bir həyat sürdü və heç vaxt sərvət əldə etmək üçün gücündən istifadə etmədi."
         }
     },
     "dbs": {
-        "title": "Ruhani Birliyi Kəşf Etmək",
+        "title": "Onun müqəddəs kitabı",
         "para": {
-            "1": "Mənəvi İcmanın Kəşf edilməsi sizi tarix boyu səyahətə çıxarır, insanların əvvəldən çətinliklər, suallar və həyatı dəyişən məqamlar vasitəsilə Allahla necə əlaqə saxladığını araşdırır. Əgər iman, məqsəd və aid olmağın nə demək olduğu ilə maraqlanırsınızsa, bu seriya başlamaq üçün əla yerdir.",
-            "2": "Dostlarınızı toplayın və Allahın insanları İsanın gəlişi və onun yaratdığı ruhani icma üçün necə hazırladığını oxuyun.",
-            "3": "Yuxarıdakı dünya qlobusuna klikləməklə sevimli dilinizi seçin."
+            "1": "Onun müqəddəs kitabı insanların mövcudluğundan əvvəlki dövrlə başlayır. Daha sonra ilk iki insanın Allahla necə qarşılıqlı əlaqədə olmasından bəhs edir.",
+            "2": "Allahın insanları Rəbb İsanın gəlişinə necə hazırladığını oxuyun.",
+            "3": "Dostlarınızı toplayın və Allahın insanları İsanın gəlişi və onun yaratdığı ruhani icma üçün necə hazırladığını oxuyun.",
+            "4": "Yuxarıdakı dünya qlobusuna klikləməklə sevimli dilinizi seçin."
         }
     },
     "life": {
-        "title": "Həyat Məsələləri",
+        "title": "Onun Təlimləri",
         "para": {
-            "1": "Həyat Məsələləri İsanın və onun ilk davamçılarının praktiki təlimlərini - əsrlər boyu həyatı dəyişdirən müdrikliyi araşdırır. Çoxları İsanı bu həqiqətləri həyata keçirməyə kömək etməyə dəvət edərək, dəyişikliyə məruz qaldılar. Bu sizin üçün də doğru ola bilərmi?",
-            "2": "Dostlarınızı toplayın və aşağıdakı sualları müzakirə edərkən nə kəşf etdiyinizə baxın.",
+            "1": "Bunlar Rəbb İsanın və onun ilk davamçılarının öyrətdiyi bəzi şeylərdir.",
+            "2": "Bir çox insanlar Rəbb İsadan onlara bu təlimləri həyata keçirmək üçün güc verməsini istədikləri zaman həyatlarının dəyişdiyini gördülər.",
             "3": "Dostlarınızı toplayın və aşağıdakı sualları müzakirə edərkən nə kəşf etdiyinizə baxın.",
             "4": "Yuxarıdakı dünya qlobusuna klikləməklə sevimli dilinizi seçin."
         }
     },
     "jVideo": {
-        "title": "İsanın Həyatı",
+        "title": "Onun Həyatı",
         "para": {
-            "1": "İsanın sözləri və hərəkətləri tarixi formalaşdıraraq, fərqli bir hikmət təqdim edir. Bu videoya baxarkən özünüzdən soruşun: İsa nəyi öyrətdi? Onun müdrikliyi başqalarının söylədikləri ilə necə müqayisə olunur və bu sizin üçün nə demək olar?",
-            "2": "Bu video bir çox dillərdə mövcuddur. Dili dəyişmək üçün yuxarıdakı dünya qlobusuna klikləyin."
+            "1": "Videoya baxarkən özünüzdən soruşun: \"Bu guru necədir və onu izləməyə dəyərmi?\"",
+            "2": "Bu video bir çox dillərdə mövcuddur. Dili dəyişmək üçün yuxarıdakı dünya qlobusuna klikləyin.",
+            "3": "Dostlarınızı toplayın və aşağıdakı sualları müzakirə edərkən nə kəşf etdiyinizə baxın."
         }
     },
     "lead": {
-        "title": "Liderliyin kəşfi",
         "para": {
             "1": "Liderliyi kəşf etmək İsanın öz liderlərinə öyrətdiyi prinsipləri - nəsillər üçün xidmətçi ürəkli liderliyi formalaşdıran müdrikliyi araşdırır. Çoxları məqsəd və dürüstlüklə rəhbərlik etməkdə kömək etmək üçün İsaya güvənərək dəyişikliyi yaşadılar. Bu, sizin liderliyinizi də formalaşdıra bilərmi?",
+            "2": "Dostlarınızı toplayın və aşağıdakı sualları müzakirə edərkən nə kəşf etdiyinizə baxın.",
+            "3": "Yuxarıdakı dünya qlobusuna klikləməklə sevimli dilinizi seçin."
+        }
+    },
+    "video": {
+        "question": {
+            "1": "Bu sizə İsa haqqında nə deyir?",
+            "2": "Bu sizə Allah haqqında nə deyir?",
+            "3": "Bu sizə insanlar haqqında nə deyir?",
+            "4": "Əgər bu doğrudursa, həyatında nə fərqi ola bilərdi?",
+            "5": "Kəşflərinizi bölüşə biləcəyiniz beş insan kimlərdir?"
+        }
+    },
+    "follow": {
+        "title": "Onun ardınca",
+        "para": {
+            "1": "Rəbb İsanın ardınca getmək nə deməkdir? Onun müqəddəs kitabı insanların mövcudluğundan əvvəlki dövrlə başlayır.",
             "2": "Dostlarınızı toplayın və aşağıdakı sualları müzakirə edərkən nə kəşf etdiyinizə baxın.",
             "3": "Yuxarıdakı dünya qlobusuna klikləməklə sevimli dilinizi seçin."
         }

@@ -1,7 +1,7 @@
 {
     "language": {
         "EnglishName": "Esperanto",
-        "hlCode": "epo19",
+        "HLcode": "epo19",
         "google": "eo"
     },
     "menu": {
@@ -14,38 +14,56 @@
     },
     "index": {
         "para": {
-            "1": "Spirita kresko ne estas sola vojaĝo - ĝi okazas en komunumo. Ni ĉiuj bezonas saĝon, kiun ni povas fidi kaj homojn, kiuj kuraĝigas nin survoje. La lecionoj sube helpos vin malkovri kiel la saĝeco de Dio formas vivojn, konstruas aŭtentajn rilatojn kaj malkaŝas Lian amon kaj zorgon por vi.",
-            "2": "Kunvenigu viajn amikojn kaj komencu esplori! Alklaku la bildojn sube por komenci vian vojaĝon — malkovrante ne nur saĝon, sed rilaton kun Dio kaj la spirita komunumo, al kiu Li invitas vin."
+            "1": "Por fari ajnan veran progreson en nia spirita vivo ni scias, ke ni bezonas guruon -- iun, kiu montru al ni la vojon, por defii, korekti, gvidi kaj helpi nin.",
+            "2": "Ni ŝatus inviti vin konsideri havi Sinjoron Jesuon kiel vian Guruon. Sinjoro Jesuo resanigis multajn homojn. Li neniam diris mensogon aŭ vundis iun ajn. Li estis humila. Li neniam edziĝis. Li vivis simplan vivon kaj neniam uzis sian potencon por akiri riĉaĵon."
         }
     },
     "dbs": {
-        "title": "Malkovrante Spiritan Komunumon",
+        "title": "Lia Sankta Libro",
         "para": {
-            "1": "Malkovri Spiritan Komunumon kondukas vin en vojaĝon tra historio, esplorante kiel homoj konektiĝis kun Dio de la komenco—per defioj, demandoj kaj vivŝanĝaj momentoj. Se vi scivolas pri fido, celo kaj kion signifas aparteno, ĉi tiu serio estas bonega loko por komenci.",
-            "2": "Kunvenigu viajn amikojn kaj legu kiel Dio preparis homojn por la alveno de Jesuo kaj la spirita komunumo, kiun li komencis.",
-            "3": "Elektu vian plej ŝatatan lingvon klakante sur la monda globo supre."
+            "1": "Lia Sankta Libro komenciĝas kun la tempo antaŭ ol ekzistis iuj homoj. Ĝi tiam rakontas la rakonton pri kiel la unuaj du homoj interagis kun Dio.",
+            "2": "Legu kiel Dio preparis homojn por la alveno de Sinjoro Jesuo.",
+            "3": "Kunvenigu viajn amikojn kaj legu kiel Dio preparis homojn por la alveno de Jesuo kaj la spirita komunumo, kiun li komencis.",
+            "4": "Elektu vian plej ŝatatan lingvon klakante sur la monda globo supre."
         }
     },
     "life": {
-        "title": "Vivaj Problemoj",
+        "title": "Liaj Instruoj",
         "para": {
-            "1": "Life Issues esploras la praktikajn instruojn de Jesuo kaj liaj fruaj sekvantoj - saĝeco kiu ŝanĝis vivojn dum jarcentoj. Multaj spertis transformiĝon invitante Jesuon helpi ilin vivi ĉi tiujn verojn. Ĉu tio povus esti vera ankaŭ por vi?",
-            "2": "Kunvenigu viajn amikojn kaj vidu kion vi malkovras dum vi diskutas la sekvajn demandojn.",
+            "1": "Ĉi tiuj estas kelkaj el la aferoj, kiujn Sinjoro Jesuo kaj liaj fruaj sekvantoj instruis.",
+            "2": "Multaj homoj vidis siajn vivojn transformitaj dum ili petis al Sinjoro Jesuo doni al ili la potencon efektivigi ĉi tiujn instruojn.",
             "3": "Kunvenigu viajn amikojn kaj vidu kion vi malkovras dum vi diskutas la sekvajn demandojn.",
             "4": "Elektu vian plej ŝatatan lingvon klakante sur la monda globo supre."
         }
     },
     "jVideo": {
-        "title": "La Vivo de Jesuo",
+        "title": "Lia Vivo",
         "para": {
-            "1": "La vortoj kaj agoj de Jesuo formis historion, proponante saĝon kiu staras aparte. Dum vi spektas ĉi tiun filmeton, demandu vin: Kion Jesuo instruis? Kiel lia saĝeco komparas al tio, kion aliaj diris - kaj kion ĝi povus signifi por vi?",
-            "2": "Ĉi tiu video estas havebla en multaj lingvoj. Por ŝanĝi la lingvon alklaku la mondan globon supre."
+            "1": "Dum vi spektas la videon, demandu vin \"Kia estas ĉi tiu guruo kaj ĉu li indas sekvi?\"",
+            "2": "Ĉi tiu video estas disponebla en multaj lingvoj. Por ŝanĝi la lingvon alklaku la mondan globon supre.",
+            "3": "Kunvenigu viajn amikojn kaj vidu kion vi malkovras dum vi diskutas la sekvajn demandojn."
         }
     },
     "lead": {
-        "title": "Malkovrante Gvidadon",
         "para": {
             "1": "Discovering Leadership esploras la principojn, kiujn Jesuo instruis al siaj gvidantoj - saĝeco kiu formis servant-koran gvidadon dum generacioj. Multaj spertis transformiĝon fidante je Jesuo por helpi ilin gvidi kun celo kaj integreco. Ĉu ĉi tio povus ankaŭ formi vian gvidadon?",
+            "2": "Kunvenigu viajn amikojn kaj vidu kion vi malkovras dum vi diskutas la sekvajn demandojn.",
+            "3": "Elektu vian plej ŝatatan lingvon klakante sur la monda globo supre."
+        }
+    },
+    "video": {
+        "question": {
+            "1": "Kion ĉi tio diras al vi pri Jesuo?",
+            "2": "Kion ĉi tio diras al vi pri Dio?",
+            "3": "Kion ĉi tio diras al vi pri homoj?",
+            "4": "Se ĉi tio estas vera, kian diferencon ĝi farus en via vivo?",
+            "5": "Kiuj estas kvin homoj kun kiuj vi povas kunhavigi viajn malkovrojn?"
+        }
+    },
+    "follow": {
+        "title": "Sekvante Lin",
+        "para": {
+            "1": "Kion signifas sekvi la Sinjoron Jesuo? Lia Sankta Libro komenciĝas kun la tempo antaŭ ol ekzistis iuj homoj.",
             "2": "Kunvenigu viajn amikojn kaj vidu kion vi malkovras dum vi diskutas la sekvajn demandojn.",
             "3": "Elektu vian plej ŝatatan lingvon klakante sur la monda globo supre."
         }

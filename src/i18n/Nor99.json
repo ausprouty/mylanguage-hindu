@@ -1,7 +1,7 @@
 {
     "language": {
         "EnglishName": "Norwegian",
-        "hlCode": "Nor99",
+        "HLcode": "Nor99",
         "google": "no"
     },
     "menu": {
@@ -14,38 +14,56 @@
     },
     "index": {
         "para": {
-            "1": "Åndelig vekst er ikke en alenereise - det skjer i fellesskapet. Vi trenger alle visdom vi kan stole på og mennesker som oppmuntrer oss på veien. Leksjonene nedenfor vil hjelpe deg å oppdage hvordan Guds visdom former liv, bygger ekte relasjoner og åpenbarer hans kjærlighet og omsorg for deg.",
-            "2": "Samle vennene dine og begynn å utforske! Klikk på bildene nedenfor for å begynne reisen din – oppdage ikke bare visdom, men et forhold til Gud og det åndelige fellesskapet han inviterer deg inn i."
+            "1": "For å gjøre noen reelle fremskritt i vårt åndelige liv vet vi at vi trenger en guru - noen som viser oss veien, utfordrer, korrigerer, veileder og hjelper oss.",
+            "2": "Vi vil gjerne invitere deg til å vurdere å ha Herren Jesus som din guru. Herren Jesus helbredet mange mennesker. Han fortalte aldri en løgn eller såret noen. Han var ydmyk. Han giftet seg aldri. Han levde et enkelt liv og brukte aldri makten sin til å skaffe seg rikdom."
         }
     },
     "dbs": {
-        "title": "Oppdag åndelig fellesskap",
+        "title": "Hans hellige bok",
         "para": {
-            "1": "Discovering Spiritual Community tar deg med på en reise gjennom historien, og utforsker hvordan mennesker har knyttet seg til Gud helt fra begynnelsen – gjennom utfordringer, spørsmål og livsendrende øyeblikk. Hvis du er nysgjerrig på tro, hensikt og hva det vil si å tilhøre, er denne serien et flott sted å starte.",
-            "2": "Samle vennene dine og les hvordan Gud forberedte mennesker på Jesu ankomst og det åndelige fellesskapet han startet.",
-            "3": "Velg ditt favorittspråk ved å klikke på verdenskloden ovenfor."
+            "1": "Hans hellige bok starter med tiden før det var noen mennesker. Den forteller deretter historien om hvordan de to første menneskene samhandlet med Gud.",
+            "2": "Les hvordan Gud forberedte mennesker til Herren Jesu ankomst.",
+            "3": "Samle vennene dine og les hvordan Gud forberedte mennesker på Jesu ankomst og det åndelige fellesskapet han startet.",
+            "4": "Velg ditt favorittspråk ved å klikke på verdenskloden ovenfor."
         }
     },
     "life": {
-        "title": "Livsproblemer",
+        "title": "Hans lære",
         "para": {
-            "1": "Life Issues utforsker den praktiske læren til Jesus og hans tidlige etterfølgere – visdom som har forandret liv i århundrer. Mange har opplevd forvandling ved å invitere Jesus til å hjelpe dem å leve ut disse sannhetene. Kan dette være sant for deg også?",
-            "2": "Samle vennene dine og se hva du oppdager mens du diskuterer følgende spørsmål.",
+            "1": "Dette er noen av tingene som Herren Jesus og hans tidlige etterfølgere lærte.",
+            "2": "Mange mennesker har sett livene deres forvandlet da de ba Herren Jesus om å gi dem kraften til å sette disse læresetningene ut i livet.",
             "3": "Samle vennene dine og se hva du oppdager mens du diskuterer følgende spørsmål.",
             "4": "Velg ditt favorittspråk ved å klikke på verdenskloden ovenfor."
         }
     },
     "jVideo": {
-        "title": "Jesu liv",
+        "title": "Hans liv",
         "para": {
-            "1": "Jesu ord og handlinger har formet historien, og tilbyr en visdom som skiller seg ut. Mens du ser på denne videoen, spør deg selv: Hva lærte Jesus? Hvordan er hans visdom sammenlignet med hva andre har sagt - og hva kan det bety for deg?",
-            "2": "Denne videoen er tilgjengelig på mange språk. For å endre språk klikk på verdenskloden ovenfor."
+            "1": "Mens du ser videoen, spør deg selv \"Hvordan er denne guruen og er han verdt å følge?\"",
+            "2": "Denne videoen er tilgjengelig på mange språk. For å endre språk klikk på verdenskloden ovenfor.",
+            "3": "Samle vennene dine og se hva du oppdager mens du diskuterer følgende spørsmål."
         }
     },
     "lead": {
-        "title": "Oppdage lederskap",
         "para": {
             "1": "Discovering Leadership utforsker prinsippene Jesus lærte sine ledere – visdom som har formet tjenerhjertet lederskap i generasjoner. Mange har opplevd transformasjon ved å stole på Jesus for å hjelpe dem å lede med hensikt og integritet. Kan dette forme ditt lederskap også?",
+            "2": "Samle vennene dine og se hva du oppdager mens du diskuterer følgende spørsmål.",
+            "3": "Velg ditt favorittspråk ved å klikke på verdenskloden ovenfor."
+        }
+    },
+    "video": {
+        "question": {
+            "1": "Hva forteller dette deg om Jesus?",
+            "2": "Hva forteller dette deg om Gud?",
+            "3": "Hva forteller dette deg om mennesker?",
+            "4": "Hvis dette er sant, hvilken forskjell ville det gjort i livet ditt?",
+            "5": "Hvem er fem personer du kan dele oppdagelsene dine med?"
+        }
+    },
+    "follow": {
+        "title": "Følger ham",
+        "para": {
+            "1": "Hva vil det si å følge Herren Jesus? Hans hellige bok starter med tiden før det var noen mennesker.",
             "2": "Samle vennene dine og se hva du oppdager mens du diskuterer følgende spørsmål.",
             "3": "Velg ditt favorittspråk ved å klikke på verdenskloden ovenfor."
         }

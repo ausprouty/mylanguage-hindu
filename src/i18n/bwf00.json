@@ -1,11 +1,11 @@
 {
     "language": {
         "EnglishName": "Bhojpuri",
-        "hlCode": "bwf00",
+        "HLcode": "bwf00",
         "google": "bs"
     },
     "menu": {
-        "next": "Dalje",
+        "next": "Sledeći",
         "nextVideo": "Sljedeći video",
         "previous": "Prethodno",
         "select": "Odaberite",
@@ -14,38 +14,56 @@
     },
     "index": {
         "para": {
-            "1": "Duhovni rast nije solo putovanje - dešava se u zajednici. Svima nam je potrebna mudrost kojoj možemo vjerovati i ljudi koji nas ohrabruju na tom putu. Lekcije u nastavku pomoći će vam da otkrijete kako Božja mudrost oblikuje živote, gradi iskrene odnose i otkriva Njegovu ljubav i brigu za vas.",
-            "2": "Okupite svoje prijatelje i počnite istraživati! Kliknite na slike ispod da započnete svoje putovanje — otkrivajući ne samo mudrost, već i odnos s Bogom i duhovnom zajednicom u koju vas On poziva."
+            "1": "Da bismo ostvarili istinski napredak u našem duhovnom životu, znamo da nam je potreban guru -- neko da nam pokaže put, da izazove, ispravi, vodi i pomogne.",
+            "2": "Željeli bismo vas pozvati da razmislite o tome da Gospod Isus bude vaš Guru. Gospod Isus je izliječio mnoge ljude. Nikada nije slagao niti nekoga povrijedio. Bio je skroman. Nikad se nije ženio. Živio je jednostavnim životom i nikada nije koristio svoju moć da bi stekao bogatstvo."
         }
     },
     "dbs": {
-        "title": "Otkrivanje duhovne zajednice",
+        "title": "Njegova Sveta Knjiga",
         "para": {
-            "1": "Otkrivanje duhovne zajednice vodi vas na putovanje kroz istoriju, istražujući kako su ljudi povezani s Bogom od samog početka – kroz izazove, pitanja i trenutke koji mijenjaju život. Ako vas zanima vjera, svrha i šta znači pripadati, ova serija je odlično mjesto za početak.",
-            "2": "Okupite svoje prijatelje i pročitajte kako je Bog pripremio ljude za Isusov dolazak i duhovnu zajednicu koju je osnovao.",
-            "3": "Odaberite svoj omiljeni jezik klikom na svjetski globus iznad."
+            "1": "Njegova Sveta knjiga počinje vremenom prije nego što je bilo ljudi. Zatim priča priču o tome kako su prva dva čovjeka stupila u interakciju s Bogom.",
+            "2": "Pročitajte kako je Bog pripremio ljude za dolazak Gospodina Isusa.",
+            "3": "Okupite svoje prijatelje i pročitajte kako je Bog pripremio ljude za Isusov dolazak i duhovnu zajednicu koju je osnovao.",
+            "4": "Odaberite svoj omiljeni jezik klikom na svjetski globus iznad."
         }
     },
     "life": {
-        "title": "Životna pitanja",
+        "title": "Njegova učenja",
         "para": {
-            "1": "Life Issues istražuje praktična učenja Isusa i njegovih ranih sljedbenika — mudrost koja je vekovima promijenila živote. Mnogi su iskusili transformaciju pozivajući Isusa da im pomogne da žive ove istine. Može li ovo biti istina i za vas?",
-            "2": "Okupite svoje prijatelje i pogledajte šta ćete otkriti dok razgovarate o sljedećim pitanjima.",
+            "1": "Ovo su neke od stvari koje su poučavali Gospodin Isus i njegovi prvi sljedbenici.",
+            "2": "Mnogi ljudi su vidjeli kako se njihovi životi mijenjaju dok su tražili od Gospodina Isusa da im da moć da ova učenja provedu u djelo.",
             "3": "Okupite svoje prijatelje i pogledajte šta ćete otkriti dok razgovarate o sljedećim pitanjima.",
             "4": "Odaberite svoj omiljeni jezik klikom na svjetski globus iznad."
         }
     },
     "jVideo": {
-        "title": "Isusov život",
+        "title": "Njegov život",
         "para": {
-            "1": "Isusove riječi i djela oblikovali su istoriju, nudeći mudrost koja se izdvaja. Dok gledate ovaj video, zapitajte se: Šta je Isus poučavao? Kakva je njegova mudrost u poređenju sa onim što su drugi rekli — i šta bi to moglo značiti za vas?",
-            "2": "Ovaj video je dostupan na mnogim jezicima. Za promjenu jezika kliknite na globus iznad."
+            "1": "Dok gledate video, zapitajte se \"Kakav je ovaj guru i vredi li ga pratiti?\"",
+            "2": "Ovaj video je dostupan na mnogim jezicima. Za promjenu jezika kliknite na globus iznad.",
+            "3": "Okupite svoje prijatelje i pogledajte šta ćete otkriti dok razgovarate o sljedećim pitanjima."
         }
     },
     "lead": {
-        "title": "Discovering Leadership",
         "para": {
             "1": "Discovering Leadership istražuje principe kojima je Isus poučavao svoje vođe – mudrost koja je generacijama oblikovala vođstvo u srcu sluge. Mnogi su iskusili transformaciju oslanjajući se na Isusa da im pomogne da vode sa svrhom i integritetom. Može li ovo oblikovati i vaše vodstvo?",
+            "2": "Okupite svoje prijatelje i pogledajte šta ćete otkriti dok razgovarate o sljedećim pitanjima.",
+            "3": "Odaberite svoj omiljeni jezik klikom na svjetski globus iznad."
+        }
+    },
+    "video": {
+        "question": {
+            "1": "Šta vam ovo govori o Isusu?",
+            "2": "Šta vam ovo govori o Bogu?",
+            "3": "Šta vam ovo govori o ljudima?",
+            "4": "Ako je ovo istina, kakva bi bila razlika u vašem životu?",
+            "5": "Ko je pet ljudi s kojima možete podijeliti svoja otkrića?"
+        }
+    },
+    "follow": {
+        "title": "Prateći Njega",
+        "para": {
+            "1": "Šta znači slijediti Gospodina Isusa? Njegova Sveta knjiga počinje vremenom prije nego što je bilo ljudi.",
             "2": "Okupite svoje prijatelje i pogledajte šta ćete otkriti dok razgovarate o sljedećim pitanjima.",
             "3": "Odaberite svoj omiljeni jezik klikom na svjetski globus iznad."
         }

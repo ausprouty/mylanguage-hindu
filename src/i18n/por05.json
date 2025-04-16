@@ -1,7 +1,7 @@
 {
     "language": {
         "EnglishName": "Portuguese (Portugal, Brazil)",
-        "hlCode": "por05",
+        "HLcode": "por05",
         "google": "pt"
     },
     "menu": {
@@ -14,38 +14,56 @@
     },
     "index": {
         "para": {
-            "1": "O crescimento espiritual não é uma jornada individual – acontece em comunidade. Todos nós precisamos de sabedoria em que possamos confiar e de pessoas que nos encorajem ao longo do caminho. As lições abaixo irão ajudá-lo a descobrir como a sabedoria de Deus molda vidas, constrói relacionamentos genuínos e revela Seu amor e cuidado por você.",
-            "2": "Reúna seus amigos e comece a explorar! Clique nas imagens abaixo para começar sua jornada – descobrindo não apenas sabedoria, mas um relacionamento com Deus e a comunidade espiritual para a qual Ele o convida."
+            "1": "Para fazermos algum progresso real na nossa vida espiritual, sabemos que precisamos de um guru – alguém que nos mostre o caminho, que nos desafie, corrija, guie e nos ajude.",
+            "2": "Gostaríamos de convidá-lo a considerar ter o Senhor Jesus como seu Guru. O Senhor Jesus curou muitas pessoas. Ele nunca contou uma mentira ou machucou alguém. Ele era humilde. Ele nunca se casou. Ele viveu uma vida simples e nunca usou seu poder para ganhar riqueza."
         }
     },
     "dbs": {
-        "title": "Descobrindo a comunidade espiritual",
+        "title": "Seu Livro Sagrado",
         "para": {
-            "1": "Discovering Spiritual Community leva você a uma viagem pela história, explorando como as pessoas se conectaram com Deus desde o início – através de desafios, perguntas e momentos de mudança de vida. Se você está curioso sobre fé, propósito e o que significa pertencer, esta série é um ótimo lugar para começar.",
-            "2": "Reúna seus amigos e leia como Deus preparou as pessoas para a chegada de Jesus e a comunidade espiritual que ele iniciou.",
-            "3": "Selecione seu idioma favorito clicando no globo acima."
+            "1": "Seu Livro Sagrado começa com o tempo antes de existir qualquer povo. Em seguida, conta a história de como as duas primeiras pessoas interagiram com Deus.",
+            "2": "Leia como Deus preparou as pessoas para a chegada do Senhor Jesus.",
+            "3": "Reúna seus amigos e leia como Deus preparou as pessoas para a chegada de Jesus e a comunidade espiritual que ele iniciou.",
+            "4": "Selecione seu idioma favorito clicando no globo acima."
         }
     },
     "life": {
-        "title": "Questões da vida",
+        "title": "Seus ensinamentos",
         "para": {
-            "1": "Life Issues explora os ensinamentos práticos de Jesus e seus primeiros seguidores – sabedoria que mudou vidas durante séculos. Muitos experimentaram a transformação ao convidar Jesus para ajudá-los a viver estas verdades. Isso poderia ser verdade para você também?",
-            "2": "Reúna seus amigos e veja o que você descobre ao discutir as questões a seguir.",
+            "1": "Estas são algumas das coisas que o Senhor Jesus e seus primeiros seguidores ensinaram.",
+            "2": "Muitas pessoas viram suas vidas transformadas quando pediram ao Senhor Jesus que lhes desse o poder de colocar esses ensinamentos em ação.",
             "3": "Reúna seus amigos e veja o que você descobre ao discutir as questões a seguir.",
             "4": "Selecione seu idioma favorito clicando no globo acima."
         }
     },
     "jVideo": {
-        "title": "A Vida de Jesus",
+        "title": "Sua vida",
         "para": {
-            "1": "As palavras e ações de Jesus moldaram a história, oferecendo uma sabedoria que se destaca. Ao assistir a este vídeo, pergunte-se: O que Jesus ensinou? Como a sabedoria dele se compara ao que outros disseram – e o que isso pode significar para você?",
-            "2": "Este vídeo está disponível em vários idiomas. Para alterar o idioma, clique no globo mundial acima."
+            "1": "Ao assistir ao vídeo, pergunte-se: \"Como é esse guru e vale a pena segui-lo?\"",
+            "2": "Este vídeo está disponível em vários idiomas. Para alterar o idioma, clique no globo mundial acima.",
+            "3": "Reúna seus amigos e veja o que você descobre ao discutir as questões a seguir."
         }
     },
     "lead": {
-        "title": "Descobrindo a Liderança",
         "para": {
             "1": "Descobrindo a Liderança explora os princípios que Jesus ensinou aos seus líderes – sabedoria que moldou a liderança com coração de servo por gerações. Muitos experimentaram a transformação ao confiar em Jesus para ajudá-los a liderar com propósito e integridade. Isso poderia moldar sua liderança também?",
+            "2": "Reúna seus amigos e veja o que você descobre ao discutir as questões a seguir.",
+            "3": "Selecione seu idioma favorito clicando no globo acima."
+        }
+    },
+    "video": {
+        "question": {
+            "1": "O que isso lhe diz sobre Jesus?",
+            "2": "O que isso lhe diz sobre Deus?",
+            "3": "O que isso lhe diz sobre as pessoas?",
+            "4": "Se isso for verdade, que diferença isso faria em sua vida?",
+            "5": "Quem são as cinco pessoas com quem você pode compartilhar suas descobertas?"
+        }
+    },
+    "follow": {
+        "title": "Seguindo-o",
+        "para": {
+            "1": "O que significa seguir o Senhor Jesus? Seu Livro Sagrado começa com o tempo antes de existir qualquer povo.",
             "2": "Reúna seus amigos e veja o que você descobre ao discutir as questões a seguir.",
             "3": "Selecione seu idioma favorito clicando no globo acima."
         }

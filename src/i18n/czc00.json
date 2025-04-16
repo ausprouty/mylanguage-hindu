@@ -1,12 +1,12 @@
 {
     "language": {
         "EnglishName": "Czech",
-        "hlCode": "czc00",
+        "HLcode": "czc00",
         "google": "cs"
     },
     "menu": {
         "next": "Další",
-        "nextVideo": "Další video",
+        "nextVideo": "Další Video",
         "previous": "Předchozí",
         "select": "Vybrat",
         "videoSegment": "Video segment",
@@ -14,38 +14,56 @@
     },
     "index": {
         "para": {
-            "1": "Duchovní růst není samostatná cesta – děje se ve společenství. Všichni potřebujeme moudrost, které můžeme věřit, a lidi, kteří nás na cestě povzbudí. Níže uvedené lekce vám pomohou objevit, jak Boží moudrost utváří životy, buduje opravdové vztahy a odhaluje Jeho lásku a péči o vás.",
-            "2": "Shromážděte své přátele a začněte objevovat! Klikněte na obrázky níže a začněte svou cestu – objevování nejen moudrosti, ale také vztahu s Bohem a duchovním společenstvím, do kterého vás zve."
+            "1": "Víme, že k dosažení jakéhokoli skutečného pokroku v našem duchovním životě potřebujeme gurua -- někoho, kdo nám ukáže cestu, bude nás vyzývat, opravovat, vést a pomáhat nám.",
+            "2": "Rádi bychom vás pozvali, abyste zvážili mít Pána Ježíše jako svého Gurua. Pán Ježíš uzdravil mnoho lidí. Nikdy nelhal ani nikomu neublížil. Byl skromný. Nikdy se neoženil. Žil jednoduchým životem a svou moc nikdy nevyužil k získání bohatství."
         }
     },
     "dbs": {
-        "title": "Objevování duchovní komunity",
+        "title": "Jeho svatá kniha",
         "para": {
-            "1": "Discovering Spiritual Community vás zavede na cestu historií a prozkoumáte, jak se lidé spojovali s Bohem od samého počátku – prostřednictvím výzev, otázek a okamžiků, které změnily život. Pokud vás zajímá víra, účel a co to znamená patřit, tato série je skvělým místem, kde začít.",
-            "2": "Shromážděte své přátele a přečtěte si, jak Bůh připravil lidi na příchod Ježíše a duchovní společenství, které založil.",
-            "3": "Vyberte svůj oblíbený jazyk kliknutím na zeměkouli výše."
+            "1": "Jeho Svatá kniha začíná v době, kdy ještě neexistovali nějací lidé. Poté vypráví příběh o tom, jak první dva lidé jednali s Bohem.",
+            "2": "Přečtěte si, jak Bůh připravil lidi na příchod Pána Ježíše.",
+            "3": "Shromážděte své přátele a přečtěte si, jak Bůh připravil lidi na příchod Ježíše a duchovní společenství, které založil.",
+            "4": "Vyberte svůj oblíbený jazyk kliknutím na zeměkouli výše."
         }
     },
     "life": {
-        "title": "Životní problémy",
+        "title": "Jeho Učení",
         "para": {
-            "1": "Life Issues zkoumá praktické učení Ježíše a jeho prvních následovníků – moudrost, která změnila životy po staletí. Mnozí zažili proměnu tím, že pozvali Ježíše, aby jim pomohl tyto pravdy žít. Může to být pravda i pro vás?",
-            "2": "Shromážděte své přátele a uvidíte, co objevíte, když budete diskutovat o následujících otázkách.",
+            "1": "Toto jsou některé z věcí, které učil Pán Ježíš a jeho první následovníci.",
+            "2": "Mnoho lidí vidělo, jak se jejich životy proměnily, když požádali Pána Ježíše, aby jim dal sílu uvést toto učení do praxe.",
             "3": "Shromážděte své přátele a uvidíte, co objevíte, když budete diskutovat o následujících otázkách.",
             "4": "Vyberte svůj oblíbený jazyk kliknutím na zeměkouli výše."
         }
     },
     "jVideo": {
-        "title": "Život Ježíšův",
+        "title": "Jeho život",
         "para": {
-            "1": "Ježíšova slova a činy utvářely dějiny a nabízejí moudrost, která stojí stranou. Při sledování tohoto videa si položte otázku: Co učil Ježíš? Jaká je jeho moudrost ve srovnání s tím, co řekli ostatní – a co by to mohlo znamenat pro vás?",
-            "2": "Toto video je dostupné v mnoha jazycích. Chcete-li změnit jazyk, klikněte na zeměkouli výše."
+            "1": "Při sledování videa se zeptejte sami sebe \"Jaký je tento guru a stojí za to ho následovat?\"",
+            "2": "Toto video je dostupné v mnoha jazycích. Chcete-li změnit jazyk, klikněte na zeměkouli výše.",
+            "3": "Shromážděte své přátele a uvidíte, co objevíte, když budete diskutovat o následujících otázkách."
         }
     },
     "lead": {
-        "title": "Objevování vedení",
         "para": {
             "1": "Discovering Leadership zkoumá principy, které Ježíš učil své vůdce – moudrost, která formovala vůdcovství se srdcem služebníka po generace. Mnozí zažili proměnu tím, že se spoléhali na to, že jim Ježíš pomůže vést cílevědomě a bezúhonně. Mohlo by to formovat i vaše vedení?",
+            "2": "Shromážděte své přátele a uvidíte, co objevíte, když budete diskutovat o následujících otázkách.",
+            "3": "Vyberte svůj oblíbený jazyk kliknutím na zeměkouli výše."
+        }
+    },
+    "video": {
+        "question": {
+            "1": "Co vám to říká o Ježíši?",
+            "2": "Co vám to říká o Bohu?",
+            "3": "Co to vypovídá o lidech?",
+            "4": "Pokud je to pravda, jaký by to znamenalo rozdíl ve vašem životě?",
+            "5": "S kým pěti lidmi se můžete podělit o své objevy?"
+        }
+    },
+    "follow": {
+        "title": "Následovat Ho",
+        "para": {
+            "1": "Co to znamená následovat Pána Ježíše? Jeho Svatá kniha začíná v době, kdy ještě neexistovali nějací lidé.",
             "2": "Shromážděte své přátele a uvidíte, co objevíte, když budete diskutovat o následujících otázkách.",
             "3": "Vyberte svůj oblíbený jazyk kliknutím na zeměkouli výše."
         }

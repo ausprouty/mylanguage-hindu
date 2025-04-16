@@ -1,7 +1,7 @@
 {
     "language": {
         "EnglishName": "Icelandic",
-        "hlCode": "Ice99",
+        "HLcode": "Ice99",
         "google": "is"
     },
     "menu": {
@@ -14,38 +14,56 @@
     },
     "index": {
         "para": {
-            "1": "Andlegur vöxtur er ekki sólóferð - það gerist í samfélaginu. Við þurfum öll visku sem við getum treyst og fólk sem hvetur okkur í leiðinni. Lærdómarnir hér að neðan munu hjálpa þér að uppgötva hvernig viska Guðs mótar líf, byggir upp ósvikin sambönd og opinberar ást hans og umhyggju fyrir þér.",
-            "2": "Safnaðu vinum þínum og byrjaðu að kanna! Smelltu á myndirnar hér að neðan til að hefja ferð þína - uppgötva ekki bara visku, heldur samband við Guð og andlega samfélagið sem hann býður þér inn í."
+            "1": "Til þess að ná raunverulegum framförum í andlegu lífi okkar vitum við að við þurfum sérfræðingur - einhvern til að vísa okkur leiðina, til að skora á, leiðrétta, leiðbeina og hjálpa okkur.",
+            "2": "Við viljum bjóða þér að íhuga að hafa Drottin Jesú sem sérfræðingur þinn. Drottinn Jesús læknaði marga. Hann sagði aldrei ósatt eða særði neinn. Hann var auðmjúkur. Hann giftist aldrei. Hann lifði einföldu lífi og notaði aldrei krafta sína til að eignast auð."
         }
     },
     "dbs": {
-        "title": "Að uppgötva andlegt samfélag",
+        "title": "Heilaga bók hans",
         "para": {
-            "1": "Discovering Spiritual Community tekur þig í ferðalag í gegnum söguna, kannar hvernig fólk hefur tengst Guði frá upphafi – í gegnum áskoranir, spurningar og lífsbreytandi augnablik. Ef þú ert forvitinn um trú, tilgang og hvað það þýðir að tilheyra, þá er þessi sería frábær staður til að byrja.",
-            "2": "Safnaðu vinum þínum og lestu hvernig Guð undirbjó fólk fyrir komu Jesú og hið andlega samfélag sem hann stofnaði.",
-            "3": "Veldu uppáhalds tungumálið þitt með því að smella á heimshnöttinn hér að ofan."
+            "1": "Heilög bók hans byrjar á tímanum áður en fólk var til. Það segir síðan söguna af því hvernig fyrstu tvær manneskjurnar höfðu samskipti við Guð.",
+            "2": "Lestu hvernig Guð undirbjó fólk fyrir komu Drottins Jesú.",
+            "3": "Safnaðu vinum þínum og lestu hvernig Guð undirbjó fólk fyrir komu Jesú og hið andlega samfélag sem hann stofnaði.",
+            "4": "Veldu uppáhalds tungumálið þitt með því að smella á heimshnöttinn hér að ofan."
         }
     },
     "life": {
-        "title": "Lífsmál",
+        "title": "Kenningar hans",
         "para": {
-            "1": "Life Issues kannar hagnýtar kenningar Jesú og fyrstu fylgjenda hans - speki sem hefur breytt lífi um aldir. Margir hafa upplifað umbreytingu með því að bjóða Jesú að hjálpa sér að lifa eftir þessum sannleika. Gæti þetta verið satt hjá þér líka?",
-            "2": "Safnaðu vinum þínum og sjáðu hvað þú uppgötvar þegar þú ræðir eftirfarandi spurningar.",
+            "1": "Þetta er eitthvað af því sem Drottinn Jesús og fyrstu fylgjendur hans kenndu.",
+            "2": "Margir hafa séð líf sitt umbreytast þegar þeir báðu Drottin Jesú að gefa þeim kraft til að koma þessum kenningum í framkvæmd.",
             "3": "Safnaðu vinum þínum og sjáðu hvað þú uppgötvar þegar þú ræðir eftirfarandi spurningar.",
             "4": "Veldu uppáhalds tungumálið þitt með því að smella á heimshnöttinn hér að ofan."
         }
     },
     "jVideo": {
-        "title": "Líf Jesú",
+        "title": "Líf hans",
         "para": {
-            "1": "Orð og gjörðir Jesú hafa mótað söguna og boðið upp á speki sem stendur í sundur. Þegar þú horfir á þetta myndband skaltu spyrja sjálfan þig: Hvað kenndi Jesús? Hvernig er viska hans í samanburði við það sem aðrir hafa sagt - og hvað gæti það þýtt fyrir þig?",
-            "2": "Þetta myndband er fáanlegt á mörgum tungumálum. Til að breyta tungumálinu smelltu á heimshnöttinn hér að ofan."
+            "1": "Þegar þú horfir á myndbandið skaltu spyrja sjálfan þig \"Hvernig er þessi sérfræðingur og er hann þess virði að fylgjast með?\"",
+            "2": "Þetta myndband er fáanlegt á mörgum tungumálum. Til að breyta tungumálinu smelltu á heimshnöttinn hér að ofan.",
+            "3": "Safnaðu vinum þínum og sjáðu hvað þú uppgötvar þegar þú ræðir eftirfarandi spurningar."
         }
     },
     "lead": {
-        "title": "Að uppgötva forystu",
         "para": {
             "1": "Uppgötvun leiðtoga kannar þær meginreglur sem Jesús kenndi leiðtogum sínum - visku sem hefur mótað þjónandi-hjarta forystu í kynslóðir. Margir hafa upplifað umbreytingu með því að treysta á Jesú til að hjálpa þeim að leiða af tilgangi og ráðvendni. Gæti þetta mótað forystu þína líka?",
+            "2": "Safnaðu vinum þínum og sjáðu hvað þú uppgötvar þegar þú ræðir eftirfarandi spurningar.",
+            "3": "Veldu uppáhalds tungumálið þitt með því að smella á heimshnöttinn hér að ofan."
+        }
+    },
+    "video": {
+        "question": {
+            "1": "Hvað segir þetta þér um Jesú?",
+            "2": "Hvað segir þetta þér um Guð?",
+            "3": "Hvað segir þetta þér um fólk?",
+            "4": "Ef þetta er satt, hvaða mun myndi það skipta í lífi þínu?",
+            "5": "Hverjir eru fimm einstaklingar sem þú getur deilt uppgötvunum þínum með?"
+        }
+    },
+    "follow": {
+        "title": "Að fylgja honum",
+        "para": {
+            "1": "Hvað þýðir það að fylgja Drottni Jesú? Heilög bók hans byrjar á tímanum áður en fólk var til.",
             "2": "Safnaðu vinum þínum og sjáðu hvað þú uppgötvar þegar þú ræðir eftirfarandi spurningar.",
             "3": "Veldu uppáhalds tungumálið þitt með því að smella á heimshnöttinn hér að ofan."
         }

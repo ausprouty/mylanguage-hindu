@@ -1,7 +1,7 @@
 {
     "language": {
         "EnglishName": "Swedish",
-        "hlCode": "Swe99",
+        "HLcode": "Swe99",
         "google": "sv"
     },
     "menu": {
@@ -14,38 +14,56 @@
     },
     "index": {
         "para": {
-            "1": "Andlig tillväxt är inte en ensamresa – det sker i gemenskapen. Vi behöver alla visdom vi kan lita på och människor som uppmuntrar oss på vägen. Lektionerna nedan hjälper dig att upptäcka hur Guds visdom formar liv, bygger äkta relationer och avslöjar hans kärlek och omsorg om dig.",
-            "2": "Samla dina vänner och börja utforska! Klicka på bilderna nedan för att börja din resa – upptäck inte bara visdom, utan en relation med Gud och den andliga gemenskap han bjuder in dig till."
+            "1": "För att göra några verkliga framsteg i vårt andliga liv vet vi att vi behöver en guru - någon som visar oss vägen, utmanar, korrigerar, vägleder och hjälper oss.",
+            "2": "Vi skulle vilja bjuda in dig att överväga att ha Herren Jesus som din guru. Herren Jesus botade många människor. Han har aldrig ljugit eller sårat någon. Han var ödmjuk. Han gifte sig aldrig. Han levde ett enkelt liv och använde aldrig sin makt för att vinna rikedom."
         }
     },
     "dbs": {
-        "title": "Upptäck andlig gemenskap",
+        "title": "Hans heliga bok",
         "para": {
-            "1": "Discovering Spiritual Community tar dig med på en resa genom historien och utforskar hur människor har anslutit till Gud från allra första början – genom utmaningar, frågor och livsförändrande ögonblick. Om du är nyfiken på tro, syfte och vad det innebär att tillhöra, är den här serien ett bra ställe att börja.",
-            "2": "Samla dina vänner och läs hur Gud förberedde människor för Jesu ankomst och den andliga gemenskap han startade.",
-            "3": "Välj ditt favoritspråk genom att klicka på världsgloben ovan."
+            "1": "Hans heliga bok börjar med tiden innan det fanns några människor. Den berättar sedan historien om hur de två första personerna interagerade med Gud.",
+            "2": "Läs hur Gud förberedde människor för Herren Jesu ankomst.",
+            "3": "Samla dina vänner och läs hur Gud förberedde människor för Jesu ankomst och den andliga gemenskap han startade.",
+            "4": "Välj ditt favoritspråk genom att klicka på världsgloben ovan."
         }
     },
     "life": {
-        "title": "Livsfrågor",
+        "title": "Hans läror",
         "para": {
-            "1": "Life Issues utforskar Jesu och hans tidiga efterföljares praktiska läror – visdom som har förändrat liv i århundraden. Många har upplevt förvandling genom att bjuda in Jesus att hjälpa dem att leva ut dessa sanningar. Kan detta vara sant för dig också?",
-            "2": "Samla dina vänner och se vad du upptäcker när du diskuterar följande frågor.",
+            "1": "Detta är några av de saker som Herren Jesus och hans tidiga efterföljare lärde ut.",
+            "2": "Många människor har sett sina liv förändras när de bad Herren Jesus att ge dem kraften att omsätta dessa läror i handling.",
             "3": "Samla dina vänner och se vad du upptäcker när du diskuterar följande frågor.",
             "4": "Välj ditt favoritspråk genom att klicka på världsgloben ovan."
         }
     },
     "jVideo": {
-        "title": "Jesu liv",
+        "title": "Hans liv",
         "para": {
-            "1": "Jesu ord och handlingar har format historien och erbjuder en visdom som skiljer sig åt. När du tittar på den här videon, fråga dig själv: Vad lärde Jesus ut? Hur jämför hans visdom med vad andra har sagt - och vad kan det betyda för dig?",
-            "2": "Den här videon är tillgänglig på många språk. För att ändra språk klicka på världsgloben ovan."
+            "1": "När du tittar på videon, fråga dig själv \"Hur är den här gurun och är han värd att följa?\"",
+            "2": "Den här videon är tillgänglig på många språk. För att ändra språk klicka på världsgloben ovan.",
+            "3": "Samla dina vänner och se vad du upptäcker när du diskuterar följande frågor."
         }
     },
     "lead": {
-        "title": "Upptäcka ledarskap",
         "para": {
             "1": "Discovering Leadership utforskar principerna som Jesus lärde sina ledare – visdom som har format ledarskap i tjänarhjärtat i generationer. Många har upplevt förvandling genom att förlita sig på Jesus för att hjälpa dem leda med mål och integritet. Kan detta forma ditt ledarskap också?",
+            "2": "Samla dina vänner och se vad du upptäcker när du diskuterar följande frågor.",
+            "3": "Välj ditt favoritspråk genom att klicka på världsgloben ovan."
+        }
+    },
+    "video": {
+        "question": {
+            "1": "Vad säger detta dig om Jesus?",
+            "2": "Vad säger detta dig om Gud?",
+            "3": "Vad säger detta dig om människor?",
+            "4": "Om detta är sant, vilken skillnad skulle det göra i ditt liv?",
+            "5": "Vilka är fem personer du kan dela dina upptäckter med?"
+        }
+    },
+    "follow": {
+        "title": "Följer honom",
+        "para": {
+            "1": "Vad innebär det att följa Herren Jesus? Hans heliga bok börjar med tiden innan det fanns några människor.",
             "2": "Samla dina vänner och se vad du upptäcker när du diskuterar följande frågor.",
             "3": "Välj ditt favoritspråk genom att klicka på världsgloben ovan."
         }

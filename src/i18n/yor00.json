@@ -1,7 +1,7 @@
 {
     "language": {
         "EnglishName": "Yoruba",
-        "hlCode": "yor00",
+        "HLcode": "yor00",
         "google": "yo"
     },
     "menu": {
@@ -14,38 +14,56 @@
     },
     "index": {
         "para": {
-            "1": "Idagbasoke ti ẹmi kii ṣe irin-ajo adashe - o ṣẹlẹ ni agbegbe. Gbogbo wa nilo ọgbọn ti a le gbẹkẹle ati awọn eniyan ti o gba wa niyanju ni ọna. Àwọn ẹ̀kọ́ tó wà nísàlẹ̀ yìí yóò ràn ọ́ lọ́wọ́ láti ṣàwárí bí ọgbọ́n Ọlọ́run ṣe ń ṣe ìgbé ayérayé, tí ń kọ́ àwọn ìbáṣepọ̀ tòótọ́ sílẹ̀, tí ó sì fi ìfẹ́ àti ìtọ́jú Rẹ̀ hàn fún ọ.",
-            "2": "Kojọ awọn ọrẹ rẹ ki o bẹrẹ ṣawari! Tẹ awọn aworan ti o wa ni isalẹ lati bẹrẹ irin-ajo rẹ - iṣawari kii ṣe ọgbọn nikan, ṣugbọn ibatan pẹlu Ọlọrun ati agbegbe ti ẹmi ti O pe ọ sinu."
+            "1": "Lati le ni ilọsiwaju gidi eyikeyi ninu igbesi aye ẹmi wa a mọ pe a nilo guru - ẹnikan lati fi ọna han wa, lati koju, ṣe atunṣe, itọsọna ati ṣe iranlọwọ fun wa.",
+            "2": "A yoo fẹ lati pe ọ lati ronu nini Jesu Oluwa gẹgẹbi Oluko rẹ. Jesu Oluwa mu ọpọlọpọ eniyan larada. Kò parọ́ rí, kò sì pa ẹnikẹ́ni lára. Ó jẹ́ onírẹ̀lẹ̀. Ko gbeyawo rara. Ó gbé ìgbésí ayé rírọrùn kò sì lo agbára rẹ̀ láti jèrè ọrọ̀ rí."
         }
     },
     "dbs": {
-        "title": "Awari Ẹmí Community",
+        "title": "Iwe Mimo Re",
         "para": {
-            "1": "Ṣiṣawari Agbegbe Ẹmi mu ọ lọ si irin-ajo nipasẹ itan-akọọlẹ, ṣawari bi awọn eniyan ṣe ti sopọ pẹlu Ọlọrun lati ibẹrẹ-nipasẹ awọn italaya, awọn ibeere, ati awọn akoko iyipada igbesi aye. Ti o ba ni iyanilenu nipa igbagbọ, idi, ati kini o tumọ si lati jẹ, jara yii jẹ aaye nla lati bẹrẹ.",
-            "2": "Kó àwọn ọ̀rẹ́ rẹ jọ kí o sì ka bí Ọlọ́run ṣe múra àwọn èèyàn sílẹ̀ de dídé Jésù àti àgbègbè tẹ̀mí tó bẹ̀rẹ̀.",
-            "3": "Yan ede ayanfẹ rẹ nipa tite lori agbaye agbaye loke."
+            "1": "Iwe Mimọ Rẹ bẹrẹ pẹlu akoko ṣaaju ki awọn eniyan kankan wa. Lẹhinna o sọ itan ti bi awọn eniyan meji akọkọ ṣe ṣe ajọṣepọ pẹlu Ọlọrun.",
+            "2": "Ka bi Olorun se pese awon eniyan sile fun dide Oluwa Jesu.",
+            "3": "Kó àwọn ọ̀rẹ́ rẹ jọ kí o sì ka bí Ọlọ́run ṣe múra àwọn èèyàn sílẹ̀ de dídé Jésù àti àgbègbè tẹ̀mí tó bẹ̀rẹ̀.",
+            "4": "Yan ede ayanfẹ rẹ nipa tite lori agbaye agbaye loke."
         }
     },
     "life": {
-        "title": "Awọn ọrọ igbesi aye",
+        "title": "Awọn ẹkọ Rẹ",
         "para": {
-            "1": "Awọn ọrọ igbesi aye ṣawari awọn ẹkọ ti o wulo ti Jesu ati awọn ọmọ-ẹhin rẹ akọkọ - ọgbọn ti o ti yi igbesi aye pada fun awọn ọgọrun ọdun. Mẹsusu ko tindo numimọ diọdo tọn gbọn oylọ-basina Jesu nado gọalọna yé nado hẹn nugbo ehelẹ di. Njẹ eyi le jẹ otitọ fun iwọ paapaa?",
-            "2": "Pe awọn ọrẹ rẹ jọ ki o wo ohun ti o rii bi o ṣe n jiroro awọn ibeere wọnyi.",
+            "1": "Ehelẹ yin delẹ to nuhe Oklunọ Jesu po hodotọ fliflimẹ tọn etọn lẹ po plọnmẹ lẹ mẹ.",
+            "2": "Ọ̀pọ̀ èèyàn ló ti rí bí ìgbésí ayé wọn ṣe yí pa dà bí wọ́n ṣe ń bẹ Jésù Olúwa pé kó fún wọn lágbára láti fi àwọn ẹ̀kọ́ wọ̀nyí sílò.",
             "3": "Pe awọn ọrẹ rẹ jọ ki o wo ohun ti o rii bi o ṣe n jiroro awọn ibeere wọnyi.",
             "4": "Yan ede ayanfẹ rẹ nipa tite lori agbaye agbaye loke."
         }
     },
     "jVideo": {
-        "title": "Igbesi aye Jesu",
+        "title": "Aye Re",
         "para": {
-            "1": "Hodidọ po nuyiwa Jesu tọn lẹ po ko deanana whenuho, bo namẹ nuyọnẹn he gbọnvo. Bó o ṣe ń wo fídíò yìí, bi ara rẹ pé: Kí ni Jésù fi kọ́ni? Báwo ni ọgbọ́n rẹ̀ ṣe wéra pẹ̀lú ohun tí àwọn ẹlòmíràn sọ—àti kí ni ó lè túmọ̀ sí fún ọ?",
-            "2": "Fidio yii wa ni ọpọlọpọ awọn ede. Lati yi ede pada tẹ agbaye agbaye loke."
+            "1": "Bi o ṣe n wo fidio naa, beere lọwọ ararẹ \"Kini guru yii dabi ati pe o tọ lati tẹle?\"",
+            "2": "Fidio yii wa ni ọpọlọpọ awọn ede. Lati yi ede pada tẹ agbaye agbaye loke.",
+            "3": "Pe awọn ọrẹ rẹ jọ ki o wo ohun ti o rii bi o ṣe n jiroro awọn ibeere wọnyi."
         }
     },
     "lead": {
-        "title": "Awari Leadership",
         "para": {
             "1": "Ṣíṣàwárí Aṣáájú ṣàwárí àwọn ìlànà tí Jésù kọ́ àwọn aṣáájú rẹ̀—ọgbọ́n tí ó ti ṣe aṣáájú-ọ̀nà-ọkàn ìránṣẹ́ fún àwọn ìrandíran. Ọ̀pọ̀lọpọ̀ ti ní ìrírí ìyípadà nípa gbígbẹ́kẹ̀lé Jésù láti ràn wọ́n lọ́wọ́ láti darí pẹ̀lú ète àti ìwà títọ́. Njẹ eyi le ṣe apẹrẹ olori rẹ paapaa?",
+            "2": "Pe awọn ọrẹ rẹ jọ ki o wo ohun ti o rii bi o ṣe n jiroro awọn ibeere wọnyi.",
+            "3": "Yan ede ayanfẹ rẹ nipa tite lori agbaye agbaye loke."
+        }
+    },
+    "video": {
+        "question": {
+            "1": "Kí ni èyí sọ fún ọ nípa Jésù?",
+            "2": "Kí ni èyí sọ fún ọ nípa Ọlọ́run?",
+            "3": "Kini eyi sọ fun ọ nipa awọn eniyan?",
+            "4": "Ti eyi ba jẹ otitọ, iyatọ wo ni yoo ṣe ninu igbesi aye rẹ?",
+            "5": "Tani eniyan marun ti o le pin awọn awari rẹ pẹlu?"
+        }
+    },
+    "follow": {
+        "title": "Ti o tele Re",
+        "para": {
+            "1": "Kí ló túmọ̀ sí láti tẹ̀ lé Jésù Olúwa? Iwe Mimọ Rẹ bẹrẹ pẹlu akoko ṣaaju ki awọn eniyan kankan wa.",
             "2": "Pe awọn ọrẹ rẹ jọ ki o wo ohun ti o rii bi o ṣe n jiroro awọn ibeere wọnyi.",
             "3": "Yan ede ayanfẹ rẹ nipa tite lori agbaye agbaye loke."
         }

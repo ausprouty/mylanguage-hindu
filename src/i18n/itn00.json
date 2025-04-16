@@ -1,7 +1,7 @@
 {
     "language": {
         "EnglishName": "Italian",
-        "hlCode": "itn00",
+        "HLcode": "itn00",
         "google": "it"
     },
     "menu": {
@@ -14,38 +14,56 @@
     },
     "index": {
         "para": {
-            "1": "La crescita spirituale non è un viaggio da soli: avviene in comunità. Abbiamo tutti bisogno di saggezza di cui possiamo fidarci e di persone che ci incoraggiano lungo il cammino. Le lezioni seguenti ti aiuteranno a scoprire come la saggezza di Dio modella la vita, costruisce relazioni autentiche e rivela il Suo amore e la Sua cura per te.",
-            "2": "Raduna i tuoi amici e inizia a esplorare! Clicca sulle immagini qui sotto per iniziare il tuo viaggio, alla scoperta non solo della saggezza, ma di una relazione con Dio e con la comunità spirituale in cui ti invita."
+            "1": "Per poter fare un reale progresso nella nostra vita spirituale, sappiamo di aver bisogno di un guru: qualcuno che ci mostri la strada, che ci sfidi, ci corregga, ci guidi e ci aiuti.",
+            "2": "Vorremmo invitarvi a considerare di avere il Signore Gesù come vostro Guru. Il Signore Gesù guarì molte persone. Non ha mai detto una bugia né ferito nessuno. Era umile. Non si è mai sposato. Ha vissuto una vita semplice e non ha mai usato il suo potere per ottenere ricchezza."
         }
     },
     "dbs": {
-        "title": "Alla scoperta della comunità spirituale",
+        "title": "Il suo libro sacro",
         "para": {
-            "1": "Discovering Spiritual Community ti porta in un viaggio attraverso la storia, esplorando il modo in cui le persone si sono connesse con Dio fin dall'inizio, attraverso sfide, domande e momenti che cambiano la vita. Se sei curioso riguardo alla fede, allo scopo e a cosa significa appartenere, questa serie è un ottimo punto di partenza.",
-            "2": "Raduna i tuoi amici e leggi come Dio ha preparato le persone per l'arrivo di Gesù e la comunità spirituale da lui fondata.",
-            "3": "Seleziona la tua lingua preferita facendo clic sul mappamondo in alto."
+            "1": "Il suo Libro Sacro inizia con il tempo prima che esistessero le persone. Poi racconta la storia di come le prime due persone hanno interagito con Dio.",
+            "2": "Leggi come Dio ha preparato le persone per l'arrivo del Signore Gesù.",
+            "3": "Raduna i tuoi amici e leggi come Dio ha preparato le persone per l'arrivo di Gesù e la comunità spirituale da lui fondata.",
+            "4": "Seleziona la tua lingua preferita facendo clic sul mappamondo in alto."
         }
     },
     "life": {
-        "title": "Problemi di vita",
+        "title": "I suoi insegnamenti",
         "para": {
-            "1": "Life Issues esplora gli insegnamenti pratici di Gesù e dei suoi primi seguaci: la saggezza che ha cambiato la vita per secoli. Molti hanno sperimentato la trasformazione invitando Gesù ad aiutarli a vivere queste verità. Potrebbe essere vero anche per te?",
-            "2": "Raduna i tuoi amici e guarda cosa scopri mentre discuti le seguenti domande.",
+            "1": "Queste sono alcune delle cose insegnate dal Signore Gesù e dai suoi primi seguaci.",
+            "2": "Molte persone hanno visto la propria vita trasformarsi quando hanno chiesto al Signore Gesù di dare loro il potere di mettere in pratica questi insegnamenti.",
             "3": "Raduna i tuoi amici e guarda cosa scopri mentre discuti le seguenti domande.",
             "4": "Seleziona la tua lingua preferita facendo clic sul mappamondo in alto."
         }
     },
     "jVideo": {
-        "title": "La vita di Gesù",
+        "title": "La sua vita",
         "para": {
-            "1": "Le parole e le azioni di Gesù hanno plasmato la storia, offrendo una saggezza che si distingue. Mentre guardi questo video, chiediti: cosa insegnò Gesù? Come si confronta la sua saggezza con ciò che hanno detto gli altri e cosa potrebbe significare per te?",
-            "2": "Questo video è disponibile in molte lingue. Per cambiare la lingua, fai clic sul mappamondo in alto."
+            "1": "Mentre guardi il video, chiediti \"Com'è questo guru e vale la pena seguirlo?\"",
+            "2": "Questo video è disponibile in molte lingue. Per cambiare la lingua, fai clic sul mappamondo in alto.",
+            "3": "Raduna i tuoi amici e guarda cosa scopri mentre discuti le seguenti domande."
         }
     },
     "lead": {
-        "title": "Alla scoperta della leadership",
         "para": {
             "1": "Discovering Leadership esplora i principi che Gesù insegnò ai suoi leader: la saggezza che ha plasmato una leadership dal cuore di servitore per generazioni. Molti hanno sperimentato la trasformazione confidando in Gesù perché li aiutasse a guidare con determinazione e integrità. Questo potrebbe influenzare anche la tua leadership?",
+            "2": "Raduna i tuoi amici e guarda cosa scopri mentre discuti le seguenti domande.",
+            "3": "Seleziona la tua lingua preferita facendo clic sul mappamondo in alto."
+        }
+    },
+    "video": {
+        "question": {
+            "1": "Cosa ti dice questo su Gesù?",
+            "2": "Cosa ti dice questo su Dio?",
+            "3": "Cosa ti dice questo sulle persone?",
+            "4": "Se questo fosse vero, che differenza farebbe nella tua vita?",
+            "5": "Chi sono le cinque persone con cui puoi condividere le tue scoperte?"
+        }
+    },
+    "follow": {
+        "title": "Seguirlo",
+        "para": {
+            "1": "Cosa significa seguire il Signore Gesù? Il suo Libro Sacro inizia con il tempo prima che esistessero le persone.",
             "2": "Raduna i tuoi amici e guarda cosa scopri mentre discuti le seguenti domande.",
             "3": "Seleziona la tua lingua preferita facendo clic sul mappamondo in alto."
         }

@@ -20,15 +20,15 @@
       </td>
     </tr>
     <tr class = "full-width">
-      <td class="side-by-side" @click="handleImageClick('/life')" clickable v-ripple >
+      <td class="side-by-side" @click="handleImageClick('/video')" clickable v-ripple >
         <img  class="menu_picture" src="menu/life.png">
       </td>
-      <td class="side-by-side" @click="handleImageClick('/series/teachings')" clickable v-ripple >
+      <td class="side-by-side" @click="handleImageClick('/series/life')" clickable v-ripple >
         <img  class="menu_picture" src="menu/teachings.png">
       </td>
     </tr>
     <tr class = "full-width">
-      <td class="side-by-side" @click="handleImageClick('/series/book')" clickable v-ripple  >
+      <td class="side-by-side" @click="handleImageClick('/series/dbs')" clickable v-ripple  >
         <img  class="menu_picture" src="menu/book.png">
       </td>
       <td class="side-by-side" @click="handleImageClick('/following')" clickable v-ripple >
@@ -36,7 +36,7 @@
       </td>
     </tr>
     <tr class = "full-width">
-      <td class="side-by-side" @click="handleImageClick('/series/leadership')" clickable v-ripple >
+      <td class="side-by-side" @click="handleImageClick('/series/lead')" clickable v-ripple >
         <img class="menu_picture" src="menu/leading.png">
       </td>
       <td class="side-by-side" @click="openExternalWebsite()" clickable v-ripple >

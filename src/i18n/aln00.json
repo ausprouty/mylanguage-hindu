@@ -1,7 +1,7 @@
 {
     "language": {
         "EnglishName": "Albanian",
-        "hlCode": "aln00",
+        "HLcode": "aln00",
         "google": "sq"
     },
     "menu": {
@@ -14,38 +14,56 @@
     },
     "index": {
         "para": {
-            "1": "Rritja shpirtërore nuk është një udhëtim i vetëm - ndodh në komunitet. Ne të gjithë kemi nevojë për mençuri të cilës mund t'i besojmë dhe njerëz që na inkurajojnë gjatë rrugës. Mësimet e mëposhtme do t'ju ndihmojnë të zbuloni se si mençuria e Perëndisë i formëson jetët, ndërton marrëdhënie të vërteta dhe zbulon dashurinë dhe kujdesin e Tij për ju.",
-            "2": "Mblidhni miqtë tuaj dhe filloni të eksploroni! Klikoni mbi imazhet më poshtë për të filluar udhëtimin tuaj - duke zbuluar jo vetëm mençurinë, por një marrëdhënie me Perëndinë dhe komunitetin shpirtëror në të cilin Ai ju fton."
+            "1": "Për të bërë ndonjë përparim të vërtetë në jetën tonë shpirtërore, ne e dimë se kemi nevojë për një guru -- dikë që të na tregojë rrugën, të sfidojë, korrigjojë, udhëheqë dhe na ndihmojë.",
+            "2": "Ne do të dëshironim t'ju ftojmë të konsideroni të keni Zotin Jezus si Guru-në tuaj. Zoti Jezus shëroi shumë njerëz. Ai kurrë nuk ka gënjyer apo lënduar askënd. Ai ishte i përulur. Ai nuk u martua kurrë. Ai jetoi një jetë të thjeshtë dhe nuk e përdori kurrë fuqinë e tij për të fituar pasuri."
         }
     },
     "dbs": {
-        "title": "Zbulimi i Komunitetit Shpirtëror",
+        "title": "Libri i Tij i Shenjtë",
         "para": {
-            "1": "Zbulimi i Komunitetit Shpirtëror ju çon në një udhëtim nëpër histori, duke eksploruar se si njerëzit janë lidhur me Perëndinë që në fillim - përmes sfidave, pyetjeve dhe momenteve që ndryshojnë jetën. Nëse jeni kurioz për besimin, qëllimin dhe çfarë do të thotë të përkasësh, kjo seri është një vend i mrekullueshëm për të filluar.",
-            "2": "Mblidhni miqtë tuaj dhe lexoni se si Perëndia i përgatiti njerëzit për ardhjen e Jezusit dhe komunitetin shpirtëror që ai filloi.",
-            "3": "Zgjidhni gjuhën tuaj të preferuar duke klikuar mbi globin botëror më lart."
+            "1": "Libri i Tij i Shenjtë fillon me kohën para se të kishte njerëz. Më pas tregon historinë se si dy njerëzit e parë ndërvepruan me Perëndinë.",
+            "2": "Lexoni se si Perëndia i përgatiti njerëzit për ardhjen e Zotit Jezus.",
+            "3": "Mblidhni miqtë tuaj dhe lexoni se si Perëndia i përgatiti njerëzit për ardhjen e Jezusit dhe komunitetin shpirtëror që ai filloi.",
+            "4": "Zgjidhni gjuhën tuaj të preferuar duke klikuar mbi globin botëror më lart."
         }
     },
     "life": {
-        "title": "Çështjet e Jetës",
+        "title": "Mësimet e Tij",
         "para": {
-            "1": "Life Issues eksploron mësimet praktike të Jezusit dhe ndjekësve të tij të hershëm - mençuri që ka ndryshuar jetë për shekuj. Shumë e kanë përjetuar transformimin duke e ftuar Jezusin që t'i ndihmojë t'i kuptojnë këto të vërteta. A mund të jetë kjo e vërtetë edhe për ju?",
-            "2": "Mblidhni miqtë tuaj dhe shikoni se çfarë zbuloni ndërsa diskutoni pyetjet e mëposhtme.",
+            "1": "Këto janë disa nga gjërat që mësuan Zoti Jezus dhe pasuesit e tij të hershëm.",
+            "2": "Shumë njerëz e kanë parë jetën e tyre të transformuar ndërsa i kërkuan Zotit Jezus t'u jepte fuqinë për t'i vënë në veprim këto mësime.",
             "3": "Mblidhni miqtë tuaj dhe shikoni se çfarë zbuloni ndërsa diskutoni pyetjet e mëposhtme.",
             "4": "Zgjidhni gjuhën tuaj të preferuar duke klikuar mbi globin botëror më lart."
         }
     },
     "jVideo": {
-        "title": "Jeta e Jezusit",
+        "title": "Jeta e tij",
         "para": {
-            "1": "Fjalët dhe veprimet e Jezusit kanë formësuar historinë, duke ofruar një urtësi që qëndron veçmas. Ndërsa shikoni këtë video, pyesni veten: Çfarë mësoi Jezusi? Si krahasohet mençuria e tij me atë që kanë thënë të tjerët - dhe çfarë mund të thotë për ju?",
-            "2": "Kjo video është e disponueshme në shumë gjuhë. Për të ndryshuar gjuhën, klikoni globin botëror më lart."
+            "1": "Ndërsa shikoni videon, pyesni veten \"Si është ky guru dhe a ia vlen ta ndiqni?\"",
+            "2": "Kjo video është e disponueshme në shumë gjuhë. Për të ndryshuar gjuhën, klikoni globin botëror më lart.",
+            "3": "Mblidhni miqtë tuaj dhe shikoni se çfarë zbuloni ndërsa diskutoni pyetjet e mëposhtme."
         }
     },
     "lead": {
-        "title": "Zbulimi i Lidershipit",
         "para": {
-            "1": "Zbulimi i Udhëheqjes eksploron parimet që Jezusi u mësoi udhëheqësve të tij - urtësi që ka formësuar udhëheqjen me zemër shërbëtore për breza. Shumë prej tyre kanë përjetuar transformim duke u mbështetur te Jezusi për t'i ndihmuar ata të udhëheqin me qëllim dhe integritet. A mund të formojë kjo edhe lidershipin tuaj?",
+            "1": "Zbulimi i Udhëheqjes eksploron parimet që Jezusi u mësoi udhëheqësve të tij - urtësi që ka formësuar udhëheqjen me zemër shërbëtore për breza. Shumë prej tyre kanë përjetuar transformim duke u mbështetur te Jezusi për t'i ndihmuar ata të udhëheqin me qëllim dhe integritet. A mund të formësojë kjo edhe lidershipin tuaj?",
+            "2": "Mblidhni miqtë tuaj dhe shikoni se çfarë zbuloni ndërsa diskutoni pyetjet e mëposhtme.",
+            "3": "Zgjidhni gjuhën tuaj të preferuar duke klikuar mbi globin botëror më lart."
+        }
+    },
+    "video": {
+        "question": {
+            "1": "Çfarë ju thotë kjo për Jezusin?",
+            "2": "Çfarë ju thotë kjo për Zotin?",
+            "3": "Çfarë ju thotë kjo për njerëzit?",
+            "4": "Nëse kjo është e vërtetë, çfarë ndryshimi do të kishte në jetën tuaj?",
+            "5": "Cilët janë pesë personat me të cilët mund të ndani zbulimet tuaja?"
+        }
+    },
+    "follow": {
+        "title": "Duke e ndjekur Atë",
+        "para": {
+            "1": "Çfarë do të thotë të ndjekësh Zotin Jezus? Libri i Tij i Shenjtë fillon me kohën para se të kishte njerëz.",
             "2": "Mblidhni miqtë tuaj dhe shikoni se çfarë zbuloni ndërsa diskutoni pyetjet e mëposhtme.",
             "3": "Zgjidhni gjuhën tuaj të preferuar duke klikuar mbi globin botëror më lart."
         }

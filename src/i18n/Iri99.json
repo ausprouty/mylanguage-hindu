@@ -1,7 +1,7 @@
 {
     "language": {
         "EnglishName": "Irish",
-        "hlCode": "Iri99",
+        "HLcode": "Iri99",
         "google": "ga"
     },
     "menu": {
@@ -14,38 +14,56 @@
     },
     "index": {
         "para": {
-            "1": "Ní aistear aonair é fás spioradálta — tarlaíonn sé sa phobal. Teastaíonn eagna uainn go léir a bhfuil muinín againn as agus daoine a spreagann sinn ar an mbealach. Cabhróidh na ceachtanna thíos leat a fháil amach conas a mhúnlaíonn eagna Dé saolta, a chothaíonn fíorchaidrimh, agus a nochtann a ghrá agus a chúram duit.",
-            "2": "Bailigh do chairde agus tús a iniúchadh! Cliceáil ar na híomhánna thíos chun tús a chur le do thuras — ní hamháin eagna a fhionnadh, ach caidreamh le Dia agus leis an bpobal spioradálta a dtugann sé cuireadh duit teacht isteach ann."
+            "1": "D'fhonn aon dul chun cinn fíor a dhéanamh inár saol spioradálta tá a fhios againn go bhfuil gúrú de dhíth orainn -- duine leis an mbealach a thaispeáint dúinn, le dúshlán a thabhairt, le ceartú, le treoir agus le cabhrú linn.",
+            "2": "Ba mhaith linn cuireadh a thabhairt duit smaoineamh ar an Tiarna Íosa a bheith mar Ghúrú agat. A Thiarna Íosa leighis a lán daoine. Níor inis sé bréag ná níor ghortaigh sé aon duine. Bhí sé humhal. Níor phós sé riamh. Bhí saol simplí aige agus níor bhain sé úsáid as a chumhacht chun saibhreas a fháil."
         }
     },
     "dbs": {
-        "title": "Pobail Spioradálta a Fhionnadh",
+        "title": "A Leabhar Naofa",
         "para": {
-            "1": "Tugann Fionnachtain Pobail Spioradálta tú ar thuras tríd an stair, ag fiosrú conas a bhí baint ag daoine le Dia ón tús – trí dhúshláin, trí cheisteanna agus trí chuimhneacháin a d’athraigh an saol. Má tá tú fiosrach faoi chreideamh, cuspóir, agus cad a chiallaíonn sé a bheith muintearas, is áit iontach é an tsraith seo le tosú.",
-            "2": "Cruinnigh do chairde agus léigh mar a d’ullmhaigh Dia daoine do theacht Íosa agus don phobal spioradálta a thosaigh sé.",
-            "3": "Roghnaigh an teanga is fearr leat trí chliceáil ar an gcruinneog dhomhanda thuas."
+            "1": "Tosaíonn a Leabhar Naofa leis an am sula raibh aon daoine. Insíonn sé ansin an scéal faoin gcaoi ar oibrigh an chéad bheirt le Dia.",
+            "2": "Léigh mar a d’ullmhaigh Dia daoine do theacht an Tiarna Íosa.",
+            "3": "Cruinnigh do chairde agus léigh mar a d’ullmhaigh Dia daoine do theacht Íosa agus don phobal spioradálta a thosaigh sé.",
+            "4": "Roghnaigh an teanga is fearr leat trí chliceáil ar an gcruinneog dhomhanda thuas."
         }
     },
     "life": {
-        "title": "Ceisteanna Saoil",
+        "title": "A Theagaisc",
         "para": {
-            "1": "Fiosraíonn Life Issues teagasc praiticiúla Íosa agus a lucht leanúna tosaigh — eagna a d’athraigh saolta leis na céadta bliain. Is iomaí duine a d’fhulaing claochlú trí chuireadh a thabhairt d’Íosa cuidiú leo na fírinní seo a mhaireachtáil. An bhféadfadh sé seo a bheith fíor duitse freisin?",
-            "2": "Bailigh do chairde agus féach cad a aimsíonn tú agus tú ag plé na ceisteanna seo a leanas.",
+            "1": "Seo iad cuid de na rudaí a mhúin an Tiarna Íosa agus a lucht leanúna go luath.",
+            "2": "Is iomaí duine a tháinig claochlú ar a saol agus iad ag iarraidh ar an Tiarna Íosa an chumhacht a thabhairt dóibh na teagascacha seo a chur i ngníomh.",
             "3": "Bailigh do chairde agus féach cad a aimsíonn tú agus tú ag plé na ceisteanna seo a leanas.",
             "4": "Roghnaigh an teanga is fearr leat trí chliceáil ar an gcruinneog dhomhanda thuas."
         }
     },
     "jVideo": {
-        "title": "Saol Íosa",
+        "title": "A Shaol",
         "para": {
-            "1": "Mhúnlaigh focail agus gníomhartha Íosa an stair, ag tairiscint eagna a sheasann óna chéile. Agus tú ag féachaint ar an bhfíseán seo, fiafraigh díot féin: Cad a mhúin Íosa? Conas a chuirtear a eagna i gcomparáid lena bhfuil ráite ag daoine eile - agus cad a d'fhéadfadh a chiallaíonn duitse?",
-            "2": "Tá an físeán seo ar fáil i go leor teangacha. Chun an teanga a athrú cliceáil ar an gcloigeann domhanda thuas."
+            "1": "Agus tú ag féachaint ar an bhfíseán, fiafraigh díot féin \"Cad é an gúrú seo agus is fiú é a leanúint?\"",
+            "2": "Tá an físeán seo ar fáil i go leor teangacha. Chun an teanga a athrú cliceáil ar an gcloigeann domhanda thuas.",
+            "3": "Bailigh do chairde agus féach cad a aimsíonn tú agus tú ag plé na ceisteanna seo a leanas."
         }
     },
     "lead": {
-        "title": "Ceannaireacht a Fhionnadh",
         "para": {
             "1": "Scrúdaíonn Fionnachtana na Ceannaireachta na prionsabail a mhúin Íosa dá cheannairí — an eagna a mhúnlaigh ceannaireacht seirbhíseach do na glúnta. Is iomaí duine a d’fhulaing claochlú trí bheith ag brath ar Íosa chun cabhrú leo ceannaireacht a dhéanamh le cuspóir agus le hionracas. An bhféadfadh sé seo do cheannaireacht a mhúnlú freisin?",
+            "2": "Bailigh do chairde agus féach cad a aimsíonn tú agus tú ag plé na ceisteanna seo a leanas.",
+            "3": "Roghnaigh an teanga is fearr leat trí chliceáil ar an gcruinneog dhomhanda thuas."
+        }
+    },
+    "video": {
+        "question": {
+            "1": "Cad a insíonn sé seo duit faoi Íosa?",
+            "2": "Cad a insíonn sé seo duit faoi Dhia?",
+            "3": "Cad a insíonn sé seo duit faoi dhaoine?",
+            "4": "Más fíor é seo, cén difríocht a dhéanfadh sé i do shaol?",
+            "5": "Cé hiad cúigear ar féidir leat do chuid fionnachtana a roinnt leo?"
+        }
+    },
+    "follow": {
+        "title": "Ina dhiaidh",
+        "para": {
+            "1": "Cad a chiallaíonn sé an Tiarna Íosa a leanúint? Tosaíonn a Leabhar Naofa leis an am sula raibh aon daoine.",
             "2": "Bailigh do chairde agus féach cad a aimsíonn tú agus tú ag plé na ceisteanna seo a leanas.",
             "3": "Roghnaigh an teanga is fearr leat trí chliceáil ar an gcruinneog dhomhanda thuas."
         }

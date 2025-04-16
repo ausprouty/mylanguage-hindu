@@ -1,7 +1,7 @@
 {
     "language": {
         "EnglishName": "Zulu",
-        "hlCode": "zuu00",
+        "HLcode": "zuu00",
         "google": "zu"
     },
     "menu": {
@@ -14,38 +14,56 @@
     },
     "index": {
         "para": {
-            "1": "Ukukhula ngokomoya akulona uhambo lomuntu oyedwa - kwenzeka emphakathini. Sonke sidinga ukuhlakanipha esingakwethemba kanye nabantu abasikhuthazayo endleleni. Izifundo ezingezansi zizokusiza ukuthi uthole ukuthi ukuhlakanipha kukaNkulunkulu kubumba kanjani impilo, kwakha ubudlelwano bangempela, futhi kwembule uthando Lwakhe kanye nokukunakekela.",
-            "2": "Qoqa abangani bakho bese uqala ukuhlola! Chofoza izithombe ezingezansi ukuze uqale uhambo lwakho - ungatholi nje ukuhlakanipha, kodwa nobudlelwano noNkulunkulu kanye nomphakathi wokomoya akumemela kuwo."
+            "1": "Ukuze senze noma iyiphi inqubekelaphambili yangempela empilweni yethu kamoya siyazi ukuthi sidinga i-guru -- umuntu ozosibonisa indlela, asibekele inselele, asilungise, asiqondise futhi asisize.",
+            "2": "Sithanda ukukumema ukuthi ucabangele ukuba neNkosi uJesu njengoMfundisi wakho. INkosi uJesu yelapha abantu abaningi. Akazange aqambe amanga noma alimaze muntu. Wayethobekile. Akazange ashade. Wayephila ukuphila okulula futhi akazange asebenzise amandla akhe ukuze athole ingcebo."
         }
     },
     "dbs": {
-        "title": "Ukuthola Umphakathi Kamoya",
+        "title": "Incwadi Yakhe Engcwele",
         "para": {
-            "1": "I-Discovering Spiritual Community kukuthatha ohambweni emlandweni, uhlole ukuthi abantu baxhumane kanjani noNkulunkulu kusukela ekuqaleni—ngezinselele, imibuzo, kanye nezikhathi ezishintsha ukuphila. Uma ufuna ukwazi ngokholo, inhloso, nokuthi kusho ukuthini ukuba ngowakho, lolu chungechunge luyindawo enhle yokuqala.",
-            "2": "Qoqa abangani bakho ufunde ukuthi uNkulunkulu wabalungiselela kanjani abantu ukufika kukaJesu kanye nomphakathi womoya awuqala.",
-            "3": "Khetha ulimi lwakho oluthandayo ngokuchofoza imbulunga yomhlaba ngenhla."
+            "1": "Incwadi Yakhe Engcwele iqala ngesikhathi ngaphambi kokuba kube khona abantu. Ibe isitshela indaba yokuthi abantu ababili bokuqala basebenzelana kanjani noNkulunkulu.",
+            "2": "Funda ukuthi uNkulunkulu wabalungiselela kanjani abantu ukufika kweNkosi uJesu.",
+            "3": "Qoqa abangani bakho ufunde ukuthi uNkulunkulu wabalungiselela kanjani abantu ukufika kukaJesu kanye nomphakathi womoya awuqala.",
+            "4": "Khetha ulimi lwakho oluthandayo ngokuchofoza imbulunga yomhlaba ngenhla."
         }
     },
     "life": {
-        "title": "Izinkinga Zempilo",
+        "title": "Izimfundiso Zakhe",
         "para": {
-            "1": "I-Life Issues ihlola izimfundiso ezisebenzayo zikaJesu nabalandeli bakhe bokuqala—ukuhlakanipha osekushintshe ukuphila emakhulwini eminyaka. Abaningi baye babhekana noshintsho ngokucela uJesu ukuba abasize baphile ngokuvumelana nala maqiniso. Ingabe lokhu kungaba yiqiniso nakuwe?",
-            "2": "Qoqa abangani bakho futhi ubone ukuthi yini oyitholayo njengoba uxoxa ngale mibuzo elandelayo.",
+            "1": "Lezi ngezinye zezinto ezafundiswa iNkosi uJesu nabalandeli bayo bokuqala.",
+            "2": "Abantu abaningi baye babona ukuphila kwabo kushintshile njengoba becela iNkosi uJesu ukuba ibanike amandla okwenza lezi zimfundiso zisebenze.",
             "3": "Qoqa abangani bakho futhi ubone ukuthi yini oyitholayo njengoba uxoxa ngale mibuzo elandelayo.",
             "4": "Khetha ulimi lwakho oluthandayo ngokuchofoza imbulunga yomhlaba ngenhla."
         }
     },
     "jVideo": {
-        "title": "Impilo KaJesu",
+        "title": "Ukuphila Kwakhe",
         "para": {
-            "1": "Amazwi nezenzo zikaJesu kuye kwalolonga umlando, kunikeza ukuhlakanipha okuhlukile. Njengoba ubukele le vidiyo, zibuze: Yini uJesu ayifundisa? Ukuhlakanipha kwakhe kuqhathaniseka kanjani nalokho okushiwo abanye - futhi kungasho ukuthini kuwe?",
-            "2": "Le vidiyo itholakala ngezilimi eziningi. Ukushintsha ulimi chofoza imbulunga yomhlaba ngenhla."
+            "1": "Njengoba ubuka ividiyo, zibuze ukuthi \"Injani le nsizwa futhi kufanele ilandelwe?\"",
+            "2": "Le vidiyo itholakala ngezilimi eziningi. Ukushintsha ulimi chofoza imbulunga yomhlaba ngenhla.",
+            "3": "Qoqa abangani bakho futhi ubone ukuthi yini oyitholayo njengoba uxoxa ngale mibuzo elandelayo."
         }
     },
     "lead": {
-        "title": "Ukuthola Ubuholi",
         "para": {
-            "1": "Ukuthola ubuHoli kuhlola izimiso uJesu azifundisa abaholi bakhe - ukuhlakanipha okuye kwakha ubuholi obunenhliziyo yenceku ezizukulwaneni ngezizukulwane. Abaningi baye babhekana noshintsho ngokuthembela kuJesu ukuze abasize bahole ngenjongo nangobuqotho. Ingabe lokhu kungabubumba nobuholi bakho?",
+            "1": "Ukuthola ubuHoli kuhlola izimiso uJesu azifundisa abaholi bakhe - ukuhlakanipha okuye kwakha ubuholi obunenhliziyo yenceku ezizukulwaneni ngezizukulwane. Abaningi baye babhekana noshintsho ngokuthembela kuJesu ukuze abasize bahole ngenjongo nangobuqotho. Ingabe lokhu kungabulolonga ubuholi bakho nawe?",
+            "2": "Qoqa abangani bakho futhi ubone ukuthi yini oyitholayo njengoba uxoxa ngale mibuzo elandelayo.",
+            "3": "Khetha ulimi lwakho oluthandayo ngokuchofoza imbulunga yomhlaba ngenhla."
+        }
+    },
+    "video": {
+        "question": {
+            "1": "Kukutshelani lokhu ngoJesu?",
+            "2": "Kukutshelani lokhu ngoNkulunkulu?",
+            "3": "Kukutshelani lokhu ngabantu?",
+            "4": "Uma lokhu kuyiqiniso, imuphi umehluko obungawenza empilweni yakho?",
+            "5": "Obani abantu abahlanu ongabelana nabo ngezinto ozitholile?"
+        }
+    },
+    "follow": {
+        "title": "Emlandela",
+        "para": {
+            "1": "Kusho ukuthini ukulandela iNkosi uJesu? Incwadi Yakhe Engcwele iqala ngesikhathi ngaphambi kokuba kube khona abantu.",
             "2": "Qoqa abangani bakho futhi ubone ukuthi yini oyitholayo njengoba uxoxa ngale mibuzo elandelayo.",
             "3": "Khetha ulimi lwakho oluthandayo ngokuchofoza imbulunga yomhlaba ngenhla."
         }

@@ -1,7 +1,7 @@
 {
     "language": {
         "EnglishName": "Hungarian",
-        "hlCode": "hng00",
+        "HLcode": "hng00",
         "google": "hu"
     },
     "menu": {
@@ -14,38 +14,56 @@
     },
     "index": {
         "para": {
-            "1": "A spirituális növekedés nem egyéni utazás – közösségben történik. Mindannyiunknak szüksége van bölcsességre, amelyben megbízhatunk, és olyan emberekre, akik bátorítanak minket az utunk során. Az alábbi leckék segítenek felfedezni, hogy Isten bölcsessége hogyan alakítja az életet, hogyan épít ki őszinte kapcsolatokat, és hogyan nyilatkoztatja ki irántad való szeretetét és törődését.",
-            "2": "Gyűjtsd össze barátaidat és kezdd el felfedezni! Kattints az alábbi képekre az utazás megkezdéséhez – nem csupán a bölcsesség felfedezésére, hanem az Istennel való kapcsolatra és az általa meghívott spirituális közösségre."
+            "1": "Ahhoz, hogy valódi előrelépést érjünk el spirituális életünkben, tudjuk, hogy szükségünk van egy gurura – valakire, aki utat mutat, kihív, kijavít, irányít és segít.",
+            "2": "Szeretnénk meghívni benneteket, hogy fontoljátok meg, hogy az Úr Jézus legyen a gurutok. Az Úr Jézus sok embert meggyógyított. Soha nem hazudott és nem bántott meg senkit. Alázatos volt. Soha nem házasodott meg. Egyszerű életet élt, és soha nem használta hatalmát gazdagság megszerzésére."
         }
     },
     "dbs": {
-        "title": "A spirituális közösség felfedezése",
+        "title": "Szent Könyve",
         "para": {
-            "1": "A Spirituális Közösség felfedezése egy történelmi utazásra visz, feltárva, hogyan kapcsolódnak az emberek Istenhez a kezdetektől – kihívásokon, kérdéseken és életet megváltoztató pillanatokon keresztül. Ha kíváncsi a hitre, a célokra és arra, hogy mit jelent az összetartozás, ez a sorozat remek kiindulópont.",
-            "2": "Gyűjtsd össze barátaidat, és olvasd el, hogyan készítette fel Isten az embereket Jézus érkezésére és az általa indított lelki közösségre.",
-            "3": "Válassza ki kedvenc nyelvét a fenti világgömbre kattintva."
+            "1": "Szent Könyve a nép létezése előtti idővel kezdődik. Ezután azt a történetet meséli el, hogy az első két ember hogyan érintkezett Istennel.",
+            "2": "Olvassa el, hogyan készítette fel Isten az embereket az Úr Jézus érkezésére.",
+            "3": "Gyűjtsd össze barátaidat, és olvasd el, hogyan készítette fel Isten az embereket Jézus érkezésére és az általa indított lelki közösségre.",
+            "4": "Válassza ki kedvenc nyelvét a fenti világgömbre kattintva."
         }
     },
     "life": {
-        "title": "Életproblémák",
+        "title": "Tanításai",
         "para": {
-            "1": "A Life Issues Jézus és korai követői gyakorlati tanításait tárja fel – ez a bölcsesség évszázadokon át megváltoztatta az életeket. Sokan megtapasztalták az átalakulást, amikor meghívták Jézust, hogy segítsen nekik megélni ezeket az igazságokat. Ez rád is igaz lehet?",
-            "2": "Gyűjtsd össze barátaidat, és nézd meg, mit fedezel fel, miközben megbeszéled a következő kérdéseket.",
+            "1": "Ez néhány dolog, amit az Úr Jézus és korai követői tanítottak.",
+            "2": "Sok ember látta, hogy megváltozott az életük, amikor arra kérték az Úr Jézust, hogy adjon nekik hatalmat e tanítások megvalósításához.",
             "3": "Gyűjtsd össze barátaidat, és nézd meg, mit fedezel fel, miközben megbeszéled a következő kérdéseket.",
             "4": "Válassza ki kedvenc nyelvét a fenti világgömbre kattintva."
         }
     },
     "jVideo": {
-        "title": "Jézus élete",
+        "title": "Élete",
         "para": {
-            "1": "Jézus szavai és tettei alakították a történelmet, és olyan bölcsességet kínálnak, amely elkülönül egymástól. A videó megtekintése közben tedd fel magadnak a kérdést: Mit tanított Jézus? Miben hasonlít az ő bölcsessége ahhoz, amit mások mondtak – és mit jelenthet ez számodra?",
-            "2": "Ez a videó számos nyelven elérhető. A nyelv megváltoztatásához kattintson a fenti világgömbre."
+            "1": "Miközben nézed a videót, tedd fel magadnak a kérdést: \"Milyen ez a guru, és érdemes-e követni?\"",
+            "2": "Ez a videó számos nyelven elérhető. A nyelv megváltoztatásához kattintson a fenti világgömbre.",
+            "3": "Gyűjtsd össze barátaidat, és nézd meg, mit fedezel fel, miközben megbeszéled a következő kérdéseket."
         }
     },
     "lead": {
-        "title": "A vezetés felfedezése",
         "para": {
-            "1": "A vezetés felfedezése azokat az alapelveket tárja fel, amelyeket Jézus tanított a vezetőinek – ez a bölcsesség generációk óta formálta a szolgaszívű vezetést. Sokan megtapasztalták az átalakulást azáltal, hogy Jézusra támaszkodtak, hogy segítsen nekik céltudatos és feddhetetlen vezetésben. Ez alakíthatja az Ön vezetői szerepét is?",
+            "1": "A vezetés felfedezése azokat az alapelveket tárja fel, amelyeket Jézus tanított a vezetőinek – ez a bölcsesség generációk óta formálta a szolgaszívű vezetést. Sokan megtapasztalták az átalakulást azáltal, hogy Jézusra hagyatkoztak, hogy segítsen nekik céltudatos és feddhetetlen vezetésben. Ez alakíthatja az Ön vezetői szerepét is?",
+            "2": "Gyűjtsd össze barátaidat, és nézd meg, mit fedezel fel, miközben megbeszéled a következő kérdéseket.",
+            "3": "Válassza ki kedvenc nyelvét a fenti világgömbre kattintva."
+        }
+    },
+    "video": {
+        "question": {
+            "1": "Mit mond ez neked Jézusról?",
+            "2": "Mit mond ez neked Istenről?",
+            "3": "Mit árul el ez az emberekről?",
+            "4": "Ha ez igaz, milyen változást jelentene az életedben?",
+            "5": "Ki az az öt ember, akivel megoszthatja felfedezéseit?"
+        }
+    },
+    "follow": {
+        "title": "Őt követve",
+        "para": {
+            "1": "Mit jelent az Úr Jézust követni? Szent Könyve a nép létezése előtti idővel kezdődik.",
             "2": "Gyűjtsd össze barátaidat, és nézd meg, mit fedezel fel, miközben megbeszéled a következő kérdéseket.",
             "3": "Válassza ki kedvenc nyelvét a fenti világgömbre kattintva."
         }

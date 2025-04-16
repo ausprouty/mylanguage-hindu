@@ -1,7 +1,7 @@
 {
     "language": {
         "EnglishName": "Somali",
-        "hlCode": "som00",
+        "HLcode": "som00",
         "google": "so"
     },
     "menu": {
@@ -9,44 +9,62 @@
         "nextVideo": "Muqaalka Xiga",
         "previous": "Hore",
         "select": "Dooro",
-        "videoSegment": "Qaybta Video",
+        "videoSegment": "Qaybta Muuqaalka",
         "language": "Dooro Luuqad"
     },
     "index": {
         "para": {
-            "1": "Kobaca ruuxiga ahi maaha safar kali ah - waxay ku dhacdaa bulshada dhexdeeda. Dhammaanteen waxaan u baahanahay caqli aan ku kalsoonaan karno iyo dad nagu dhiirigeliya jidka. Casharrada hoose waxay kaa caawin doonaan inaad ogaato sida xigmadda Ilaahay u qaabayso nolosha, u dhisto xidhiidho dhab ah, oo uu muujiyo jacaylkiisa iyo daryeelkiisa.",
-            "2": "Soo ururi asxaabtaada oo bilow sahaminta! Guji sawirada hoose si aad u bilawdo safarkaaga - inaadan ogaanin xigmadda oo keliya, laakiin xidhiidhka Ilaah iyo bulshada ruuxiga ah ee uu kugu martiqaado."
+            "1": "Si aan horumar dhab ah ugu samayno nolosheenna ruuxiga ah waxaan ognahay inaan u baahanahay guru -- qof jidka na tusa, si uu u tartamo, u saxo, hagayo oo na caawiyo.",
+            "2": "Waxaan jeclaan lahayn inaan kugu martiqaadno inaad tixgeliso in Rabbi Ciise uu noqdo Gurugaaga. Rabbi Ciise dad badan buu bogsiiyey. Waligii been uma sheegin cidna ma uu yeelin. Wuxuu ahaa is-hoosaysiin. Waligiis ma guursan. Wuxuu ku noolaa nolol fudud, waligiisna awooddiisa uma isticmaalin inuu hanti ku helo."
         }
     },
     "dbs": {
-        "title": "Helitaanka Bulshada Ruuxa",
+        "title": "Kitaabkiisa Quduuska ah",
         "para": {
-            "1": "Helitaanka Bulshada Ruuxa waxay ku geynaysaa safar taariikhda, sahaminta sida dadku Ilaah ula xidhiidheen bilowgii hore—iyaga oo u maraya caqabado, su'aalo, iyo waqtiyo nolosha beddela. Haddii aad xiisaynayso rumaysadka, ujeedada, iyo waxa ay ka dhigan tahay ka mid noqoshada, taxanahani waa meel fiican oo laga bilaabo.",
-            "2": "Soo ururi asxaabtaada oo akhri sida uu Ilaahay dadka ugu diyaariyey imaatinka Ciise iyo bulshada ruuxiga ah ee uu bilaabay.",
-            "3": "Dooro luqadda aad jeceshahay adiga oo gujinaya adduunka kore."
+            "1": "Kitaabkiisa Quduuska ah wuxuu ka bilaabmayaa waagii ka hor intaanay jirin dad. Kadibna waxay ka sheekaynaysaa sidii ay labadii qof ee hore ula falgaleen Ilaah.",
+            "2": "Bal akhri sida Eebbe dadka ugu diyaariyey imaatinka Rabbi Ciise.",
+            "3": "Soo ururi asxaabtaada oo akhri sida uu Ilaahay dadka ugu diyaariyey imaatinka Ciise iyo bulshada ruuxiga ah ee uu bilaabay.",
+            "4": "Dooro luqadda aad jeceshahay adiga oo gujinaya adduunka kore."
         }
     },
     "life": {
-        "title": "Arimaha Nolosha",
+        "title": "Waxbarashadiisa",
         "para": {
-            "1": "Arrimaha Noloshu waxay sahamiyaan waxbarista dhabta ah ee Ciise iyo xertiisii ​​hore - xikmado beddelay nolosha qarniyo. Kuwo badan ayaa la kulmay isbeddel markay Ciise ku martiqaadeen inuu ka caawiyo inay ku noolaadaan runtan. Middaani adigana run ma noqon kartaa?",
-            "2": "Soo ururi asxaabtaada oo arag waxaad ogaatid markaad ka hadlayso su'aalahan soo socda.",
-            "3": "Soo ururi asxaabtaada oo arag waxaad ogaatid markaad ka hadlayso su'aalahan soo socda.",
+            "1": "Kuwani waa qaar ka mid ah waxyaalihii Rabbi Ciise iyo xertiisii ​​hore ay bareen.",
+            "2": "Dad badan ayaa arkay noloshoodii oo is beddeshay markay Sayid Ciise waydiisteen inuu siiyo awood ay wax baritaannadan ku dhaqmaan.",
+            "3": "Soo ururi asxaabtaada oo arag waxa aad ogaato markaad ka hadlayso su'aalahan soo socda.",
             "4": "Dooro luqadda aad jeceshahay adiga oo gujinaya adduunka kore."
         }
     },
     "jVideo": {
-        "title": "Nolosha Ciise",
+        "title": "Noloshiisa",
         "para": {
-            "1": "Erayada Ciise iyo ficilladiisu waxay qaabeeyeen taariikhda, iyagoo bixinaya xigmad gooni ah. Markaad daawato muuqaalkan, is weydii: Muxuu Ciise baray? Sidee bay xikmaddiisu u barbar dhigaysaa waxay dadka kale yidhaahdeen - maxayse adiga kugu tahay?",
-            "2": "Muuqaalkan waxa lagu heli karaa luqado badan. Si aad u bedesho luqadda dhagsii adduunka kore."
+            "1": "Markaad daawato muuqaalka, is weydii \"Waa maxay guru kan oo kale miyuu mudan yahay inuu raaco?\"",
+            "2": "Muuqaalkan waxa lagu heli karaa luqado badan. Si aad u bedesho luqadda dhagsii adduunka kore.",
+            "3": "Soo ururi asxaabtaada oo arag waxa aad ogaato markaad ka hadlayso su'aalahan soo socda."
         }
     },
     "lead": {
-        "title": "Helitaanka Hogaaminta",
         "para": {
             "1": "Helitaanka Hogaamintu waxay sahamisaa mabaadi'da Ciise baray hogaamiyaashiisa - xikmada qaabaysay hogaaminta qalbi adeegaha ilaa ab ka ab. Kuwo badan ayaa la kulmay isbeddelka iyagoo ku tiirsan Ciise si uu uga caawiyo inay ku hoggaamiyaan ujeeddo iyo daacadnimo. Tani ma qaabayn kartaa sidoo kale hogaamintaada?",
-            "2": "Soo ururi asxaabtaada oo arag waxaad ogaatid markaad ka hadlayso su'aalahan soo socda.",
+            "2": "Soo ururi asxaabtaada oo arag waxa aad ogaato markaad ka hadlayso su'aalahan soo socda.",
+            "3": "Dooro luqadda aad jeceshahay adiga oo gujinaya adduunka kore."
+        }
+    },
+    "video": {
+        "question": {
+            "1": "Maxay tani kaaga sheegaysaa Ciise?",
+            "2": "Tani maxay kaaga sheegaysaa Ilaah?",
+            "3": "Maxay tani kaaga sheegaysaa dadka?",
+            "4": "Hadday tani run tahay, maxay faraqa u samaynaysaa noloshaada?",
+            "5": "Waa kuwee shan qof oo aad la wadaagi karto sahankaaga?"
+        }
+    },
+    "follow": {
+        "title": "Isaga oo raacaya",
+        "para": {
+            "1": "Maxay ka dhigan tahay in la raaco Rabbi Ciise? Kitaabkiisa Quduuska ah wuxuu ka bilaabmayaa waagii ka hor intaanay jirin dad.",
+            "2": "Soo ururi asxaabtaada oo arag waxa aad ogaato markaad ka hadlayso su'aalahan soo socda.",
             "3": "Dooro luqadda aad jeceshahay adiga oo gujinaya adduunka kore."
         }
     }

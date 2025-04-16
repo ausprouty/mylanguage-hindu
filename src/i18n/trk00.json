@@ -1,7 +1,7 @@
 {
     "language": {
         "EnglishName": "Turkish",
-        "hlCode": "trk00",
+        "HLcode": "trk00",
         "google": "tr"
     },
     "menu": {
@@ -14,38 +14,56 @@
     },
     "index": {
         "para": {
-            "1": "Ruhsal gelişim tek başına yapılan bir yolculuk değildir; topluluk içinde gerçekleşir. Hepimizin güvenebileceğimiz bilgeliğe ve bu yolda bizi cesaretlendiren insanlara ihtiyacı var. Aşağıdaki dersler, Tanrı'nın bilgeliğinin yaşamları nasıl şekillendirdiğini, gerçek ilişkiler kurduğunu ve O'nun size olan sevgisini ve ilgisini nasıl ortaya çıkardığını keşfetmenize yardımcı olacaktır.",
-            "2": "Arkadaşlarınızı toplayın ve keşfetmeye başlayın! Yolculuğunuza başlamak için aşağıdaki resimlere tıklayın; yalnızca bilgeliği değil, aynı zamanda Tanrı ve O'nun sizi davet ettiği manevi toplulukla olan ilişkiyi de keşfedebilirsiniz."
+            "1": "Manevi yaşamımızda gerçek bir ilerleme kaydedebilmek için bir guruya ihtiyacımız olduğunu biliyoruz; bize yol gösterecek, meydan okuyacak, düzeltecek, rehberlik edecek ve yardım edecek birine.",
+            "2": "Sizi, Gurunuz olarak Rab İsa'ya sahip olmayı düşünmeye davet etmek istiyoruz. Rab İsa birçok insanı iyileştirdi. Hiçbir zaman yalan söylemedi, kimseye zarar vermedi. Alçakgönüllüydü. Hiç evlenmedi. Basit bir hayat yaşadı ve gücünü asla zenginlik elde etmek için kullanmadı."
         }
     },
     "dbs": {
-        "title": "Manevi Topluluğu Keşfetmek",
+        "title": "Onun Kutsal Kitabı",
         "para": {
-            "1": "Spiritüel Topluluğu Keşfetmek sizi tarih boyunca bir yolculuğa çıkarıyor; insanların en başından beri zorluklar, sorular ve yaşamı değiştiren anlarla Tanrı ile nasıl bağlantı kurduğunu keşfediyor. İnanç, amaç ve ait olmanın ne demek olduğunu merak ediyorsanız bu dizi harika bir başlangıç ​​olabilir.",
-            "2": "Arkadaşlarınızı toplayın ve Tanrı'nın insanları İsa'nın gelişine ve onun başlattığı ruhani topluluğa nasıl hazırladığını okuyun.",
-            "3": "Yukarıdaki dünya küresine tıklayarak favori dilinizi seçin."
+            "1": "Onun Kutsal Kitabı, insanların var olmadığı dönemden başlar. Daha sonra ilk iki insanın Tanrı ile nasıl etkileşime girdiğinin öyküsü anlatılır.",
+            "2": "Tanrı'nın insanları Rab İsa'nın gelişine nasıl hazırladığını okuyun.",
+            "3": "Arkadaşlarınızı toplayın ve Tanrı'nın insanları İsa'nın gelişine ve onun başlattığı ruhani topluluğa nasıl hazırladığını okuyun.",
+            "4": "Yukarıdaki dünya küresine tıklayarak favori dilinizi seçin."
         }
     },
     "life": {
-        "title": "Yaşam Sorunları",
+        "title": "Öğretileri",
         "para": {
-            "1": "Life Issues, İsa'nın ve onun ilk takipçilerinin pratik öğretilerini, yani yüzyıllardır hayatları değiştiren bilgeliği araştırıyor. Birçoğu İsa'yı bu gerçekleri yaşamalarına yardım etmeye davet ederek dönüşüm yaşadı. Bu sizin için de geçerli olabilir mi?",
-            "2": "Arkadaşlarınızı toplayın ve aşağıdaki soruları tartışırken neler keşfettiğinizi görün.",
+            "1": "Bunlar Rab İsa ve onun ilk takipçilerinin öğrettiği şeylerden bazılarıdır.",
+            "2": "Birçok insan, Rab İsa'dan bu öğretileri eyleme geçirme gücünü kendilerine vermesini isterken hayatlarının değiştiğini gördü.",
             "3": "Arkadaşlarınızı toplayın ve aşağıdaki soruları tartışırken neler keşfettiğinizi görün.",
             "4": "Yukarıdaki dünya küresine tıklayarak favori dilinizi seçin."
         }
     },
     "jVideo": {
-        "title": "İsa'nın Hayatı",
+        "title": "Hayatı",
         "para": {
-            "1": "İsa'nın sözleri ve eylemleri, farklı bir bilgelik sunarak tarihi şekillendirdi. Bu videoyu izlerken kendinize şunu sorun: İsa ne öğretti? Onun bilgeliği başkalarının söyledikleriyle kıyaslandığında nasıldır ve bu sizin için ne anlama gelebilir?",
-            "2": "Bu video birçok dilde mevcuttur. Dili değiştirmek için yukarıdaki dünya küresine tıklayın."
+            "1": "Videoyu izlerken kendinize \"Bu guru nasıl biri ve takip etmeye değer mi?\" diye sorun.",
+            "2": "Bu video birçok dilde mevcuttur. Dili değiştirmek için yukarıdaki dünya küresine tıklayın.",
+            "3": "Arkadaşlarınızı toplayın ve aşağıdaki soruları tartışırken neler keşfettiğinizi görün."
         }
     },
     "lead": {
-        "title": "Liderliği Keşfetmek",
         "para": {
             "1": "Liderliği Keşfetmek, İsa'nın liderlerine öğrettiği ilkeleri, yani nesiller boyu hizmetkar yürekli liderliği şekillendiren bilgeliği araştırıyor. Birçoğu, amaç ve dürüstlükle liderlik etmelerine yardım etmesi için İsa'ya güvenerek dönüşümü deneyimledi. Bu sizin liderliğinizi de şekillendirebilir mi?",
+            "2": "Arkadaşlarınızı toplayın ve aşağıdaki soruları tartışırken neler keşfettiğinizi görün.",
+            "3": "Yukarıdaki dünya küresine tıklayarak favori dilinizi seçin."
+        }
+    },
+    "video": {
+        "question": {
+            "1": "Bu size İsa hakkında ne anlatıyor?",
+            "2": "Bu sana Tanrı hakkında ne anlatıyor?",
+            "3": "Bu size insanlar hakkında ne anlatıyor?",
+            "4": "Eğer bu doğruysa hayatınızda ne gibi bir değişiklik olur?",
+            "5": "Keşiflerinizi paylaşabileceğiniz beş kişi kim?"
+        }
+    },
+    "follow": {
+        "title": "Onu takip etmek",
+        "para": {
+            "1": "Rab İsa’yı takip etmek ne anlama gelir? Onun Kutsal Kitabı, insanların var olmadığı dönemden başlar.",
             "2": "Arkadaşlarınızı toplayın ve aşağıdaki soruları tartışırken neler keşfettiğinizi görün.",
             "3": "Yukarıdaki dünya küresine tıklayarak favori dilinizi seçin."
         }

@@ -1,7 +1,7 @@
 {
     "language": {
         "EnglishName": "Sesotho",
-        "hlCode": "sot01",
+        "HLcode": "sot01",
         "google": "st"
     },
     "menu": {
@@ -14,38 +14,56 @@
     },
     "index": {
         "para": {
-            "1": "Khōlo ea moea ha se leeto la motho a le mong - e etsahala sechabeng. Kaofela re hloka bohlale boo re ka bo tšepang le batho ba re khothatsang ha re le tseleng. Lithuto tse ka tlase li tla u thusa ho fumana kamoo bohlale ba Molimo bo bōpang bophelo, bo ahang likamano tsa 'nete, le ho senola lerato le tlhokomelo ea Hae ho uena.",
-            "2": "Bokella metsoalle ea hau 'me u qale ho hlahloba! Tobetsa litšoantšong tse ka tlase ho qala leeto la hau - ho fumana eseng bohlale feela, empa kamano le Molimo le sechaba sa moea seo A u memelang ho sona."
+            "1": "E le hore re hatele pele bophelong ba rona ba semoea rea ​​tseba hore re hloka tichere - motho ea ka re bonts'ang tsela, ho phephetsa, ho lokisa, ho re tataisa le ho re thusa.",
+            "2": "Re rata ho u mema hore u nahane ka ho ba le Morena Jesu e le Guru ea hau. Morena Jesu o ile a fodisa batho ba bangata. Ha ho mohla a kileng a bua leshano kapa a utloisa mang kapa mang bohloko. O ne a ikokobelitse. Ha ho mohla a kileng a nyala. O ne a phela bophelo bo bonolo ’me ha ho mohla a kileng a sebelisa matla a hae ho rua."
         }
     },
     "dbs": {
-        "title": "Ho Fumana Sechaba sa Moea",
+        "title": "Buka ya Hae e Halalelang",
         "para": {
-            "1": "Ho fumana Sechaba sa Semoea ho u nka leetong ho pholletsa le nalane, ho lekola ka moo batho ba hokahaneng le Molimo ho tloha qalong-ka liqholotso, lipotso, le linako tse fetolang bophelo. Haeba u labalabela ho tseba ka tumelo, morero, le hore na ho bolela'ng ho ba karolo, letoto lena ke sebaka se setle sa ho qala.",
-            "2": "Bokella metsoalle ea hau 'me u bale kamoo Molimo a ileng a lokisetsa batho ho fihla ha Jesu le sechaba sa moea seo a se qalileng.",
-            "3": "Khetha puo eo u e ratang ka ho tobetsa lefats'e ka holimo."
+            "1": "Buka ea Hae e Halalelang e qala ka nako pele ho ba le batho. Joale e bua pale ea kamoo batho ba babeli ba pele ba ileng ba sebelisana le Molimo kateng.",
+            "2": "Bala kamoo Molimo a ileng a lokisetsa batho ho tla ha Morena Jesu.",
+            "3": "Bokella metsoalle ea hau 'me u bale kamoo Molimo a ileng a lokisetsa batho ho fihla ha Jesu le sechaba sa moea seo a se qalileng.",
+            "4": "Khetha puo eo u e ratang ka ho tobetsa lefats'e ka holimo."
         }
     },
     "life": {
-        "title": "Mathata a Bophelo",
+        "title": "Lithuto Tsa Hae",
         "para": {
-            "1": "Mathata a Bophelo a hlahloba lithuto tse sebetsang tsa Jesu le balateli ba hae ba pele—bohlale bo fetotseng bophelo ka makholo a lilemo. Ba bangata ba bone phetoho eo ka ho mema Jesu hore a ba thuse ho phela tumellanong le linnete tsena. Na see e ka ba ’nete le ho uena?",
-            "2": "Bokella metsoalle ea hau 'me u bone seo u se fumanang ha le ntse le tšohla lipotso tse latelang.",
+            "1": "Tsena ke tse ling tsa lintho tseo Morena Jesu le balateli ba hae ba pele ba ileng ba li ruta.",
+            "2": "Batho ba bangata ba bone bophelo ba bona bo fetohile ha ba kopa Morena Jesu hore a ba fe matla a ho sebelisa lithuto tsena.",
             "3": "Bokella metsoalle ea hau 'me u bone seo u se fumanang ha le ntse le tšohla lipotso tse latelang.",
             "4": "Khetha puo eo u e ratang ka ho tobetsa lefats'e ka holimo."
         }
     },
     "jVideo": {
-        "title": "Bophelo ba Jesu",
+        "title": "Bophelo ba Hae",
         "para": {
-            "1": "Mantsoe a Jesu le liketso tsa hae li thehile histori, li fana ka bohlale bo ikhethang. Ha u ntse u shebella video ena, ipotse: Jesu o ile a ruta eng? Bohlale ba hae bo bapisoa joang le seo ba bang ba se buileng—’me bo ka bolela’ng ho uena?",
-            "2": "Video ena e fumaneha ka lipuo tse ngata. Ho fetola puo, tobetsa lefatše ka holimo."
+            "1": "Ha u ntse u shebella video, ipotse \"Guru ee e joang 'me e lokela ho latela?\"",
+            "2": "Video ena e fumaneha ka lipuo tse ngata. Ho fetola puo, tobetsa lefatše ka holimo.",
+            "3": "Bokella metsoalle ea hau 'me u bone seo u se fumanang ha le ntse le tšohla lipotso tse latelang."
         }
     },
     "lead": {
-        "title": "Ho sibolla Boetapele",
         "para": {
             "1": "Ho sibolla Boetapele ho hlahloba melao-motheo eo Jesu a e rutileng baetapele ba hae—bohlale bo ’nileng ba bōpa boetapele ba lipelo tsa bahlanka ka meloko. Ba bangata ba bone phetoho ka ho itšetleha ka Jesu hore a ba thuse ho etella pele ka morero le ka botšepehi. Na see se ka ama boetapele ba hau le bona?",
+            "2": "Bokella metsoalle ea hau 'me u bone seo u se fumanang ha le ntse le tšohla lipotso tse latelang.",
+            "3": "Khetha puo eo u e ratang ka ho tobetsa lefats'e ka holimo."
+        }
+    },
+    "video": {
+        "question": {
+            "1": "See se u bolella eng ka Jesu?",
+            "2": "See se u bolella eng ka Molimo?",
+            "3": "See se u bolella eng ka batho?",
+            "4": "Haeba sena ke 'nete, se ka etsa phapang efe bophelong ba hau?",
+            "5": "Ke bo-mang ba bahlano bao u ka arolelanang lintho tseo u li sibolotseng?"
+        }
+    },
+    "follow": {
+        "title": "Ho Mo latela",
+        "para": {
+            "1": "Ho bolela’ng ho latela Morena Jesu? Buka ea Hae e Halalelang e qala ka nako pele ho ba le batho.",
             "2": "Bokella metsoalle ea hau 'me u bone seo u se fumanang ha le ntse le tšohla lipotso tse latelang.",
             "3": "Khetha puo eo u e ratang ka ho tobetsa lefats'e ka holimo."
         }
