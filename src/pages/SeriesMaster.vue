@@ -1,4 +1,5 @@
 <template>
+  <q-layout>
   <q-page padding>
     <h2>{{ t(`${currentStudy}.title`) }}</h2>
     <p>{{ t(`${currentStudy}.para.1`) }}</p>
@@ -30,6 +31,7 @@
       :commonContent="commonContent"
     />
   </q-page>
+</q-layout>
 </template>
 
 <script setup>

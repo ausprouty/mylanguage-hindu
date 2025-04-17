@@ -35,8 +35,13 @@ const routes = [
         component: () => import("pages/BirthOfGuru.vue"),
       },
       {
-        name: "HisLife",
-        path: "/video/:lessonLink?/:languageCode?",
+        name: "JesusVideo",
+        path: "/jvideo/:lesson?/:languageCodeHL?/:languageCodeJF?",
+        component: () => import("src/pages/JesusVideo.vue"),
+      },
+      {
+        name: "HisLifex",
+        path: "/videoX/:lessonLink?/:languageCode?",
         component: () => import("src/pages/HisLife.vue"),
       },
 

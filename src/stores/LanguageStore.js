@@ -63,7 +63,7 @@ export const useLanguageStore = defineStore("languageStore", {
       }
       return state.jVideoSegments.currentId
     },
-    getJVideoSegments: (state) => {
+    getJVideoSegmentsX: (state) => {
       if (state.jVideoSegments == null || typeof state.jVideoSegments == 'undefined'){
         var local = localStorage.getItem("jVideoSegments");
         if (local  && local != 'undefined'){

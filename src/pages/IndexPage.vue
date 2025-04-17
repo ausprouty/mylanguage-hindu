@@ -20,7 +20,7 @@
       </td>
     </tr>
     <tr class = "full-width">
-      <td class="side-by-side" @click="handleImageClick('/video')" clickable v-ripple >
+      <td class="side-by-side" @click="handleImageClick('/jvideo')" clickable v-ripple >
         <img  class="menu_picture" src="menu/life.png">
       </td>
       <td class="side-by-side" @click="handleImageClick('/series/life')" clickable v-ripple >

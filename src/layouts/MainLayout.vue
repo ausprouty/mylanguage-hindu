@@ -2,7 +2,14 @@
   <q-layout view="lHh lpr lFf" class="max-width">
     <q-header elevated>
       <q-toolbar class="toolbar-width">
-        <q-btn flat dense round icon="menu" aria-label="Menu" to="/index" />
+        <q-btn
+          flat
+          dense
+          round
+          icon="menu"
+          aria-label="Menu"
+          to="/index"
+        />
 
         <q-toolbar-title>
           <router-link to="/index" exact class="toolbar-title">
@@ -11,34 +18,43 @@
         </q-toolbar-title>
 
         <ShareLink />
+
         <q-btn
           flat
           dense
           round
           icon="language"
-          aria-label="Button on top right"
+          aria-label="Language selector"
           @click="toggleRightDrawer"
         />
       </q-toolbar>
     </q-header>
-    <q-drawer v-model="rightDrawerOpen" side="right" show-if-above bordered>
+
+    <q-drawer
+      v-model="rightDrawerOpen"
+      side="right"
+      show-if-above
+      bordered
+    >
       <HinduLanguages />
     </q-drawer>
 
     <q-page-container class="set_size">
       <router-view />
-      <footer class="footer">Copyright 2023 Power to Change</footer>
+      <footer class="footer">
+        Copyright 2023 Power to Change
+      </footer>
     </q-page-container>
   </q-layout>
 </template>
 
 <script>
-import { defineComponent, ref } from "vue";
-import HinduLanguages from "components/HinduLanguages.vue";
-import ShareLink from "components/ShareLink.vue";
+import { defineComponent, ref } from 'vue';
+import HinduLanguages from 'components/HinduLanguages.vue';
+import ShareLink from 'components/ShareLink.vue';
 
 export default defineComponent({
-  name: "MainLayout",
+  name: 'MainLayout',
   components: {
     HinduLanguages,
     ShareLink,
@@ -46,21 +62,25 @@ export default defineComponent({
   setup() {
     const rightDrawerOpen = ref(false);
 
+    function toggleRightDrawer() {
+      rightDrawerOpen.value = !rightDrawerOpen.value;
+    }
+
     return {
       rightDrawerOpen,
-      toggleRightDrawer() {
-        rightDrawerOpen.value = !rightDrawerOpen.value;
-      },
+      toggleRightDrawer,
     };
   },
 });
 </script>
+
 <style>
 .toolbar-title {
   color: white;
   text-decoration: none;
   font-size: 1.5em;
 }
+
 .footer {
   background-color: darkgrey;
   color: white;
@@ -70,9 +90,7 @@ export default defineComponent({
   max-width: 600px;
   margin: 0 auto;
 }
-h2 {
-  font-size: 2rem;
-}
+
 .q-toolbar__title {
   font-size: 16px;
 }
@@ -82,6 +100,7 @@ h2 {
   max-width: 600px;
   margin: 0 auto;
 }
+
 .toolbar-width,
 .max-width {
   width: 100%;
