@@ -54,10 +54,10 @@
     },
     "video": {
         "question": {
-            "1": "What does this tell you about Jesus?",
-            "2": "What does this tell you about God?",
-            "3": "What does this tell you about people?",
-            "4": "If this is true, what difference would it make in your life?",
+            "1": "What does this video tell you about Jesus?",
+            "2": "What does this video tell you about God?",
+            "3": "What does this video tell you about people?",
+            "4": "If this video is true, what difference would it make in your life?",
             "5": "Who are five people you can share your discoveries with?"
         }
     },

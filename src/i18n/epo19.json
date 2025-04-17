@@ -21,7 +21,7 @@
     "dbs": {
         "title": "Lia Sankta Libro",
         "para": {
-            "1": "Lia Sankta Libro komenciĝas kun la tempo antaŭ ol ekzistis iuj homoj. Ĝi tiam rakontas la rakonton pri kiel la unuaj du homoj interagis kun Dio.",
+            "1": "Lia Sankta Libro komenciĝas kun la tempo antaŭ ol ekzistis iuj homoj. Ĝi tiam rakontas la rakonton de kiel la unuaj du homoj interagis kun Dio.",
             "2": "Legu kiel Dio preparis homojn por la alveno de Sinjoro Jesuo.",
             "3": "Kunvenigu viajn amikojn kaj legu kiel Dio preparis homojn por la alveno de Jesuo kaj la spirita komunumo, kiun li komencis.",
             "4": "Elektu vian plej ŝatatan lingvon klakante sur la monda globo supre."
@@ -40,7 +40,7 @@
         "title": "Lia Vivo",
         "para": {
             "1": "Dum vi spektas la videon, demandu vin \"Kia estas ĉi tiu guruo kaj ĉu li indas sekvi?\"",
-            "2": "Ĉi tiu video estas disponebla en multaj lingvoj. Por ŝanĝi la lingvon alklaku la mondan globon supre.",
+            "2": "Ĉi tiu video estas havebla en multaj lingvoj. Por ŝanĝi la lingvon alklaku la mondan globon supre.",
             "3": "Kunvenigu viajn amikojn kaj vidu kion vi malkovras dum vi diskutas la sekvajn demandojn."
         }
     },
@@ -54,10 +54,10 @@
     },
     "video": {
         "question": {
-            "1": "Kion ĉi tio diras al vi pri Jesuo?",
-            "2": "Kion ĉi tio diras al vi pri Dio?",
-            "3": "Kion ĉi tio diras al vi pri homoj?",
-            "4": "Se ĉi tio estas vera, kian diferencon ĝi farus en via vivo?",
+            "1": "Kion ĉi tiu video rakontas al vi pri Jesuo?",
+            "2": "Kion ĉi tiu video diras al vi pri Dio?",
+            "3": "Kion ĉi tiu video rakontas al vi pri homoj?",
+            "4": "Se ĉi tiu video estas vera, kian diferencon ĝi farus en via vivo?",
             "5": "Kiuj estas kvin homoj kun kiuj vi povas kunhavigi viajn malkovrojn?"
         }
     },

@@ -39,7 +39,7 @@
     "jVideo": {
         "title": "Sa vie",
         "para": {
-            "1": "Pendant que vous regardez la vidéo, demandez-vous : « Comment est ce gourou et vaut-il la peine de le suivre ? »",
+            "1": "Pendant que vous regardez la vidéo, demandez-vous : « À quoi ressemble ce gourou et vaut-il la peine de le suivre ? »",
             "2": "Cette vidéo est disponible dans de nombreuses langues. Pour changer la langue, cliquez sur le globe terrestre ci-dessus.",
             "3": "Rassemblez vos amis et voyez ce que vous découvrez en discutant des questions suivantes."
         }
@@ -54,10 +54,10 @@
     },
     "video": {
         "question": {
-            "1": "Qu’est-ce que cela vous apprend sur Jésus ?",
-            "2": "Qu’est-ce que cela vous apprend sur Dieu ?",
-            "3": "Qu’est-ce que cela vous dit sur les gens ?",
-            "4": "Si cela est vrai, quelle différence cela ferait-il dans votre vie ?",
+            "1": "Que vous dit cette vidéo sur Jésus ?",
+            "2": "Que vous dit cette vidéo sur Dieu ?",
+            "3": "Que vous dit cette vidéo sur les gens ?",
+            "4": "Si cette vidéo est vraie, quelle différence cela ferait-elle dans votre vie ?",
             "5": "Quelles sont les cinq personnes avec qui vous pouvez partager vos découvertes ?"
         }
     },
@@ -79,7 +79,7 @@
     "birth": {
         "title": "Naissance du gourou",
         "para": {
-            "1": "Il y a environ 2 000 ans, un groupe d’astrologues a vu une étrange nouvelle étoile, ce qui les a amenés à croire qu’un nouveau roi était né en Israël. Ils entreprirent alors un long voyage pour rendre visite à ce roi, lui montrer leur respect et lui offrir des cadeaux.",
+            "1": "Il y a environ 2 000 ans, un groupe d’astrologues a vu une étrange nouvelle étoile, ce qui les a amenés à croire qu’un nouveau roi était né en Israël. Ils entreprirent donc un long voyage pour rendre visite à ce roi, lui montrer leur respect et lui offrir des cadeaux.",
             "2": "Regardez cette vidéo en anglais pour voir ce qu'ils ont découvert."
         }
     }

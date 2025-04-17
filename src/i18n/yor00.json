@@ -30,7 +30,7 @@
     "life": {
         "title": "Awọn ẹkọ Rẹ",
         "para": {
-            "1": "Ehelẹ yin delẹ to nuhe Oklunọ Jesu po hodotọ fliflimẹ tọn etọn lẹ po plọnmẹ lẹ mẹ.",
+            "1": "Iwọnyi jẹ diẹ lara awọn ohun ti Oluwa Jesu ati awọn ọmọlẹhin rẹ̀ ijimiji fi kọni.",
             "2": "Ọ̀pọ̀ èèyàn ló ti rí bí ìgbésí ayé wọn ṣe yí pa dà bí wọ́n ṣe ń bẹ Jésù Olúwa pé kó fún wọn lágbára láti fi àwọn ẹ̀kọ́ wọ̀nyí sílò.",
             "3": "Pe awọn ọrẹ rẹ jọ ki o wo ohun ti o rii bi o ṣe n jiroro awọn ibeere wọnyi.",
             "4": "Yan ede ayanfẹ rẹ nipa tite lori agbaye agbaye loke."
@@ -47,17 +47,17 @@
     "lead": {
         "title": "Asiwaju Awọn miiran",
         "para": {
-            "1": "Aṣáájú Àwọn mìíràn ṣàwárí àwọn ìlànà tí Jésù kọ́ àwọn aṣáájú rẹ̀—ọgbọ́n tí ó ti mú ìṣàkóso ọkàn ìránṣẹ́ dàgbà fún ìrandíran. Ọ̀pọ̀lọpọ̀ ti ní ìrírí ìyípadà nípa gbígbẹ́kẹ̀lé Jésù láti ràn wọ́n lọ́wọ́ láti darí pẹ̀lú ète àti ìwà títọ́. Njẹ eyi le ṣe apẹrẹ olori rẹ paapaa?",
+            "1": "Aṣáájú Àwọn mìíràn ṣàwárí àwọn ìlànà tí Jésù kọ́ àwọn aṣáájú rẹ̀—ọgbọ́n tí ó ti ṣe aṣáájú-ọ̀nà onítara-ọkàn ìránṣẹ́ fún àwọn ìrandíran. Ọ̀pọ̀lọpọ̀ ti ní ìrírí ìyípadà nípa gbígbẹ́kẹ̀lé Jésù láti ràn wọ́n lọ́wọ́ láti darí pẹ̀lú ète àti ìwà títọ́. Njẹ eyi le ṣe apẹrẹ olori rẹ paapaa?",
             "2": "Pe awọn ọrẹ rẹ jọ ki o wo ohun ti o rii bi o ṣe n jiroro awọn ibeere wọnyi.",
             "3": "Yan ede ayanfẹ rẹ nipa tite lori agbaye agbaye loke."
         }
     },
     "video": {
         "question": {
-            "1": "Kí ni èyí sọ fún ọ nípa Jésù?",
-            "2": "Kí ni èyí sọ fún ọ nípa Ọlọ́run?",
-            "3": "Kini eyi sọ fun ọ nipa awọn eniyan?",
-            "4": "Ti eyi ba jẹ otitọ, iyatọ wo ni yoo ṣe ninu igbesi aye rẹ?",
+            "1": "Kí ni fídíò yìí sọ fún ẹ nípa Jésù?",
+            "2": "Kí ni fídíò yìí sọ fún ẹ nípa Ọlọ́run?",
+            "3": "Kini fidio yii sọ fun ọ nipa awọn eniyan?",
+            "4": "Ti fidio yii ba jẹ otitọ, iyatọ wo ni yoo ṣe ninu igbesi aye rẹ?",
             "5": "Tani eniyan marun ti o le pin awọn awari rẹ pẹlu?"
         }
     },

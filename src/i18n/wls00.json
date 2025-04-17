@@ -23,7 +23,7 @@
         "para": {
             "1": "Mae ei Lyfr Sanctaidd yn cychwyn gyda'r amser cyn bod unrhyw bobl. Yna mae'n adrodd hanes sut y gwnaeth y ddau berson cyntaf ryngweithio â Duw.",
             "2": "Darllenwch sut y paratôdd Duw bobl ar gyfer dyfodiad yr Arglwydd Iesu.",
-            "3": "Casglwch eich ffrindiau a darllenwch sut y paratôdd Duw bobl ar gyfer dyfodiad Iesu a’r gymuned ysbrydol a gychwynnodd.",
+            "3": "Casglwch eich ffrindiau a darllenwch sut y gwnaeth Duw baratoi pobl ar gyfer dyfodiad Iesu a’r gymuned ysbrydol a gychwynnodd.",
             "4": "Dewiswch eich hoff iaith trwy glicio ar y glôb byd uchod."
         }
     },
@@ -54,10 +54,10 @@
     },
     "video": {
         "question": {
-            "1": "Beth mae hyn yn ei ddweud wrthych am Iesu?",
-            "2": "Beth mae hyn yn ei ddweud wrthych chi am Dduw?",
-            "3": "Beth mae hyn yn ei ddweud wrthych chi am bobl?",
-            "4": "Os yw hyn yn wir, pa wahaniaeth y byddai'n ei wneud yn eich bywyd?",
+            "1": "Beth mae'r fideo hwn yn ei ddweud wrthych chi am Iesu?",
+            "2": "Beth mae'r fideo hwn yn ei ddweud wrthych chi am Dduw?",
+            "3": "Beth mae'r fideo hwn yn ei ddweud wrthych chi am bobl?",
+            "4": "Os yw'r fideo hwn yn wir, pa wahaniaeth y byddai'n ei wneud yn eich bywyd?",
             "5": "Pwy yw pump o bobl y gallwch chi rannu eich darganfyddiadau gyda nhw?"
         }
     },

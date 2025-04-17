@@ -54,10 +54,10 @@
     },
     "video": {
         "question": {
-            "1": "Izvi zvinokuudzei nezvaJesu?",
-            "2": "Izvi zvinokuudzei nezvaMwari?",
-            "3": "Izvi zvinokuudzei nezvevanhu?",
-            "4": "Kana ichi chiri chokwadi, chingaite musiyano upi muupenyu hwako?",
+            "1": "Vhidhiyo iyi inokuudzei nezvaJesu?",
+            "2": "Vhidhiyo iyi inokuudzei nezvaMwari?",
+            "3": "Vhidhiyo iyi inokuudzei nezvevanhu?",
+            "4": "Kana vhidhiyo iyi iri yechokwadi, ingaite musiyano upi muhupenyu hwako?",
             "5": "Ndivanaani vashanu vaunogona kugovana navo zvawakawana?"
         }
     },
@@ -80,7 +80,7 @@
         "title": "Kuberekwa kwaGuru",
         "para": {
             "1": "Boka revazivi venyeredzi rakaona nyeredzi itsva yechienzi anenge makore 2 000 apfuura iyo yakavaita kuti vafunge kuti mambo mutsva akanga aberekwa muIsraeri. Saka vakatanga rwendo rurefu rwokushanyira mambo uyu, vachimuremekedza uye vachimupa zvipo.",
-            "2": "Tarisa vhidhiyo yeChirungu iyi kuti uone zvavakawana."
+            "2": "Tarisa vhidhiyo iyi yeChirungu kuti uone zvavakawana."
         }
     }
 }

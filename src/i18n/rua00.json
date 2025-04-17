@@ -39,8 +39,8 @@
     "jVideo": {
         "title": "Ubuzima Bwe",
         "para": {
-            "1": "Mugihe ureba videwo, ibaze ubwawe \"Uyu guru ameze ate kandi akwiriye gukurikira?\"",
-            "2": "Iyi videwo iraboneka mu ndimi nyinshi. Guhindura ururimi kanda isi yisi hejuru.",
+            "1": "Mugihe ureba videwo, ibaze uti \"Uyu guru ameze ate kandi akwiriye gukurikira?\"",
+            "2": "Iyi videwo iraboneka mu ndimi nyinshi. Guhindura imvugo kanda isi yisi hejuru.",
             "3": "Kusanya inshuti zawe urebe ibyo wavumbuye mugihe muganira kubibazo bikurikira."
         }
     },
@@ -54,10 +54,10 @@
     },
     "video": {
         "question": {
-            "1": "Ni iki ibi bikubwira kuri Yesu?",
-            "2": "Ibi bikubwira iki kubyerekeye Imana?",
-            "3": "Ibi bikubwira iki kubantu?",
-            "4": "Niba ibi ari ukuri, ni irihe tandukaniro ryagira mubuzima bwawe?",
+            "1": "Iyi videwo ikubwira iki kuri Yesu?",
+            "2": "Iyi videwo ikubwira iki ku Mana?",
+            "3": "Iyi video ikubwira iki kubantu?",
+            "4": "Niba iyi video ari impamo, ni irihe tandukaniro ryagira mubuzima bwawe?",
             "5": "Ninde bantu batanu ushobora gusangira ibyo wavumbuye?"
         }
     },

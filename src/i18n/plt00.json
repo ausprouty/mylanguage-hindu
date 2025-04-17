@@ -14,7 +14,7 @@
     },
     "index": {
         "para": {
-            "1": "Mba hahatonga ny tena fandrosoana eo amin'ny fiainantsika ara-panahy dia fantatsika fa mila mpampianatra isika - olona iray hanoro antsika ny lalana, hanohitra, hanitsy, hitarika ary hanampy antsika.",
+            "1": "Mba handrosoana marina eo amin'ny fiainantsika ara-panahy dia fantatsika fa mila mpampianatra isika -- olona hanoro antsika ny lalana, hanohitra, hanitsy, hitarika ary hanampy antsika.",
             "2": "Manasa anao izahay mba hihevitra ny hanana an'i Jesosy Tompo ho Mpampianatra anao. Nanasitrana olona maro i Jesosy Tompo. Tsy nandainga na nandratra olona mihitsy izy. Nanetry tena izy. Tsy nanambady mihitsy izy. Nanana fiainana tsotra izy ary tsy nampiasa ny heriny mba hahazoana harena."
         }
     },
@@ -24,16 +24,16 @@
             "1": "Ny Bokiny Masina dia manomboka amin'ny fotoana talohan'ny nisian'ny olona. Avy eo dia mitantara ny fomba nifandraisan’ireo olona roa voalohany tamin’Andriamanitra izy io.",
             "2": "Vakio ny fomba nanomanan’Andriamanitra ny olona ho amin’ny fahatongavan’i Jesosy Tompo.",
             "3": "Angony ny namanao ary vakio ny fomba nanomanan’Andriamanitra ny olona ho amin’ny fahatongavan’i Jesosy sy ny fiaraha-monina ara-panahy natombony.",
-            "4": "Safidio ny fiteny tianao indrindra amin'ny fipihana ny tontolon'izao tontolo izao etsy ambony."
+            "4": "Fidio ny fiteny tianao indrindra amin'ny fipihana ny tontolon'izao tontolo izao etsy ambony."
         }
     },
     "life": {
         "title": "Ny fampianarany",
         "para": {
             "1": "Ireo no sasany amin’ireo zavatra nampianarin’i Jesosy Tompo sy ireo mpanara-dia azy voalohany.",
-            "2": "Olona maro no nahita fa niova ny fiainany rehefa nangataka tamin’ny Tompo Jesosy mba hanome azy ireo hery hampiharana ireo fampianarana ireo.",
+            "2": "Olona maro no nahita ny fiovan’ny fiainany rehefa nangataka tamin’ny Tompo Jesosy mba hanome azy ireo hery hampiharana ireo fampianarana ireo.",
             "3": "Angony ny namanao ary jereo ny zavatra hitanao rehefa mifanakalo hevitra momba ireto fanontaniana manaraka ireto ianao.",
-            "4": "Safidio ny fiteny tianao indrindra amin'ny fipihana ny tontolon'izao tontolo izao etsy ambony."
+            "4": "Fidio ny fiteny tianao indrindra amin'ny fipihana ny tontolon'izao tontolo izao etsy ambony."
         }
     },
     "jVideo": {
@@ -49,15 +49,15 @@
         "para": {
             "1": "Ny fitarihana ny hafa dia mandinika ireo fitsipika nampianarin’i Jesosy ireo mpitarika azy — fahendrena izay namolavola ny fitarihana feno fon’ny mpanompo nandritra ny taranaka maro. Maro no niaina fiovana tamin’ny fianteherana tamin’i Jesosy mba hanampy azy ireo hitarika amin’ny tanjona sy ny tsy fivadihana. Mety hamolavola ny fitarihanao koa ve izany?",
             "2": "Angony ny namanao ary jereo ny zavatra hitanao rehefa mifanakalo hevitra momba ireto fanontaniana manaraka ireto ianao.",
-            "3": "Safidio ny fiteny tianao indrindra amin'ny fipihana ny tontolon'izao tontolo izao etsy ambony."
+            "3": "Fidio ny fiteny tianao indrindra amin'ny fipihana ny tontolon'izao tontolo izao etsy ambony."
         }
     },
     "video": {
         "question": {
-            "1": "Inona no ambaran’izany aminao momba an’i Jesosy?",
-            "2": "Inona no ambaran’izany aminao momba an’Andriamanitra?",
-            "3": "Inona no ambaran'izany aminao momba ny olona?",
-            "4": "Raha marina izany, inona no mety ho fiovana eo amin’ny fiainanao?",
+            "1": "Inona no ambaran’ity video ity aminao momba an’i Jesosy?",
+            "2": "Inona no lazain’ity video ity aminao momba an’Andriamanitra?",
+            "3": "Inona no lazain'ity video ity aminao momba ny olona?",
+            "4": "Raha marina ity horonan-tsary ity, inona no mety hitranga eo amin'ny fiainanao?",
             "5": "Iza amin'ireo olona dimy azonao zaraina amin'ny zavatra hitanao?"
         }
     },
@@ -66,7 +66,7 @@
         "para": {
             "1": "Inona no dikan’ny hoe manaraka an’i Jesosy Tompo? Ny Bokiny Masina dia manomboka amin'ny fotoana talohan'ny nisian'ny olona.",
             "2": "Angony ny namanao ary jereo ny zavatra hitanao rehefa mifanakalo hevitra momba ireto fanontaniana manaraka ireto ianao.",
-            "3": "Safidio ny fiteny tianao indrindra amin'ny fipihana ny tontolon'izao tontolo izao etsy ambony."
+            "3": "Fidio ny fiteny tianao indrindra amin'ny fipihana ny tontolon'izao tontolo izao etsy ambony."
         }
     },
     "mountain": {
@@ -79,8 +79,8 @@
     "birth": {
         "title": "Fahaterahan'ny Guru",
         "para": {
-            "1": "Nisy andiana mpanandro nahita kintana vaovao hafahafa tokony ho 2 000 taona lasa izay, ka nahatonga azy ireo hino fa nisy mpanjaka vaovao teraka tany Israely. Koa dia nanomboka nanao dia lavitra izy ireo mba hitsidika an’io mpanjaka io, naneho ny fanajany ary nanome azy fanomezana.",
-            "2": "Jereo ity horonan-tsary amin'ny teny anglisy ity mba hahitana ny zavatra hitan'izy ireo."
+            "1": "Nisy andiana mpanandro nahita kintana vaovao hafahafa tokony ho 2 000 taona lasa izay, ka nahatonga azy ireo hino fa nisy mpanjaka vaovao teraka tany Israely. Koa dia nanomboka nanao dia lavitra izy ireo mba hitsidika an’io mpanjaka io, hanehoana fanajana ary fanomezana azy.",
+            "2": "Jereo ity horonan-tsary anglisy ity hahitana ny zavatra hitan'izy ireo."
         }
     }
 }

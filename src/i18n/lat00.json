@@ -54,10 +54,10 @@
     },
     "video": {
         "question": {
-            "1": "Ko tas tev stāsta par Jēzu?",
-            "2": "Ko tas tev stāsta par Dievu?",
-            "3": "Ko tas stāsta par cilvēkiem?",
-            "4": "Ja tā ir taisnība, kādas izmaiņas tas ietekmētu tavā dzīvē?",
+            "1": "Ko šis video stāsta par Jēzu?",
+            "2": "Ko šis video stāsta par Dievu?",
+            "3": "Ko šis video stāsta par cilvēkiem?",
+            "4": "Ja šis video ir patiess, kā tas mainītu jūsu dzīvi?",
             "5": "Kuri ir pieci cilvēki, ar kuriem varat dalīties savos atklājumos?"
         }
     },

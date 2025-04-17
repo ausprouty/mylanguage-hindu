@@ -14,7 +14,7 @@
     },
     "index": {
         "para": {
-            "1": "Kuti tipite patsogolo m'moyo wathu wa uzimu tikudziwa kuti tikufunika mphunzitsi - wina woti atiwonetse njira, kutitsutsa, kukonza, kutitsogolera ndi kutithandiza.",
+            "1": "Kuti tipite patsogolo m'moyo wathu wa uzimu tikudziwa kuti timafunikira mphunzitsi - wina woti atiwonetse njira, kutitsutsa, kukonza, kutitsogolera ndi kutithandiza.",
             "2": "Tikufuna kukuitanani kuti muganizire kukhala ndi Ambuye Yesu ngati Guru wanu. Ambuye Yesu anachiritsa anthu ambiri. Saname kapena kuvulaza aliyense. Anali wodzichepetsa. Sanakwatirane. Iye ankakhala moyo wosalira zambiri ndipo sankagwiritsa ntchito mphamvu zake kuti apeze chuma."
         }
     },
@@ -47,17 +47,17 @@
     "lead": {
         "title": "Kutsogolera Ena",
         "para": {
-            "1": "Kutsogolera Ena kumayang'ana mfundo zomwe Yesu adaphunzitsa atsogoleri ake - nzeru zomwe zaumba utsogoleri wamtima wantchito kwa mibadwomibadwo. Ambiri asintha chifukwa chodalira Yesu kuti awathandize kutsogolera ndi cholinga komanso moona mtima. Kodi izi zingapangitsenso utsogoleri wanu?",
+            "1": "Kutsogolera Ena kumafufuza mfundo zimene Yesu anaphunzitsa atsogoleri ake—nzeru zimene zaumba utsogoleri wa mtima wa atumiki kwa mibadwomibadwo. Ambiri asintha chifukwa chodalira Yesu kuti awathandize kutsogolera ndi cholinga komanso moona mtima. Kodi izi zingapangitsenso utsogoleri wanu?",
             "2": "Sonkhanitsani anzanu ndikuwona zomwe mwapeza pamene mukukambirana mafunso otsatirawa.",
             "3": "Sankhani chilankhulo chomwe mumakonda podina padziko lonse lapansi pamwambapa."
         }
     },
     "video": {
         "question": {
-            "1": "Kodi izi zikukuuzani chiyani za Yesu?",
-            "2": "Kodi izi zikukuuzani chiyani za Mulungu?",
-            "3": "Kodi izi zikukuuzani chiyani za anthu?",
-            "4": "Ngati izi ndi zoona, zingasinthe bwanji pa moyo wanu?",
+            "1": "Kodi vidiyoyi ikukuuzani chiyani za Yesu?",
+            "2": "Kodi vidiyoyi ikukuuzani chiyani za Mulungu?",
+            "3": "Kodi vidiyoyi ikukuuzani chiyani za anthu?",
+            "4": "Ngati vidiyoyi ndi yoona, ingakhale yosiyana bwanji pa moyo wanu?",
             "5": "Ndi anthu asanu ati omwe mungagawane nawo zomwe mwapeza?"
         }
     },

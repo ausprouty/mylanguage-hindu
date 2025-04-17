@@ -54,10 +54,10 @@
     },
     "video": {
         "question": {
-            "1": "He aha ta tenei korero ki a koe mo Ihu?",
-            "2": "He aha ta tenei korero ki a koe mo te Atua?",
-            "3": "He aha ta tenei korero ki a koe mo nga tangata?",
-            "4": "Mena he pono tenei, he aha te rereketanga o to oranga?",
+            "1": "He aha ta tenei ataata e korero ana mo Ihu?",
+            "2": "He aha ta tenei ataata e korero ana mo te Atua?",
+            "3": "He aha ta tenei ataata e korero ana mo nga tangata?",
+            "4": "Mena he pono tenei ataata, he aha te rereketanga o to oranga?",
             "5": "Ko wai nga tangata tokorima ka taea e koe te tiri i o kitenga?"
         }
     },

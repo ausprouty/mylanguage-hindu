@@ -32,7 +32,7 @@
         "para": {
             "1": "Waɗannan wasu abubuwa ne da Ubangiji Yesu da mabiyansa na farko suka koyar.",
             "2": "Mutane da yawa sun ga yadda rayuwarsu ta canja sa’ad da suka roƙi Ubangiji Yesu ya ba su ikon aiwatar da waɗannan koyarwar.",
-            "3": "Ka tara abokanka kuma ka ga abin da ka gano yayin da kake tattauna waɗannan tambayoyin.",
+            "3": "Ka tara abokanka kuma ka ga abin da ka gano yayin da kake tattauna tambayoyi masu zuwa.",
             "4": "Zaɓi harshen da kuka fi so ta danna kan duniyar duniyar da ke sama."
         }
     },
@@ -41,23 +41,23 @@
         "para": {
             "1": "Yayin da kuke kallon bidiyon, tambayi kanku \"Mene ne wannan guru kuma ya cancanci bi?\"",
             "2": "Ana samun wannan bidiyon a cikin yaruka da yawa. Don canza harshe danna duniyar duniyar da ke sama.",
-            "3": "Ka tara abokanka kuma ka ga abin da ka gano yayin da kake tattauna waɗannan tambayoyin."
+            "3": "Ka tara abokanka kuma ka ga abin da ka gano yayin da kake tattauna tambayoyi masu zuwa."
         }
     },
     "lead": {
         "title": "Jagorancin Wasu",
         "para": {
             "1": "Jagoran Wasu ya bincika ƙa’idodin da Yesu ya koya wa shugabanninsa—hikima da ta sa bayin Allah su kasance da jagoranci na zuriya har tsararraki. Mutane da yawa sun sami canji ta wajen dogara ga Yesu ya taimaka musu su yi ja-gora da manufa da aminci. Wannan zai iya siffanta shugabancin ku kuma?",
-            "2": "Ka tara abokanka kuma ka ga abin da ka gano yayin da kake tattauna waɗannan tambayoyin.",
+            "2": "Ka tara abokanka kuma ka ga abin da ka gano yayin da kake tattauna tambayoyi masu zuwa.",
             "3": "Zaɓi harshen da kuka fi so ta danna kan duniyar duniyar da ke sama."
         }
     },
     "video": {
         "question": {
-            "1": "Menene wannan ya gaya muku game da Yesu?",
-            "2": "Menene wannan ke gaya muku game da Allah?",
-            "3": "Menene wannan ke gaya muku game da mutane?",
-            "4": "Idan wannan gaskiya ne, menene bambanci zai haifar a rayuwar ku?",
+            "1": "Menene wannan bidiyon ya gaya muku game da Yesu?",
+            "2": "Menene wannan bidiyon ya gaya muku game da Allah?",
+            "3": "Menene wannan bidiyon ke gaya muku game da mutane?",
+            "4": "Idan wannan bidiyon gaskiya ne, menene bambanci zai haifar a rayuwar ku?",
             "5": "Wanene mutane biyar za ku iya raba abubuwan bincikenku da su?"
         }
     },
@@ -65,14 +65,14 @@
         "title": "Bin Shi",
         "para": {
             "1": "Menene ma’anar bin Ubangiji Yesu? Littafinsa mai tsarki ya fara da zamanin da kafin a sami wasu mutane.",
-            "2": "Ka tara abokanka kuma ka ga abin da ka gano yayin da kake tattauna waɗannan tambayoyin.",
+            "2": "Ka tara abokanka kuma ka ga abin da ka gano yayin da kake tattauna tambayoyi masu zuwa.",
             "3": "Zaɓi harshen da kuka fi so ta danna kan duniyar duniyar da ke sama."
         }
     },
     "mountain": {
         "title": "Dutsen Allah",
         "para": {
-            "1": "Wataƙila kun ji labarin Dutsen Allah inda mutane suka ce akwai hanyoyi da yawa zuwa saman dutsen.",
+            "1": "Wataƙila kun ji labarin Dutsen Allah inda mutane ke cewa akwai hanyoyi da yawa zuwa saman dutsen.",
             "2": "Menene masu hawan dutse suke tunani game da wannan labarin? Kalli wannan bidiyo na turanci ka gano."
         }
     },

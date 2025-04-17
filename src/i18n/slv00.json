@@ -23,7 +23,7 @@
         "para": {
             "1": "Njegova sveta knjiga se začne s časom, preden ni bilo ljudi. Nato pripoveduje zgodbo o tem, kako sta prva dva človeka komunicirala z Bogom.",
             "2": "Preberite, kako je Bog pripravil ljudi na prihod Gospoda Jezusa.",
-            "3": "Zberite svoje prijatelje in preberite, kako je Bog pripravil ljudi na prihod Jezusa in duhovne skupnosti, ki jo je ustanovil.",
+            "3": "Zberite prijatelje in preberite, kako je Bog pripravil ljudi na prihod Jezusa in duhovne skupnosti, ki jo je ustanovil.",
             "4": "Izberite svoj najljubši jezik s klikom na zgornji globus sveta."
         }
     },
@@ -39,7 +39,7 @@
     "jVideo": {
         "title": "Njegovo življenje",
         "para": {
-            "1": "Med gledanjem videa se vprašajte \"Kakšen je ta guru in ali mu je vredno slediti?\"",
+            "1": "Ko gledate video, se vprašajte \"Kakšen je ta guru in ali mu je vredno slediti?\"",
             "2": "Ta video je na voljo v številnih jezikih. Če želite spremeniti jezik, kliknite zgornji globus.",
             "3": "Zberite svoje prijatelje in poglejte, kaj boste odkrili med razpravo o naslednjih vprašanjih."
         }
@@ -47,17 +47,17 @@
     "lead": {
         "title": "Vodenje drugih",
         "para": {
-            "1": "Leading Others raziskuje načela, ki jih je Jezus učil svoje voditelje – modrost, ki že generacije oblikuje vodenje s služabniškim srcem. Mnogi so doživeli preobrazbo, ko so se zanašali na Jezusa, da jim je pomagal voditi z namenom in integriteto. Bi to lahko oblikovalo tudi vaše vodenje?",
+            "1": "Leading Others raziskuje načela, ki jih je Jezus učil svoje voditelje – modrost, ki že generacije oblikuje vodenje s služabniškim srcem. Mnogi so doživeli preobrazbo, ko so se zanašali na Jezusa, da jim je pomagal voditi z namenom in poštenostjo. Bi to lahko oblikovalo tudi vaše vodenje?",
             "2": "Zberite svoje prijatelje in poglejte, kaj boste odkrili med razpravo o naslednjih vprašanjih.",
             "3": "Izberite svoj najljubši jezik s klikom na zgornji globus sveta."
         }
     },
     "video": {
         "question": {
-            "1": "Kaj vam to pove o Jezusu?",
-            "2": "Kaj vam to pove o Bogu?",
-            "3": "Kaj vam to pove o ljudeh?",
-            "4": "Če je to res, kakšno razliko bi to imelo v vašem življenju?",
+            "1": "Kaj vam ta video pove o Jezusu?",
+            "2": "Kaj vam ta video pove o Bogu?",
+            "3": "Kaj vam ta video pove o ljudeh?",
+            "4": "Če je ta videoposnetek resničen, kaj bi to vplivalo na vaše življenje?",
             "5": "S katerimi petimi ljudmi lahko delite svoja odkritja?"
         }
     },

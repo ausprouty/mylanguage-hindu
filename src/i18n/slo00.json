@@ -23,7 +23,7 @@
         "para": {
             "1": "Jeho Svätá kniha začína časom predtým, než tam boli nejakí ľudia. Potom rozpráva príbeh o tom, ako prví dvaja ľudia interagovali s Bohom.",
             "2": "Prečítajte si, ako Boh pripravil ľudí na príchod Pána Ježiša.",
-            "3": "Zhromaždite svojich priateľov a prečítajte si, ako Boh pripravil ľudí na príchod Ježiša a duchovné spoločenstvo, ktoré založil.",
+            "3": "Zhromaždite priateľov a prečítajte si, ako Boh pripravil ľudí na príchod Ježiša a duchovné spoločenstvo, ktoré založil.",
             "4": "Vyberte si svoj obľúbený jazyk kliknutím na zemeguľu vyššie."
         }
     },
@@ -54,10 +54,10 @@
     },
     "video": {
         "question": {
-            "1": "Čo ti to hovorí o Ježišovi?",
-            "2": "Čo ti to hovorí o Bohu?",
-            "3": "Čo vám to hovorí o ľuďoch?",
-            "4": "Ak je to pravda, aký rozdiel by to znamenalo vo vašom živote?",
+            "1": "Čo vám toto video hovorí o Ježišovi?",
+            "2": "Čo vám toto video hovorí o Bohu?",
+            "3": "Čo vám toto video hovorí o ľuďoch?",
+            "4": "Ak je toto video pravdivé, čo by to zmenilo vo vašom živote?",
             "5": "S ktorými piatimi ľuďmi sa môžete podeliť o svoje objavy?"
         }
     },

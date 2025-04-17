@@ -54,10 +54,10 @@
     },
     "video": {
         "question": {
-            "1": "Co ci to mówi o Jezusie?",
-            "2": "Co ci to mówi o Bogu?",
-            "3": "Co ci to mówi o ludziach?",
-            "4": "Jeśli to prawda, jaką różnicę zrobiłoby to w Twoim życiu?",
+            "1": "Co ten film mówi ci o Jezusie?",
+            "2": "Co ten film mówi ci o Bogu?",
+            "3": "Co ten film mówi Ci o ludziach?",
+            "4": "Jeśli ten film jest prawdziwy, jaką różnicę zrobiłoby to w Twoim życiu?",
             "5": "Z jakimi pięcioma osobami możesz dzielić się swoimi odkryciami?"
         }
     },

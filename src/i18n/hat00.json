@@ -22,9 +22,9 @@
         "title": "Liv Sen li a",
         "para": {
             "1": "Liv Sen li a kòmanse ak tan anvan te gen nenpòt moun. Apre sa, li rakonte istwa ki jan de premye moun yo te kominike avèk Bondye.",
-            "2": "Li kijan Bondye te prepare moun pou arive Senyè Jezi.",
-            "3": "Rasanble zanmi ou yo epi li kijan Bondye te prepare moun pou rive Jezi ak kominote espirityèl li te kòmanse a.",
-            "4": "Chwazi lang ou pi renmen lè w klike sou glòb mondyal ki anwo a."
+            "2": "Li kijan Bondye te prepare moun pou rive Senyè Jezi.",
+            "3": "Rasanble zanmi w yo epi li kijan Bondye te prepare moun pou rive Jezi ak kominote espirityèl li te kòmanse a.",
+            "4": "Chwazi lang ou pi renmen lè w klike sou glòb mondyal ki anlè a."
         }
     },
     "life": {
@@ -33,7 +33,7 @@
             "1": "Sa yo se kèk nan bagay Senyè Jezi ak premye disip li yo te anseye.",
             "2": "Anpil moun te wè lavi yo transfòme lè yo te mande Senyè Jezi pou l ba yo pouvwa pou mete ansèyman sa yo an aksyon.",
             "3": "Rasanble zanmi ou yo epi wè sa ou dekouvri pandan w ap diskite kesyon sa yo.",
-            "4": "Chwazi lang ou pi renmen lè w klike sou glòb mondyal ki anwo a."
+            "4": "Chwazi lang ou pi renmen lè w klike sou glòb mondyal ki anlè a."
         }
     },
     "jVideo": {
@@ -49,15 +49,15 @@
         "para": {
             "1": "Dirije lòt moun eksplore prensip Jezi te anseye dirijan l yo — sajès ki te fòme lidèchip ki gen kè sèvitè pandan plizyè jenerasyon. Anpil moun te fè eksperyans transfòmasyon lè yo konte sou Jezi pou l ede yo dirije ak objektif ak entegrite. Èske sa ka fòme lidèchip ou tou?",
             "2": "Rasanble zanmi ou yo epi wè sa ou dekouvri pandan w ap diskite kesyon sa yo.",
-            "3": "Chwazi lang ou pi renmen lè w klike sou glòb mondyal ki anwo a."
+            "3": "Chwazi lang ou pi renmen lè w klike sou glòb mondyal ki anlè a."
         }
     },
     "video": {
         "question": {
-            "1": "Kisa sa di w sou Jezi?",
-            "2": "Kisa sa di ou sou Bondye?",
-            "3": "Kisa sa di ou sou moun?",
-            "4": "Si sa a se vre, ki diferans li ta fè nan lavi ou?",
+            "1": "Kisa videyo sa a di w sou Jezi?",
+            "2": "Kisa videyo sa a di ou sou Bondye?",
+            "3": "Kisa videyo sa di w sou moun?",
+            "4": "Si videyo sa a vre, ki diferans li ta fè nan lavi ou?",
             "5": "Ki moun ki senk moun ou ka pataje dekouvèt ou yo?"
         }
     },
@@ -66,7 +66,7 @@
         "para": {
             "1": "Ki sa sa vle di suiv Senyè Jezi a? Liv Sen li a kòmanse ak tan anvan te gen nenpòt moun.",
             "2": "Rasanble zanmi ou yo epi wè sa ou dekouvri pandan w ap diskite kesyon sa yo.",
-            "3": "Chwazi lang ou pi renmen lè w klike sou glòb mondyal ki anwo a."
+            "3": "Chwazi lang ou pi renmen lè w klike sou glòb mondyal ki anlè a."
         }
     },
     "mountain": {
@@ -77,7 +77,7 @@
         }
     },
     "birth": {
-        "title": "Nesans Guru a",
+        "title": "Nesans nan Guru a",
         "para": {
             "1": "Yon gwoup astwològ te wè yon etranj nouvo zetwal sa gen anviwon 2 000 ane ki te fè yo kwè ke yon nouvo wa te fèt ann Izrayèl. Se konsa, yo te kòmanse nan yon vwayaj long vizite wa sa a, montre respè yo ak ba li kado.",
             "2": "Gade videyo angle sa a pou w wè sa yo dekouvri."

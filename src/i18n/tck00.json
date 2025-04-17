@@ -21,7 +21,7 @@
     "dbs": {
         "title": "Mukaddes Kitaby",
         "para": {
-            "1": "Onuň Mukaddes Kitaby hiç kim bolmanka başlaýar. Soňra ilkinji iki adamyň Hudaý bilen nähili gatnaşygy hakda gürrüň berýär.",
+            "1": "Mukaddes Kitaby hiç kim bolmanka başlaýar. Soňra ilkinji iki adamyň Hudaý bilen nähili gatnaşygy hakda gürrüň berýär.",
             "2": "Hudaýyň adamlary Reb Isanyň gelmegine nädip taýýarlandygyny okaň.",
             "3": "Dostlaryňyzy ýygnaň we Hudaýyň Isanyň gelmegine we başlan ruhy jemgyýetine adamlary nädip taýýarlandygyny okaň.",
             "4": "Aboveokardaky dünýä obeer şaryna basyp halaýan diliňizi saýlaň."
@@ -47,24 +47,24 @@
     "lead": {
         "title": "Başgalary alyp barmak",
         "para": {
-            "1": "Öňdebaryjy Beýlekiler Isanyň öz ýolbaşçylaryna öwreden ýörelgelerini öwrenýär - nesiller üçin hyzmatkär ýürekli ýolbaşçylygy emele getiren paýhas. Köpüsi maksat we dogruçyllyk bilen alyp barmaga kömek etmek üçin Isa bil baglap, özgerişleri başdan geçirdiler. Bu siziň ýolbaşçylygyňyzy hem emele getirip bilermi?",
+            "1": "Öňdebaryjy başgalar Isanyň öz ýolbaşçylaryna öwreden ýörelgelerini öwrenýärler - nesiller üçin hyzmatkär ýürekli ýolbaşçylygy emele getiren paýhas. Köpüsi maksat we dogruçyllyk bilen alyp barmaga kömek etmek üçin Isa bil baglap, özgerişleri başdan geçirdiler. Bu siziň ýolbaşçylygyňyzy hem emele getirip bilermi?",
             "2": "Dostlaryňyzy ýygnaň we aşakdaky soraglary ara alyp maslahatlaşanyňyzda nämäni açýandygyňyzy görüň.",
             "3": "Aboveokardaky dünýä obeer şaryna basyp halaýan diliňizi saýlaň."
         }
     },
     "video": {
         "question": {
-            "1": "Bu size Isa hakda näme diýýär?",
-            "2": "Bu size Hudaý hakda näme diýýär?",
-            "3": "Bu size adamlar hakda näme diýýär?",
-            "4": "Bu hakykat bolsa, durmuşyňyzda nähili üýtgeşiklik döreder?",
+            "1": "Bu wideo size Isa hakda näme diýýär?",
+            "2": "Bu wideo size Hudaý hakda näme diýýär?",
+            "3": "Bu wideo size adamlar hakda näme diýýär?",
+            "4": "Bu wideo dogry bolsa, durmuşyňyzda nähili üýtgeşiklik döreder?",
             "5": "Açyşlaryňyzy paýlaşyp biljek bäş adam kim?"
         }
     },
     "follow": {
         "title": "Oňa eýermek",
         "para": {
-            "1": "Reb Isanyň yzyna eýermek nämäni aňladýar? Onuň Mukaddes Kitaby hiç kim bolmanka başlaýar.",
+            "1": "Reb Isanyň yzyna eýermek nämäni aňladýar? Mukaddes Kitaby hiç kim bolmanka başlaýar.",
             "2": "Dostlaryňyzy ýygnaň we aşakdaky soraglary ara alyp maslahatlaşanyňyzda nämäni açýandygyňyzy görüň.",
             "3": "Aboveokardaky dünýä obeer şaryna basyp halaýan diliňizi saýlaň."
         }

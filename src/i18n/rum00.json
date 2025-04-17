@@ -19,7 +19,7 @@
         }
     },
     "dbs": {
-        "title": "Cartea Sa Sfântă",
+        "title": "Cartea Lui Sfântă",
         "para": {
             "1": "Cartea Sa Sfântă începe cu timpul înainte de a exista oameni. Apoi spune povestea modului în care primii doi oameni au interacționat cu Dumnezeu.",
             "2": "Citiți cum a pregătit Dumnezeu oamenii pentru sosirea Domnului Isus.",
@@ -30,7 +30,7 @@
     "life": {
         "title": "Învățăturile Lui",
         "para": {
-            "1": "Acestea sunt câteva dintre lucrurile pe care Domnul Isus și primii săi urmași le-au învățat.",
+            "1": "Acestea sunt câteva dintre lucrurile pe care le-au învățat Domnul Isus și primii săi urmași.",
             "2": "Mulți oameni și-au văzut viața transformată când i-au cerut Domnului Isus să le dea puterea de a pune aceste învățături în acțiune.",
             "3": "Adunați-vă prietenii și vedeți ce descoperiți în timp ce discutați următoarele întrebări.",
             "4": "Selectați limba preferată făcând clic pe globul de mai sus."
@@ -54,10 +54,10 @@
     },
     "video": {
         "question": {
-            "1": "Ce vă spune asta despre Isus?",
-            "2": "Ce vă spune asta despre Dumnezeu?",
-            "3": "Ce vă spune asta despre oameni?",
-            "4": "Dacă acest lucru este adevărat, ce diferență ar face în viața ta?",
+            "1": "Ce vă spune acest videoclip despre Isus?",
+            "2": "Ce vă spune acest videoclip despre Dumnezeu?",
+            "3": "Ce vă spune acest videoclip despre oameni?",
+            "4": "Dacă acest videoclip este adevărat, ce diferență ar face în viața ta?",
             "5": "Care sunt cinci persoane cărora le poți împărtăși descoperirile tale?"
         }
     },
@@ -72,7 +72,7 @@
     "mountain": {
         "title": "Muntele lui Dumnezeu",
         "para": {
-            "1": "Poate că ați auzit povestea Muntelui lui Dumnezeu, unde oamenii spun că există multe căi către vârful muntelui.",
+            "1": "Poate că ați auzit povestea Muntelui lui Dumnezeu, unde oamenii spun că există multe poteci către vârful muntelui.",
             "2": "Ce cred alpiniștii despre această poveste? Urmărește acest videoclip în limba engleză și află."
         }
     },

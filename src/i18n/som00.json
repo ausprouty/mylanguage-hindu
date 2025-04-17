@@ -9,13 +9,13 @@
         "nextVideo": "Muqaalka Xiga",
         "previous": "Hore",
         "select": "Dooro",
-        "videoSegment": "Qaybta Muuqaalka",
+        "videoSegment": "Qaybta Video",
         "language": "Dooro Luuqad"
     },
     "index": {
         "para": {
             "1": "Si aan horumar dhab ah ugu samayno nolosheenna ruuxiga ah waxaan ognahay inaan u baahanahay guru -- qof jidka na tusa, si uu u tartamo, u saxo, hagayo oo na caawiyo.",
-            "2": "Waxaan jeclaan lahayn inaan kugu martiqaadno inaad tixgeliso in Rabbi Ciise uu noqdo Gurugaaga. Rabbi Ciise dad badan buu bogsiiyey. Waligii been uma sheegin cidna ma uu yeelin. Wuxuu ahaa is-hoosaysiin. Waligiis ma guursan. Wuxuu ku noolaa nolol fudud, waligiisna awooddiisa uma isticmaalin inuu hanti ku helo."
+            "2": "Waxaan jeclaan lahayn inaan kugu martiqaadno inaad tixgeliso in Rabbi Ciise uu noqdo Gurugaaga. Rabbi Ciise dad badan buu bogsiiyey. Waligii been uma sheegin cidna ma uu yeelin. Wuxuu ahaa is-hoosaysiin. Waligiis ma guursan. Wuxuu ku noolaa nolol fudud, waligiisna awooddiisa uma isticmaalin inuu hanti helo."
         }
     },
     "dbs": {
@@ -32,32 +32,32 @@
         "para": {
             "1": "Kuwani waa qaar ka mid ah waxyaalihii Rabbi Ciise iyo xertiisii ​​hore ay bareen.",
             "2": "Dad badan ayaa arkay noloshoodii oo is beddeshay markay Sayid Ciise waydiisteen inuu siiyo awood ay wax baritaannadan ku dhaqmaan.",
-            "3": "Soo ururi asxaabtaada oo arag waxa aad ogaato markaad ka hadlayso su'aalahan soo socda.",
+            "3": "Soo ururi asxaabtaada oo arag waxaad ogaatid markaad ka hadlayso su'aalahan soo socda.",
             "4": "Dooro luqadda aad jeceshahay adiga oo gujinaya adduunka kore."
         }
     },
     "jVideo": {
         "title": "Noloshiisa",
         "para": {
-            "1": "Markaad daawato muuqaalka, is weydii \"Waa maxay guru kan oo kale miyuu mudan yahay inuu raaco?\"",
+            "1": "Markaad daawato muuqaalka, is weydii \"Waa sidee gurugan oo miyuu mudan yahay inuu raaco?\"",
             "2": "Muuqaalkan waxa lagu heli karaa luqado badan. Si aad u bedesho luqadda dhagsii adduunka kore.",
-            "3": "Soo ururi asxaabtaada oo arag waxa aad ogaato markaad ka hadlayso su'aalahan soo socda."
+            "3": "Soo ururi asxaabtaada oo arag waxaad ogaatid markaad ka hadlayso su'aalahan soo socda."
         }
     },
     "lead": {
         "title": "Hormuudka dadka kale",
         "para": {
             "1": "Kuwa kale hogaaminaya waxay sahamisaa mabaadi'da Ciise baray hogaamiyaashiisa - xikmada qaabaysay hogaaminta qalbi adeegaha ilaa ab ka ab. Kuwo badan ayaa la kulmay isbeddelka iyagoo ku tiirsan Ciise si uu uga caawiyo inay ku hoggaamiyaan ujeeddo iyo daacadnimo. Tani ma qaabayn kartaa sidoo kale hogaamintaada?",
-            "2": "Soo ururi asxaabtaada oo arag waxa aad ogaato markaad ka hadlayso su'aalahan soo socda.",
+            "2": "Soo ururi asxaabtaada oo arag waxaad ogaatid markaad ka hadlayso su'aalahan soo socda.",
             "3": "Dooro luqadda aad jeceshahay adiga oo gujinaya adduunka kore."
         }
     },
     "video": {
         "question": {
-            "1": "Maxay tani kaaga sheegaysaa Ciise?",
-            "2": "Tani maxay kaaga sheegaysaa Ilaah?",
-            "3": "Maxay tani kaaga sheegaysaa dadka?",
-            "4": "Hadday tani run tahay, maxay faraqa u samaynaysaa noloshaada?",
+            "1": "Muxuu muuqaalkani kaaga sheegayaa Ciise?",
+            "2": "Muxuu muuqaalkani kaaga sheegayaa Ilaahay?",
+            "3": "Muxuu muuqaalkani kaaga sheegayaa dadka?",
+            "4": "Haddii muuqaalkani run yahay, maxay faraq u tahay noloshaada?",
             "5": "Waa kuwee shan qof oo aad la wadaagi karto sahankaaga?"
         }
     },
@@ -65,7 +65,7 @@
         "title": "Isaga oo raacaya",
         "para": {
             "1": "Maxay ka dhigan tahay in la raaco Rabbi Ciise? Kitaabkiisa Quduuska ah wuxuu ka bilaabmayaa waagii ka hor intaanay jirin dad.",
-            "2": "Soo ururi asxaabtaada oo arag waxa aad ogaato markaad ka hadlayso su'aalahan soo socda.",
+            "2": "Soo ururi asxaabtaada oo arag waxaad ogaatid markaad ka hadlayso su'aalahan soo socda.",
             "3": "Dooro luqadda aad jeceshahay adiga oo gujinaya adduunka kore."
         }
     },

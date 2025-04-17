@@ -31,7 +31,7 @@
         "title": "Iimfundiso Zakhe",
         "para": {
             "1": "Ezi zezinye zezinto ezafundiswa yiNkosi uYesu nabalandeli bayo bokuqala.",
-            "2": "Abantu abaninzi baye babona ubomi babo buguquka njengoko babecela iNkosi uYesu ukuba ibanike amandla okwenza ezi mfundiso.",
+            "2": "Abantu abaninzi baye babona ubomi babo buguqukile njengoko babecela iNkosi uYesu ukuba ibanike amandla okwenza ezi mfundiso.",
             "3": "Hlanganisa abahlobo bakho kwaye ubone oko ukufumanisileyo njengoko uxoxa ngale mibuzo ilandelayo.",
             "4": "Khetha ulwimi oluthandayo ngokucofa iglowubhu yehlabathi ngaphezulu."
         }
@@ -47,17 +47,17 @@
     "lead": {
         "title": "Ukukhokela Abanye",
         "para": {
-            "1": "Ukukhokela Abanye kuphonononga imigaqo uYesu awayifundisa iinkokeli zakhe—ubulumko obuye babumba ubunkokeli obunentliziyo yomkhonzi kwizizukulwana ngezizukulwana. Abaninzi baye balubona utshintsho ngokuthembela kuYesu ukuba abancede bakhokele ngenjongo nangengqibelelo. Ngaba oku kungabumba ubunkokeli bakho nawe?",
+            "1": "Ukukhokela Abanye kuhlolisisa imigaqo uYesu awayifundisa iinkokeli zakhe—ubulumko obuye babumba ubunkokeli obunentliziyo yomkhonzi kwizizukulwana ngezizukulwana. Abaninzi baye balubona utshintsho ngokuthembela kuYesu ukuba abancede bakhokele ngenjongo nangengqibelelo. Ngaba oku kungabumba ubunkokeli bakho nawe?",
             "2": "Hlanganisa abahlobo bakho kwaye ubone oko ukufumanisileyo njengoko uxoxa ngale mibuzo ilandelayo.",
             "3": "Khetha ulwimi oluthandayo ngokucofa iglowubhu yehlabathi ngaphezulu."
         }
     },
     "video": {
         "question": {
-            "1": "Ikuxelela ntoni le nto ngoYesu?",
-            "2": "Ikuxelela ntoni le nto ngoThixo?",
-            "3": "Ikuxelela ntoni lento ngabantu?",
-            "4": "Ukuba oku kuyinyaniso, ungenza ntoni umahluko kubomi bakho?",
+            "1": "Le vidiyo ikuxelela ntoni ngoYesu?",
+            "2": "Le vidiyo ikuxelela ntoni ngoThixo?",
+            "3": "Ikuxelela ntoni le vidiyo ngabantu?",
+            "4": "Ukuba le vidiyo iyinyani, ungenza ntoni umahluko kubomi bakho?",
             "5": "Ngoobani abantu abahlanu onokwabelana nabo ngezinto ozifumeneyo?"
         }
     },

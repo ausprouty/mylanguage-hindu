@@ -54,10 +54,10 @@
     },
     "video": {
         "question": {
-            "1": "Què et diu això de Jesús?",
-            "2": "Què et diu això sobre Déu?",
-            "3": "Què et diu això de la gent?",
-            "4": "Si això és cert, quina diferència faria a la teva vida?",
+            "1": "Què us diu aquest vídeo sobre Jesús?",
+            "2": "Què us diu aquest vídeo sobre Déu?",
+            "3": "Què t'explica aquest vídeo sobre les persones?",
+            "4": "Si aquest vídeo és cert, quina diferència faria a la teva vida?",
             "5": "Amb quines cinc persones pots compartir els teus descobriments?"
         }
     },

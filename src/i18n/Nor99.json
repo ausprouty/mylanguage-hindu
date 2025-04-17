@@ -54,10 +54,10 @@
     },
     "video": {
         "question": {
-            "1": "Hva forteller dette deg om Jesus?",
-            "2": "Hva forteller dette deg om Gud?",
-            "3": "Hva forteller dette deg om mennesker?",
-            "4": "Hvis dette er sant, hvilken forskjell ville det gjort i livet ditt?",
+            "1": "Hva forteller denne videoen deg om Jesus?",
+            "2": "Hva forteller denne videoen deg om Gud?",
+            "3": "Hva forteller denne videoen deg om mennesker?",
+            "4": "Hvis denne videoen er sann, hvilken forskjell ville den gjort i livet ditt?",
             "5": "Hvem er fem personer du kan dele oppdagelsene dine med?"
         }
     },

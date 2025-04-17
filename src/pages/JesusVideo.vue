@@ -25,12 +25,7 @@
       />
     </div>
     <div>
-      <VideoQuestions
-        :commonContent="commonContent"
-        :languageCodeHL = "computedLanguageHL"
-        :lesson = "computedLessonNumber"
-        :sectionKey="computedSectionKey"
-      />
+      <VideoQuestions />
     </div>
   </q-page>
 </template>

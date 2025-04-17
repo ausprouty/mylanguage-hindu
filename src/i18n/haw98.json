@@ -14,14 +14,14 @@
     },
     "index": {
         "para": {
-            "1": "I mea e holomua maoli ai ko mākou ola ʻuhane, ʻike mākou pono mākou i ke kumu - he mea e hōʻike mai iā mākou i ke ala, e hoʻokūkū, hoʻoponopono, alakaʻi a kōkua iā mākou.",
+            "1": "I mea e holomua maoli ai ko mākou ola ʻuhane, ʻike mākou pono mākou i kahi guru - he mea e hōʻike mai iā mākou i ke ala, e hoʻokūkū, hoʻoponopono, alakaʻi a kōkua iā mākou.",
             "2": "Makemake mākou e kono iā ʻoe e noʻonoʻo i ka Haku ʻo Iesū i Guru. Ua hoola ka Haku Iesu i na kanaka he nui. ʻAʻole ʻo ia i haʻi wahaheʻe a hōʻeha paha i kekahi. He haʻahaʻa ʻo ia. ʻAʻole ʻo ia i male. Ua noho maʻalahi ʻo ia a ʻaʻole hoʻohana i kona mana e loaʻa ai ka waiwai."
         }
     },
     "dbs": {
         "title": "Kona Buke Hemolele",
         "para": {
-            "1": "Hoʻomaka kāna Buke Hemolele me ka manawa ma mua o ka loaʻa ʻana o kekahi poʻe. A laila haʻi ʻia ka moʻolelo o ka launa ʻana o nā kānaka ʻelua me ke Akua.",
+            "1": "Hoʻomaka kāna Buke Hemolele me ka manawa ma mua o ka loaʻa ʻana o kekahi poʻe. A laila haʻi ʻia ka moʻolelo o ka launa pū ʻana o nā kānaka ʻelua me ke Akua.",
             "2": "E heluhelu i ka hoomakaukau ana o ke Akua i na kanaka no ka hiki ana mai o ka Haku Iesu.",
             "3": "E hōʻuluʻulu i kāu mau hoaaloha a heluhelu i ka hoʻomākaukau ʻana o ke Akua i nā kānaka no ka hiki ʻana mai o Iesū a me ke kaiāulu ʻuhane āna i hoʻomaka ai.",
             "4": "E koho i kāu ʻōlelo punahele ma ke kaomi ʻana i ka honua honua ma luna."
@@ -30,7 +30,7 @@
     "life": {
         "title": "kana ao ana",
         "para": {
-            "1": "ʻO kēia kekahi mau mea a ka Haku ʻo Iesū a me kāna poʻe haumāna mua i aʻo ai.",
+            "1": "ʻO kēia kekahi o nā mea a ka Haku ʻo Iesū a me kāna mau haumāna mua i aʻo ai.",
             "2": "He nui ka poʻe i ʻike i ko lākou ola i hoʻololi ʻia i ko lākou noi ʻana i ka Haku ʻo Iesū e hāʻawi iā lākou i ka mana e hoʻokō i kēia mau aʻo ʻana.",
             "3": "E hōʻuluʻulu i kāu mau hoaaloha a ʻike i nā mea āu i ʻike ai i kāu kūkākūkā ʻana i kēia mau nīnau.",
             "4": "E koho i kāu ʻōlelo punahele ma ke kaomi ʻana i ka honua honua ma luna."
@@ -45,19 +45,19 @@
         }
     },
     "lead": {
-        "title": "Ke alakaʻi ʻana i nā poʻe ʻē aʻe",
+        "title": "Ke alakaʻi nei i nā poʻe ʻē aʻe",
         "para": {
-            "1": "ʻO ke alakaʻi ʻana i nā poʻe ʻē aʻe e ʻimi ana i nā kumukānāwai a Iesu i aʻo ai i kāna mau alakaʻi - ke akamai i hoʻokumu i ke alakaʻi naʻau-kauwa no nā hanauna. Nui ka poʻe i ʻike i ka hoʻololi ʻana ma o ka hilinaʻi ʻana iā Iesū e kōkua iā lākou e alakaʻi me ke kumu a me ka pololei. Hiki paha i kēia ke hoʻohālike i kāu alakaʻi?",
+            "1": "ʻO ke alakaʻi ʻana i nā poʻe ʻē aʻe e ʻimi ana i nā loina a Iesu i aʻo ai i kāna mau alakaʻi - naʻauao i hoʻokumu i ke alakaʻi naʻau-kauwa no nā hanauna. Nui ka poʻe i ʻike i ka hoʻololi ʻana ma o ka hilinaʻi ʻana iā Iesū e kōkua iā lākou e alakaʻi me ke kumu a me ka pololei. Hiki paha kēia i kāu alakaʻi?",
             "2": "E hōʻuluʻulu i kāu mau hoaaloha a ʻike i nā mea āu i ʻike ai i kāu kūkākūkā ʻana i kēia mau nīnau.",
             "3": "E koho i kāu ʻōlelo punahele ma ke kaomi ʻana i ka honua honua ma luna."
         }
     },
     "video": {
         "question": {
-            "1": "He aha kēia e haʻi iā ʻoe no Iesu?",
-            "2": "He aha kēia e haʻi iā ʻoe no ke Akua?",
-            "3": "He aha kēia e haʻi ai iā ʻoe e pili ana i nā kānaka?",
-            "4": "Inā he ʻoiaʻiʻo kēia, he aha ka ʻokoʻa i kou ola?",
+            "1": "He aha ka ʻōlelo a kēia wikiō iā ʻoe e pili ana iā Iesu?",
+            "2": "He aha ka ʻōlelo a kēia wikiō iā ʻoe e pili ana i ke Akua?",
+            "3": "He aha ka ʻōlelo a kēia wikiō iā ʻoe e pili ana i nā kānaka?",
+            "4": "Inā ʻoiaʻiʻo kēia wikiō, he aha ka ʻokoʻa i kou ola?",
             "5": "ʻO wai nā kānaka ʻelima hiki iā ʻoe ke kaʻana like i kāu mau ʻike?"
         }
     },
@@ -70,7 +70,7 @@
         }
     },
     "mountain": {
-        "title": "Ka Mauna o ke Akua",
+        "title": "Ka mauna o ke Akua",
         "para": {
             "1": "Ua lohe paha ʻoe i ka moʻolelo o ka Mauna o ke Akua kahi i ʻōlelo ai ka poʻe he nui nā ala i ka piko o ke kuahiwi.",
             "2": "He aha ka manaʻo o ka poʻe piʻi mauna no ia moʻolelo? E nānā i kēia wikiō Pelekane a ʻike."

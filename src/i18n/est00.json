@@ -22,8 +22,8 @@
         "title": "Tema Püha Raamat",
         "para": {
             "1": "Tema Püha Raamat algab ajaga enne, kui veel inimesi oli. Seejärel räägib see loo sellest, kuidas kaks esimest inimest Jumalaga suhtlesid.",
-            "2": "Lugege, kuidas Jumal valmistas inimesi Jeesuse saabumiseks ette.",
-            "3": "Koguge oma sõbrad ja lugege, kuidas Jumal valmistas inimesi ette Jeesuse ja tema loodud vaimse kogukonna saabumiseks.",
+            "2": "Loe, kuidas Jumal valmistas inimesi Issanda Jeesuse saabumiseks.",
+            "3": "Koguge oma sõpru ja lugege, kuidas Jumal valmistas inimesi ette Jeesuse ja tema loodud vaimse kogukonna saabumiseks.",
             "4": "Valige oma lemmikkeel, klõpsates ülaltoodud maailma maakeral."
         }
     },
@@ -32,7 +32,7 @@
         "para": {
             "1": "Need on mõned asjad, mida Issand Jeesus ja tema esimesed järgijad õpetasid.",
             "2": "Paljud inimesed on näinud oma elu muutumas, kui nad palusid Issandal Jeesusel anda neile vägi neid õpetusi ellu viia.",
-            "3": "Koguge oma sõbrad ja vaadake, mida avastate, kui arutlete järgmiste küsimuste üle.",
+            "3": "Koguge oma sõbrad ja vaadake, mida te järgmiste küsimuste arutamisel avastate.",
             "4": "Valige oma lemmikkeel, klõpsates ülaltoodud maailma maakeral."
         }
     },
@@ -41,23 +41,23 @@
         "para": {
             "1": "Videot vaadates küsi endalt \"Milline see guru on ja kas teda tasub jälgida?\"",
             "2": "See video on saadaval paljudes keeltes. Keele muutmiseks klõpsake ülalpool maailma maakera.",
-            "3": "Koguge oma sõbrad ja vaadake, mida avastate, kui arutlete järgmiste küsimuste üle."
+            "3": "Koguge oma sõbrad ja vaadake, mida te järgmiste küsimuste arutamisel avastate."
         }
     },
     "lead": {
         "title": "Teiste juhtimine",
         "para": {
-            "1": "Teiste juhtimine uurib põhimõtteid, mida Jeesus oma juhtidele õpetas – tarkust, mis on põlvkondade jooksul kujundanud teenija südamega juhtimist. Paljud on kogenud muutumist, tuginedes Jeesusele, kes aitab neil sihikindlalt ja ausalt juhtida. Kas see võib kujundada ka teie juhtimist?",
-            "2": "Koguge oma sõbrad ja vaadake, mida avastate, kui arutlete järgmiste küsimuste üle.",
+            "1": "Teiste juhtimine uurib põhimõtteid, mida Jeesus oma juhtidele õpetas – tarkust, mis on kujundanud teenija südamega juhtimist põlvkondade kaupa. Paljud on kogenud muutumist, tuginedes Jeesusele, kes aitab neil sihikindlalt ja ausalt juhtida. Kas see võib kujundada ka teie juhtimist?",
+            "2": "Koguge oma sõbrad ja vaadake, mida te järgmiste küsimuste arutamisel avastate.",
             "3": "Valige oma lemmikkeel, klõpsates ülaltoodud maailma maakeral."
         }
     },
     "video": {
         "question": {
-            "1": "Mida see sulle Jeesuse kohta räägib?",
-            "2": "Mida see teile Jumala kohta räägib?",
-            "3": "Mida see teile inimeste kohta räägib?",
-            "4": "Kui see on tõsi, siis mis vahet see teie elus muudaks?",
+            "1": "Mida see video teile Jeesusest räägib?",
+            "2": "Mida see video teile Jumala kohta räägib?",
+            "3": "Mida see video teile inimeste kohta räägib?",
+            "4": "Kui see video on tõsi, siis mis vahet see teie elus muudaks?",
             "5": "Kes on viis inimest, kellega saate oma avastusi jagada?"
         }
     },
@@ -65,7 +65,7 @@
         "title": "Teda järgides",
         "para": {
             "1": "Mida tähendab Jeesuse järgimine? Tema Püha Raamat algab ajaga enne, kui veel inimesi oli.",
-            "2": "Koguge oma sõbrad ja vaadake, mida avastate, kui arutlete järgmiste küsimuste üle.",
+            "2": "Koguge oma sõbrad ja vaadake, mida te järgmiste küsimuste arutamisel avastate.",
             "3": "Valige oma lemmikkeel, klõpsates ülaltoodud maailma maakeral."
         }
     },

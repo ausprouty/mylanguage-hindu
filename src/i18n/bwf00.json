@@ -54,10 +54,10 @@
     },
     "video": {
         "question": {
-            "1": "Šta vam ovo govori o Isusu?",
-            "2": "Šta vam ovo govori o Bogu?",
-            "3": "Šta vam ovo govori o ljudima?",
-            "4": "Ako je ovo istina, kakva bi bila razlika u vašem životu?",
+            "1": "Šta vam ovaj video govori o Isusu?",
+            "2": "Šta vam ovaj video govori o Bogu?",
+            "3": "Šta vam ovaj video govori o ljudima?",
+            "4": "Ako je ovaj video istinit, kakvu bi razliku imao u vašem životu?",
             "5": "Ko je pet ljudi s kojima možete podijeliti svoja otkrića?"
         }
     },

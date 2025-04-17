@@ -21,7 +21,7 @@
     "dbs": {
         "title": "Uning Muqaddas Kitobi",
         "para": {
-            "1": "Uning Muqaddas Kitobi odamlar mavjud bo'lmagan davrdan boshlanadi. Keyin birinchi ikki kishi Xudo bilan qanday munosabatda bo'lganligi haqida hikoya qiladi.",
+            "1": "Uning Muqaddas Kitobi odamlar mavjud bo'lmagan vaqtdan boshlanadi. Keyin birinchi ikki kishi Xudo bilan qanday munosabatda bo'lganligi haqida hikoya qiladi.",
             "2": "Xudo odamlarni Rabbiy Isoning kelishi uchun qanday tayyorlaganini o'qing.",
             "3": "Do'stlaringizni to'plang va Xudo odamlarni Isoning kelishi va u boshlagan ruhiy jamiyat uchun qanday tayyorlaganini o'qing.",
             "4": "Yuqoridagi globusni bosish orqali sevimli tilingizni tanlang."
@@ -40,31 +40,31 @@
         "title": "Uning hayoti",
         "para": {
             "1": "Videoni tomosha qilar ekansiz, o'zingizdan \"Bu guru qanday va unga ergashishga arziydimi?\"",
-            "2": "Ushbu video ko'p tillarda mavjud. Tilni o'zgartirish uchun yuqoridagi dunyo globusiga bosing.",
+            "2": "Ushbu video ko'p tillarda mavjud. Tilni o'zgartirish uchun yuqoridagi dunyo globusini bosing.",
             "3": "Do'stlaringizni yig'ing va quyidagi savollarni muhokama qilayotganda nimani kashf qilayotganingizni ko'ring."
         }
     },
     "lead": {
         "title": "Boshqalarga etakchilik qilish",
         "para": {
-            "1": "“Boshqalarga yetakchilik” kitobida Iso o‘z yo‘lboshchilariga o‘rgatgan tamoyillar, ya’ni avlodlar uchun xizmatkor qalb yetakchiligini shakllantirgan donolik haqida gapiradi. Ko'plar o'zgarishlarni boshdan kechirishgan, Isoga tayanib, maqsad va benuqsonlik bilan boshqarishga yordam berishgan. Bu sizning yetakchiligingizni ham shakllantirishi mumkinmi?",
+            "1": "“Boshqalarga yetakchilik” kitobi Iso o‘z rahbarlariga o‘rgatgan tamoyillarni, ya’ni avlodlar uchun xizmatkor qalb yetakchiligini shakllantirgan donolikni o‘rganadi. Ko'pchilik Isoga tayanib, maqsad va halollik bilan boshqarishga yordam berish orqali o'zgarishlarni boshdan kechirgan. Bu sizning yetakchiligingizni ham shakllantirishi mumkinmi?",
             "2": "Do'stlaringizni yig'ing va quyidagi savollarni muhokama qilayotganda nimani kashf qilayotganingizni ko'ring.",
             "3": "Yuqoridagi globusni bosish orqali sevimli tilingizni tanlang."
         }
     },
     "video": {
         "question": {
-            "1": "Bu sizga Iso haqida nimani aytadi?",
-            "2": "Bu sizga Xudo haqida nima deyapti?",
-            "3": "Bu sizga odamlar haqida nimani aytadi?",
-            "4": "Agar bu rost bo'lsa, bu sizning hayotingizda qanday farq qiladi?",
+            "1": "Bu video sizga Iso haqida nima deydi?",
+            "2": "Bu video sizga Xudo haqida nima deydi?",
+            "3": "Bu video sizga odamlar haqida nima deydi?",
+            "4": "Agar bu video rost bo'lsa, bu sizning hayotingizda qanday farq qiladi?",
             "5": "O'z kashfiyotlaringizni baham ko'rishingiz mumkin bo'lgan besh kishi kim?"
         }
     },
     "follow": {
         "title": "Unga ergashish",
         "para": {
-            "1": "Rabbimiz Isoga ergashish nimani anglatadi? Uning Muqaddas Kitobi odamlar mavjud bo'lmagan davrdan boshlanadi.",
+            "1": "Rabbimiz Isoga ergashish nimani anglatadi? Uning Muqaddas Kitobi odamlar mavjud bo'lmagan vaqtdan boshlanadi.",
             "2": "Do'stlaringizni yig'ing va quyidagi savollarni muhokama qilayotganda nimani kashf qilayotganingizni ko'ring.",
             "3": "Yuqoridagi globusni bosish orqali sevimli tilingizni tanlang."
         }

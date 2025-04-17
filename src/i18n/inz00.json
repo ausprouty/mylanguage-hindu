@@ -54,10 +54,10 @@
     },
     "video": {
         "question": {
-            "1": "Apa yang diceritakan di sini tentang Yesus kepada Anda?",
-            "2": "Apa yang diceritakan di sini kepada Anda tentang Tuhan?",
-            "3": "Apa yang diceritakan di sini tentang manusia?",
-            "4": "Jika ini benar, perubahan apa yang akan terjadi dalam hidup Anda?",
+            "1": "Apa yang video ini ceritakan kepada Anda tentang Yesus?",
+            "2": "Apa yang diceritakan video ini kepada Anda tentang Tuhan?",
+            "3": "Apa yang video ini ceritakan tentang manusia?",
+            "4": "Jika video ini benar, perubahan apa yang akan terjadi dalam hidup Anda?",
             "5": "Siapakah lima orang yang dapat Anda ajak berbagi penemuan Anda?"
         }
     },

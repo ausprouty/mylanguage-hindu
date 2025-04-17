@@ -21,9 +21,9 @@
     "dbs": {
         "title": "Kitab Sucinipun",
         "para": {
-            "1": "Kitab Suci diwiwiti saka wektu sadurunge ana wong. Iku banjur nyritakake babagan carane wong loro pisanan sesambungan karo Gusti Allah.",
+            "1": "Kitab Suci diwiwiti saka wektu sadurunge ana wong. Iku banjur nyritakake carane wong loro pisanan sesambungan karo Gusti Allah.",
             "2": "Waca carane Gusti Allah nyiapake wong kanggo rawuhe Gusti Yesus.",
-            "3": "Klumpukne kanca-kanca lan maca carane Gusti Allah nyiapake wong kanggo rawuh saka Gusti Yesus lan komunitas spiritual sing diwiwiti.",
+            "3": "Klumpukne kanca-kanca lan waca carane Gusti Allah nyiapake wong kanggo rawuhe Gusti Yesus lan komunitas spiritual sing diwiwiti.",
             "4": "Pilih basa favorit kanthi ngeklik globe donya ing ndhuwur."
         }
     },
@@ -31,7 +31,7 @@
         "title": "Piwulangé",
         "para": {
             "1": "Iki sawetara perkara sing diwulangké Gusti Yésus lan para muridé sing wiwitan.",
-            "2": "Akèh wong wis weruh uripé rubah nalika padha njaluk Gusti Yésus kanggo menehi daya kanggo nindakake piwulang kasebut.",
+            "2": "Akèh wong wis weruh uripé rubah nalika padha nyuwun marang Gusti Yésus supaya diparingi kekuwatan kanggo nglakokaké piwulang kasebut.",
             "3": "Klumpukne kanca-kanca lan deleng apa sing sampeyan temokake nalika ngrembug pitakonan ing ngisor iki.",
             "4": "Pilih basa favorit kanthi ngeklik globe donya ing ndhuwur."
         }
@@ -54,10 +54,10 @@
     },
     "video": {
         "question": {
-            "1": "Apa sing diomongké bab Yésus iki?",
-            "2": "Apa sing diomongké bab Gusti Allah iki?",
-            "3": "Apa iki ngandhani sampeyan babagan wong?",
-            "4": "Yen iki bener, apa bedane ing urip sampeyan?",
+            "1": "Apa sing diomongké ing video iki bab Yésus?",
+            "2": "Apa sing dicritakake ing video iki babagan Gusti Allah?",
+            "3": "Apa sing dicritakake video iki babagan wong?",
+            "4": "Yen video iki bener, apa bedane ing urip sampeyan?",
             "5": "Sapa wong lima sing bisa nuduhake panemuan sampeyan?"
         }
     },

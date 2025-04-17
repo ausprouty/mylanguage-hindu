@@ -30,8 +30,8 @@
     "life": {
         "title": "A Theagaisc",
         "para": {
-            "1": "Seo iad cuid de na rudaí a mhúin an Tiarna Íosa agus a lucht leanúna go luath.",
-            "2": "Is iomaí duine a tháinig claochlú ar a saol agus iad ag iarraidh ar an Tiarna Íosa an chumhacht a thabhairt dóibh na teagascacha seo a chur i ngníomh.",
+            "1": "Seo cuid de na rudaí a mhúin an Tiarna Íosa agus a lucht leanúna go luath.",
+            "2": "Is iomaí duine atá tar éis claochlú a dhéanamh ar a saol agus iad ag iarraidh ar an Tiarna Íosa cumhacht a thabhairt dóibh na teagascacha seo a chur i ngníomh.",
             "3": "Bailigh do chairde agus féach cad a aimsíonn tú agus tú ag plé na ceisteanna seo a leanas.",
             "4": "Roghnaigh an teanga is fearr leat trí chliceáil ar an gcruinneog dhomhanda thuas."
         }
@@ -54,10 +54,10 @@
     },
     "video": {
         "question": {
-            "1": "Cad a insíonn sé seo duit faoi Íosa?",
-            "2": "Cad a insíonn sé seo duit faoi Dhia?",
-            "3": "Cad a insíonn sé seo duit faoi dhaoine?",
-            "4": "Más fíor é seo, cén difríocht a dhéanfadh sé i do shaol?",
+            "1": "Cad a insíonn an físeán seo duit faoi Íosa?",
+            "2": "Cad a insíonn an físeán seo duit faoi Dhia?",
+            "3": "Cad a insíonn an físeán seo duit faoi dhaoine?",
+            "4": "Má tá an físeán seo fíor, cén difríocht a dhéanfadh sé i do shaol?",
             "5": "Cé hiad cúigear ar féidir leat do chuid fionnachtana a roinnt leo?"
         }
     },

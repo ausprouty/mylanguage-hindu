@@ -54,10 +54,10 @@
     },
     "video": {
         "question": {
-            "1": "Cosa ti dice questo su Gesù?",
-            "2": "Cosa ti dice questo su Dio?",
-            "3": "Cosa ti dice questo sulle persone?",
-            "4": "Se questo fosse vero, che differenza farebbe nella tua vita?",
+            "1": "Cosa ti dice questo video su Gesù?",
+            "2": "Cosa ti dice questo video su Dio?",
+            "3": "Cosa ti dice questo video sulle persone?",
+            "4": "Se questo video fosse vero, che differenza farebbe nella tua vita?",
             "5": "Chi sono le cinque persone con cui puoi condividere le tue scoperte?"
         }
     },

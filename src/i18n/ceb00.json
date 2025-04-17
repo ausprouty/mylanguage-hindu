@@ -23,8 +23,8 @@
         "para": {
             "1": "Ang Iyang Balaan nga Libro nagsugod sa panahon sa wala pa ang mga tawo. Dayon kini nagsaysay sa istorya kon sa unsang paagi ang unang duha ka tawo nakig-uban sa Diyos.",
             "2": "Basaha kon giunsa pag-andam sa Dios ang mga tawo alang sa pag-abot ni Ginoong Jesus.",
-            "3": "Tiguma ang imong mga higala ug basaha giunsa pag-andam sa Dios ang mga tawo alang sa pag-abot ni Jesus ug sa espirituhanong komunidad nga iyang gisugdan.",
-            "4": "Pilia ang imong paborito nga pinulongan pinaagi sa pag-klik sa kalibutan nga kalibutan sa ibabaw."
+            "3": "Tiguma ang imong mga higala ug basaha kung giunsa pag-andam sa Dios ang mga tawo alang sa pag-abot ni Jesus ug ang espirituhanong komunidad nga iyang gisugdan.",
+            "4": "Pilia ang imong paborito nga pinulongan pinaagi sa pag-klik sa kalibutan sa ibabaw."
         }
     },
     "life": {
@@ -33,7 +33,7 @@
             "1": "Kini ang pipila sa mga butang nga gitudlo ni Ginoong Jesus ug sa iyang unang mga sumusunod.",
             "2": "Daghang mga tawo ang nakakita sa ilang mga kinabuhi nga nabag-o samtang sila nangayo sa Ginoo nga si Jesus sa paghatag kanila sa gahum sa pagbuhat niini nga mga pagtulun-an.",
             "3": "Tiguma ang imong mga higala ug tan-awa unsay imong nadiskobrehan samtang imong hisgutan ang mosunod nga mga pangutana.",
-            "4": "Pilia ang imong paborito nga pinulongan pinaagi sa pag-klik sa kalibutan nga kalibutan sa ibabaw."
+            "4": "Pilia ang imong paborito nga pinulongan pinaagi sa pag-klik sa kalibutan sa ibabaw."
         }
     },
     "jVideo": {
@@ -49,15 +49,15 @@
         "para": {
             "1": "Ang Pagpanguna sa Uban nagsusi sa mga prinsipyo nga gitudlo ni Jesus sa iyang mga lider — kaalam nga nag-umol sa kasingkasing sa sulugoon nga pagpangulo sa mga henerasyon. Daghan ang nakasinati ug kausaban pinaagi sa pagsalig kang Jesus sa pagtabang kanila sa pagpangulo nga may katuyoan ug integridad. Makahulma ba usab kini sa imong pagpangulo?",
             "2": "Tiguma ang imong mga higala ug tan-awa unsay imong nadiskobrehan samtang imong hisgutan ang mosunod nga mga pangutana.",
-            "3": "Pilia ang imong paborito nga pinulongan pinaagi sa pag-klik sa kalibutan nga kalibutan sa ibabaw."
+            "3": "Pilia ang imong paborito nga pinulongan pinaagi sa pag-klik sa kalibutan sa ibabaw."
         }
     },
     "video": {
         "question": {
-            "1": "Unsa ang gisulti niini kanimo mahitungod kang Jesus?",
-            "2": "Unsa ang gisulti niini kanimo bahin sa Diyos?",
-            "3": "Unsa ang gisulti niini kanimo bahin sa mga tawo?",
-            "4": "Kon tinuod kini, unsay kalainan niini sa imong kinabuhi?",
+            "1": "Unsa ang gisulti niini nga video bahin kang Jesus?",
+            "2": "Ano ang ginasugid sa imo sini nga video parte sa Dios?",
+            "3": "Unsa ang gisulti niini nga video bahin sa mga tawo?",
+            "4": "Kung kini nga video tinuod, unsa ang kalainan nga mahimo niini sa imong kinabuhi?",
             "5": "Kinsa ang lima ka tawo nga mahimo nimong ipaambit sa imong mga nadiskobrehan?"
         }
     },
@@ -66,13 +66,13 @@
         "para": {
             "1": "Unsa ang gipasabut sa pagsunod sa Ginoong Jesus? Ang Iyang Balaan nga Libro nagsugod sa panahon sa wala pa ang mga tawo.",
             "2": "Tiguma ang imong mga higala ug tan-awa unsay imong nadiskobrehan samtang imong hisgutan ang mosunod nga mga pangutana.",
-            "3": "Pilia ang imong paborito nga pinulongan pinaagi sa pag-klik sa kalibutan nga kalibutan sa ibabaw."
+            "3": "Pilia ang imong paborito nga pinulongan pinaagi sa pag-klik sa kalibutan sa ibabaw."
         }
     },
     "mountain": {
         "title": "Ang Bukid sa Dios",
         "para": {
-            "1": "Tingali nakadungog ka sa istorya sa Bukid sa Dios diin ang mga tawo nag-ingon nga adunay daghang mga agianan padulong sa tumoy sa bukid.",
+            "1": "Tingali nakadungog na mo sa istorya sa Bukid sa Dios diin ang mga tawo nag-ingon nga adunay daghang mga agianan paingon sa tumoy sa bukid.",
             "2": "Unsay hunahuna sa mga tigkatkat sa bukid niana nga istorya? Tan-awa kining English nga video ug hibal-i."
         }
     },

@@ -47,17 +47,17 @@
     "lead": {
         "title": "Ukuhola Abanye",
         "para": {
-            "1": "Ukuhola Abanye kuhlola izimiso uJesu azifundisa abaholi bakhe—ukuhlakanipha okuye kwakha ubuholi obunezinhliziyo zezinceku ezizukulwaneni ngezizukulwane. Abaningi baye babhekana noshintsho ngokuthembela kuJesu ukuze abasize bahole ngenjongo nangobuqotho. Ingabe lokhu kungabulolonga ubuholi bakho nawe?",
+            "1": "Ukuhola Abanye kuhlola izimiso uJesu azifundisa abaholi bakhe—ukuhlakanipha okuye kwakha ubuholi obunezinhliziyo zezinceku ezizukulwaneni ngezizukulwane. Abaningi baye babhekana noshintsho ngokuthembela kuJesu ukuze abasize bahole ngenjongo nangobuqotho. Ingabe lokhu kungabubumba nobuholi bakho?",
             "2": "Qoqa abangani bakho futhi ubone ukuthi yini oyitholayo njengoba uxoxa ngale mibuzo elandelayo.",
             "3": "Khetha ulimi lwakho oluthandayo ngokuchofoza imbulunga yomhlaba ngenhla."
         }
     },
     "video": {
         "question": {
-            "1": "Kukutshelani lokhu ngoJesu?",
-            "2": "Kukutshelani lokhu ngoNkulunkulu?",
-            "3": "Kukutshelani lokhu ngabantu?",
-            "4": "Uma lokhu kuyiqiniso, imuphi umehluko obungawenza empilweni yakho?",
+            "1": "Le vidiyo ikutshelani ngoJesu?",
+            "2": "Le vidiyo ikutshelani ngoNkulunkulu?",
+            "3": "Ikutshelani le vidiyo ngabantu?",
+            "4": "Uma le vidiyo iyiqiniso, ingawenza muphi umehluko empilweni yakho?",
             "5": "Obani abantu abahlanu ongabelana nabo ngezinto ozitholile?"
         }
     },

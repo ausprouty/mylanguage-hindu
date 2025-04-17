@@ -67,6 +67,7 @@ export default{
   },
   methods: {
     handleImageClick(to) {
+      console.log (to)
       // Handle the click event, e.g., navigate to the specified route
       this.$router.push(to);
     },

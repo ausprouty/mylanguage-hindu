@@ -21,7 +21,7 @@
     "dbs": {
         "title": "Hans Hellige Bog",
         "para": {
-            "1": "Hans Hellige Bog starter med tiden før der var nogen mennesker. Den fortæller derefter historien om, hvordan de første to mennesker interagerede med Gud.",
+            "1": "Hans hellige bog starter med tiden før der var nogen mennesker. Den fortæller derefter historien om, hvordan de to første mennesker interagerede med Gud.",
             "2": "Læs, hvordan Gud forberedte mennesker til Herren Jesu ankomst.",
             "3": "Saml dine venner og læs, hvordan Gud forberedte mennesker til Jesu ankomst og det åndelige fællesskab, han startede.",
             "4": "Vælg dit yndlingssprog ved at klikke på verdensgloben ovenfor."
@@ -31,7 +31,7 @@
         "title": "Hans Lære",
         "para": {
             "1": "Dette er nogle af de ting, som Herren Jesus og hans tidlige tilhængere lærte.",
-            "2": "Mange mennesker har set deres liv forvandlet, da de bad Herren Jesus om at give dem kraften til at omsætte denne lære i handling.",
+            "2": "Mange mennesker har set deres liv blive forvandlet, da de bad Herren Jesus om at give dem kraften til at omsætte disse lærdomme til handling.",
             "3": "Saml dine venner og se, hvad du opdager, mens du diskuterer følgende spørgsmål.",
             "4": "Vælg dit yndlingssprog ved at klikke på verdensgloben ovenfor."
         }
@@ -40,7 +40,7 @@
         "title": "Hans Liv",
         "para": {
             "1": "Mens du ser videoen, så spørg dig selv \"Hvordan er denne guru, og er han værd at følge?\"",
-            "2": "Denne video er tilgængelig på mange sprog. For at ændre sproget, klik på verdenskloden ovenfor.",
+            "2": "Denne video er tilgængelig på mange sprog. Klik på verdenskloden ovenfor for at ændre sproget.",
             "3": "Saml dine venner og se, hvad du opdager, mens du diskuterer følgende spørgsmål."
         }
     },
@@ -54,17 +54,17 @@
     },
     "video": {
         "question": {
-            "1": "Hvad fortæller dette dig om Jesus?",
-            "2": "Hvad fortæller dette dig om Gud?",
-            "3": "Hvad fortæller det dig om mennesker?",
-            "4": "Hvis dette er sandt, hvilken forskel ville det gøre i dit liv?",
+            "1": "Hvad fortæller denne video dig om Jesus?",
+            "2": "Hvad fortæller denne video dig om Gud?",
+            "3": "Hvad fortæller denne video dig om mennesker?",
+            "4": "Hvis denne video er sand, hvilken forskel ville den så gøre i dit liv?",
             "5": "Hvem er fem personer, du kan dele dine opdagelser med?"
         }
     },
     "follow": {
         "title": "Følger ham",
         "para": {
-            "1": "Hvad vil det sige at følge Herren Jesus? Hans Hellige Bog starter med tiden før der var nogen mennesker.",
+            "1": "Hvad vil det sige at følge Herren Jesus? Hans hellige bog starter med tiden før der var nogen mennesker.",
             "2": "Saml dine venner og se, hvad du opdager, mens du diskuterer følgende spørgsmål.",
             "3": "Vælg dit yndlingssprog ved at klikke på verdensgloben ovenfor."
         }

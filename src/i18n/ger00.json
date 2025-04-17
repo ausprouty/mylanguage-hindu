@@ -54,10 +54,10 @@
     },
     "video": {
         "question": {
-            "1": "Was sagt Ihnen das über Jesus?",
-            "2": "Was sagt Ihnen das über Gott?",
-            "3": "Was sagt Ihnen das über Menschen?",
-            "4": "Wenn das wahr ist, welchen Unterschied würde es in Ihrem Leben machen?",
+            "1": "Was sagt Ihnen dieses Video über Jesus?",
+            "2": "Was sagt Ihnen dieses Video über Gott?",
+            "3": "Was sagt Ihnen dieses Video über Menschen?",
+            "4": "Wenn dieses Video wahr wäre, welchen Unterschied würde es in Ihrem Leben machen?",
             "5": "Mit welchen fünf Personen können Sie Ihre Entdeckungen teilen?"
         }
     },

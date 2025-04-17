@@ -47,17 +47,17 @@
     "lead": {
         "title": "Coj Lwm Tus",
         "para": {
-            "1": "Coj Lwm tus tshawb nrhiav cov hauv paus ntsiab lus uas Yexus qhia nws cov thawj coj - kev txawj ntse uas tau ua rau cov tub qhe zoo siab rau kev coj noj coj ua rau ntau tiam neeg. Ntau tus tau ntsib kev hloov pauv los ntawm kev tso siab rau Yexus los pab lawv coj lub hom phiaj thiab kev ncaj ncees. Qhov no puas tuaj yeem txhim kho koj txoj kev coj noj coj ua thiab?",
+            "1": "Kev Coj Lwm Tus tshawb nrhiav cov hauv paus ntsiab lus uas Yexus qhia nws cov thawj coj - kev txawj ntse uas tau ua rau cov tub qhe zoo siab rau kev coj noj coj ua rau ntau tiam neeg. Ntau tus tau ntsib kev hloov pauv los ntawm kev tso siab rau Yexus los pab lawv coj lub hom phiaj thiab kev ncaj ncees. Qhov no puas tuaj yeem txhim kho koj txoj kev coj noj coj ua thiab?",
             "2": "Sau koj cov phooj ywg thiab saib seb koj nrhiav tau dab tsi thaum koj tham txog cov lus nug hauv qab no.",
             "3": "Xaiv cov lus koj nyiam los ntawm txhaj rau lub ntiaj teb lub ntiaj teb saum toj no."
         }
     },
     "video": {
         "question": {
-            "1": "Qhov no qhia li cas rau koj txog Yexus?",
-            "2": "Qhov no qhia li cas rau koj txog Vajtswv?",
-            "3": "Qhov no qhia koj li cas txog tib neeg?",
-            "4": "Yog tias qhov no muaj tseeb, nws yuav ua li cas rau koj lub neej?",
+            "1": "Daim vis dis aus no qhia li cas rau koj txog Yexus?",
+            "2": "Daim vis dis aus no qhia li cas rau koj txog Vajtswv?",
+            "3": "Daim vis dis aus no qhia koj li cas txog tib neeg?",
+            "4": "Yog tias daim vis dis aus no muaj tseeb, nws yuav ua rau koj lub neej sib txawv li cas?",
             "5": "Leej twg yog tsib tus neeg koj tuaj yeem qhia koj qhov kev tshawb pom nrog?"
         }
     },

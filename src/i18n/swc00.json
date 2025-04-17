@@ -23,7 +23,7 @@
         "para": {
             "1": "Kitabu chake kitakatifu kinaanza na wakati kabla ya kuwepo watu wowote. Kisha inasimulia hadithi ya jinsi watu wawili wa kwanza walivyotangamana na Mungu.",
             "2": "Soma jinsi Mungu alivyowatayarisha watu kwa ajili ya kuja kwa Bwana Yesu.",
-            "3": "Kusanya marafiki zako na usome jinsi Mungu alivyotayarisha watu kwa ajili ya ujio wa Yesu na jumuiya ya kiroho aliyoianzisha.",
+            "3": "Kusanya marafiki zako na usome jinsi Mungu alivyowatayarisha watu kwa ajili ya ujio wa Yesu na jumuiya ya kiroho aliyoianzisha.",
             "4": "Chagua lugha yako uipendayo kwa kubofya ulimwengu wa dunia hapo juu."
         }
     },
@@ -54,10 +54,10 @@
     },
     "video": {
         "question": {
-            "1": "Je, hii inakuambia nini kuhusu Yesu?",
-            "2": "Je, hii inakuambia nini kuhusu Mungu?",
-            "3": "Je, hii inakuambia nini kuhusu watu?",
-            "4": "Ikiwa hii ni kweli, itafanya tofauti gani katika maisha yako?",
+            "1": "Video hii inakuambia nini kuhusu Yesu?",
+            "2": "Video hii inakuambia nini kuhusu Mungu?",
+            "3": "Je, video hii inakuambia nini kuhusu watu?",
+            "4": "Ikiwa video hii ni ya kweli, ingeleta tofauti gani katika maisha yako?",
             "5": "Je, ni watu gani watano unaoweza kushiriki nao uvumbuzi wako?"
         }
     },

@@ -31,7 +31,7 @@
         "title": "Jeho Učení",
         "para": {
             "1": "Toto jsou některé z věcí, které učil Pán Ježíš a jeho první následovníci.",
-            "2": "Mnoho lidí vidělo, jak se jejich životy proměnily, když žádali Pána Ježíše, aby jim dal moc uvést toto učení do praxe.",
+            "2": "Mnoho lidí vidělo, jak se jejich životy proměnily, když požádali Pána Ježíše, aby jim dal sílu uvést toto učení do praxe.",
             "3": "Shromážděte své přátele a uvidíte, co objevíte, když budete diskutovat o následujících otázkách.",
             "4": "Vyberte svůj oblíbený jazyk kliknutím na zeměkouli výše."
         }
@@ -54,10 +54,10 @@
     },
     "video": {
         "question": {
-            "1": "Co vám to říká o Ježíši?",
-            "2": "Co vám to říká o Bohu?",
-            "3": "Co to vypovídá o lidech?",
-            "4": "Pokud je to pravda, jaký by to znamenalo rozdíl ve vašem životě?",
+            "1": "Co vám toto video říká o Ježíši?",
+            "2": "Co vám toto video říká o Bohu?",
+            "3": "Co vám toto video říká o lidech?",
+            "4": "Pokud je toto video pravdivé, jaký by to znamenalo rozdíl ve vašem životě?",
             "5": "S kým pěti lidmi se můžete podělit o své objevy?"
         }
     },

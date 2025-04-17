@@ -54,10 +54,10 @@
     },
     "video": {
         "question": {
-            "1": "Mitä tämä kertoo sinulle Jeesuksesta?",
-            "2": "Mitä tämä kertoo sinulle Jumalasta?",
-            "3": "Mitä tämä kertoo ihmisistä?",
-            "4": "Jos tämä on totta, mitä merkitystä sillä olisi elämääsi?",
+            "1": "Mitä tämä video kertoo sinulle Jeesuksesta?",
+            "2": "Mitä tämä video kertoo Jumalasta?",
+            "3": "Mitä tämä video kertoo ihmisistä?",
+            "4": "Jos tämä video on totta, mitä merkitystä sillä olisi elämääsi?",
             "5": "Ketkä ovat viisi ihmistä, joiden kanssa voit jakaa löytösi?"
         }
     },

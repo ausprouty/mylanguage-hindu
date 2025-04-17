@@ -21,9 +21,9 @@
     "dbs": {
         "title": "Bere Liburu Santua",
         "para": {
-            "1": "Bere Liburu Santua jenderik egon aurreko garaiarekin hasten da. Ondoren, lehenengo bi pertsonek Jainkoarekin nola elkarreragiten zuten kontatzen du.",
+            "1": "Bere Liburu Santua jenderik egon aurreko garaiarekin hasten da. Ondoren, lehenengo bi pertsonak Jainkoarekin nola elkarreragiten zuten istorioa kontatzen du.",
             "2": "Irakurri nola prestatu zituen Jainkoak jendea Jesus Jaunaren etorrerarako.",
-            "3": "Bildu zure lagunak eta irakurri Jainkoak jendea nola prestatu zuen Jesusen etorrerarako eta berak hasitako komunitate espiritualerako.",
+            "3": "Bildu zure lagunak eta irakurri nola prestatu zituen Jainkoak jendea Jesusen etorrerarako eta berak sortu zuen komunitate espiritualerako.",
             "4": "Hautatu zure hizkuntza gogokoena goiko munduko globoan klik eginez."
         }
     },
@@ -54,10 +54,10 @@
     },
     "video": {
         "question": {
-            "1": "Zer esaten dizu honek Jesusi buruz?",
-            "2": "Zer esaten dizu honek Jainkoari buruz?",
-            "3": "Zer esaten dizu honek jendeari buruz?",
-            "4": "Hau egia bada, zer alde egingo luke zure bizitzan?",
+            "1": "Zer esaten dizu bideo honek Jesusi buruz?",
+            "2": "Zer esaten dizu bideo honek Jainkoari buruz?",
+            "3": "Zer esaten dizu bideo honek jendeari buruz?",
+            "4": "Bideo hau egia bada, zer desberdintasun egingo luke zure bizitzan?",
             "5": "Zeintzuk dira zure aurkikuntzak parteka ditzakezun bost lagunekin?"
         }
     },

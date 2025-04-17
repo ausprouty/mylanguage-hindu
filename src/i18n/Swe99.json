@@ -30,7 +30,7 @@
     "life": {
         "title": "Hans läror",
         "para": {
-            "1": "Detta är några av de saker som Herren Jesus och hans tidiga efterföljare lärde ut.",
+            "1": "Det här är några av de saker som Herren Jesus och hans tidiga efterföljare lärde ut.",
             "2": "Många människor har sett sina liv förändras när de bad Herren Jesus att ge dem kraften att omsätta dessa läror i handling.",
             "3": "Samla dina vänner och se vad du upptäcker när du diskuterar följande frågor.",
             "4": "Välj ditt favoritspråk genom att klicka på världsgloben ovan."
@@ -54,10 +54,10 @@
     },
     "video": {
         "question": {
-            "1": "Vad säger detta dig om Jesus?",
-            "2": "Vad säger detta dig om Gud?",
-            "3": "Vad säger detta dig om människor?",
-            "4": "Om detta är sant, vilken skillnad skulle det göra i ditt liv?",
+            "1": "Vad säger den här videon dig om Jesus?",
+            "2": "Vad säger den här videon dig om Gud?",
+            "3": "Vad säger den här videon dig om människor?",
+            "4": "Om den här videon är sann, vilken skillnad skulle det göra i ditt liv?",
             "5": "Vilka är fem personer du kan dela dina upptäckter med?"
         }
     },

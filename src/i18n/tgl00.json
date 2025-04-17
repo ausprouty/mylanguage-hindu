@@ -21,7 +21,7 @@
     "dbs": {
         "title": "Kanyang Banal na Aklat",
         "para": {
-            "1": "Ang Kanyang Banal na Aklat ay nagsisimula sa panahon bago pa nagkaroon ng mga tao. Pagkatapos ay sinasabi nito ang kuwento kung paano nakipag-ugnayan ang unang dalawang tao sa Diyos.",
+            "1": "Nagsisimula ang Kanyang Banal na Aklat sa panahon bago pa nagkaroon ng mga tao. Pagkatapos ay sinasabi nito ang kuwento kung paano nakipag-ugnayan ang unang dalawang tao sa Diyos.",
             "2": "Basahin kung paano inihanda ng Diyos ang mga tao para sa pagdating ng Panginoong Hesus.",
             "3": "Ipunin ang iyong mga kaibigan at basahin kung paano inihanda ng Diyos ang mga tao para sa pagdating ni Hesus at ang espirituwal na komunidad na kanyang sinimulan.",
             "4": "Piliin ang iyong paboritong wika sa pamamagitan ng pag-click sa mundong globo sa itaas."
@@ -39,7 +39,7 @@
     "jVideo": {
         "title": "Kanyang Buhay",
         "para": {
-            "1": "Habang pinapanood mo ang video, tanungin ang iyong sarili \"Ano ang hitsura ng gurong ito at nararapat bang sundin siya?\"",
+            "1": "Habang pinapanood mo ang video, tanungin ang iyong sarili \"Ano ang hitsura ng guru na ito at nararapat bang sundin siya?\"",
             "2": "Available ang video na ito sa maraming wika. Upang baguhin ang wika i-click ang mundong globo sa itaas.",
             "3": "Ipunin ang iyong mga kaibigan at tingnan kung ano ang iyong natuklasan habang tinatalakay mo ang mga sumusunod na tanong."
         }
@@ -47,24 +47,24 @@
     "lead": {
         "title": "Nangunguna sa Iba",
         "para": {
-            "1": "Ang Pamumuno sa Iba ay nagsasaliksik sa mga prinsipyong itinuro ni Jesus sa kanyang mga pinuno — karunungan na humubog sa tapat na pamumuno sa loob ng mga henerasyon. Marami ang nakaranas ng pagbabago sa pamamagitan ng pag-asa kay Jesus upang tulungan silang mamuno nang may layunin at integridad. Maaari rin bang hubugin nito ang iyong pamumuno?",
+            "1": "Ang Pangunguna sa Iba ay nagsasaliksik sa mga prinsipyong itinuro ni Jesus sa kanyang mga pinuno — karunungan na humubog sa pamumuno na may pusong lingkod sa mga henerasyon. Marami ang nakaranas ng pagbabago sa pamamagitan ng pag-asa kay Jesus upang tulungan silang mamuno nang may layunin at integridad. Maaari rin bang hubugin nito ang iyong pamumuno?",
             "2": "Ipunin ang iyong mga kaibigan at tingnan kung ano ang iyong natuklasan habang tinatalakay mo ang mga sumusunod na tanong.",
             "3": "Piliin ang iyong paboritong wika sa pamamagitan ng pag-click sa mundong globo sa itaas."
         }
     },
     "video": {
         "question": {
-            "1": "Ano ang sinasabi nito sa iyo tungkol kay Jesus?",
-            "2": "Ano ang sinasabi nito sa iyo tungkol sa Diyos?",
-            "3": "Ano ang sinasabi nito sa iyo tungkol sa mga tao?",
-            "4": "Kung totoo ito, anong pagkakaiba ang maidudulot nito sa iyong buhay?",
+            "1": "Ano ang sinasabi sa iyo ng video na ito tungkol kay Jesus?",
+            "2": "Ano ang sinasabi sa iyo ng video na ito tungkol sa Diyos?",
+            "3": "Ano ang sinasabi sa iyo ng video na ito tungkol sa mga tao?",
+            "4": "Kung totoo ang video na ito, anong pagkakaiba ang maidudulot nito sa iyong buhay?",
             "5": "Sino ang limang tao na maaari mong ibahagi ang iyong mga natuklasan?"
         }
     },
     "follow": {
         "title": "Sumusunod sa Kanya",
         "para": {
-            "1": "Ano ang ibig sabihin ng pagsunod sa Panginoong Jesus? Ang Kanyang Banal na Aklat ay nagsisimula sa panahon bago pa nagkaroon ng mga tao.",
+            "1": "Ano ang ibig sabihin ng pagsunod sa Panginoong Jesus? Nagsisimula ang Kanyang Banal na Aklat sa panahon bago pa nagkaroon ng mga tao.",
             "2": "Ipunin ang iyong mga kaibigan at tingnan kung ano ang iyong natuklasan habang tinatalakay mo ang mga sumusunod na tanong.",
             "3": "Piliin ang iyong paboritong wika sa pamamagitan ng pag-click sa mundong globo sa itaas."
         }
@@ -80,7 +80,7 @@
         "title": "Kapanganakan ng Guru",
         "para": {
             "1": "Isang grupo ng mga astrologo ang nakakita ng kakaibang bagong bituin mga 2,000 taon na ang nakalilipas na umakay sa kanila na maniwala na isang bagong hari ang isinilang sa Israel. Kaya nagsimula sila sa isang mahabang paglalakbay upang bisitahin ang haring ito, ipakita ang kanilang paggalang at bigyan siya ng mga regalo.",
-            "2": "Panoorin ang English na video na ito para makita kung ano ang natuklasan nila."
+            "2": "Panoorin ang English na video na ito para makita kung ano ang kanilang natuklasan."
         }
     }
 }

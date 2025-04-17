@@ -21,7 +21,7 @@
     "dbs": {
         "title": "Buka ya Hae e Halalelang",
         "para": {
-            "1": "Buka ea Hae e Halalelang e qala ka nako pele ho ba le batho. Joale e bua pale ea kamoo batho ba babeli ba pele ba ileng ba sebelisana le Molimo kateng.",
+            "1": "Buka ea Hae e Halalelang e qala ka nako ea pele ho batho. Joale e bua pale ea kamoo batho ba babeli ba pele ba ileng ba sebelisana le Molimo kateng.",
             "2": "Bala kamoo Molimo a ileng a lokisetsa batho ho tla ha Morena Jesu.",
             "3": "Bokella metsoalle ea hau 'me u bale kamoo Molimo a ileng a lokisetsa batho ho fihla ha Jesu le sechaba sa moea seo a se qalileng.",
             "4": "Khetha puo eo u e ratang ka ho tobetsa lefats'e ka holimo."
@@ -47,24 +47,24 @@
     "lead": {
         "title": "Ho Eta Ba Bang Pele",
         "para": {
-            "1": "Ho Etella Ba Bang Pele ho hlahloba melao-motheo eo Jesu a ileng a e ruta baeta-pele ba hae—bohlale bo ’nileng ba susumetsa boeta-pele ba lipelo tsa bahlanka ka lilemo. Ba bangata ba bone phetoho ka ho itšetleha ka Jesu hore a ba thuse ho etella pele ka morero le ka botšepehi. Na see se ka ama boetapele ba hau le bona?",
+            "1": "Ho Eta ba Bang Pele ho hlahloba melao-motheo eo Jesu a e rutileng baeta-pele ba hae—bohlale bo ’nileng ba susumetsa boeta-pele ba lipelo tsa bahlanka ho tloha melokong e mengata. Ba bangata ba bone phetoho ka ho itšetleha ka Jesu hore a ba thuse ho etella pele ka morero le ka botšepehi. Na see se ka ama boetapele ba hau le bona?",
             "2": "Bokella metsoalle ea hau 'me u bone seo u se fumanang ha le ntse le tšohla lipotso tse latelang.",
             "3": "Khetha puo eo u e ratang ka ho tobetsa lefats'e ka holimo."
         }
     },
     "video": {
         "question": {
-            "1": "See se u bolella eng ka Jesu?",
-            "2": "See se u bolella eng ka Molimo?",
-            "3": "See se u bolella eng ka batho?",
-            "4": "Haeba sena ke 'nete, se ka etsa phapang efe bophelong ba hau?",
+            "1": "Video ee e u bolella’ng ka Jesu?",
+            "2": "Video ee e u bolella’ng ka Molimo?",
+            "3": "Video ee e u bolella eng ka batho?",
+            "4": "Haeba video ee ke 'nete, e ka etsa phapang efe bophelong ba hau?",
             "5": "Ke bo-mang ba bahlano bao u ka arolelanang lintho tseo u li sibolotseng?"
         }
     },
     "follow": {
         "title": "Ho Mo latela",
         "para": {
-            "1": "Ho bolela’ng ho latela Morena Jesu? Buka ea Hae e Halalelang e qala ka nako pele ho ba le batho.",
+            "1": "Ho bolela’ng ho latela Morena Jesu? Buka ea Hae e Halalelang e qala ka nako ea pele ho batho.",
             "2": "Bokella metsoalle ea hau 'me u bone seo u se fumanang ha le ntse le tšohla lipotso tse latelang.",
             "3": "Khetha puo eo u e ratang ka ho tobetsa lefats'e ka holimo."
         }
