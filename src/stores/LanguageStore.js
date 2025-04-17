@@ -269,6 +269,7 @@ export const useLanguageStore = defineStore("languageStore", {
     updateLanguageSelected(languageCodeHL, languageCodeJF){
       this.languageSelected.languageCodeHL = languageCodeHL;
       this.languageSelected.languageCodeJF = languageCodeJF;
+      console.log(this.languageSelected);
       localStorage.setItem('languageSelected', JSON.stringify(this.languageSelected));
     },
 

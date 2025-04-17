@@ -53,23 +53,27 @@ export async function getLessonContent(languageCodeHL, study, lesson) {
 
   try {
     const response = await currentApi.get(url, { timeout: 10000 });
-    console.log (response)
-    // Check if the response is already an object or needs parsing
-    const data =
-      typeof response.data === "string"
-        ? JSON.parse(response.data.data)
-        : response.data.data
+    console.log("getLessonContent");
+    console.log(response);
 
-    console.log("Fetched data:", data);
+    if (response.data?.status === "success") {
+      const data = response.data.data;
 
-    // Cache the content locally for future use
-    localStorage.setItem(cacheKey, JSON.stringify(data));
+      console.log("Fetched data:", data);
 
-    return data;
+      // Cache the content locally
+      localStorage.setItem(cacheKey, JSON.stringify(data));
+
+      return data;
+    } else {
+      console.warn("API call did not return success:", response.data);
+      return null;
+    }
   } catch (error) {
-    console.error(`Error fetching lesson content for ${url} : ${error}`);
-    throw error; // Rethrow to allow the caller to handle the error
+    console.error("Error fetching lesson content:", error);
+    return null;
   }
+
 }
 
 // services/TranslationService.js

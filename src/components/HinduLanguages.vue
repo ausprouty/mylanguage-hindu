@@ -15,16 +15,19 @@
 </template>
 
 <script>
-import { ref, onMounted, watch } from "vue";
+import { ref, watch, onMounted } from "vue";
+import { useI18n } from "vue-i18n";
+import { i18n } from "boot/i18n";
+import { loadLocaleMessages } from "src/i18n/index";
 import { useLanguageStore } from "stores/LanguageStore";
 
 export default {
   name: "HinduLanguages",
   setup() {
     const languageStore = useLanguageStore();
+    const { locale } = useI18n();
 
     const languageOptions = ref([
-      // Fallback options shown instantly
       { label: "English", value: "eng00", languageCodeJF: "529" },
       { label: "हिन्दी", value: "hnd00", languageCodeJF: "6464" },
     ]);
@@ -32,12 +35,25 @@ export default {
     const selectedLanguage = ref("eng00");
     const languageCodeJF = ref("529");
 
-    watch(selectedLanguage, (newVal) => {
+    watch(selectedLanguage, async (newLangCode) => {
       const found = languageOptions.value.find(
-        (item) => item.value === newVal
+        (item) => item.value === newLangCode
       );
+
       languageCodeJF.value = found?.languageCodeJF || "529";
-      languageStore.updateLanguageSelected(newVal, languageCodeJF.value);
+      languageStore.updateLanguageSelected(newLangCode, languageCodeJF.value);
+
+      // Only load if this locale hasn't already been loaded
+      if (!i18n.global.availableLocales.includes(newLangCode)) {
+        try {
+          const messages = await loadLocaleMessages(newLangCode);
+          i18n.global.setLocaleMessage(newLangCode, messages);
+        } catch (e) {
+          console.warn("Failed to load messages for", newLangCode, e);
+        }
+      }
+
+      locale.value = newLangCode;
     });
 
     onMounted(async () => {
@@ -45,7 +61,6 @@ export default {
         const response = await fetch("/data/languages.json");
         const data = await response.json();
 
-        // Update radio options and store
         languageOptions.value = data.map((item) => ({
           label: item.name,
           value: item.languageCodeHL,
@@ -54,7 +69,7 @@ export default {
 
         languageStore.updateLanguages(data);
       } catch (err) {
-        console.warn("Could not load /languages.json. Using fallback options.");
+        console.warn("Could not load /data/languages.json. Using fallback options.");
       }
     });
 

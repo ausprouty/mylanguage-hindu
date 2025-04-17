@@ -42,8 +42,8 @@ const props = defineProps({
   placeholder: { type: String, default: 'Write your notes here' },
   timing: { type: String, default: "" },
   biblePassage: { type: Object, required: true },
-  passageReference: { type: Object, required: true },
-  translation: { type: String, required: true },
+  passageReference: { type: String, required: true },
+  translation: { type: Object, required: true },
 })
 
 const note = ref('')
