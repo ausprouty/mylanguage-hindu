@@ -14,6 +14,7 @@
         title="The Birth of Lord Jesus"
       ></iframe>
     </div>
+    <div><VideoQuestions  /></div>
     <div
       class="q-gutter-md q-flex items-center inline align-right"
       @click="showNextSegment"
@@ -25,6 +26,7 @@
 </template>
 
 <script>
+import VideoQuestions from "src/components/Video/VideoQuestions.vue";
 export default {
   name: "BirthOfGuru",
   head() {

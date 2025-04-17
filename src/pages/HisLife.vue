@@ -20,7 +20,7 @@
       <JVideoPlayer :languageCodeHL="computedLanguageCodeHLSelected" />
     </div>
 
-    <div><JVideoQuestions :languageCodeHL="computedLanguageCodeHLSelected" /></div>
+    <div><VideoQuestions  /></div>
     <!-- content -->
   </q-page>
 </template>
@@ -29,7 +29,7 @@
 import JVideoPlayer from "src/components/JesusVideo/JVideoPlayer.vue";
 import JVideoSegmentSelect from "src/components/JesusVideo/JVideoSegmentSelect.vue";
 import JVideoSegmentController from "src/components/JesusVideo/JVideoSegmentController.vue";
-import JVideoQuestions from "src/components/JesusVideo/JVideoQuestions.vue";
+import VideoQuestions from "src/components/Videos/VideoQuestions.vue";
 import { useLanguageStore } from "stores/LanguageStore";
 import { computed } from "vue";
 

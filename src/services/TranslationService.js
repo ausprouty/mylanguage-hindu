@@ -13,7 +13,7 @@ export async function getCommonContent(languageCodeHL, study) {
   // Fallback: API call if content is not found locally
   // notice we have appended the logic to the end of this query to bring the words
   // for this group
-  const url = `api/translate/commonContent/${languageCodeHL}/${study}/beta`;
+  const url = `api/translate/commonContent/${languageCodeHL}/${study}`;
   console.log("Fetching CommonContent from API:", url);
 
   try {

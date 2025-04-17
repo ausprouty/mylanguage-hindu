@@ -1,8 +1,8 @@
 <template>
   <q-page padding>
     <h2> {{ $t("follow.title") }}</h2>
-    <p>{{ $t("follow.para1") }}</p>
-    <p>{{ $t("follow.para2") }}</p>
+    <p>{{ $t("follow.para.1") }}</p>
+    <p>{{ $t("follow.para.2") }}</p>
     <div>
       <FollowingHimSegmentSelect
         :languageCodeHL="computedLanguageCodeHL"
@@ -16,7 +16,7 @@
       />
     </div>
     <div>
-      <FollowingHimQuestions :languageCodeHL="computedLanguageCodeHL" />
+      <VideoQuestions />
     </div>
     <!-- content -->
   </q-page>
@@ -25,7 +25,7 @@
 <script>
 import FollowingHimPlayer from "src/components/FollowingHim/FollowingHimPlayer.vue";
 import FollowingHimSegmentSelect from "src/components/FollowingHim/FollowingHimSegmentSelect.vue";
-import FollowingHimQuestions from "src/components/FollowingHim/FollowingHimQuestions.vue";
+import VideoQuestions from "src/components/Video/VideoQuestions.vue";
 import { useLanguageStore } from "stores/LanguageStore";
 import { computed } from "vue";
 
@@ -37,7 +37,7 @@ export default {
   components: {
     FollowingHimPlayer,
     FollowingHimSegmentSelect,
-    FollowingHimQuestions,
+    VideoQuestions,
   },
   data() {
     return {

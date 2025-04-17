@@ -45,8 +45,9 @@
         }
     },
     "lead": {
+        "title": "Daoine Eile a Cheannaireacht",
         "para": {
-            "1": "Scrúdaíonn Fionnachtana na Ceannaireachta na prionsabail a mhúin Íosa dá cheannairí — an eagna a mhúnlaigh ceannaireacht seirbhíseach do na glúnta. Is iomaí duine a d’fhulaing claochlú trí bheith ag brath ar Íosa chun cabhrú leo ceannaireacht a dhéanamh le cuspóir agus le hionracas. An bhféadfadh sé seo do cheannaireacht a mhúnlú freisin?",
+            "1": "Fiosraíonn Leading Others na prionsabail a mhúin Íosa dá cheannairí — an eagna a mhúnlaigh ceannaireacht seirbhíseach do na glúnta. Is iomaí duine a d’fhulaing claochlú trí bheith ag brath ar Íosa chun cabhrú leo ceannaireacht a dhéanamh le cuspóir agus le hionracas. An bhféadfadh sé seo do cheannaireacht a mhúnlú freisin?",
             "2": "Bailigh do chairde agus féach cad a aimsíonn tú agus tú ag plé na ceisteanna seo a leanas.",
             "3": "Roghnaigh an teanga is fearr leat trí chliceáil ar an gcruinneog dhomhanda thuas."
         }

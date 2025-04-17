@@ -233,6 +233,10 @@ export const useLanguageStore = defineStore("languageStore", {
         console.warn(`Attempted to set lesson for an invalid study: ${study}`);
       }
     },
+    updateFollowingHimSegment(newValue) {
+      localStorage.setItem('followingHimSegment', newValue);
+      this.followingHimSegment = newValue;
+    },
     updateJVideoSegmentId(newValue) {
       if (newValue != null){
         if (newValue > 0 && newValue < 62){
