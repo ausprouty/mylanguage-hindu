@@ -68,5 +68,19 @@
             "2": "Kusanya marafiki zako na uone kile unachogundua unapojadili maswali yafuatayo.",
             "3": "Chagua lugha yako uipendayo kwa kubofya ulimwengu wa dunia hapo juu."
         }
+    },
+    "mountain": {
+        "title": "Mlima wa Mungu",
+        "para": {
+            "1": "Huenda umesikia hadithi ya Mlima wa Mungu ambapo watu wanasema kuna njia nyingi za kuelekea kilele cha mlima.",
+            "2": "Je, wapanda mlima huona nini kuhusu hadithi hiyo? Tazama video hii ya Kiingereza na ujue."
+        }
+    },
+    "birth": {
+        "title": "Kuzaliwa kwa Guru",
+        "para": {
+            "1": "Kikundi cha wanajimu waliona nyota mpya ya ajabu yapata miaka 2,000 iliyopita ambayo iliwafanya waamini kwamba mfalme mpya alikuwa amezaliwa katika Israeli. Kwa hiyo walianza safari ndefu ya kumtembelea mfalme huyu, kumuonyesha heshima na kumpa zawadi.",
+            "2": "Tazama video hii ya Kiingereza ili kuona walichogundua."
+        }
     }
 }

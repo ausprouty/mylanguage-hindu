@@ -68,5 +68,19 @@
             "2": "Sammelt Är Frënn a kuckt wat Dir entdeckt wann Dir déi folgend Froen diskutéiert.",
             "3": "Wielt Är Liiblingssprooch andeems Dir op de Weltglob uewen klickt."
         }
+    },
+    "mountain": {
+        "title": "De Bierg vu Gott",
+        "para": {
+            "1": "Dir hutt vläicht d'Geschicht vum Bierg vu Gott héieren, wou d'Leit soen datt et vill Weeër op d'Spëtzt vum Bierg gëtt.",
+            "2": "Wat denken Biergerkletterer vun där Geschicht? Kuckt dësen englesche Video a gitt eraus."
+        }
+    },
+    "birth": {
+        "title": "Gebuert vum Guru",
+        "para": {
+            "1": "Eng Grupp vun Astrologen huet virun ongeféier 2.000 Joer e komeschen neie Stär gesinn, deen hinnen dozou gefouert huet datt en neie Kinnek an Israel gebuer gouf. Also hu si op eng laang Rees ugefaang fir dëse Kinnek ze besichen, hire Respekt ze weisen an him Kaddoen ze ginn.",
+            "2": "Kuckt dësen englesche Video fir ze kucken wat se entdeckt hunn."
+        }
     }
 }

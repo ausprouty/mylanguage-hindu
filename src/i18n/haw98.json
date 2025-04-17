@@ -68,5 +68,19 @@
             "2": "E hōʻuluʻulu i kāu mau hoaaloha a ʻike i nā mea āu i ʻike ai i kāu kūkākūkā ʻana i kēia mau nīnau.",
             "3": "E koho i kāu ʻōlelo punahele ma ke kaomi ʻana i ka honua honua ma luna."
         }
+    },
+    "mountain": {
+        "title": "Ka Mauna o ke Akua",
+        "para": {
+            "1": "Ua lohe paha ʻoe i ka moʻolelo o ka Mauna o ke Akua kahi i ʻōlelo ai ka poʻe he nui nā ala i ka piko o ke kuahiwi.",
+            "2": "He aha ka manaʻo o ka poʻe piʻi mauna no ia moʻolelo? E nānā i kēia wikiō Pelekane a ʻike."
+        }
+    },
+    "birth": {
+        "title": "Hanau o ke Guru",
+        "para": {
+            "1": "Ua ʻike kekahi hui o ka poʻe kilo i kahi hōkū hou ʻē aʻe ma kahi o 2,000 mau makahiki i hala aku nei i alakaʻi iā lākou e manaʻoʻiʻo ua hānau ʻia kahi aliʻi hou ma ʻIseraʻela. No laila, hoʻomaka lākou i kahi huakaʻi lōʻihi e kipa aku i kēia mōʻī, hōʻike i ko lākou mahalo a hāʻawi makana iā ia.",
+            "2": "E nānā i kēia wikiō Pelekane e ʻike i nā mea a lākou i ʻike ai."
+        }
     }
 }

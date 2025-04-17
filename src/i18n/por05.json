@@ -32,7 +32,7 @@
         "para": {
             "1": "Estas são algumas das coisas que o Senhor Jesus e seus primeiros seguidores ensinaram.",
             "2": "Muitas pessoas viram suas vidas transformadas quando pediram ao Senhor Jesus que lhes desse o poder de colocar esses ensinamentos em ação.",
-            "3": "Reúna seus amigos e veja o que você descobre ao discutir as questões a seguir.",
+            "3": "Reúna seus amigos e veja o que você descobre ao discutir as seguintes questões.",
             "4": "Selecione seu idioma favorito clicando no globo acima."
         }
     },
@@ -41,14 +41,14 @@
         "para": {
             "1": "Ao assistir ao vídeo, pergunte-se: \"Como é esse guru e vale a pena segui-lo?\"",
             "2": "Este vídeo está disponível em vários idiomas. Para alterar o idioma, clique no globo mundial acima.",
-            "3": "Reúna seus amigos e veja o que você descobre ao discutir as questões a seguir."
+            "3": "Reúna seus amigos e veja o que você descobre ao discutir as seguintes questões."
         }
     },
     "lead": {
         "title": "Liderando Outros",
         "para": {
             "1": "Liderando Outros explora os princípios que Jesus ensinou aos seus líderes – sabedoria que moldou a liderança com coração de servo por gerações. Muitos experimentaram a transformação ao confiar em Jesus para ajudá-los a liderar com propósito e integridade. Isso poderia moldar sua liderança também?",
-            "2": "Reúna seus amigos e veja o que você descobre ao discutir as questões a seguir.",
+            "2": "Reúna seus amigos e veja o que você descobre ao discutir as seguintes questões.",
             "3": "Selecione seu idioma favorito clicando no globo acima."
         }
     },
@@ -65,8 +65,22 @@
         "title": "Seguindo-o",
         "para": {
             "1": "O que significa seguir o Senhor Jesus? Seu Livro Sagrado começa com o tempo antes de existir qualquer povo.",
-            "2": "Reúna seus amigos e veja o que você descobre ao discutir as questões a seguir.",
+            "2": "Reúna seus amigos e veja o que você descobre ao discutir as seguintes questões.",
             "3": "Selecione seu idioma favorito clicando no globo acima."
+        }
+    },
+    "mountain": {
+        "title": "A Montanha de Deus",
+        "para": {
+            "1": "Você deve ter ouvido a história da Montanha de Deus, onde as pessoas dizem que há muitos caminhos para o topo da montanha.",
+            "2": "O que os alpinistas acham dessa história? Assista a este vídeo em inglês e descubra."
+        }
+    },
+    "birth": {
+        "title": "Nascimento do Guru",
+        "para": {
+            "1": "Um grupo de astrólogos viu uma estranha nova estrela há cerca de 2.000 anos, o que os levou a acreditar que um novo rei havia nascido em Israel. Então eles iniciaram uma longa viagem para visitar esse rei, mostrar seu respeito e dar-lhe presentes.",
+            "2": "Assista a este vídeo em inglês para ver o que eles descobriram."
         }
     }
 }

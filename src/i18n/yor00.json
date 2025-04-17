@@ -68,5 +68,19 @@
             "2": "Pe awọn ọrẹ rẹ jọ ki o wo ohun ti o rii bi o ṣe n jiroro awọn ibeere wọnyi.",
             "3": "Yan ede ayanfẹ rẹ nipa tite lori agbaye agbaye loke."
         }
+    },
+    "mountain": {
+        "title": "Oke Olorun",
+        "para": {
+            "1": "Ó ṣeé ṣe kí ẹ ti gbọ́ ìtàn Òkè Ńlá Ọlọ́run níbi táwọn èèyàn ti ń sọ pé ọ̀nà pọ̀ tó lọ sí orí òkè náà.",
+            "2": "Kí làwọn tó ń gun òkè rò nípa ìtàn yẹn? Ẹ wo fídíò Gẹ̀ẹ́sì yìí kí ẹ sì mọ̀."
+        }
+    },
+    "birth": {
+        "title": "Ibi ti Oluko",
+        "para": {
+            "1": "Àwùjọ àwọn awòràwọ̀ kan rí ìràwọ̀ tuntun kan tó ṣàjèjì ní nǹkan bí 2,000 ọdún sẹ́yìn tó mú kí wọ́n gbà gbọ́ pé a ti bí ọba tuntun ní Ísírẹ́lì. Nítorí náà, wọ́n bẹ̀rẹ̀ ìrìn àjò ọ̀nà jíjìn láti bẹ ọba yìí wò, láti fi ọ̀wọ̀ wọn hàn, kí wọ́n sì fún un ní ẹ̀bùn.",
+            "2": "Wo fidio Gẹẹsi yii lati wo ohun ti wọn ṣe awari."
+        }
     }
 }

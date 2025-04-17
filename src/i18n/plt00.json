@@ -68,5 +68,19 @@
             "2": "Angony ny namanao ary jereo ny zavatra hitanao rehefa mifanakalo hevitra momba ireto fanontaniana manaraka ireto ianao.",
             "3": "Safidio ny fiteny tianao indrindra amin'ny fipihana ny tontolon'izao tontolo izao etsy ambony."
         }
+    },
+    "mountain": {
+        "title": "Ny tendrombohitr’Andriamanitra",
+        "para": {
+            "1": "Mety ho efa nandre ny tantaran’ny Tendrombohitr’Andriamanitra izay lazain’ny olona fa maro ny lalana mankany an-tampon’ilay tendrombohitra.",
+            "2": "Inona no hevitr’ireo mpihanika tendrombohitra momba izany tantara izany? Jereo ity video anglisy ity ary fantaro."
+        }
+    },
+    "birth": {
+        "title": "Fahaterahan'ny Guru",
+        "para": {
+            "1": "Nisy andiana mpanandro nahita kintana vaovao hafahafa tokony ho 2 000 taona lasa izay, ka nahatonga azy ireo hino fa nisy mpanjaka vaovao teraka tany Israely. Koa dia nanomboka nanao dia lavitra izy ireo mba hitsidika an’io mpanjaka io, naneho ny fanajany ary nanome azy fanomezana.",
+            "2": "Jereo ity horonan-tsary amin'ny teny anglisy ity mba hahitana ny zavatra hitan'izy ireo."
+        }
     }
 }

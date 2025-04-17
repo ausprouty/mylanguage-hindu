@@ -68,5 +68,19 @@
             "2": "Colligite amicos vestros et vide quid invenias sicut de sequentibus quaestionibus discutias.",
             "3": "Linguam tuam gratam elige strepitando in orbe terrarum supra."
         }
+    },
+    "mountain": {
+        "title": "Mons Dei",
+        "para": {
+            "1": "Forte audisti fabulam montis Dei ubi dicunt homines multae viae ad cacumen montis.",
+            "2": "Quid montem viverra tellus cogitare de illa fabula? Vide hoc Anglicum video et proba."
+        }
+    },
+    "birth": {
+        "title": "Nativitas Guru",
+        "para": {
+            "1": "Coetus mathematicorum novam stellam novam circiter abhinc annis 2000 vidit miram, quae eos adducebat ut credant novum regem in Israele natum esse. Profecti itaque in longum iter ad hunc regem visitandum, reverentiam exhibeant et dona ei donant.",
+            "2": "Spectare hoc video Anglicum videre quid invenerint."
+        }
     }
 }

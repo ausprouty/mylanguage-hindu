@@ -68,5 +68,19 @@
             "2": "Kusanya inshuti zawe urebe ibyo wavumbuye mugihe muganira kubibazo bikurikira.",
             "3": "Hitamo ururimi ukunda ukanze kwisi yose hejuru."
         }
+    },
+    "mountain": {
+        "title": "Umusozi w'Imana",
+        "para": {
+            "1": "Ushobora kuba warumvise inkuru yumusozi wImana aho abantu bavuga ko hariho inzira nyinshi zijya hejuru yumusozi.",
+            "2": "Abazamuka imisozi batekereza iki kuriyi nkuru? Reba iyi videwo y'Icyongereza umenye."
+        }
+    },
+    "birth": {
+        "title": "Ivuka rya Guru",
+        "para": {
+            "1": "Itsinda ry'abaragurisha inyenyeri babonye inyenyeri nshya idasanzwe hashize imyaka 2000 ibatera kwizera ko muri Isiraheli havutse umwami mushya. Batangiye rero urugendo rurerure rwo gusura uyu mwami, kwerekana ko bubaha kandi bamuha impano.",
+            "2": "Reba iyi videwo yicyongereza kugirango urebe icyo bavumbuye."
+        }
     }
 }

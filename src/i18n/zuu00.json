@@ -68,5 +68,19 @@
             "2": "Qoqa abangani bakho futhi ubone ukuthi yini oyitholayo njengoba uxoxa ngale mibuzo elandelayo.",
             "3": "Khetha ulimi lwakho oluthandayo ngokuchofoza imbulunga yomhlaba ngenhla."
         }
+    },
+    "mountain": {
+        "title": "Intaba kaNkulunkulu",
+        "para": {
+            "1": "Kungenzeka ukuthi uke wayizwa indaba yeNtaba kaNkulunkulu lapho abantu bethi ziningi izindlela eziya esiqongweni sentaba.",
+            "2": "Bacabangani abaqwali bezintaba ngaleyo ndaba? Buka le vidiyo yesiNgisi futhi uthole."
+        }
+    },
+    "birth": {
+        "title": "Ukuzalwa kukaGuru",
+        "para": {
+            "1": "Iqembu lababhula ngezinkanyezi labona inkanyezi entsha eyinqaba eminyakeni engaba ngu-2 000 edlule eyalenza lakholelwa ukuthi kwakunenkosi entsha kwa-Israyeli. Ngakho baqala uhambo olude bevakashela le nkosi, bayibonise inhlonipho futhi bayiphe nezipho.",
+            "2": "Buka le vidiyo yesiNgisi ukuze ubone ukuthi bathole ini."
+        }
     }
 }

@@ -68,5 +68,19 @@
             "2": "Kunvenigu viajn amikojn kaj vidu kion vi malkovras dum vi diskutas la sekvajn demandojn.",
             "3": "Elektu vian plej ŝatatan lingvon klakante sur la monda globo supre."
         }
+    },
+    "mountain": {
+        "title": "La Monto de Dio",
+        "para": {
+            "1": "Vi eble aŭdis la rakonton pri la Monto de Dio, kie homoj diras, ke estas multaj vojoj al la supro de la monto.",
+            "2": "Kion pensas montgrimpistoj pri tiu rakonto? Rigardu ĉi tiun anglan videon kaj eksciu."
+        }
+    },
+    "birth": {
+        "title": "Naskiĝo de la Guruo",
+        "para": {
+            "1": "Grupo de astrologoj vidis strangan novan stelon antaŭ proksimume 2 000 jaroj, kiu kredigis ilin, ke nova reĝo naskiĝis en Israelo. Do ili komencis longan vojaĝon por viziti ĉi tiun reĝon, montri sian respekton kaj doni al li donacojn.",
+            "2": "Rigardu ĉi tiun anglan videon por vidi kion ili malkovris."
+        }
     }
 }

@@ -6,7 +6,7 @@
     },
     "menu": {
         "next": "Próximo",
-        "nextVideo": "Siguiente Vídeo",
+        "nextVideo": "Siguiente vídeo",
         "previous": "Anterior",
         "select": "Seleccionar",
         "videoSegment": "Segmento de vídeo",
@@ -67,6 +67,20 @@
             "1": "¿Qué significa seguir al Señor Jesús? Su Libro Sagrado comienza con el tiempo anterior a que existiera el pueblo.",
             "2": "Reúne a tus amigos y mira lo que descubres mientras discutes las siguientes preguntas.",
             "3": "Seleccione su idioma favorito haciendo clic en el globo terráqueo de arriba."
+        }
+    },
+    "mountain": {
+        "title": "La montaña de Dios",
+        "para": {
+            "1": "Es posible que hayas escuchado la historia de la Montaña de Dios, donde la gente dice que hay muchos caminos hasta la cima de la montaña.",
+            "2": "¿Qué piensan los alpinistas de esa historia? Mira este vídeo en inglés y descúbrelo."
+        }
+    },
+    "birth": {
+        "title": "Nacimiento del Gurú",
+        "para": {
+            "1": "Un grupo de astrólogos vio hace unos 2.000 años una nueva estrella extraña que les hizo creer que había nacido un nuevo rey en Israel. Entonces emprendieron un largo viaje para visitar a este rey, mostrarle su respeto y darle regalos.",
+            "2": "Mire este vídeo en inglés para ver lo que descubrieron."
         }
     }
 }

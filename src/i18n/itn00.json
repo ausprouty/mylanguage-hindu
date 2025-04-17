@@ -68,5 +68,19 @@
             "2": "Raduna i tuoi amici e guarda cosa scopri mentre discuti le seguenti domande.",
             "3": "Seleziona la tua lingua preferita facendo clic sul mappamondo in alto."
         }
+    },
+    "mountain": {
+        "title": "La Montagna di Dio",
+        "para": {
+            "1": "Potresti aver sentito la storia della Montagna di Dio dove la gente dice che ci sono molti sentieri che portano in cima alla montagna.",
+            "2": "Cosa pensano gli alpinisti di quella storia? Guarda questo video in inglese e scoprilo."
+        }
+    },
+    "birth": {
+        "title": "Nascita del Guru",
+        "para": {
+            "1": "Un gruppo di astrologi videro una strana nuova stella circa 2.000 anni fa che li portò a credere che in Israele fosse nato un nuovo re. Così iniziarono un lungo viaggio per visitare questo re, mostrargli il loro rispetto e fargli dei regali.",
+            "2": "Guarda questo video in inglese per vedere cosa hanno scoperto."
+        }
     }
 }

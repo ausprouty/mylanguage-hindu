@@ -39,7 +39,7 @@
     "jVideo": {
         "title": "Rayuwarsa",
         "para": {
-            "1": "Yayin da kuke kallon bidiyon, ku tambayi kanku \"Mene ne wannan guru kuma ya cancanci bi?\"",
+            "1": "Yayin da kuke kallon bidiyon, tambayi kanku \"Mene ne wannan guru kuma ya cancanci bi?\"",
             "2": "Ana samun wannan bidiyon a cikin yaruka da yawa. Don canza harshe danna duniyar duniyar da ke sama.",
             "3": "Ka tara abokanka kuma ka ga abin da ka gano yayin da kake tattauna waɗannan tambayoyin."
         }
@@ -67,6 +67,20 @@
             "1": "Menene ma’anar bin Ubangiji Yesu? Littafinsa mai tsarki ya fara da zamanin da kafin a sami wasu mutane.",
             "2": "Ka tara abokanka kuma ka ga abin da ka gano yayin da kake tattauna waɗannan tambayoyin.",
             "3": "Zaɓi harshen da kuka fi so ta danna kan duniyar duniyar da ke sama."
+        }
+    },
+    "mountain": {
+        "title": "Dutsen Allah",
+        "para": {
+            "1": "Wataƙila kun ji labarin Dutsen Allah inda mutane suka ce akwai hanyoyi da yawa zuwa saman dutsen.",
+            "2": "Menene masu hawan dutse suke tunani game da wannan labarin? Kalli wannan bidiyo na turanci ka gano."
+        }
+    },
+    "birth": {
+        "title": "Haihuwar Guru",
+        "para": {
+            "1": "Rukunin taurari sun ga wani sabon tauraro kusan shekaru 2,000 da suka shige wanda ya sa suka gaskata cewa an haifi sabon sarki a Isra’ila. Don haka suka fara tafiya mai nisa don ziyartar wannan sarki, suna girmama su da kuma ba shi kyauta.",
+            "2": "Kalli wannan bidiyo na Turanci don ganin abin da suka gano."
         }
     }
 }

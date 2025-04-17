@@ -68,5 +68,19 @@
             "2": "Adunați-vă prietenii și vedeți ce descoperiți în timp ce discutați următoarele întrebări.",
             "3": "Selectați limba preferată făcând clic pe globul de mai sus."
         }
+    },
+    "mountain": {
+        "title": "Muntele lui Dumnezeu",
+        "para": {
+            "1": "Poate că ați auzit povestea Muntelui lui Dumnezeu, unde oamenii spun că există multe căi către vârful muntelui.",
+            "2": "Ce cred alpiniștii despre această poveste? Urmărește acest videoclip în limba engleză și află."
+        }
+    },
+    "birth": {
+        "title": "Nașterea Gurului",
+        "para": {
+            "1": "Un grup de astrologi a văzut o nouă stea ciudată în urmă cu aproximativ 2.000 de ani, ceea ce i-a făcut să creadă că un nou rege s-a născut în Israel. Așa că au început o călătorie lungă pentru a-l vizita pe acest rege, pentru a-și arăta respectul și pentru a-i oferi cadouri.",
+            "2": "Urmărește acest videoclip în engleză pentru a vedea ce au descoperit."
+        }
     }
 }

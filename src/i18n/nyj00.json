@@ -68,5 +68,19 @@
             "2": "Sonkhanitsani anzanu ndikuwona zomwe mwapeza pamene mukukambirana mafunso otsatirawa.",
             "3": "Sankhani chilankhulo chomwe mumakonda podina padziko lonse lapansi pamwambapa."
         }
+    },
+    "mountain": {
+        "title": "Phiri la Mulungu",
+        "para": {
+            "1": "Mwina munamvapo nkhani ya Phiri la Mulungu pamene anthu amanena kuti pali njira zambiri zopita pamwamba pa phirili.",
+            "2": "Kodi anthu okwera mapiri amaganiza chiyani pa nkhani imeneyi? Onerani vidiyoyi yachingerezi kuti mudziwe."
+        }
+    },
+    "birth": {
+        "title": "Kubadwa kwa Guru",
+        "para": {
+            "1": "Gulu la openda nyenyezi linaona nyenyezi yatsopano yachilendo pafupifupi zaka 2,000 zapitazo imene inawapangitsa kukhulupirira kuti mfumu yatsopano yabadwa mu Israyeli. Choncho iwo anayamba ulendo wautali wokaona mfumuyi, kusonyeza ulemu ndi kumpatsa mphatso.",
+            "2": "Onerani vidiyoyi yachingerezi kuti muwone zomwe apeza."
+        }
     }
 }

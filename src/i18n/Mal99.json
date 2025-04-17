@@ -58,7 +58,7 @@
             "2": "Dan x’jgħidlek dwar Alla?",
             "3": "Dan x’jgħidlek dwar in-nies?",
             "4": "Jekk dan hu minnu, x’differenza tagħmel f’ħajtek?",
-            "5": "Min huma ħames persuni magħhom tista’ taqsam l-iskoperti tiegħek?"
+            "5": "Min huma ħames persuni li tista’ taqsam magħhom l-iskoperti tiegħek?"
         }
     },
     "follow": {
@@ -67,6 +67,20 @@
             "1": "Xi jfisser li timxi wara l-Mulej Ġesù? Il-Ktieb Imqaddes Tiegħu jibda biż-żmien qabel ma kien hemm xi nies.",
             "2": "Iġbor sħabek u ara x'tiskopri hekk kif tiddiskuti l-mistoqsijiet li ġejjin.",
             "3": "Agħżel il-lingwa favorita tiegħek billi tikklikkja fuq il-globu dinji hawn fuq."
+        }
+    },
+    "mountain": {
+        "title": "Il-Muntanja ta’ Alla",
+        "para": {
+            "1": "Forsi smajt l-istorja tal-Muntanja ta’ Alla fejn in-nies jgħidu li hemm ħafna mogħdijiet għall-quċċata tal-muntanja.",
+            "2": "X’jaħsbu dawk li jtellgħu l-muntanji dwar dik l-istorja? Ara dan il-filmat bl-Ingliż u sirbu."
+        }
+    },
+    "birth": {
+        "title": "Twelid tal-Guru",
+        "para": {
+            "1": "Grupp taʼ astrologi raw stilla ġdida stramba madwar 2,000 sena ilu li wasslithom biex jemmnu li kien twieled sultan ġdid f’Iżrael. Għalhekk bdew vjaġġ twil biex iżuru dan is-sultan, juru r-rispett tagħhom u jagħtuh rigali.",
+            "2": "Ara dan il-filmat bl-Ingliż biex tara dak li skoprew."
         }
     }
 }

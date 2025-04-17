@@ -68,5 +68,19 @@
             "2": "Mblidhni miqtë tuaj dhe shikoni se çfarë zbuloni ndërsa diskutoni pyetjet e mëposhtme.",
             "3": "Zgjidhni gjuhën tuaj të preferuar duke klikuar mbi globin botëror më lart."
         }
+    },
+    "mountain": {
+        "title": "Mali i Zotit",
+        "para": {
+            "1": "Ju mund të keni dëgjuar historinë e Malit të Zotit ku njerëzit thonë se ka shumë shtigje për në majën e malit.",
+            "2": "Çfarë mendojnë alpinistët për atë histori? Shikoni këtë video në anglisht dhe zbuloni."
+        }
+    },
+    "birth": {
+        "title": "Lindja e Guru",
+        "para": {
+            "1": "Një grup astrologësh panë një yll të ri të çuditshëm rreth 2000 vjet më parë që i bëri ata të besonin se një mbret i ri kishte lindur në Izrael. Kështu ata filluan një udhëtim të gjatë për të vizituar këtë mbret, për të treguar respektin e tyre dhe për t'i dhënë atij dhurata.",
+            "2": "Shikoni këtë video në anglisht për të parë se çfarë zbuluan."
+        }
     }
 }

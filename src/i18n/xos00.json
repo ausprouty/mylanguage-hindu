@@ -68,5 +68,19 @@
             "2": "Hlanganisa abahlobo bakho kwaye ubone oko ukufumanisileyo njengoko uxoxa ngale mibuzo ilandelayo.",
             "3": "Khetha ulwimi oluthandayo ngokucofa iglowubhu yehlabathi ngaphezulu."
         }
+    },
+    "mountain": {
+        "title": "Intaba kaThixo",
+        "para": {
+            "1": "Usenokuba ukhe weva ngebali leNtaba kaThixo apho abantu bathi zininzi iindlela eziya encotsheni yentaba.",
+            "2": "Bacinga ntoni abakhweli bentaba ngelo bali? Bukela le vidiyo yesiNgesi kwaye ufumanise."
+        }
+    },
+    "birth": {
+        "title": "Ukuzalwa kukaGuru",
+        "para": {
+            "1": "Iqela labavumisi ngeenkwenkwezi labona inkwenkwezi entsha engaqhelekanga malunga neminyaka engama-2 000 eyadlulayo eyabangela ukuba likholelwe ukuba kwaSirayeli kwazalwa ukumkani omtsha. Ngoko baqalisa uhambo olude betyelela lo kumkani, bebonisa imbeko baze bamnike izipho.",
+            "2": "Bukela le vidiyo yesiNgesi ukuze ubone ukuba bayibhaqile."
+        }
     }
 }

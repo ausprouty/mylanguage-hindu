@@ -68,5 +68,19 @@
             "2": "Reuneix els teus amics i mira què descobreixes mentre discuteixes les preguntes següents.",
             "3": "Seleccioneu el vostre idioma preferit fent clic al globus de dalt."
         }
+    },
+    "mountain": {
+        "title": "La Muntanya de Déu",
+        "para": {
+            "1": "Potser heu escoltat la història de la Muntanya de Déu on la gent diu que hi ha molts camins fins al cim de la muntanya.",
+            "2": "Què en pensen els alpinistes d'aquesta història? Mira aquest vídeo en anglès i descobreix-ho."
+        }
+    },
+    "birth": {
+        "title": "Naixement del Guru",
+        "para": {
+            "1": "Un grup d'astròlegs va veure una estranya nova estrella fa uns 2.000 anys que els va fer creure que havia nascut un nou rei a Israel. Així que van començar un llarg viatge per visitar aquest rei, mostrar-li el seu respecte i fer-li regals.",
+            "2": "Mireu aquest vídeo en anglès per veure què van descobrir."
+        }
     }
 }

@@ -68,5 +68,19 @@
             "2": "Faapotopoto au uo ma vaai mea e te mauaina a o e talanoaina fesili nei.",
             "3": "Filifili lau gagana e sili ona e fiafia i ai e ala i le kiliki i luga ole lalolagi kelope."
         }
+    },
+    "mountain": {
+        "title": "Le Mauga o le Atua",
+        "para": {
+            "1": "Atonu ua e faalogo i le tala i le Mauga o le Atua lea e fai mai ai tagata e tele auala i le tumutumu o le mauga.",
+            "2": "O le ā le manatu o tagata feʻei mauga i lenā tala? Matamata i lenei vitio Igilisi ma saili."
+        }
+    },
+    "birth": {
+        "title": "Fanau mai o le Guru",
+        "para": {
+            "1": "Ne lavea ne se potukau o tino iloilo fetū se fetu fou fakaofoofogia i se 2,000 tausaga ko ‵teka telā ne fai ei ke tali‵tonu latou me ko oti ne fanau mai se tupu fou i Isalaelu. O lea na latou amata ai i se malaga umi e asiasi i lenei tupu, faaalia lo latou faaaloalo ma avatu ia te ia ni meaalofa.",
+            "2": "Matamata i lenei vitio Igilisi e iloa ai mea na latou mauaina."
+        }
     }
 }

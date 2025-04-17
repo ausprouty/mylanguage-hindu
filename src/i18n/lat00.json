@@ -68,5 +68,19 @@
             "2": "Sapulciniet savus draugus un uzziniet, ko atklājat, apspriežot tālāk minētos jautājumus.",
             "3": "Izvēlieties savu iecienītāko valodu, noklikšķinot uz pasaules zemeslodes augstāk."
         }
+    },
+    "mountain": {
+        "title": "Dieva kalns",
+        "para": {
+            "1": "Jūs, iespējams, esat dzirdējuši stāstu par Dieva kalnu, kur cilvēki saka, ka kalna virsotnē ir daudz ceļu.",
+            "2": "Ko par šo stāstu domā kalnos kāpēji? Noskatieties šo video angļu valodā un uzziniet."
+        }
+    },
+    "birth": {
+        "title": "Guru dzimšana",
+        "para": {
+            "1": "Astrologu grupa pirms aptuveni 2000 gadiem ieraudzīja dīvainu jaunu zvaigzni, kas lika viņiem domāt, ka Izraēlā ir dzimis jauns karalis. Tāpēc viņi sāka garu ceļojumu, lai apmeklētu šo karali, izrādītu savu cieņu un pasniegtu viņam dāvanas.",
+            "2": "Noskatieties šo angļu valodas video, lai redzētu, ko viņi atklāja."
+        }
     }
 }

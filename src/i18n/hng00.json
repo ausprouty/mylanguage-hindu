@@ -68,5 +68,19 @@
             "2": "Gyűjtsd össze barátaidat, és nézd meg, mit fedezel fel, miközben megbeszéled a következő kérdéseket.",
             "3": "Válassza ki kedvenc nyelvét a fenti világgömbre kattintva."
         }
+    },
+    "mountain": {
+        "title": "Isten hegye",
+        "para": {
+            "1": "Talán hallottad már Isten hegyének történetét, ahol az emberek azt mondják, hogy sok ösvény vezet a hegy tetejére.",
+            "2": "Mit gondolnak a hegymászók erről a történetről? Nézze meg ezt az angol nyelvű videót, és megtudja."
+        }
+    },
+    "birth": {
+        "title": "A Guru születése",
+        "para": {
+            "1": "Asztrológusok egy csoportja körülbelül 2000 évvel ezelőtt látott egy furcsa új csillagot, ami azt hitte, hogy új király született Izraelben. Így hát hosszú útra indultak, hogy meglátogassák ezt a királyt, kifejezzék tiszteletüket és ajándékokat adjanak neki.",
+            "2": "Nézze meg ezt az angol nyelvű videót, hogy megtudja, mit fedeztek fel."
+        }
     }
 }

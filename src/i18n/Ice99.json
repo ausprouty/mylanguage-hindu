@@ -68,5 +68,19 @@
             "2": "Safnaðu vinum þínum og sjáðu hvað þú uppgötvar þegar þú ræðir eftirfarandi spurningar.",
             "3": "Veldu uppáhalds tungumálið þitt með því að smella á heimshnöttinn hér að ofan."
         }
+    },
+    "mountain": {
+        "title": "Guðsfjall",
+        "para": {
+            "1": "Þú gætir hafa heyrt söguna af fjalli Guðs þar sem fólk segir að það séu margar leiðir upp á topp fjallsins.",
+            "2": "Hvað finnst fjallgöngumönnum um þá sögu? Horfðu á þetta enska myndband og komdu að því."
+        }
+    },
+    "birth": {
+        "title": "Fæðing gúrúsins",
+        "para": {
+            "1": "Hópur stjörnuspekinga sá undarlega nýja stjörnu fyrir um 2.000 árum sem leiddi þá til að trúa því að nýr konungur hefði fæðst í Ísrael. Þeir fóru því í langa ferð til að heimsækja þennan konung, sýna honum virðingu og gefa honum gjafir.",
+            "2": "Horfðu á þetta enska myndband til að sjá hvað þeir uppgötvuðu."
+        }
     }
 }

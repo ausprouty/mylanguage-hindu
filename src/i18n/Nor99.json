@@ -68,5 +68,19 @@
             "2": "Samle vennene dine og se hva du oppdager mens du diskuterer følgende spørsmål.",
             "3": "Velg ditt favorittspråk ved å klikke på verdenskloden ovenfor."
         }
+    },
+    "mountain": {
+        "title": "Guds fjell",
+        "para": {
+            "1": "Du har kanskje hørt historien om Guds fjell der folk sier at det er mange stier til toppen av fjellet.",
+            "2": "Hva synes fjellklatrere om den historien? Se denne engelske videoen og finn ut."
+        }
+    },
+    "birth": {
+        "title": "Guruens fødsel",
+        "para": {
+            "1": "En gruppe astrologer så en merkelig ny stjerne for rundt 2000 år siden som fikk dem til å tro at en ny konge var blitt født i Israel. Så de begynte på en lang reise for å besøke denne kongen, vise respekt og gi ham gaver.",
+            "2": "Se denne engelske videoen for å se hva de oppdaget."
+        }
     }
 }

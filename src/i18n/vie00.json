@@ -68,5 +68,19 @@
             "2": "Hãy tập hợp bạn bè của bạn và xem bạn khám phá được điều gì khi thảo luận những câu hỏi sau đây.",
             "3": "Chọn ngôn ngữ yêu thích của bạn bằng cách nhấp vào quả địa cầu thế giới ở trên."
         }
+    },
+    "mountain": {
+        "title": "Núi của Chúa",
+        "para": {
+            "1": "Có thể bạn đã từng nghe câu chuyện Núi Chúa, người ta nói có nhiều con đường dẫn lên đỉnh núi.",
+            "2": "Những người leo núi nghĩ gì về câu chuyện đó? Hãy xem video tiếng Anh này và tìm hiểu nhé."
+        }
+    },
+    "birth": {
+        "title": "Sự ra đời của Đạo sư",
+        "para": {
+            "1": "Một nhóm nhà chiêm tinh đã nhìn thấy một ngôi sao mới lạ cách đây khoảng 2.000 năm khiến họ tin rằng một vị vua mới đã được sinh ra ở Israel. Vì vậy, họ bắt đầu một chuyến đi dài để đến thăm vị vua này, bày tỏ lòng kính trọng và tặng quà cho ông.",
+            "2": "Hãy xem video tiếng Anh này để biết họ đã khám phá được điều gì."
+        }
     }
 }

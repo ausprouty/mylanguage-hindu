@@ -68,5 +68,19 @@
             "2": "Do'stlaringizni yig'ing va quyidagi savollarni muhokama qilayotganda nimani kashf qilayotganingizni ko'ring.",
             "3": "Yuqoridagi globusni bosish orqali sevimli tilingizni tanlang."
         }
+    },
+    "mountain": {
+        "title": "Xudoning tog'i",
+        "para": {
+            "1": "Siz Xudoning tog'i haqidagi hikoyani eshitgan bo'lishingiz mumkin, u erda odamlar tog'ning tepasiga ko'p yo'llar borligini aytadilar.",
+            "2": "Alpinistlar bu voqea haqida qanday fikrda? Ushbu ingliz tilidagi videoni tomosha qiling va bilib oling."
+        }
+    },
+    "birth": {
+        "title": "Guru tug'ilishi",
+        "para": {
+            "1": "Bir guruh munajjimlar taxminan 2000 yil oldin g'alati yangi yulduzni ko'rishdi va bu ularni Isroilda yangi shoh tug'ilganiga ishonishga majbur qildi. Shunday qilib, ular bu podshohni ziyorat qilish, hurmatlarini ko'rsatish va unga sovg'alar berish uchun uzoq safarga chiqishdi.",
+            "2": "Ular nimani kashf etganini ko'rish uchun ushbu ingliz tilidagi videoni tomosha qiling."
+        }
     }
 }

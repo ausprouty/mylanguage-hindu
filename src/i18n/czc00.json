@@ -6,7 +6,7 @@
     },
     "menu": {
         "next": "Další",
-        "nextVideo": "Další Video",
+        "nextVideo": "Další video",
         "previous": "Předchozí",
         "select": "Vybrat",
         "videoSegment": "Video segment",
@@ -21,7 +21,7 @@
     "dbs": {
         "title": "Jeho svatá kniha",
         "para": {
-            "1": "Jeho Svatá kniha začíná v době, kdy ještě neexistovali nějací lidé. Poté vypráví příběh o tom, jak první dva lidé jednali s Bohem.",
+            "1": "Jeho Svatá kniha začíná v době, kdy ještě neexistovali nějací lidé. Poté vypráví příběh o tom, jak první dva lidé komunikovali s Bohem.",
             "2": "Přečtěte si, jak Bůh připravil lidi na příchod Pána Ježíše.",
             "3": "Shromážděte své přátele a přečtěte si, jak Bůh připravil lidi na příchod Ježíše a duchovní společenství, které založil.",
             "4": "Vyberte svůj oblíbený jazyk kliknutím na zeměkouli výše."
@@ -31,7 +31,7 @@
         "title": "Jeho Učení",
         "para": {
             "1": "Toto jsou některé z věcí, které učil Pán Ježíš a jeho první následovníci.",
-            "2": "Mnoho lidí vidělo, jak se jejich životy proměnily, když požádali Pána Ježíše, aby jim dal sílu uvést toto učení do praxe.",
+            "2": "Mnoho lidí vidělo, jak se jejich životy proměnily, když žádali Pána Ježíše, aby jim dal moc uvést toto učení do praxe.",
             "3": "Shromážděte své přátele a uvidíte, co objevíte, když budete diskutovat o následujících otázkách.",
             "4": "Vyberte svůj oblíbený jazyk kliknutím na zeměkouli výše."
         }
@@ -67,6 +67,20 @@
             "1": "Co to znamená následovat Pána Ježíše? Jeho Svatá kniha začíná v době, kdy ještě neexistovali nějací lidé.",
             "2": "Shromážděte své přátele a uvidíte, co objevíte, když budete diskutovat o následujících otázkách.",
             "3": "Vyberte svůj oblíbený jazyk kliknutím na zeměkouli výše."
+        }
+    },
+    "mountain": {
+        "title": "Boží hora",
+        "para": {
+            "1": "Možná jste slyšeli příběh o Boží hoře, kde lidé říkají, že na vrchol hory vede mnoho cest.",
+            "2": "Co si o tomto příběhu myslí horolezci? Podívejte se na toto anglické video a zjistěte to."
+        }
+    },
+    "birth": {
+        "title": "Zrození Gurua",
+        "para": {
+            "1": "Skupina astrologů viděla asi před 2000 lety podivnou novou hvězdu, která je přivedla k přesvědčení, že se v Izraeli narodil nový král. Vydali se tedy na dlouhou cestu, aby tohoto krále navštívili, projevili mu úctu a dali mu dary.",
+            "2": "Podívejte se na toto anglické video, abyste viděli, co objevili."
         }
     }
 }

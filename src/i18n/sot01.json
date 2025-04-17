@@ -68,5 +68,19 @@
             "2": "Bokella metsoalle ea hau 'me u bone seo u se fumanang ha le ntse le tšohla lipotso tse latelang.",
             "3": "Khetha puo eo u e ratang ka ho tobetsa lefats'e ka holimo."
         }
+    },
+    "mountain": {
+        "title": "Thaba ya Modimo",
+        "para": {
+            "1": "E ka ’na eaba u utloile pale ea Thaba ea Molimo moo batho ba reng ho na le litsela tse ngata tse eang tlhōrōng ea thaba.",
+            "2": "Batho ba hloa lithaba ba nahana eng ka pale ee? Shebella video ena ea Senyesemane 'me u fumane."
+        }
+    },
+    "birth": {
+        "title": "Tsoalo ea Guru",
+        "para": {
+            "1": "Sehlopha sa linohe tsa linaleli se ile sa bona naleli e ncha e sa tloaelehang hoo e ka bang lilemong tse 2 000 tse fetileng e ileng ea etsa hore ba lumele hore ho hlahile morena e mocha Iseraele. Kahoo ba ile ba qala leeto le lelelele ho etela morena enoa, ho bontša tlhompho ea bona le ho mo fa limpho.",
+            "2": "Shebella video ena ea Senyesemane ho bona seo ba se fumaneng."
+        }
     }
 }

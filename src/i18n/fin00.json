@@ -68,5 +68,19 @@
             "2": "Kokoa ystäväsi ja katso, mitä löydät, kun keskustelet seuraavista kysymyksistä.",
             "3": "Valitse suosikkikielesi napsauttamalla yllä olevaa maailmanpalloa."
         }
+    },
+    "mountain": {
+        "title": "Jumalan vuori",
+        "para": {
+            "1": "Olet ehkä kuullut tarinan Jumalan vuoresta, jossa ihmiset sanovat, että vuoren huipulle on monia polkuja.",
+            "2": "Mitä vuorikiipeilijät ajattelevat tästä tarinasta? Katso tämä englanninkielinen video ja ota selvää."
+        }
+    },
+    "birth": {
+        "title": "Gurun syntymä",
+        "para": {
+            "1": "Ryhmä astrologeja näki noin 2000 vuotta sitten oudon uuden tähden, joka sai heidät uskomaan, että Israeliin oli syntynyt uusi kuningas. Niinpä he aloittivat pitkän matkan vieraillakseen tämän kuninkaan luona, osoittaakseen kunnioituksensa ja antaakseen hänelle lahjoja.",
+            "2": "Katso tämä englanninkielinen video nähdäksesi, mitä he löysivät."
+        }
     }
 }

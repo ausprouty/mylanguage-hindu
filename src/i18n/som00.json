@@ -68,5 +68,19 @@
             "2": "Soo ururi asxaabtaada oo arag waxa aad ogaato markaad ka hadlayso su'aalahan soo socda.",
             "3": "Dooro luqadda aad jeceshahay adiga oo gujinaya adduunka kore."
         }
+    },
+    "mountain": {
+        "title": "Buurta Alle",
+        "para": {
+            "1": "Waxaa laga yaabaa inaad maqashay sheekadii buurta ilaahay oo ay dadku ku odhanayaan waxaa jira wadooyin badan oo loo maro buurta dusheeda.",
+            "2": "Maxay dadka buuraha fuula u haystaan ​​sheekadaas? Daawo muuqaalkan English-ka ah oo ogow."
+        }
+    },
+    "birth": {
+        "title": "Dhalashada Guru",
+        "para": {
+            "1": "Koox xiddigiyayaal ah ayaa 2,000 oo sano ka hor arkay xiddig cusub oo qariib ah taas oo keentay inay rumaystaan ​​in boqor cusub uu ka dhashay Israa'iil. Haddaba waxay bilaabeen safar dheer si ay u soo booqdaan boqorkan, una muujiyaan ixtiraam iyo hadiyado.",
+            "2": "Daawo muuqaalkan English-ka ah si aad u aragto waxa ay ogaadeen"
+        }
     }
 }

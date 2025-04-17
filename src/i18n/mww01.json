@@ -68,5 +68,19 @@
             "2": "Sau koj cov phooj ywg thiab saib seb koj nrhiav tau dab tsi thaum koj tham txog cov lus nug hauv qab no.",
             "3": "Xaiv cov lus koj nyiam los ntawm txhaj rau lub ntiaj teb lub ntiaj teb saum toj no."
         }
+    },
+    "mountain": {
+        "title": "Lub roob ntawm Vajtswv",
+        "para": {
+            "1": "Tej zaum koj yuav tau hnov ​​zaj dab neeg ntawm lub roob ntawm Vajtswv qhov chaw uas neeg hais tias muaj ntau txoj kev mus rau saum lub roob.",
+            "2": "Cov neeg nce toj siab xav li cas txog zaj dab neeg no? Saib daim vis dis aus Askiv no thiab paub."
+        }
+    },
+    "birth": {
+        "title": "Yug los ntawm Guru",
+        "para": {
+            "1": "Ib pawg kws tshawb fawb pom ib lub hnub qub txawv txawv txog 2,000 xyoo dhau los uas ua rau lawv ntseeg tias muaj vajntxwv tshiab tau yug los hauv tebchaws Ixayees. Yog li ntawd, lawv thiaj pib taug kev mus ntev mus xyuas tus huab tais no, qhia lawv kev hwm thiab muab khoom plig rau nws.",
+            "2": "Saib daim vis dis aus Askiv no kom pom tias lawv nrhiav tau dab tsi."
+        }
     }
 }

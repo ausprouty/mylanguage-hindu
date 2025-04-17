@@ -23,7 +23,7 @@
         "para": {
             "1": "Jeho Svätá kniha začína časom predtým, než tam boli nejakí ľudia. Potom rozpráva príbeh o tom, ako prví dvaja ľudia interagovali s Bohom.",
             "2": "Prečítajte si, ako Boh pripravil ľudí na príchod Pána Ježiša.",
-            "3": "Zhromaždite priateľov a prečítajte si, ako Boh pripravil ľudí na príchod Ježiša a duchovné spoločenstvo, ktoré založil.",
+            "3": "Zhromaždite svojich priateľov a prečítajte si, ako Boh pripravil ľudí na príchod Ježiša a duchovné spoločenstvo, ktoré založil.",
             "4": "Vyberte si svoj obľúbený jazyk kliknutím na zemeguľu vyššie."
         }
     },
@@ -67,6 +67,20 @@
             "1": "Čo znamená nasledovať Pána Ježiša? Jeho Svätá kniha začína časom predtým, než tam boli nejakí ľudia.",
             "2": "Zhromaždite svojich priateľov a zistite, čo objavíte, keď budete diskutovať o nasledujúcich otázkach.",
             "3": "Vyberte si svoj obľúbený jazyk kliknutím na zemeguľu vyššie."
+        }
+    },
+    "mountain": {
+        "title": "Hora Božia",
+        "para": {
+            "1": "Možno ste už počuli príbeh o Božej hore, o ktorej ľudia hovoria, že na jej vrchol vedie veľa ciest.",
+            "2": "Čo si o tomto príbehu myslia horolezci? Pozrite si toto anglické video a dozviete sa."
+        }
+    },
+    "birth": {
+        "title": "Narodenie Gurua",
+        "para": {
+            "1": "Skupina astrológov videla asi pred 2000 rokmi zvláštnu novú hviezdu, ktorá ich priviedla k presvedčeniu, že v Izraeli sa narodil nový kráľ. Vydali sa teda na dlhú cestu, aby navštívili tohto kráľa, prejavili mu úctu a dali mu dary.",
+            "2": "Pozrite si toto anglické video a zistite, čo objavili."
         }
     }
 }

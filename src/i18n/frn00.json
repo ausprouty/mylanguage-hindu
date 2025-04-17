@@ -68,5 +68,19 @@
             "2": "Rassemblez vos amis et voyez ce que vous découvrez en discutant des questions suivantes.",
             "3": "Sélectionnez votre langue préférée en cliquant sur le globe terrestre ci-dessus."
         }
+    },
+    "mountain": {
+        "title": "La Montagne de Dieu",
+        "para": {
+            "1": "Vous avez peut-être entendu l'histoire de la Montagne de Dieu où les gens disent qu'il existe de nombreux chemins menant au sommet de la montagne.",
+            "2": "Que pensent les alpinistes de cette histoire ? Regardez cette vidéo en anglais et découvrez-le."
+        }
+    },
+    "birth": {
+        "title": "Naissance du gourou",
+        "para": {
+            "1": "Il y a environ 2 000 ans, un groupe d’astrologues a vu une étrange nouvelle étoile, ce qui les a amenés à croire qu’un nouveau roi était né en Israël. Ils entreprirent alors un long voyage pour rendre visite à ce roi, lui montrer leur respect et lui offrir des cadeaux.",
+            "2": "Regardez cette vidéo en anglais pour voir ce qu'ils ont découvert."
+        }
     }
 }

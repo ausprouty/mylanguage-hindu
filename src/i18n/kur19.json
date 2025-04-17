@@ -68,5 +68,19 @@
             "2": "Dema ku hûn li ser pirsên jêrîn nîqaş dikin, hevalên xwe kom bikin û bibînin ku hûn çi kifş dikin.",
             "3": "Bi tikandina li ser cîhana cîhanê ya li jor zimanê xweya bijare hilbijêrin."
         }
+    },
+    "mountain": {
+        "title": "Çiyayê Xwedê",
+        "para": {
+            "1": "Dibe ku we çîroka Çiyayê Xwedê bihîstibe ku mirov dibêje qey gelek rêyên serê çiyê hene.",
+            "2": "Çiyagerên çiyê li ser wê çîrokê çi difikirin? Vê vîdyoya îngilîzî temaşe bikin û fêr bibin."
+        }
+    },
+    "birth": {
+        "title": "Jidayikbûna Guru",
+        "para": {
+            "1": "Komek stêrnas 2000 sal berê stêrkek nû ya ecêb dît ku wan bawer kir ku padîşahek nû li Israelsraîl ji dayik bûye. Ji ber vê yekê wan dest bi rêwîtiyek dirêj kir ku biçin serdana vî padîşah, hurmeta xwe nîşan bidin û diyariyan bidin wî.",
+            "2": "Vê vîdyoya îngilîzî temaşe bikin ku bibînin ka wan çi kifş kir."
+        }
     }
 }

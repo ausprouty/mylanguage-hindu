@@ -1,6 +1,6 @@
 <template>
   <div >
-
+ 
     <p>{{ $t("video.question.1") }}</p>
     <p>{{ $t("video.question.2") }}</p>
     <p>{{ $t("video.question.3") }}</p>
@@ -14,7 +14,7 @@
 
 export default {
   name: 'VideoQuestions',
-  
+
 
 }
 </script>

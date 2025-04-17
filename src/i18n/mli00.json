@@ -68,5 +68,19 @@
             "2": "Kumpul rakan anda dan lihat perkara yang anda temui semasa anda membincangkan soalan berikut.",
             "3": "Pilih bahasa kegemaran anda dengan mengklik pada glob dunia di atas."
         }
+    },
+    "mountain": {
+        "title": "Gunung Tuhan",
+        "para": {
+            "1": "Anda mungkin pernah mendengar kisah Gunung Tuhan di mana orang mengatakan terdapat banyak laluan untuk ke puncak gunung.",
+            "2": "Apakah pendapat pendaki gunung tentang cerita itu? Tonton video Inggeris ini dan ketahui."
+        }
+    },
+    "birth": {
+        "title": "Kelahiran Guru",
+        "para": {
+            "1": "Sekumpulan ahli nujum melihat bintang baru yang aneh kira-kira 2,000 tahun lalu yang menyebabkan mereka percaya bahawa seorang raja baru telah dilahirkan di Israel. Oleh itu, mereka memulakan perjalanan yang jauh untuk melawat raja ini, menunjukkan rasa hormat mereka dan memberi hadiah kepadanya.",
+            "2": "Tonton video Inggeris ini untuk melihat apa yang mereka temui."
+        }
     }
 }

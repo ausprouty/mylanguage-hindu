@@ -29,7 +29,7 @@
 import JVideoPlayer from "src/components/JesusVideo/JVideoPlayer.vue";
 import JVideoSegmentSelect from "src/components/JesusVideo/JVideoSegmentSelect.vue";
 import JVideoSegmentController from "src/components/JesusVideo/JVideoSegmentController.vue";
-import VideoQuestions from "src/components/Videos/VideoQuestions.vue";
+import VideoQuestions from "src/components/Video/VideoQuestions.vue";
 import { useLanguageStore } from "stores/LanguageStore";
 import { computed } from "vue";
 
@@ -43,7 +43,7 @@ export default {
     JVideoPlayer,
     JVideoSegmentSelect,
     JVideoSegmentController,
-    JVideoQuestions,
+    VideoQuestions,
   },
   data() {
     return {

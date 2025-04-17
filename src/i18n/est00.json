@@ -32,7 +32,7 @@
         "para": {
             "1": "Need on mõned asjad, mida Issand Jeesus ja tema esimesed järgijad õpetasid.",
             "2": "Paljud inimesed on näinud oma elu muutumas, kui nad palusid Issandal Jeesusel anda neile vägi neid õpetusi ellu viia.",
-            "3": "Koguge oma sõbrad ja vaadake, mida te järgmiste küsimuste arutamisel avastate.",
+            "3": "Koguge oma sõbrad ja vaadake, mida avastate, kui arutlete järgmiste küsimuste üle.",
             "4": "Valige oma lemmikkeel, klõpsates ülaltoodud maailma maakeral."
         }
     },
@@ -41,14 +41,14 @@
         "para": {
             "1": "Videot vaadates küsi endalt \"Milline see guru on ja kas teda tasub jälgida?\"",
             "2": "See video on saadaval paljudes keeltes. Keele muutmiseks klõpsake ülalpool maailma maakera.",
-            "3": "Koguge oma sõbrad ja vaadake, mida te järgmiste küsimuste arutamisel avastate."
+            "3": "Koguge oma sõbrad ja vaadake, mida avastate, kui arutlete järgmiste küsimuste üle."
         }
     },
     "lead": {
         "title": "Teiste juhtimine",
         "para": {
             "1": "Teiste juhtimine uurib põhimõtteid, mida Jeesus oma juhtidele õpetas – tarkust, mis on põlvkondade jooksul kujundanud teenija südamega juhtimist. Paljud on kogenud muutumist, tuginedes Jeesusele, kes aitab neil sihikindlalt ja ausalt juhtida. Kas see võib kujundada ka teie juhtimist?",
-            "2": "Koguge oma sõbrad ja vaadake, mida te järgmiste küsimuste arutamisel avastate.",
+            "2": "Koguge oma sõbrad ja vaadake, mida avastate, kui arutlete järgmiste küsimuste üle.",
             "3": "Valige oma lemmikkeel, klõpsates ülaltoodud maailma maakeral."
         }
     },
@@ -65,8 +65,22 @@
         "title": "Teda järgides",
         "para": {
             "1": "Mida tähendab Jeesuse järgimine? Tema Püha Raamat algab ajaga enne, kui veel inimesi oli.",
-            "2": "Koguge oma sõbrad ja vaadake, mida te järgmiste küsimuste arutamisel avastate.",
+            "2": "Koguge oma sõbrad ja vaadake, mida avastate, kui arutlete järgmiste küsimuste üle.",
             "3": "Valige oma lemmikkeel, klõpsates ülaltoodud maailma maakeral."
+        }
+    },
+    "mountain": {
+        "title": "Jumala mägi",
+        "para": {
+            "1": "Võib-olla olete kuulnud lugu Jumala mäest, kus inimesed ütlevad, et mäe tippu viib palju teid.",
+            "2": "Mida mägironijad sellest loost arvavad? Vaadake seda ingliskeelset videot ja saate teada."
+        }
+    },
+    "birth": {
+        "title": "Guru sünd",
+        "para": {
+            "1": "Rühm astrolooge nägi umbes 2000 aastat tagasi kummalist uut tähte, mis pani nad uskuma, et Iisraelis on sündinud uus kuningas. Nii alustasid nad pikka reisi, et seda kuningat külastada, austust avaldada ja talle kingitusi teha.",
+            "2": "Vaadake seda ingliskeelset videot, et näha, mida nad avastasid."
         }
     }
 }

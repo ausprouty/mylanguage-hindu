@@ -5,7 +5,7 @@
         "google": "mi"
     },
     "menu": {
-        "next": "Whai muri",
+        "next": "Panuku",
         "nextVideo": "Ataata Panuku",
         "previous": "Tuhinga o mua",
         "select": "Tīpakohia",
@@ -67,6 +67,20 @@
             "1": "Eaha te auraa ia pee i te Fatu ia Iesu? Ko tana Pukapuka Tapu ka timata i te wa i mua atu i te tangata.",
             "2": "Huihuia o hoa ka kite i nga mea ka kitea e koe i a koe e korerorero ana i nga patai e whai ake nei.",
             "3": "Tīpakohia tō reo tino pai mā te pāwhiri i te ao o runga."
+        }
+    },
+    "mountain": {
+        "title": "Te Maunga o te Atua",
+        "para": {
+            "1": "Kua rongo pea koe i nga korero mo te Maunga o te Atua e kii ana te tangata he maha nga huarahi ki te tihi o te maunga.",
+            "2": "He aha te whakaaro o te hunga piki maunga mo tera korero? Tirohia tenei ataata reo Ingarihi ka kitea."
+        }
+    },
+    "birth": {
+        "title": "Whanautanga o te Guru",
+        "para": {
+            "1": "Ua ite te hoê pǔpǔ taata hi‘o fetia i te hoê fetia apî huru ê fatata e 2 000 matahiti i teie nei o tei turai ia ratou ia tiaturi e ua fanauhia te hoê arii apî i Iseraela. Na ka timata ratou i te haerenga roa ki te haere ki tenei kingi, ki te whakaute me te hoatu taonga ki a ia.",
+            "2": "Tirohia tenei ataata Ingarihi kia kite i nga mea i kitea e ratou."
         }
     }
 }

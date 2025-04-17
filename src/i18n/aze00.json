@@ -68,5 +68,19 @@
             "2": "Dostlarınızı toplayın və aşağıdakı sualları müzakirə edərkən nə kəşf etdiyinizə baxın.",
             "3": "Yuxarıdakı dünya qlobusuna klikləməklə sevimli dilinizi seçin."
         }
+    },
+    "mountain": {
+        "title": "Tanrı dağı",
+        "para": {
+            "1": "İnsanların dağın zirvəsinə çoxlu yolların olduğunu söylədiyi Tanrı Dağı hekayəsini eşitmiş ola bilərsiniz.",
+            "2": "Alpinistlər bu hekayə haqqında nə düşünürlər? Bu ingilis dili videosuna baxın və öyrənin."
+        }
+    },
+    "birth": {
+        "title": "Qurunun doğulması",
+        "para": {
+            "1": "Bir qrup astroloq təxminən 2000 il əvvəl qəribə bir yeni ulduz gördü və bu, onları İsraildə yeni padşahın doğulduğuna inanmağa vadar etdi. Beləliklə, bu padşahı ziyarət etmək, hörmətlərini göstərmək və ona hədiyyələr vermək üçün uzun bir səfərə çıxdılar.",
+            "2": "Onların nə kəşf etdiklərini görmək üçün bu ingiliscə videoya baxın."
+        }
     }
 }

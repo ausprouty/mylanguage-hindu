@@ -68,5 +68,19 @@
             "2": "Verzamel je vrienden en kijk wat je ontdekt terwijl je de volgende vragen bespreekt.",
             "3": "Selecteer uw favoriete taal door op de wereldbol hierboven te klikken."
         }
+    },
+    "mountain": {
+        "title": "De berg van God",
+        "para": {
+            "1": "Je hebt misschien het verhaal gehoord van de Berg van God, waar mensen zeggen dat er vele paden zijn naar de top van de berg.",
+            "2": "Wat vinden bergbeklimmers van dat verhaal? Bekijk deze Engelstalige video en ontdek het."
+        }
+    },
+    "birth": {
+        "title": "Geboorte van de goeroe",
+        "para": {
+            "1": "Een groep astrologen zag ongeveer 2000 jaar geleden een vreemde nieuwe ster, wat hen deed geloven dat er in Israël een nieuwe koning was geboren. Dus begonnen ze aan een lange reis om deze koning te bezoeken, hun respect te tonen en hem geschenken te geven.",
+            "2": "Bekijk deze Engelstalige video om te zien wat ze ontdekten."
+        }
     }
 }

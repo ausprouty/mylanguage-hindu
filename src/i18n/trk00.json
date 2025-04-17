@@ -14,7 +14,7 @@
     },
     "index": {
         "para": {
-            "1": "Manevi yaşamımızda gerçek bir ilerleme kaydedebilmek için bir guruya ihtiyacımız olduğunu biliyoruz; bize yol gösterecek, meydan okuyacak, düzeltecek, rehberlik edecek ve yardım edecek birine.",
+            "1": "Manevi yaşamımızda gerçek bir ilerleme kaydedebilmek için bir guruya, bize yol gösterecek, meydan okuyacak, düzeltecek, rehberlik edecek ve yardım edecek birine ihtiyacımız olduğunu biliyoruz.",
             "2": "Sizi, Gurunuz olarak Rab İsa'ya sahip olmayı düşünmeye davet etmek istiyoruz. Rab İsa birçok insanı iyileştirdi. Hiçbir zaman yalan söylemedi, kimseye zarar vermedi. Alçakgönüllüydü. Hiç evlenmedi. Basit bir hayat yaşadı ve gücünü asla zenginlik elde etmek için kullanmadı."
         }
     },
@@ -67,6 +67,20 @@
             "1": "Rab İsa’yı takip etmek ne anlama gelir? Onun Kutsal Kitabı, insanların var olmadığı dönemden başlar.",
             "2": "Arkadaşlarınızı toplayın ve aşağıdaki soruları tartışırken neler keşfettiğinizi görün.",
             "3": "Yukarıdaki dünya küresine tıklayarak favori dilinizi seçin."
+        }
+    },
+    "mountain": {
+        "title": "Tanrı Dağı",
+        "para": {
+            "1": "İnsanların dağın tepesine çıkan birçok yol olduğunu söylediği Tanrı Dağı'nın hikayesini duymuş olabilirsiniz.",
+            "2": "Dağcılar bu hikaye hakkında ne düşünüyor? Bu İngilizce videoyu izleyin ve öğrenin."
+        }
+    },
+    "birth": {
+        "title": "Gurunun Doğuşu",
+        "para": {
+            "1": "Bir grup astrolog, yaklaşık 2000 yıl önce, onları İsrail'de yeni bir kralın doğduğuna inandıran tuhaf yeni bir yıldız gördü. Böylece bu kralı ziyaret etmek, ona saygı göstermek ve hediyeler vermek için uzun bir yolculuğa çıktılar.",
+            "2": "Ne keşfettiklerini görmek için bu İngilizce videoyu izleyin."
         }
     }
 }

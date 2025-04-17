@@ -68,5 +68,19 @@
             "2": "Zberite svoje prijatelje in poglejte, kaj boste odkrili med razpravo o naslednjih vprašanjih.",
             "3": "Izberite svoj najljubši jezik s klikom na zgornji globus sveta."
         }
+    },
+    "mountain": {
+        "title": "Božja gora",
+        "para": {
+            "1": "Morda ste že slišali zgodbo o Božji gori, kjer ljudje pravijo, da vodi veliko poti do vrha gore.",
+            "2": "Kaj o tej zgodbi menijo alpinisti? Oglejte si ta angleški video in ugotovite."
+        }
+    },
+    "birth": {
+        "title": "Rojstvo Guruja",
+        "para": {
+            "1": "Skupina astrologov je pred približno 2000 leti videla nenavadno novo zvezdo, zaradi katere so verjeli, da se je v Izraelu rodil nov kralj. Tako so se odpravili na dolgo potovanje, da bi obiskali tega kralja, mu izkazali spoštovanje in ga obdarili.",
+            "2": "Oglejte si ta angleški videoposnetek, da vidite, kaj so odkrili."
+        }
     }
 }

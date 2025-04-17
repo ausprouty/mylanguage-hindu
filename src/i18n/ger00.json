@@ -57,7 +57,7 @@
             "1": "Was sagt Ihnen das über Jesus?",
             "2": "Was sagt Ihnen das über Gott?",
             "3": "Was sagt Ihnen das über Menschen?",
-            "4": "Wenn das wahr wäre, welchen Unterschied würde es in Ihrem Leben machen?",
+            "4": "Wenn das wahr ist, welchen Unterschied würde es in Ihrem Leben machen?",
             "5": "Mit welchen fünf Personen können Sie Ihre Entdeckungen teilen?"
         }
     },
@@ -67,6 +67,20 @@
             "1": "Was bedeutet es, dem Herrn Jesus nachzufolgen? Sein Heiliges Buch beginnt mit der Zeit, bevor es überhaupt Menschen gab.",
             "2": "Versammeln Sie Ihre Freunde und sehen Sie, was Sie entdecken, während Sie die folgenden Fragen besprechen.",
             "3": "Wählen Sie Ihre Lieblingssprache aus, indem Sie oben auf die Weltkugel klicken."
+        }
+    },
+    "mountain": {
+        "title": "Der Berg Gottes",
+        "para": {
+            "1": "Sie haben vielleicht die Geschichte vom Berg Gottes gehört, von der man sagt, dass es viele Wege zum Gipfel des Berges gibt.",
+            "2": "Was denken Bergsteiger über diese Geschichte? Sehen Sie sich dieses englische Video an und finden Sie es heraus."
+        }
+    },
+    "birth": {
+        "title": "Geburt des Gurus",
+        "para": {
+            "1": "Eine Gruppe von Astrologen sah vor etwa 2.000 Jahren einen seltsamen neuen Stern, der sie zu der Annahme veranlasste, dass in Israel ein neuer König geboren worden sei. Also begaben sie sich auf eine lange Reise, um diesen König zu besuchen, ihm ihren Respekt zu erweisen und ihm Geschenke zu machen.",
+            "2": "Sehen Sie sich dieses englische Video an, um zu sehen, was sie entdeckt haben."
         }
     }
 }

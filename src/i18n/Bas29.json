@@ -68,5 +68,19 @@
             "2": "Bildu lagunak eta ikusi zer deskubritzen duzun galdera hauek eztabaidatzen dituzun bitartean.",
             "3": "Hautatu zure hizkuntza gogokoena goiko munduko globoan klik eginez."
         }
+    },
+    "mountain": {
+        "title": "Jainkoaren Mendia",
+        "para": {
+            "1": "Baliteke Jainkoaren Mendiaren istorioa entzun izana, non jendeak mendiaren gailurreraino bide asko daudela esaten duena.",
+            "2": "Zer uste dute mendizaleek istorio horri buruz? Ikusi ingelesezko bideo hau eta jakin ezazu."
+        }
+    },
+    "birth": {
+        "title": "Guruaren jaiotza",
+        "para": {
+            "1": "Astrologo talde batek duela 2.000 urte inguru izar berri arraro bat ikusi zuen eta horrek Israelen errege berri bat jaio zela sinestera eraman zituen. Beraz, bidaia luze bat hasi zuten errege hau bisitatzeko, errespetua erakusteko eta opariak emateko.",
+            "2": "Ikusi ingelesezko bideo hau zer aurkitu duten ikusteko."
+        }
     }
 }

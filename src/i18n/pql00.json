@@ -68,5 +68,19 @@
             "2": "Zbierz znajomych i zobacz, czego odkryjesz, omawiając poniższe pytania.",
             "3": "Wybierz swój ulubiony język, klikając kulę ziemską powyżej."
         }
+    },
+    "mountain": {
+        "title": "Góra Boga",
+        "para": {
+            "1": "Być może słyszeliście historię o Górze Bożej, o której ludzie mówią, że na szczyt góry prowadzi wiele ścieżek.",
+            "2": "Co alpiniści myślą o tej historii? Obejrzyj ten angielski film i dowiedz się."
+        }
+    },
+    "birth": {
+        "title": "Narodziny Guru",
+        "para": {
+            "1": "Około 2000 lat temu grupa astrologów zobaczyła dziwną nową gwiazdę, co doprowadziło ich do przekonania, że ​​w Izraelu narodził się nowy król. Wyruszyli więc w długą podróż, aby odwiedzić tego króla, okazać mu szacunek i obdarować go prezentami.",
+            "2": "Obejrzyj ten angielski film, aby zobaczyć, co odkryli."
+        }
     }
 }

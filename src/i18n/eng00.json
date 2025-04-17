@@ -68,5 +68,19 @@
             "2": "Gather your friends and see what you discover as you discuss the following questions.",
             "3": "Select your favourite language by clicking on the world globe above."
         }
+    },
+    "mountain": {
+        "title": "The Mountain of God",
+        "para": {
+            "1": "You may have heard the story of the Mountain of God where people say there are many paths to the top of the mountain.",
+            "2": "What do mountain climbers think of that story? Watch this English video and find out."
+        }
+    },
+    "birth": {
+        "title": "Birth of the Guru",
+        "para": {
+            "1": "A group of astrologers saw a strange new star about 2,000 years ago that led them to believe that a new king had been born in Israel. So they started on a long trip to visit this king, show their respect and give him gifts.",
+            "2": "Watch this English video to see what they discovered."
+        }
     }
 }

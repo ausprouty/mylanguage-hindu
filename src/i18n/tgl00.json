@@ -68,5 +68,19 @@
             "2": "Ipunin ang iyong mga kaibigan at tingnan kung ano ang iyong natuklasan habang tinatalakay mo ang mga sumusunod na tanong.",
             "3": "Piliin ang iyong paboritong wika sa pamamagitan ng pag-click sa mundong globo sa itaas."
         }
+    },
+    "mountain": {
+        "title": "Ang Bundok ng Diyos",
+        "para": {
+            "1": "Maaaring narinig mo na ang kuwento ng Bundok ng Diyos kung saan sinasabi ng mga tao na maraming daanan patungo sa tuktok ng bundok.",
+            "2": "Ano ang iniisip ng mga umaakyat sa bundok sa kuwentong iyon? Panoorin ang English na video na ito at alamin."
+        }
+    },
+    "birth": {
+        "title": "Kapanganakan ng Guru",
+        "para": {
+            "1": "Isang grupo ng mga astrologo ang nakakita ng kakaibang bagong bituin mga 2,000 taon na ang nakalilipas na umakay sa kanila na maniwala na isang bagong hari ang isinilang sa Israel. Kaya nagsimula sila sa isang mahabang paglalakbay upang bisitahin ang haring ito, ipakita ang kanilang paggalang at bigyan siya ng mga regalo.",
+            "2": "Panoorin ang English na video na ito para makita kung ano ang natuklasan nila."
+        }
     }
 }

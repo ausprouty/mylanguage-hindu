@@ -68,5 +68,19 @@
             "2": "Reúne aos teus amigos e mira o que descobres mentres comentas as seguintes preguntas.",
             "3": "Selecciona o teu idioma favorito facendo clic no globo terráqueo de arriba."
         }
+    },
+    "mountain": {
+        "title": "A Montaña de Deus",
+        "para": {
+            "1": "Quizais escoitaches a historia da Montaña de Deus onde a xente di que hai moitos camiños ata o cumio da montaña.",
+            "2": "Que pensan os alpinistas desta historia? Mira este vídeo en inglés e infórmate."
+        }
+    },
+    "birth": {
+        "title": "Nacemento do Guru",
+        "para": {
+            "1": "Un grupo de astrólogos viu unha estraña nova estrela hai uns 2.000 anos que os levou a crer que un novo rei nacera en Israel. Así que comezaron unha longa viaxe para visitar a este rei, mostrarlle o seu respecto e darlle agasallos.",
+            "2": "Mira este vídeo en inglés para ver o que descubriron."
+        }
     }
 }

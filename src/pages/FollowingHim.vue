@@ -31,6 +31,9 @@ import { computed } from "vue";
 
 export default {
   name: "FollowingHim",
+  components: {
+    VideoQuestions,
+  },
   props:{
     lessonLink : Number
   },

@@ -68,5 +68,19 @@
             "2": "Bailigh do chairde agus féach cad a aimsíonn tú agus tú ag plé na ceisteanna seo a leanas.",
             "3": "Roghnaigh an teanga is fearr leat trí chliceáil ar an gcruinneog dhomhanda thuas."
         }
+    },
+    "mountain": {
+        "title": "Sliabh Dé",
+        "para": {
+            "1": "Seans gur chuala tú scéal Shléibhe Dé ina ndeir daoine go bhfuil go leor cosán go barr an tsléibhe.",
+            "2": "Cad a cheapann dreapadóirí sléibhe ar an scéal sin? Féach ar an bhfíseán Béarla seo agus faigh amach."
+        }
+    },
+    "birth": {
+        "title": "Breith an Ghúrú",
+        "para": {
+            "1": "Chonaic grúpa réalteolaithe réalta nua aisteach thart ar 2,000 bliain ó shin a thug orthu a chreidiúint gur rugadh rí nua in Iosrael. Mar sin thosaigh siad ar thuras fada chun cuairt a thabhairt ar an rí seo, a meas a thaispeáint agus bronntanais a thabhairt dó.",
+            "2": "Féach ar an bhfíseán Béarla seo chun féachaint cad a fuair siad amach."
+        }
     }
 }

@@ -68,5 +68,19 @@
             "2": "Rasanble zanmi ou yo epi wè sa ou dekouvri pandan w ap diskite kesyon sa yo.",
             "3": "Chwazi lang ou pi renmen lè w klike sou glòb mondyal ki anwo a."
         }
+    },
+    "mountain": {
+        "title": "Mòn Bondye a",
+        "para": {
+            "1": "Ou gendwa tande istwa mòn Bondye a kote moun di gen anpil chemen ki mennen nan tèt mòn lan.",
+            "2": "Kisa monte mòn yo panse de istwa sa a? Gade videyo angle sa a epi chèche konnen."
+        }
+    },
+    "birth": {
+        "title": "Nesans Guru a",
+        "para": {
+            "1": "Yon gwoup astwològ te wè yon etranj nouvo zetwal sa gen anviwon 2 000 ane ki te fè yo kwè ke yon nouvo wa te fèt ann Izrayèl. Se konsa, yo te kòmanse nan yon vwayaj long vizite wa sa a, montre respè yo ak ba li kado.",
+            "2": "Gade videyo angle sa a pou w wè sa yo dekouvri."
+        }
     }
 }

@@ -2,8 +2,8 @@
   <q-page>
     <div>
       <h2> {{ $t("birth.title") }}</h2>
-      <p>{{ $t("birth.para1") }}</p>
-      <p>{{ $t("birth.para2") }}</p>
+      <p>{{ $t("birth.para.1") }}</p>
+      <p>{{ $t("birth.para.2") }}</p>
     </div>
     <div style="padding: 75% 0 0 0; position: relative">
       <iframe
@@ -29,6 +29,9 @@
 import VideoQuestions from "src/components/Video/VideoQuestions.vue";
 export default {
   name: "BirthOfGuru",
+  components: {
+    VideoQuestions,
+  },
   head() {
     return {
       script: [

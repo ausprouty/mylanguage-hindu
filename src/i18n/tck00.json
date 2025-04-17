@@ -68,5 +68,19 @@
             "2": "Dostlaryňyzy ýygnaň we aşakdaky soraglary ara alyp maslahatlaşanyňyzda nämäni açýandygyňyzy görüň.",
             "3": "Aboveokardaky dünýä obeer şaryna basyp halaýan diliňizi saýlaň."
         }
+    },
+    "mountain": {
+        "title": "Hudaýyň dagy",
+        "para": {
+            "1": "Adamlar dagyň depesine barýan ýollaryň köpdügini aýdýan Hudaýyň dagynyň hekaýasyny eşiden bolsaňyz gerek.",
+            "2": "Dag alpinistleri bu hekaýa barada näme pikir edýärler? Bu iňlis wideosyna tomaşa ediň we biliň."
+        }
+    },
+    "birth": {
+        "title": "Guruň dünýä inişi",
+        "para": {
+            "1": "Jadygöýleriň bir topary, takmynan 2000 ýyl ozal Ysraýylda täze bir patyşanyň dünýä inendigine ynanmaga sebäp bolan geň täze ýyldyzy görüpdir. Şeýdip, bu patyşany görmek, hormat goýmak we oňa sowgat bermek üçin uzak ýola başladylar.",
+            "2": "Bu iňlis wideosyna göz aýlaň."
+        }
     }
 }

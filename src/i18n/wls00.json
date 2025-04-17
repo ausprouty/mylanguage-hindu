@@ -68,5 +68,19 @@
             "2": "Casglwch eich ffrindiau a gweld beth rydych chi'n ei ddarganfod wrth i chi drafod y cwestiynau canlynol.",
             "3": "Dewiswch eich hoff iaith trwy glicio ar y glôb byd uchod."
         }
+    },
+    "mountain": {
+        "title": "Mynydd Duw",
+        "para": {
+            "1": "Efallai eich bod wedi clywed hanes Mynydd Duw lle mae pobl yn dweud bod yna lawer o lwybrau i ben y mynydd.",
+            "2": "Beth yw barn dringwyr mynydd am y stori honno? Gwyliwch y fideo Saesneg yma a darganfod."
+        }
+    },
+    "birth": {
+        "title": "Genedigaeth y Guru",
+        "para": {
+            "1": "Gwelodd criw o astrolegwyr seren newydd ryfedd tua 2,000 o flynyddoedd yn ôl a arweiniodd at gredu bod brenin newydd wedi ei eni yn Israel. Felly dechreuon nhw ar daith hir i ymweld â'r brenin hwn, dangos eu parch a rhoi anrhegion iddo.",
+            "2": "Gwyliwch y fideo Saesneg yma i weld beth wnaethon nhw ddarganfod."
+        }
     }
 }
