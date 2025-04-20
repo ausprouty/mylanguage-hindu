@@ -1,7 +1,7 @@
 export async function loadLocaleMessages(localeCode) {
   try {
     const messages = await import(
-      /* @vite-ignore */ `./${localeCode}.json`
+      /* @vite-ignore */ `./languages/${localeCode}.json`
     );
     return messages.default;
   } catch (error) {

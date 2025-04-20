@@ -58,7 +58,7 @@ export default {
 
     onMounted(async () => {
       try {
-        const response = await fetch("/data/languages.json");
+        const response = await fetch("/src/i18n/languages.json");
         const data = await response.json();
 
         languageOptions.value = data.map((item) => ({

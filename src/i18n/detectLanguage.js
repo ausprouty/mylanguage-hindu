@@ -1,5 +1,5 @@
 // src/i18n/detectLanguage.js
-import languages from '/public/data/languages.json';
+import languages from 'src/i18n/languages.json';
 
 export function getBrowserLanguageHL() {
   const browserLang = navigator.language || navigator.userLanguage;
