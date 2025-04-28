@@ -1,81 +1,86 @@
 import { defineStore } from "pinia";
-import { getCommonContent, getLessonContent, getJesusVideoUrls} from 'src/services/TranslationService';
+import {
+  getCommonContent,
+  getLessonContent,
+  getJesusVideoUrls,
+} from "src/services/TranslationService";
 
 export const useLanguageStore = defineStore("languageStore", {
   state: () => ({
-
-    currentStudy:'dbs',
-    currentUrl:null,
+    currentStudy: "dbs",
+    currentUrl: null,
     commonContent: {}, // Will store content by language and study
-    lessonContent:{}, // Will store content by language, study and lesson
-    videoUrls:{},
+    lessonContent: {}, // Will store content by language, study and lesson
+    videoUrls: {},
     lessonNumber: {
-      dbs:1,
-      lead:1,
-      life:1,
-      jvideo:1,
+      dbs: 1,
+      lead: 1,
+      life: 1,
+      jvideo: 1,
     },
-    maxLessonNumber:{
-      dbs:23,
-      lead:25,
-      life:23,
-      jvideo:61,
+    maxLessonNumber: {
+      dbs: 23,
+      lead: 25,
+      life: 23,
+      jvideo: 61,
     },
     languages: [],
     languageSelected: {
-      languageCodeHL: 'eng00',
+      languageCodeHL: "eng00",
       languageCodeJF: 529,
-      value: 3
+      value: 3,
     },
 
     followingHimSegment: null,
-    jVideoSegmentId: null,
-    jVideoSegments:{
-      languageCodeHL: 'eng00',
-      languageCodeJF: '529',
-      segments:[]
+    followingHimSegment: null,
+    jVideoSegments: {
+      languageCodeHL: "eng00",
+      languageCodeJF: "529",
+      segments: [],
     },
 
-    previousPage: '/index'
+    previousPage: "/index",
   }),
   getters: {
-    getCurrentStudy() {
-      let study = this.currentStudy || localStorage.getItem('currentStudy') || 'dbs';
+    currentStudy() {
+      let study =
+        this.currentStudy || localStorage.getItem("currentStudy") || "dbs";
 
       // If currentStudy exists, update localStorage
       if (this.currentStudy) {
-        localStorage.setItem('currentStudy', this.currentStudy);
+        localStorage.setItem("currentStudy", this.currentStudy);
       }
       return study;
     },
 
-    getFollowingHimSegment: (state) => {
-      if (state.followingHimSegment  == null || typeof state.followingHimSegment == 'undefined'){
-        state.followingHimSegment = localStorage.getItem("followingHimSegment", '1-0-0')
+    followingHimSegment: (state) => {
+      if (
+        state.followingHimSegment == null ||
+        typeof state.followingHimSegment == "undefined"
+      ) {
+        state.followingHimSegment = localStorage.getItem(
+          "followingHimSegment",
+          "1-0-0"
+        );
       }
-      return state.followingHimSegment
+      return state.followingHimSegment;
     },
 
-    getJVideoSegmentId: (state) => {
-      if (state.jVideoSegments.currentId  == null || typeof state.jVideoSegments.currentId == 'undefined'){
-        console.log ('getting jvideoSegmentId from local storage')
-        state.jVideoSegments.currentId = localStorage.getItem("jVideoSegments.currentId", 1)
+    jVideoSegment: (state) => {
+      if (
+        state.jVideoSegments.currentId == null ||
+        typeof state.jVideoSegments.currentId == "undefined"
+      ) {
+        console.log("getting followingHimSegment from local storage");
+        state.jVideoSegments.currentId = localStorage.getItem(
+          "jVideoSegments.currentId",
+          1
+        );
       }
-      return state.jVideoSegments.currentId
+      return state.jVideoSegments.currentId;
     },
-    getJVideoSegmentsX: (state) => {
-      if (state.jVideoSegments == null || typeof state.jVideoSegments == 'undefined'){
-        var local = localStorage.getItem("jVideoSegments");
-        if (local  && local != 'undefined'){
-          state.jVideoSegments = JSON.parse(local)
-        }
-        else{
-          state.jVideoSegments = null;
-        }
-      }
-      return state.jVideoSegments
-    },
-    getLanguageCodeHLSelected: (state) => {
+
+    languageCodeHLSelected: (state) => {
       if (!state.languageSelected) {
         // Attempt to retrieve from localStorage or fall back to the default
         let local = localStorage.getItem("languageSelected");
@@ -84,49 +89,63 @@ export const useLanguageStore = defineStore("languageStore", {
           try {
             state.languageSelected = JSON.parse(local);
           } catch (e) {
-            console.error("Failed to parse languageSelected from localStorage", e);
+            console.error(
+              "Failed to parse languageSelected from localStorage",
+              e
+            );
             // Set default if parsing fails
-            state.languageSelected = { languageCodeHL: 'eng00' };
+            state.languageSelected = { languageCodeHL: "eng00" };
           }
         } else {
           // Set default if nothing is found in localStorage
-          state.languageSelected = { languageCodeHL: 'eng00',"languageCodeJF":529 };
+          state.languageSelected = {
+            languageCodeHL: "eng00",
+            languageCodeJF: 529,
+          };
         }
       }
       // Ensure a valid return value
-      const languageCodeHL = state.languageSelected?.languageCodeHL || 'eng00';
+      const languageCodeHL = state.languageSelected?.languageCodeHL || "eng00";
 
       return languageCodeHL;
     },
 
-    getLanguageCodeJFSelected: (state) => {
-      if (state.languageSelected == null){
-        console.log ('getLanguageCodeJFSelected state is null')
-        var local = localStorage.getItem("languageSelected", '{"languageSelected":{"languageCodeHL":"eng00","languageCodeJF":529}}');
-          state.languageSelected = JSON.parse(local)
+    languageCodeJFSelected: (state) => {
+      if (state.languageSelected == null) {
+        console.log("languageCodeJFSelected state is null");
+        var local = localStorage.getItem(
+          "languageSelected",
+          '{"languageSelected":{"languageCodeHL":"eng00","languageCodeJF":529}}'
+        );
+        state.languageSelected = JSON.parse(local);
+      } else {
+        console.log("languageCodeJFSelected state is NOT null");
       }
-      else{
-        console.log ('getLanguageCodeJFSelected state is NOT null')
-      }
-      console.log(state.languageSelected.languageCodeJF)
-      return state.languageSelected.languageCodeJF
+      console.log(state.languageSelected.languageCodeJF);
+      return state.languageSelected.languageCodeJF;
     },
 
-    getLanguageSelected: (state) => {
-      if (state.languageSelected == null){
-        var local = localStorage.getItem("languageSelected", '{"languageSelected":{"languageCodeHL":"eng00","languageCodeJF":529}}');
-          state.languageSelected = JSON.parse(local)
+    languageSelected: (state) => {
+      if (state.languageSelected == null) {
+        var local = localStorage.getItem(
+          "languageSelected",
+          '{"languageSelected":{"languageCodeHL":"eng00","languageCodeJF":529}}'
+        );
+        state.languageSelected = JSON.parse(local);
       }
-      return state.languageSelected
+      return state.languageSelected;
     },
-    getLanguageValue: (state) => {
-      if (state.languageSelected == null){
-        var local = localStorage.getItem("languageSelected", '{"languageSelected":{"languageCodeHL":"eng00","languageCodeJF":529, "value": 3}}');
-          state.languageSelected = JSON.parse(local)
+    languageValue: (state) => {
+      if (state.languageSelected == null) {
+        var local = localStorage.getItem(
+          "languageSelected",
+          '{"languageSelected":{"languageCodeHL":"eng00","languageCodeJF":529, "value": 3}}'
+        );
+        state.languageSelected = JSON.parse(local);
       }
-      return state.languageSelected.value
+      return state.languageSelected.value;
     },
-    getLessonNumber: (state) => {
+    lessonNumber: (state) => {
       const study = state.currentStudy; // Automatically use current study
 
       if (!state.lessonNumber.hasOwnProperty(study)) {
@@ -144,7 +163,7 @@ export const useLanguageStore = defineStore("languageStore", {
 
       return 1; // Default value
     },
-    getMaxLesson: (state) => (study) => {
+    maxLesson: (state) => (study) => {
       if (!state.maxLessonNumber.hasOwnProperty(study)) {
         console.warn(`Invalid study: ${study}`);
         return 0;
@@ -157,13 +176,13 @@ export const useLanguageStore = defineStore("languageStore", {
       return currentLesson >= maxLesson;
     },
 
-    getPreviousPage: (state) => {
-      var selected = localStorage.getItem("previousPage", '/index');
-      return selected
+    previousPage: (state) => {
+      var selected = localStorage.getItem("previousPage", "/index");
+      return selected;
     },
   },
 
-  actions :{
+  actions: {
     async loadCommonContent(language, study) {
       // Avoid re-fetching if the content is already loaded
       if (this.commonContent[language]?.[study]) {
@@ -198,7 +217,7 @@ export const useLanguageStore = defineStore("languageStore", {
         this.lessonContent[language][study][lesson] = content;
         return content;
       } catch (error) {
-        console.error('Failed to fetch lesson content:', error);
+        console.error("Failed to fetch lesson content:", error);
         throw error;
       }
     },
@@ -207,7 +226,7 @@ export const useLanguageStore = defineStore("languageStore", {
       if (this.videoUrls[language]?.[study]) {
         return this.videoUrls[language][study];
       }
-      console.log ('loadingVideoUrls');
+      console.log("loadingVideoUrls");
       // Fetch videoUrls from service
       const content = await getJesusVideoUrls(language, study);
       // Store it in the state
@@ -218,8 +237,8 @@ export const useLanguageStore = defineStore("languageStore", {
       return content;
     },
     setCurrentStudy(study) {
-        this.currentStudy = study;
-        localStorage.setItem(`currentStudy`, study);
+      this.currentStudy = study;
+      localStorage.setItem(`currentStudy`, study);
     },
     setCurrentUrl(url) {
       this.currentUrl = url;
@@ -234,51 +253,56 @@ export const useLanguageStore = defineStore("languageStore", {
       }
     },
     updateFollowingHimSegment(newValue) {
-      localStorage.setItem('followingHimSegment', newValue);
+      localStorage.setItem("followingHimSegment", newValue);
       this.followingHimSegment = newValue;
     },
-    updateJVideoSegmentId(newValue) {
-      if (newValue != null){
-        if (newValue > 0 && newValue < 62){
-          localStorage.setItem('jVideoSegmentId', newValue);
-          this.jVideoSegmentId = newValue;
+    updatefollowingHimSegment(newValue) {
+      if (newValue != null) {
+        if (newValue > 0 && newValue < 62) {
+          localStorage.setItem("followingHimSegment", newValue);
+          this.followingHimSegment = newValue;
         }
       }
     },
-    updateJVideoSegments(languageCodeHL, languageCodeJF, segments){
-      var jVideoSegments ={ }
-      jVideoSegments.languageCodeHL = languageCodeHL
-      jVideoSegments.languageCodeJF = languageCodeJF
+    updateJVideoSegments(languageCodeHL, languageCodeJF, segments) {
+      var jVideoSegments = {};
+      jVideoSegments.languageCodeHL = languageCodeHL;
+      jVideoSegments.languageCodeJF = languageCodeJF;
       jVideoSegments.segments = segments;
-      localStorage.setItem('jVideoSegments', JSON.stringify(jVideoSegments));
-      this.jVideoSegments = jVideoSegments
+      localStorage.setItem("jVideoSegments", JSON.stringify(jVideoSegments));
+      this.jVideoSegments = jVideoSegments;
     },
     updateLanguages(newValue) {
       var languages = JSON.stringify(newValue);
-      localStorage.setItem('languages', languages);
+      localStorage.setItem("languages", languages);
       this.languages = languages;
     },
-    updateLanguageCodeHLSelected(languageCodeHL){
+    updateLanguageCodeHLSelected(languageCodeHL) {
       this.languageSelected.languageCodeHL = languageCodeHL;
-      localStorage.setItem('languageSelected', JSON.stringify(this.languageSelected));
+      localStorage.setItem(
+        "languageSelected",
+        JSON.stringify(this.languageSelected)
+      );
     },
-    updateLanguageCodeJFSelected(languageCodeJF){
+    updateLanguageCodeJFSelected(languageCodeJF) {
       this.languageSelected.languageCodeJF = languageCodeJF;
-      localStorage.setItem('languageSelected', JSON.stringify(this.languageSelected));
+      localStorage.setItem(
+        "languageSelected",
+        JSON.stringify(this.languageSelected)
+      );
     },
-    updateLanguageSelected(languageCodeHL, languageCodeJF){
+    updateLanguageSelected(languageCodeHL, languageCodeJF) {
       this.languageSelected.languageCodeHL = languageCodeHL;
       this.languageSelected.languageCodeJF = languageCodeJF;
       console.log(this.languageSelected);
-      localStorage.setItem('languageSelected', JSON.stringify(this.languageSelected));
+      localStorage.setItem(
+        "languageSelected",
+        JSON.stringify(this.languageSelected)
+      );
     },
 
     updatePreviousPage(newValue) {
       localStorage.set("previousPage", newValue);
-
     },
-  }
+  },
 });
-
-
-

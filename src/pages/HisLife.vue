@@ -1,8 +1,8 @@
 <template>
   <q-page padding>
-    <h2> {{ $t("jVideo.title") }}</h2>
-      <p>{{ $t("jVideo.para.1") }}</p>
-      <p>{{ $t("jVideo.para.2") }}</p>
+    <h2>{{ $t("jVideo.title") }}</h2>
+    <p>{{ $t("jVideo.para.1") }}</p>
+    <p>{{ $t("jVideo.para.2") }}</p>
     <div>
       <JVideoSegmentSelect
         :languageCodeHL="computedLanguageCodeHLSelected"
@@ -20,7 +20,7 @@
       <JVideoPlayer :languageCodeHL="computedLanguageCodeHLSelected" />
     </div>
 
-    <div><VideoQuestions  /></div>
+    <div><VideoQuestions /></div>
     <!-- content -->
   </q-page>
 </template>
@@ -47,7 +47,7 @@ export default {
   },
   data() {
     return {
-      languageSelected: this.languageStore.getLanguageSelected,
+      languageSelected: this.languageStore.languageSelected,
     };
   },
   setup() {
@@ -58,7 +58,9 @@ export default {
   },
   created() {
     if (this.$route.params.lessonLink !== "") {
-      this.languageStore.updateJVideoSegmentId(this.$route.params.lessonLink);
+      this.languageStore.updatefollowingHimSegment(
+        this.$route.params.lessonLink
+      );
     }
     if (this.$route.params.languageCode !== "") {
       this.languageStore.updateLanguageCodeHLSelected(
@@ -68,10 +70,10 @@ export default {
   },
   computed: {
     computedLanguageCodeHLSelected() {
-      return this.languageStore.getLanguageCodeHLSelected;
+      return this.languageStore.languageCodeHLSelected;
     },
     computedVideoSegmentId() {
-      return this.languageStore.getJVideoSegmentId;
+      return this.languageStore.getfollowingHimSegment;
     },
   },
   watch: {
@@ -89,10 +91,10 @@ export default {
 
   methods: {
     handleNewVideoSegment(response) {
-      console.log ('handleNewVideoSegment')
-      console.log (response)
+      console.log("handleNewVideoSegment");
+      console.log(response);
       this.videoSegment = response;
-      this.languageStore.updateJVideoSegmentId(response)
+      this.languageStore.updatefollowingHimSegment(response);
     },
   },
 };

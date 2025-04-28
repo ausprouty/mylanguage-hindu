@@ -29,7 +29,7 @@ export default {
   data() {
     return {
       selectedValue: {
-        id: this.languageStore.getJVideoSegmentId,
+        id: this.languageStore.getfollowingHimSegment,
         title: "SELECT",
       },
       segments: [],
@@ -39,7 +39,7 @@ export default {
   watch: {
     languageCodeHL: function (newLanguage, oldLanguage) {
       if (newLanguage !== oldLanguage) {
-        this.getSegmentList(newLanguage );
+        this.getSegmentList(newLanguage);
       }
     },
     currentSegmentId: function (newLesson, oldLesson) {
@@ -50,44 +50,44 @@ export default {
   },
   computed: {
     currentSegmentId() {
-      return this.languageStore.getJVideoSegmentId;
+      return this.languageStore.getfollowingHimSegment;
     },
     languageCodeHL() {
-      return this.languageStore.getLanguageCodeHLSelected;
+      return this.languageStore.languageCodeHLSelected;
     },
     languageCodeJF() {
-      return this.languageStore.getLanguageCodeJFSelected;
+      return this.languageStore.languageCodeJFSelected;
     },
   },
   created() {
     this.getSegmentList(this.languageCodeHL);
     this.selectedValue.id = this.currentSegmentId;
-    console.log ('created with ' + this.selectedValue.id)
+    console.log("created with " + this.selectedValue.id);
     this.updateLesson();
   },
   methods: {
     getSegmentList(languageCodeHL) {
-      console.log (languageCodeHL + "in JVideoSegmentSelect")
+      console.log(languageCodeHL + "in JVideoSegmentSelect");
       var url =
         "api/jvideo/segments/" + languageCodeHL + "/" + this.languageCodeJF;
       console.log(url);
       currentApi.get(url).then((response) => {
         this.segments = response.data;
-        console.log (this.segments)
-        var languageCodeHL = 529
-        console.log (languageCodeHL)
+        console.log(this.segments);
+        var languageCodeHL = 529;
+        console.log(languageCodeHL);
         this.languageStore.updateJVideoSegments(
           languageCodeHL,
           this.languageCodeJF,
           this.segments
         );
-        console.log (languageCodeHL)
+        console.log(languageCodeHL);
         this.updateSelectBar(this.currentSegmentId);
       });
     },
     updateLesson() {
-      console.log (this.selectedValue)
-      this.languageStore.updateJVideoSegmentId(this.selectedValue.id);
+      console.log(this.selectedValue);
+      this.languageStore.updatefollowingHimSegment(this.selectedValue.id);
       this.$emit("showVideo", this.selectedValue.id);
     },
     updateSelectBar(currentSegmentId) {

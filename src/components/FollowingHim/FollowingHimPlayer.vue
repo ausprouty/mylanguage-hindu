@@ -3,7 +3,6 @@
 </template>
 
 <script>
-
 import { useLanguageStore } from "stores/LanguageStore";
 
 export default {
@@ -28,7 +27,7 @@ export default {
   },
 
   created() {
-    this.updateVideoIframe(this.languageCodeHL, this.videoSegment)
+    this.updateVideoIframe(this.languageCodeHL, this.videoSegment);
   },
   watch: {
     languageCodeHL: function (newLanguage, oldLanguage) {
@@ -44,20 +43,20 @@ export default {
   },
   computed: {
     videoSegment() {
-      return this.languageStore.getFollowingHimSegment;
+      return this.languageStore.followingHimSegment;
     },
   },
   methods: {
     updateVideoIframe(languageCodeHL, videoSegment) {
-      var videoLanguage = this.languageStore.getLanguageCodeJFSelected;
-      if (videoSegment == null || typeof videoSegment == 'undefined'){
-        videoSegment = "1-0-0"
+      var videoLanguage = this.languageStore.languageCodeJFSelected;
+      if (videoSegment == null || typeof videoSegment == "undefined") {
+        videoSegment = "1-0-0";
       }
-      var video1 = '1_' + videoLanguage + '-fj_' + videoSegment;
-      console.log (video1)
+      var video1 = "1_" + videoLanguage + "-fj_" + videoSegment;
+      console.log(video1);
       this.videoIframe = this.iframeStart + video1 + this.iframeEnd;
-    }
-  }
+    },
+  },
 };
 </script>
 <style>

@@ -12,14 +12,14 @@
         aria-label="Previous"
         @click="showPreviousSegment"
       />
-      <span class="q-ml-md">{{$t("menu.previous")}}</span>
+      <span class="q-ml-md">{{ $t("menu.previous") }}</span>
     </div>
     <q-space class="inline" />
     <div
       v-if="this.currentSegmentId < this.maxVideoId"
       class="q-gutter-md q-flex items-center inline"
     >
-      <span class="q-mr-md">{{$t("menu.next")}}</span>
+      <span class="q-mr-md">{{ $t("menu.next") }}</span>
       <q-btn
         flat
         dense
@@ -45,15 +45,14 @@ export default {
       minVideoId: 1,
       maxVideoId: 61,
       nextVideoId: 0,
-
     };
   },
   computed: {
     currentSegmentId() {
-      return Number(this.languageStore.jVideoSegmentId);
+      return Number(this.languageStore.jVideoSegment);
     },
     languageCodeHL() {
-      return this.languageStore.getLanguageCodeHLSelected;
+      return this.languageStore.languageCodeHLSelected;
     },
   },
   setup() {
@@ -65,12 +64,12 @@ export default {
   methods: {
     showNextSegment() {
       this.nextVideoId = this.currentSegmentId + 1;
-      this.languageStore.updateJVideoSegmentId(this.nextVideoId);
+      this.languageStore.updatefollowingHimSegment(this.nextVideoId);
       this.$emit("showVideo", this.nextVideoId);
     },
     showPreviousSegment() {
       this.nextVideoId = this.currentSegmentId - 1;
-      this.languageStore.updateJVideoSegmentId(this.nextVideoId);
+      this.languageStore.updatefollowingHimSegment(this.nextVideoId);
       this.$emit("showVideo", this.nextVideoId);
     },
   },

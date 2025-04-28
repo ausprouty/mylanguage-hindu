@@ -13,6 +13,12 @@ from https://quasar.dev/options/app-internationalization/
 quasar new component something
 quasar dev
 
+If problems with mysql:
+   cd /c/ampp82/mysql
+   ./bin/mysqld.exe --defaults-file=C:/ampp82/mysql/bin/my.ini
+
+   see htdocs/mysql/start.bat
+
 
 quasar dev -m pwa  -- turn on xampp to right
 quasar build -m pwa

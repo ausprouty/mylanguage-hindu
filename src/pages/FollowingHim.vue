@@ -1,6 +1,6 @@
 <template>
   <q-page padding>
-    <h2> {{ $t("follow.title") }}</h2>
+    <h2>{{ $t("follow.title") }}</h2>
     <p>{{ $t("follow.para.1") }}</p>
     <p>{{ $t("follow.para.2") }}</p>
     <div>
@@ -34,8 +34,8 @@ export default {
   components: {
     VideoQuestions,
   },
-  props:{
-    lessonLink : Number
+  props: {
+    lessonLink: Number,
   },
   components: {
     FollowingHimPlayer,
@@ -45,7 +45,7 @@ export default {
   data() {
     return {
       videoSegment: "1-0-0",
-      languageCodeJFSelected: this.languageStore.getLanguageCodeJFSelected,
+      languageCodeJFSelected: this.languageStore.languageCodeJFSelected,
     };
   },
   setup() {
@@ -54,21 +54,25 @@ export default {
       languageStore,
     };
   },
-  created(){
-     if (this.$route.params.lessonLink !== ''){
-      this.languageStore.updateFollowingHimSegment(this.$route.params.lessonLink);
-     }
-     if (this.$route.params.languageCode !== ''){
-      console.log ('updated languagecode to: '  +  route.params.languageCode)
-      this.languageStore.updateLanguageCodeHLSelected(route.params.languageCode);
-     }
+  created() {
+    if (this.$route.params.lessonLink !== "") {
+      this.languageStore.updateFollowingHimSegment(
+        this.$route.params.lessonLink
+      );
+    }
+    if (this.$route.params.languageCode !== "") {
+      console.log("updated languagecode to: " + route.params.languageCode);
+      this.languageStore.updateLanguageCodeHLSelected(
+        route.params.languageCode
+      );
+    }
   },
   computed: {
     computedLanguageCodeHL() {
-      return this.languageStore.getLanguageCodeHLSelected;
+      return this.languageStore.languageCodeHLSelected;
     },
     computedLanguageCodeJF() {
-      return this.languageStore.getLanguageCodeJFSelected;
+      return this.languageStore.languageCodeJFSelected;
     },
   },
   watch: {

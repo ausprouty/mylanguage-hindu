@@ -11,8 +11,8 @@
         label="Video Segment"
         class="select"
       />
+    </div>
   </div>
-</div>
 </template>
 
 <script>
@@ -30,38 +30,38 @@ export default {
   },
   data() {
     return {
-      selectedValue : {
-        videoSegment: '1-0-0',
-        title: 'SELECT'
+      selectedValue: {
+        videoSegment: "1-0-0",
+        title: "SELECT",
       },
       video: null,
       segments: [
         {
-          videoSegment: '1-0-0',
-          title: '1. Who Is God?',
+          videoSegment: "1-0-0",
+          title: "1. Who Is God?",
         },
         {
-          videoSegment: '2-0-0',
-          title: '2. Who Is Jesus?',
+          videoSegment: "2-0-0",
+          title: "2. Who Is Jesus?",
         },
         {
-          videoSegment: '3-0-0',
-          title: '3. Prayer - Talking to God',
+          videoSegment: "3-0-0",
+          title: "3. Prayer - Talking to God",
         },
         {
-          videoSegment: '4-0-0',
-          title: '4. Living as a Disciple of Jesus',
+          videoSegment: "4-0-0",
+          title: "4. Living as a Disciple of Jesus",
         },
         {
-          videoSegment: '5-0-0',
-          title: '5. Sharing Your Faith With Others',
+          videoSegment: "5-0-0",
+          title: "5. Sharing Your Faith With Others",
         },
       ],
-    }
+    };
   },
   created() {
-    console.log (this.selectedValue)
-    this.selectedValue.videoSegment = this.currentSegment ;
+    console.log(this.selectedValue);
+    this.selectedValue.videoSegment = this.currentSegment;
     this.updateLesson();
   },
   watch: {
@@ -73,47 +73,47 @@ export default {
     currentSegment: function (newLesson, oldLesson) {
       if (newLesson !== oldLesson) {
         this.updateSelectBar(newLesson);
-
       }
-    }
+    },
   },
   computed: {
     currentSegment() {
-      return this.languageStore.getFollowingHimSegment;
+      return this.languageStore.followingHimSegment;
     },
   },
   created() {
-    this.selectedValue.videoSegment = this.currentSegment
+    this.selectedValue.videoSegment = this.currentSegment;
     this.updateLesson();
-
   },
-  methods:{
+  methods: {
     updateLesson() {
-      console.log (this.selectedValue.videoSegment)
-      this.updateSelectBar(this.selectedValue.videoSegment)
-      this.languageStore.updateFollowingHimSegment(this.selectedValue.videoSegment);
-      this.$emit('showVideo',this.selectedValue.videoSegment)
+      console.log(this.selectedValue.videoSegment);
+      this.updateSelectBar(this.selectedValue.videoSegment);
+      this.languageStore.updateFollowingHimSegment(
+        this.selectedValue.videoSegment
+      );
+      this.$emit("showVideo", this.selectedValue.videoSegment);
     },
-    getSegmentList(){ // all is English now
+    getSegmentList() {
+      // all is English now
       return;
     },
-    updateSelectBar(currentSegment){
-      console.log (currentSegment)
-      this.selectedValue = this.segments[0]
-      console.log (this.selectedValue)
-      for (var i = 0; i< this.segments.length; i++){
-        if (this.segments[i].videoSegment == currentSegment){
+    updateSelectBar(currentSegment) {
+      console.log(currentSegment);
+      this.selectedValue = this.segments[0];
+      console.log(this.selectedValue);
+      for (var i = 0; i < this.segments.length; i++) {
+        if (this.segments[i].videoSegment == currentSegment) {
           this.selectedValue = this.segments[i];
         }
       }
-      console.log (this.selectedValue)
+      console.log(this.selectedValue);
     },
-  }
+  },
 };
 </script>
 <style>
-
-.q-item__label{
-  color:black;
+.q-item__label {
+  color: black;
 }
 </style>
