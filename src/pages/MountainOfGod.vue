@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import { useLanguageStore } from "stores/LanguageStore";
+import { useLanguageStore } from "src/stores/LanguageStore";
 import VideoQuestions from "src/components/Video/VideoQuestions.vue";
 export default {
   name: "MountainOfGod",

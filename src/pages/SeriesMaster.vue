@@ -38,7 +38,7 @@
 import { ref, computed, onMounted, watch } from "vue";
 import { useRoute } from "vue-router";
 import { useI18n } from "vue-i18n";
-import { useLanguageStore } from "stores/LanguageStore";
+import { useLanguageStore } from "src/stores/LanguageStore";
 import { useCommonContent } from "src/composables/useCommonContent";
 
 import SeriesPassageSelect from "src/components/Series/SeriesPassageSelect.vue";

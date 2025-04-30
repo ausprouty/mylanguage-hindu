@@ -15,7 +15,7 @@
 
 <script setup>
 import { ref, onMounted, watch } from "vue";
-import { useLanguageStore } from "stores/LanguageStore";
+import { useLanguageStore } from "src/stores/LanguageStore";
 
 const props = defineProps({
   study: String,
@@ -46,15 +46,21 @@ watch(
 );
 
 // Watch for changes in the lesson prop
-watch(() => props.lesson, (newLesson) => {
-  updateSelectBar(newLesson);
-});
+watch(
+  () => props.lesson,
+  (newLesson) => {
+    updateSelectBar(newLesson);
+  }
+);
 
 const updateSelectBar = (lesson) => {
   if (Array.isArray(props.topics) && lesson > 0) {
     const matchingTopic = props.topics.find((topic) => topic.value === lesson);
     if (matchingTopic) {
-      selectedValue.value = { label: matchingTopic.label, value: matchingTopic.value };
+      selectedValue.value = {
+        label: matchingTopic.label,
+        value: matchingTopic.value,
+      };
     } else {
       resetSelectBar();
     }

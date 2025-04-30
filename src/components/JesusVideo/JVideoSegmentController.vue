@@ -33,7 +33,7 @@
 </template>
 
 <script>
-import { useLanguageStore } from "stores/LanguageStore";
+import { useLanguageStore } from "src/stores/LanguageStore";
 export default {
   name: "JVideoSegmentController",
   props: {

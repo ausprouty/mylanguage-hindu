@@ -19,7 +19,7 @@ import { ref, watch, onMounted } from "vue";
 import { useI18n } from "vue-i18n";
 import { i18n } from "boot/i18n";
 import { loadLocaleMessages } from "src/i18n/index";
-import { useLanguageStore } from "stores/LanguageStore";
+import { useLanguageStore } from "src/stores/LanguageStore";
 
 export default {
   name: "HinduLanguages",
@@ -69,7 +69,9 @@ export default {
 
         languageStore.updateLanguages(data);
       } catch (err) {
-        console.warn("Could not load /data/languages.json. Using fallback options.");
+        console.warn(
+          "Could not load /data/languages.json. Using fallback options."
+        );
       }
     });
 

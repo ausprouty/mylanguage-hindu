@@ -24,7 +24,7 @@
 
 <script setup>
 import { computed, ref } from "vue";
-import { useLanguageStore } from "stores/LanguageStore";
+import { useLanguageStore } from "src/stores/LanguageStore";
 
 const props = defineProps({
   study: String,

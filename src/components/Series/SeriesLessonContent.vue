@@ -14,10 +14,9 @@
         :sectionKey="sectionKeyUp"
         :biblePassage="lessonContent.bibleBlock.passage"
         :passageReference="passageReference"
-        :translation = "lessonContent.bibleBlock.translation"
+        :translation="lessonContent.bibleBlock.translation"
         :placeholder="commonContent.notes.look_up"
         :timing="commonContent.timing"
-
       />
       <DbsQuestions
         :content="commonContent.look_forward"
@@ -31,7 +30,7 @@
 
 <script>
 import { ref, computed, watch, onMounted } from "vue";
-import { useLanguageStore } from "stores/LanguageStore";
+import { useLanguageStore } from "src/stores/LanguageStore";
 import DbsQuestions from "src/components/Series/DbsQuestions.vue";
 import DbsLookup from "src/components/Series/DbsLookup.vue";
 
@@ -76,7 +75,7 @@ export default {
     const updatePassageReference = () => {
       const reference =
         lessonContent.value?.bibleBlock.passage.referenceLocalLanguage || "";
-        passageReference.value = reference || "No reference found";
+      passageReference.value = reference || "No reference found";
     };
 
     // ✅ Watch for lesson OR language change
@@ -92,7 +91,6 @@ export default {
 
     // ✅ Watch for lessonContent changes to update passage reference
     watch(lessonContent, updatePassageReference);
-
 
     // ✅ Load content when the component mounts
     onMounted(() => {

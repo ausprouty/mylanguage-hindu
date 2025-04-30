@@ -26,7 +26,7 @@
 import FollowingHimPlayer from "src/components/FollowingHim/FollowingHimPlayer.vue";
 import FollowingHimSegmentSelect from "src/components/FollowingHim/FollowingHimSegmentSelect.vue";
 import VideoQuestions from "src/components/Video/VideoQuestions.vue";
-import { useLanguageStore } from "stores/LanguageStore";
+import { useLanguageStore } from "src/stores/LanguageStore";
 import { computed } from "vue";
 
 export default {
