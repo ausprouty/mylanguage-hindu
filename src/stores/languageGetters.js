@@ -3,7 +3,7 @@ export const languageGetters = {
   languageCodeJFSelected: (state) => state.languageSelected.languageCodeJF,
   languageValue: (state) => state.languageSelected.value,
 
-  lessonNumber: (state) => {
+  lessonNumberForStudy: (state) => {
     const study = state.currentStudy;
 
     if (!state.lessonNumber.hasOwnProperty(study)) {

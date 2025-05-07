@@ -61,7 +61,7 @@ const currentStudy = "jvideo";
 
 // Set initial values in store
 languageStore.setCurrentStudy(currentStudy);
-const currentLesson = route.params.lesson || languageStore.lessonNumber;
+const currentLesson = route.params.lesson || languageStore.lessonNumberForStudy;
 const currentLanguageCodeHL =
   route.params.languageCodeHL || languageStore.languageCodeHLSelected;
 const currentLanguageCodeJF =
@@ -81,7 +81,7 @@ const { commonContent, topics, loadCommonContent } = useCommonContent(
 
 // Reactive computed properties
 const computedLanguageHL = computed(() => languageStore.languageCodeHLSelected);
-const computedLessonNumber = computed(() => languageStore.lessonNumber);
+const computedLessonNumber = computed(() => languageStore.lessonNumberForStudy);
 const computedLanguageJF = computed(() => languageStore.languageCodeJFSelected);
 const computedSectionKey = computed(
   () => `video-${computedLessonNumber.value}`

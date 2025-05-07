@@ -57,7 +57,7 @@ const languageStore = useLanguageStore();
 // Default values
 const DEFAULTS = {
   study: languageStore.currentStudy,
-  lesson: languageStore.lessonNumber,
+  lesson: languageStore.lessonNumberForStudy,
   languageCodeHL: languageStore.languageCodeHLSelected,
 };
 
@@ -80,7 +80,7 @@ const { commonContent, topics, loadCommonContent } = useCommonContent(
 
 // Reactive computed properties
 const computedLanguage = computed(() => languageStore.languageCodeHLSelected);
-const computedLessonNumber = computed(() => languageStore.lessonNumber);
+const computedLessonNumber = computed(() => languageStore.lessonNumberForStudy);
 
 // Load common content when the component mounts
 onMounted(() => {

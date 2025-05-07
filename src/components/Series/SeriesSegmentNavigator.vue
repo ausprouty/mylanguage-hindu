@@ -39,7 +39,7 @@ const maxLesson = computed(() => languageStore.maxLesson(props.study));
 
 // ✅ Ensure `currentLesson` is always a number
 const currentLesson = computed(() => {
-  const lesson = languageStore.lessonNumber[props.study] || 1;
+  const lesson = languageStore.lessonNumberForStudy[props.study] || 1;
   return Number(lesson); // Convert to number to avoid string concatenation issue
 });
 
